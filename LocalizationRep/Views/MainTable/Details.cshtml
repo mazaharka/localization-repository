@@ -1,0 +1,66 @@
+@model LocalizationRep.Models.MainTable
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>MainTable</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CommonID)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CommonID)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IOsID)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IOsID)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AndroidID)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AndroidID)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TextRU)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TextRU)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TextEN)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TextEN)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TextUA)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TextUA)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IsFreezing)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IsFreezing)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Section)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Section.Title)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

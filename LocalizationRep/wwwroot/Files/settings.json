@@ -1,0 +1,72 @@
+{
+    "themeSettings" : {
+        "uk" : "Кольорова схема",
+        "ru" : "Цветовая схема",
+        "en" : "Appearance"
+    },
+    "lightThemeName" : {
+        "uk" : "Світла",
+        "ru" : "Светлая",
+        "en" : "Light"
+    },
+    "darkThemeName" : {
+        "uk" : "Темна",
+        "ru" : "Темная",
+        "en" : "Dark"
+    },
+    "systemThemeName" : {
+        "uk" : "Cистемная",
+        "ru" : "Системная",
+        "en" : "System"
+    },
+    "warning-title-uk" : {
+        "uk" : "Увага",
+        "ru" : "Увага",
+        "en" : "Увага"
+    },
+    "warning-title-ru" : {
+        "uk" : "Внимание",
+        "ru" : "Внимание",
+        "en" : "Внимание"
+    },
+    "warning-title-en" : {
+        "uk" : "Warning",
+        "ru" : "Warning",
+        "en" : "Warning"
+    },
+    "locale-description-uk" : {
+        "uk" : "Українська",
+        "ru" : "Українська",
+        "en" : "Українська"
+    },
+    "locale-description-ru" : {
+        "uk" : "Русский",
+        "ru" : "Русский",
+        "en" : "Русский"
+    },
+    "locale-description-en" : {
+        "uk" : "English",
+        "ru" : "English",
+        "en" : "English"
+    },
+    "locale-changed-uk" : {
+        "uk" : "Зміни вступлять в силу після перезапуску додатку",
+        "ru" : "Зміни вступлять в силу після перезапуску додатку",
+        "en" : "Зміни вступлять в силу після перезапуску додатку"
+    },
+    "locale-changed-ru" : {
+        "uk" : "Изменения вступят в силу после перезапуска приложения",
+        "ru" : "Изменения вступят в силу после перезапуска приложения",
+        "en" : "Изменения вступят в силу после перезапуска приложения"
+    },
+    "locale-changed-en" : {
+        "uk" : "Changes will take effect after application restart",
+        "ru" : "Changes will take effect after application restart",
+        "en" : "Changes will take effect after application restart"
+    },
+    "token-copy-title" : {
+        "uk" : "%@ був скопійований в буфер",
+        "ru" : "%@ был скопирован в буфер",
+        "en" : "%@ was copied to clipboard"
+    }
+}

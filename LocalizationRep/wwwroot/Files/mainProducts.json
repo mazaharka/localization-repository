@@ -1,0 +1,63 @@
+{
+    "mainProducts-accounts-title": {
+        "uk": "Мои счета",
+        "ru": "Мои счета",
+        "en": "Мои счета"
+    },
+    "mainProducts-cards-title": {
+        "uk": "Мои карты",
+        "ru": "Мои карты",
+        "en": "Мои карты"
+    },
+    "mainProducts-credits-title": {
+        "uk": "Мои кредиты",
+        "ru": "Мои кредиты",
+        "en": "Мои кредиты"
+    },
+    "mainProducts-deposits-title": {
+        "uk": "Мои депозиты",
+        "ru": "Мои депозиты",
+        "en": "Мои депозиты"
+    },
+    "mainProducts-newAccount-title": {
+        "uk": "Открыть счет",
+        "ru": "Открыть счет",
+        "en": "Открыть счет"
+    },
+    "mainProducts-newCard-title": {
+        "uk": "Открыть карту",
+        "ru": "Открыть карту",
+        "en": "Открыть карту"
+    },
+    "mainProducts-newCredit-title": {
+        "uk": "Открыть кредит",
+        "ru": "Открыть кредит",
+        "en": "Открыть кредит"
+    },
+    "mainProducts-newDeposit-title": {
+        "uk": "Открыть депозит",
+        "ru": "Открыть депозит",
+        "en": "Открыть депозит"
+    },
+    "mainProducts-tabBar-action-title": {
+        "uk": "Смена порядка продуктов",
+        "ru": "Смена порядка продуктов",
+        "en": "Смена порядка продуктов"
+    },
+    "mainProducts-slideTabs-products-title": {
+        "uk": "Продукты",
+        "ru": "Продукты",
+        "en": "Продукты"
+    },
+    "mainProducts-slideTabs-paterns-title": {
+        "uk": "Шаблоны",
+        "ru": "Шаблоны",
+        "en": "Шаблоны"
+    },
+    "mainProducts-slideTabs-services-title": {
+        "uk": "Услуги",
+        "ru": "Услуги",
+        "en": "Услуги"
+    },
+}
+

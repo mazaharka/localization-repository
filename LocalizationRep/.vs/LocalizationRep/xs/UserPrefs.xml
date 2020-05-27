@@ -1,0 +1,64 @@
+﻿<Properties StartupConfiguration="{52239BE7-71DE-4F08-8D02-2C687F2A4A85}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Sections.cs">
+    <Files>
+      <File FileName="Controllers/FileActionController.cs" Line="277" Column="10" />
+      <File FileName="Views/FileAction/Index.cshtml" Line="19" Column="48" />
+      <File FileName="Models/Sections.cs" Line="9" Column="32" />
+      <File FileName="Models/MainTable.cs" Line="9" Column="29" />
+      <File FileName="Views/MainTable/Index.cshtml" Line="53" Column="28" />
+      <File FileName="Models/SectionSearchViewModel.cs" />
+      <File FileName="Views/MainTable/Edit.cshtml" Line="24" Column="51" />
+      <File FileName="Views/MainTable/Details.cshtml" Line="17" Column="53" />
+      <File FileName="Views/MainTable/Delete.cshtml" Line="18" Column="53" />
+      <File FileName="Views/MainTable/Create.cshtml" Line="22" Column="51" />
+      <File FileName="Views/Sections/Index.cshtml" Line="44" Column="71" />
+      <File FileName="Views/Sections/Edit.cshtml" Line="29" Column="62" />
+      <File FileName="Views/Sections/Details.cshtml" Line="31" Column="68" />
+      <File FileName="Views/Sections/Delete.cshtml" Line="32" Column="64" />
+      <File FileName="Views/Sections/Create.cshtml" Line="26" Column="62" />
+      <File FileName="Controllers/SectionsController.cs" Line="89" Column="100" />
+      <File FileName="Migrations/20200526145736_AddLastIndexOfCommonID.cs" Line="1" Column="1" />
+      <File FileName="Migrations/20200526145736_AddLastIndexOfCommonID.Designer.cs" Line="88" Column="1" />
+      <File FileName="Data/LocalizationRepContext.cs" Line="18" Column="25" />
+      <File FileName="Controllers/MainTableController.cs" Line="100" Column="55" />
+      <File FileName="Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Models/ErrorViewModel.cs" Line="10" Column="1" />
+      <File FileName="Models/FileModel.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LocalizationRep" expanded="True">
+            <Node name="LocalizationRep" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Sections.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="FileAction" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="MainTable" expanded="True" />
+                <Node name="Sections" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="Files" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.LocalizationRep PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<LocalizationRep.Models.FileModel>
+@{
+    ViewData["Title"] = "Добавление файла";
+}
+<h3>Выберите файл для загрузки</h3>
+<form asp-action="AddFile" asp-controller="FileAction" method="post" enctype="multipart/form-data">
+    <input type="file" name="uploadedFile" />
+    <input type="submit" value="Загрузить" />
+</form>
+<form asp-action="UpdateSectionFromFile" asp-controller="FileAction" method="post" enctype="multipart/form-data">
+    <input type="submit" value="Обновить разделы" />
+</form>
+<form asp-action="EraseAllSectionFromDb" asp-controller="FileAction" method="post" enctype="multipart/form-data">
+    <input type="submit" value="Очистить разделы" />
+</form>
+<form asp-action="ParceJsonToDb" asp-controller="FileAction" method="post" enctype="multipart/form-data">
+    <input type="submit" value="ParceJsonToDb" />
+</form>
+<form asp-action="PopulateDBWithValuesFromFiles" asp-controller="FileAction" method="post" enctype="multipart/form-data">
+    <input type="submit" value="PopulateDBWithValuesFromFiles" />
+</form>
+
+
+<br />
+<h3>Все файлы</h3>
+@foreach (var f in Model)
+{
+    if (f.Name.Contains(".jpg") || f.Name.Contains(".png"))
+    {
+        <p><img src="@Url.Content(f.Path)"></p>
+    }
+    <p>@f.Name.ToString()</p>
+}

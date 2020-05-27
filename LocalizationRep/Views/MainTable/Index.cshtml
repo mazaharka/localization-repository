@@ -1,0 +1,98 @@
+
+@model LocalizationRep.Models.SectionSearchViewModel
+
+@{
+    ViewData["Title"] = "Main Table";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-controller="MainTable" asp-action="Index" method="get" hidden="true">
+    <p>
+
+        <select asp-for="SectionSearch" asp-items="Model.Sections" onChange="this.form.submit()">
+            <option value="">All</option>
+        </select>
+
+        Title: <input type="text" name="SearchString" onChange="this.form.submit()">
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<div class="table-responsive-sm">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.MainTables[0].CommonID)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.MainTables[0].IOsID)
+                    <br />
+                    @Html.DisplayNameFor(model => model.MainTables[0].AndroidID)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.MainTables[0].TextRU)
+                    /
+                    @Html.DisplayNameFor(model => model.MainTables[0].TextEN)
+                    /
+                    @Html.DisplayNameFor(model => model.MainTables[0].TextUA)
+                </th>
+
+                <th hidden="true">
+                    @Html.DisplayNameFor(model => model.MainTables[0].IsFreezing)
+                </th>
+
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.MainTables[0].Section)
+                    <form asp-controller="MainTable" asp-action="Index" method="get">
+                        <p>
+                            <select asp-for="SectionSearch" asp-items="Model.Sections" onChange="this.form.submit()">
+                                <option value="">All</option>
+                            </select>
+
+                        </p>
+                    </form>
+                </th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.MainTables)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CommonID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IOsID)
+                        <br />
+                        @Html.DisplayFor(modelItem => item.AndroidID)
+                    </td>
+                    <td>
+                        RU: @Html.DisplayFor(modelItem => item.TextRU)
+                        <br />
+                        EN: @Html.DisplayFor(modelItem => item.TextEN)
+                        <br />
+                        UA: @Html.DisplayFor(modelItem => item.TextUA)
+                    </td>
+                    <td hidden="true">
+                        @Html.DisplayFor(modelItem => item.IsFreezing)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Section.Title)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> <br />
+                        <a asp-action="Details" asp-route-id="@item.ID">Details</a> <br />
+                        <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -342,6 +342,26 @@ namespace LocalizationRep.Controllers
             }
             return tempJSON;
         }
+
+        public ActionResult DownloadFile(string filePath)
+        {
+            GetFilesInfo();
+            string fullName = ""; //FileInfo.Values; // Server.MapPath("~" + filePath);
+
+            byte[] fileBytes = GetFile(filePath);
+            return File(
+                fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, filePath);
+        }
+
+        byte[] GetFile(string s)
+        {
+            FileStream fs = System.IO.File.OpenRead(s);
+            byte[] data = new byte[fs.Length];
+            int br = fs.Read(data, 0, data.Length);
+            if (br != fs.Length)
+                throw new IOException(s);
+            return data;
+        }
     }
 }
 

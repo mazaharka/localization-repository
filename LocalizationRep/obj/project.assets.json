@@ -8626,11 +8626,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zakharklochkov/Projects/LocalizationRep/LocalizationRep/LocalizationRep.csproj",
+      "projectUniqueName": "/Users/zakharklochkov/localization-repository/LocalizationRep/LocalizationRep.csproj",
       "projectName": "LocalizationRep",
-      "projectPath": "/Users/zakharklochkov/Projects/LocalizationRep/LocalizationRep/LocalizationRep.csproj",
+      "projectPath": "/Users/zakharklochkov/localization-repository/LocalizationRep/LocalizationRep.csproj",
       "packagesPath": "/Users/zakharklochkov/.nuget/packages/",
-      "outputPath": "/Users/zakharklochkov/Projects/LocalizationRep/LocalizationRep/obj/",
+      "outputPath": "/Users/zakharklochkov/localization-repository/LocalizationRep/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/zakharklochkov/.config/NuGet/NuGet.Config"

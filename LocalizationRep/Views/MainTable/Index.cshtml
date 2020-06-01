@@ -51,7 +51,7 @@
                     @Html.DisplayNameFor(model => model.MainTables[0].Section)
                     <form asp-controller="MainTable" asp-action="Index" method="get">
                         <p>
-                            <select asp-for="SectionSearch" asp-items="Model.Sections" onChange="this.form.submit()">
+                            <select asp-for="SectionSearch" asp-items="Model.Sections" onChange="this.form.submit()" class="text-uppercase">
                                 <option value="">All</option>
                             </select>
 

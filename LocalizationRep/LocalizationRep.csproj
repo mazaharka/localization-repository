@@ -27,6 +27,8 @@
     <Folder Include="wwwroot\Files\" />
     <Folder Include="Utilities\" />
     <Folder Include="Views\FileAction\" />
+    <Folder Include="wwwroot\Files\upload\" />
+    <Folder Include="wwwroot\Files\download\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="SectionController.cs" />

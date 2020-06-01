@@ -8,13 +8,14 @@ using LocalizationRep.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace LocalizationRep.Controllers
 {
     public class FileActionController : Controller
     {
-        LocalizationRepContext _context;
-        IWebHostEnvironment _appEnvironment;
+        private readonly LocalizationRepContext _context;
+        private readonly IWebHostEnvironment _appEnvironment;
 
         private readonly Dictionary<string, string> fileСontents = new Dictionary<string, string>();
         private readonly Dictionary<string, string> FileInfo = new Dictionary<string, string>();
@@ -26,9 +27,10 @@ namespace LocalizationRep.Controllers
             _appEnvironment = appEnvironment;
         }
 
-        public IActionResult Index()
+        // GET: FileAction
+        public async Task<IActionResult> Index()
         {
-            return View(_context.FileModel.ToList());
+            return View(await _context.FileModel.ToListAsync());
         }
 
         /// <summary>
@@ -43,16 +45,48 @@ namespace LocalizationRep.Controllers
             if (uploadedFile != null)
             {
                 // путь к папке Files
-                string path = "/Files/" + uploadedFile.FileName;
+                string path = "/Files/upload/" + uploadedFile.FileName;
                 // сохраняем файл в папку Files в каталоге wwwroot
                 using (var fileStream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
                 {
                     await uploadedFile.CopyToAsync(fileStream);
                 }
-                FileModel file = new FileModel { Name = uploadedFile.FileName, Path = path };
-                _context.FileModel.Add(file);
+
+                if (!_context.FileModel.Where(s => s.Path == path).Any())
+                {
+                    FileModel file = new FileModel { Name = uploadedFile.FileName, Path = path };
+                    _context.FileModel.Add(file);
+                }
                 _context.SaveChanges();
             }
+            UpDateInfoFilesInDB();
+            return RedirectToAction("Index");
+        }
+
+        // POST: FileAction/UpDateInfoFilesInDB
+        [HttpPost]
+        public IActionResult UpDateInfoFilesInDB()
+        {
+            Dictionary<string, string> filesOnSrv = GetFilesInfo();
+            FileModel file;
+
+            if (filesOnSrv.Count == 0)
+            {
+                _context.FileModel.RemoveRange(_context.FileModel);
+            }
+            else
+            {
+                foreach (var item in filesOnSrv)
+                {
+                    if (!_context.FileModel.Where(s => s.Path == item.Value).Any())
+                    {
+                        file = new FileModel { ID = _context.FileModel.Count(), Name = item.Key, Path = item.Value };
+                        _context.FileModel.Add(file);
+                    }
+
+                }
+            }
+            _context.SaveChanges();
 
             return RedirectToAction("Index");
         }
@@ -61,11 +95,10 @@ namespace LocalizationRep.Controllers
         /// Метод обновления информации в базе данных о разделах
         /// </summary>
         /// <returns></returns>
-        [HttpPost]
+        // GET: FileAction/UpdateSectionFromFile
         public IActionResult UpdateSectionFromFile()
         {
-            GetFilesInfo();
-            AddUniqeSectionToDbTable(FileInfo);
+            AddUniqeSectionToDbTable(GetFilesInfo());
 
             return RedirectToAction("Index");
         }
@@ -74,9 +107,9 @@ namespace LocalizationRep.Controllers
         /// Метод получающий данные о файлах(путь расположения) в переменную FileInfo
         /// Также фильтрует файлы по расширениям json и xml
         /// </summary>
-        private void GetFilesInfo()
+        private Dictionary<string, string> GetFilesInfo()
         {
-            string filePath = Path.Combine(_appEnvironment.WebRootPath, "Files");
+            string filePath = Path.Combine(_appEnvironment.WebRootPath, "Files/upload/");
             string[] Documents = Directory.GetFiles(filePath);
 
             foreach (var item in Documents)
@@ -86,6 +119,8 @@ namespace LocalizationRep.Controllers
                     FileInfo.Add(Path.GetFileNameWithoutExtension(item), item);
                 }
             }
+
+            return FileInfo;
         }
 
         /// <summary>
@@ -93,26 +128,28 @@ namespace LocalizationRep.Controllers
         /// TODO разделить на отдельные методы для очистки каждой таблицы
         /// </summary>
         /// <returns></returns>
-        [HttpPost]
+        ///
+        // GET: FileAction/EraseAllSectionFromDb
+        [Obsolete]
         public IActionResult EraseAllSectionFromDb()
         {
             //очистка таблицы Section
-            if (_context.Section.Any() || _context.MainTable.Any())
+            if (_context.Section.Any() || _context.MainTable.Any() || _context.FileModel.Any())
             {
                 _context.FileModel.RemoveRange(_context.FileModel);
                 _context.Section.RemoveRange(_context.Section);
                 _context.MainTable.RemoveRange(_context.MainTable);
+
             }
             _context.SaveChanges();
-
+            UpDateInfoFilesInDB();
             return RedirectToAction("Index");
         }
 
-        [HttpPost]
+        // GET: FileAction/PopulateDBWithValuesFromFiles
         public IActionResult PopulateDBWithValuesFromFiles()
         {
-            GetFilesInfo();
-            Initialize(FileInfo);
+            Initialize(GetFilesInfo());
 
             return RedirectToAction("Index");
         }
@@ -127,31 +164,22 @@ namespace LocalizationRep.Controllers
                 while ((line = sr.ReadLine()) != null)
                 {
                     inFile += line;
-                    Console.WriteLine("inFile = " + inFile + "\nline = " + line + "\n");
-                    //Console.WriteLine(sr.ReadLine());
+                    //Console.WriteLine("inFile = " + inFile + "\nline = " + line + "\n");
                 }
 
-                fileСontents.Add(item.Key, inFile.Remove(0, 1).Remove(inFile.Length - 2, 1)); // Trim(new char[] { '{', '}' }));
+                fileСontents.Add(item.Key, inFile.Remove(0, 1).Remove(inFile.Length - 2, 1));
                 sr.Close();
             }
 
-            //AddUniqeSectionToDbTable();
-
-            //string[] itemOfJSONInAllString;
             foreach (var fileItem in fileСontents)
             {
-                //itemOfJSONInAllString = fileItem.Value
-                //    .Split('}');
                 JsonToDb(fileItem.Key, fileItem.Value.Split('}'));
             }
-
-
         }
 
         [HttpPost]
         public IActionResult AddUniqeSectionToDbTable(Dictionary<string, string> FilesName)
         {
-
             foreach (var fileСontentsItem in FilesName)
             {
                 bool next = true;
@@ -159,14 +187,14 @@ namespace LocalizationRep.Controllers
                 {
                     if (fileСontentsItem.Key.Equals(section.Title))
                     {
-                        Console.WriteLine(fileСontentsItem.Key + " EQUALS " + section.Title);
+                        //Console.WriteLine(fileСontentsItem.Key + " EQUALS " + section.Title);
                         next = false;
                         continue;
                     }
-                    else
-                    {
-                        Console.WriteLine(fileСontentsItem.Key + " NOT EQ " + section.Title);
-                    }
+                    //else
+                    //{
+                    //    Console.WriteLine(fileСontentsItem.Key + " NOT EQ " + section.Title);
+                    //}
                 }
                 if (next)
                 {
@@ -174,17 +202,18 @@ namespace LocalizationRep.Controllers
                                new Sections
                                {
                                    Title = fileСontentsItem.Key.ToString(),
-                                   LastIndexOfCommonID = "0000"
+                                   LastIndexOfCommonID = "0000",
+                                   ShortName = fileСontentsItem.Key.Remove(4, fileСontentsItem.Key.Length - 4).ToUpper()
                                });
                 }
             }
             _context.SaveChanges();
+
             return RedirectToAction("Index");
         }
 
         public void GetAllSectors()
         {
-            // Извлечь всех заказчиков и отобразить их имена в консоли
             foreach (Sections section in _context.Section)
                 Console.WriteLine(section.Title);
         }
@@ -193,85 +222,103 @@ namespace LocalizationRep.Controllers
         {
             string IOsID = "", AndroidID = "", TextRU = "", TextEN = "", TextUA = "";
             bool next = true;
-            //GetAllSectors();
             var sections = _context.Section.Where(t => t.Title == key).ToList();
             Dictionary<string, Dictionary<string, string>> tmp = ParceJsonToDb(key, itemOfJSONInAllString);
-
-            foreach (var parse in tmp)
+            if (sections.Count != 0)
             {
-                foreach (MainTable mainTable in _context.MainTable)
+                foreach (var parse in tmp)
                 {
-                    if (parse.Key.Equals(mainTable.IOsID))
+                    foreach (MainTable mainTable in _context.MainTable)
                     {
-                        Console.WriteLine(parse.Key + " EQUALS " + mainTable.IOsID);
-                        next = false;
-                        break;
-                    }
-                    else
-                    {
-                        Console.WriteLine(parse.Key + " NOT EQ " + mainTable.IOsID);
-                    }
-                }
-                if (next)
-                {
-                    IOsID = parse.Key;
-                    foreach (var item in parse.Value)
-                    {
-                        switch (item.Key)
+                        if (parse.Key.Equals(mainTable.IOsID))
                         {
-                            case "uk":
-                                TextUA = item.Value;
-                                break;
-                            case "ru":
-                                TextRU = item.Value;
-                                break;
-                            case "en":
-                                TextEN = item.Value;
-                                break;
-                            default:
-                                TextRU = "non";
-                                TextEN = "non";
-                                TextUA = "non";
-                                break;
+                            //Console.WriteLine(parse.Key + " EQUALS " + mainTable.IOsID);
+                            next = false;
+                            break;
                         }
+                        //else
+                        //{
+                        //    Console.WriteLine(parse.Key + " NOT EQ " + mainTable.IOsID);
+                        //}
                     }
-
-                    _context.MainTable.AddRange(
-                        new MainTable
+                    if (next)
+                    {
+                        IOsID = parse.Key;
+                        foreach (var item in parse.Value)
                         {
-                            SectionID = sections.First().ID,
+                            switch (item.Key)
+                            {
+                                case "uk":
+                                    TextUA = item.Value;
+                                    break;
+                                case "ru":
+                                    TextRU = item.Value;
+                                    break;
+                                case "en":
+                                    TextEN = item.Value;
+                                    break;
+                                default:
+                                    TextRU = "non";
+                                    TextEN = "non";
+                                    TextUA = "non";
+                                    break;
+                            }
+                        }
+                        try
+                        {
+                            _context.MainTable.AddRange(
+                            new MainTable
+                            {
+                                SectionID = sections.First().ID,
 
-                            CommonID = CommonIDGetNext(key),
-                            IOsID = IOsID,
-                            AndroidID = AndroidID,
+                                CommonID = CommonIDGetNext(key),
+                                IOsID = IOsID,
+                                AndroidID = AndroidID,
 
-                            TextRU = TextRU,
-                            TextEN = TextEN,
-                            TextUA = TextUA,
+                                TextRU = TextRU,
+                                TextEN = TextEN,
+                                TextUA = TextUA,
 
-                            IsFreezing = false
+                                IsFreezing = false
 
-                        });
+                            });
+                        }
+                        catch (InvalidOperationException ex)
+                        {
+                            Console.WriteLine("Нет секций в базе. Обнови секции, по-братски!\n" + ex);
+                        }
+
+                    }
                 }
+                _context.SaveChanges();
             }
-            _context.SaveChanges();
         }
 
         private string CommonIDGetNext(string sectionKey)
         {
             string CommonID = "";
             string Zero = "0000";
-
+            int NextNumb;
             foreach (var section in _context.Section)
             {
                 if (section.Title == sectionKey)
                 {
-                    CommonID = section.ShortName;
-                    int NextNumb = int.Parse(section.LastIndexOfCommonID) + 1;
-                    CommonID += Zero.Remove(Zero.Length - NextNumb.ToString().Length) + NextNumb.ToString();
-                    section.LastIndexOfCommonID = CommonID.Remove(0, 4);
-                    _context.SaveChanges();
-                    break;
+                    if (section.ShortName != null)
+                    {
+                        CommonID = section.ShortName.Trim();
+                    }
+                    try
+                    {
+                        NextNumb = int.Parse(section.LastIndexOfCommonID) + 1;
+                        CommonID += Zero.Remove(Zero.Length - NextNumb.ToString().Length) + NextNumb.ToString();
+                        section.LastIndexOfCommonID = CommonID.Remove(0, 4);
+                        _context.SaveChanges();
+                        break;
+                    }
+                    catch (FormatException ex)
+                    {
+                        Console.WriteLine("Насяльника, как буква сыфра складывать будем? Сыфра нэту! " + ex);
+                    }
                 }
             }
             return CommonID;
@@ -280,18 +327,6 @@ namespace LocalizationRep.Controllers
         public Dictionary<string, Dictionary<string, string>> ParceJsonToDb(string sector, string[] itemOfJSONInAllString)
         {
             Dictionary<string, Dictionary<string, string>> tempJSON = new Dictionary<string, Dictionary<string, string>>();
-            //string pattern = @"\""\w*(-\w*)*\"": {";
-            //string pattern = @": {";
-
-            //string patternRUexcess = @"\""ru\"": {";
-            //string patternENexcess = @"\""en\"": {";
-            //string patternUKexcess = @"\""uk\"": {";
-
-            //string patternRU = @"\""ru\""";
-            //string patternEN = @"\""en\""";
-            //string patternUK = @"\""uk\""";
-
-            Char[] elementForTrimKeys = new Char[] { ' ', '"', ':', '{' };
             Char[] elementForTrimStrings = new Char[] { ' ', '"', ':', ',', '{' };
             string[] tempString = new string[13];
 
@@ -301,11 +336,6 @@ namespace LocalizationRep.Controllers
                 {
                     continue;
                 }
-
-                //Console.WriteLine();
-                //Console.WriteLine("Sector:{0} ", sector);
-                //Console.WriteLine();
-
 
                 string[] tempItem = item.Split("\"");
                 List<string> trimedString = new List<string>();
@@ -337,31 +367,48 @@ namespace LocalizationRep.Controllers
                     }
 
                     tempJSON.Add(tempString[0], pairs);
-                    //Console.WriteLine();
                 }
             }
+
             return tempJSON;
         }
 
-        public ActionResult DownloadFile(string filePath)
+        public async Task<IActionResult> Download(string filename)
         {
-            GetFilesInfo();
-            string fullName = ""; //FileInfo.Values; // Server.MapPath("~" + filePath);
+            if (filename == null)
+                return Content("filename not present");
 
-            byte[] fileBytes = GetFile(filePath);
-            return File(
-                fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, filePath);
+            var path = Path.Combine(
+                           Directory.GetCurrentDirectory(),
+                           "wwwroot/Files", filename);
+
+            var memory = new MemoryStream();
+            using (var stream = new FileStream(path, FileMode.Open))
+            {
+                await stream.CopyToAsync(memory);
+            }
+            memory.Position = 0;
+            return File(memory, GetContentType(path), Path.GetFileName(path));
         }
 
-        byte[] GetFile(string s)
+        private string GetContentType(string path)
         {
-            FileStream fs = System.IO.File.OpenRead(s);
-            byte[] data = new byte[fs.Length];
-            int br = fs.Read(data, 0, data.Length);
-            if (br != fs.Length)
-                throw new IOException(s);
-            return data;
+            var types = GetMimeTypes();
+            var ext = Path.GetExtension(path).ToLowerInvariant();
+            return types[ext];
         }
+
+        private Dictionary<string, string> GetMimeTypes()
+        {
+            return new Dictionary<string, string>
+            {
+                {".json","application/json"},
+                {".xml","application/xml"}
+            };
+        }
+
+
+        
     }
 }
 

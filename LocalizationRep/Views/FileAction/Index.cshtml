@@ -2,26 +2,21 @@
 @{
     ViewData["Title"] = "Добавление файла";
 }
+
 <h3>Выберите файл для загрузки</h3>
 <form asp-action="AddFile" asp-controller="FileAction" method="post" enctype="multipart/form-data">
     <input type="file" name="uploadedFile" />
     <input type="submit" value="Загрузить" />
 </form>
-<form asp-action="UpdateSectionFromFile" asp-controller="FileAction" method="post" enctype="multipart/form-data">
-    <input type="submit" value="Обновить разделы" />
-</form>
-<form asp-action="EraseAllSectionFromDb" asp-controller="FileAction" method="post" enctype="multipart/form-data">
-    <input type="submit" value="Очистить разделы" />
-</form>
-<form asp-action="ParceJsonToDb" asp-controller="FileAction" method="post" enctype="multipart/form-data">
-    <input type="submit" value="ParceJsonToDb" />
-</form>
-<form asp-action="PopulateDBWithValuesFromFiles" asp-controller="FileAction" method="post" enctype="multipart/form-data">
-    <input type="submit" value="PopulateDBWithValuesFromFiles" />
-</form>
 
+<form>
+    <input type="submit" formaction="/FileAction/UpdateSectionFromFile" value="Обновить разделы" />
+    <input type="submit" formaction="/FileAction/EraseAllSectionFromDb" value="Очистить разделы" />
+    <input type="submit" formaction="/FileAction/PopulateDBWithValuesFromFiles" value="Заполнить базу из файлов" />
+</form>
 
 <br />
+<!--
 <h3>Все файлы</h3>
 @foreach (var f in Model)
 {
@@ -31,19 +26,25 @@
     }
     <p>@f.Name.ToString()</p>
 }
+-->
 
-
+<form asp-action="UpDateInfoFilesInDB" asp-controller="FileAction" method="post" enctype="multipart/form-data">
+    <input type="submit" value="UpDateInfoFilesInDB" />
+</form>
 
 <table class="table table-striped">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ID)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Name)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Path)
             </th>
-            
+
             <th></th>
         </tr>
     </thead>
@@ -52,15 +53,35 @@
         {
             <tr>
                 <td>
+                    @Html.DisplayFor(modelItem => item.ID)
+                </td>
+                <td>
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Path)
                 </td>
                 <td>
-                    <a asp-action="DownloadFile" name="uploadedFile">DownloadFile</a>
+
+                    <a asp-action="Download" asp-route-filename="@item.Name">@item.Name</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+<!--
+<p>List of Files</p>
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>
+            <a asp-action="Download"
+               asp-route-filename="@item.Name">
+                @item.Name
+            </a>
+        </li>
+    }
+</ul>
+-->

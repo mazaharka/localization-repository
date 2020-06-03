@@ -8,14 +8,29 @@
     <input type="file" name="uploadedFile" />
     <input type="submit" value="Загрузить" />
 </form>
-
+<h3>@ViewData["Error"] </h3>
 <form>
     <input type="submit" formaction="/FileAction/UpdateSectionFromFile" value="Обновить разделы" />
-    <input type="submit" formaction="/FileAction/EraseAllSectionFromDb" value="Очистить разделы" />
+    <input type="submit" formaction="/FileAction/EraseAllSectionFromDb" name="whatIMustRemove" value="All" />
+    <input type="submit" formaction="/FileAction/EraseAllSectionFromDb" name="whatIMustRemove" value="Files" />
+    <input type="submit" formaction="/FileAction/EraseAllSectionFromDb" name="whatIMustRemove" value="Sections" />
+    <input type="submit" formaction="/FileAction/EraseAllSectionFromDb" name="whatIMustRemove" value="MainTable" />
     <input type="submit" formaction="/FileAction/PopulateDBWithValuesFromFiles" value="Заполнить базу из файлов" />
 </form>
+<form>
+    <input type="text" size="40" formaction="/FileAction/CreateFileCSVFromDb" name="nameFileCsv" required placeholder="Введите название файла" />
+    <input type="submit" formaction="/FileAction/CreateFileCSVFromDb" value=" Сформировать CSV" />
+</form>
+<form>
+    <input type="submit" formaction="/FileAction/ReadFileCSVFromDb" value="Прочитать CSV" />
+</form>
+<form>
+    <input type="submit" formaction="/FileAction/CreateFileJsonFromDb" value=" Сформировать Json" />
+</form>
 
+<h3>@ViewData["Section"] </h3>
 <br />
+
 <!--
 <h3>Все файлы</h3>
 @foreach (var f in Model)
@@ -62,26 +77,50 @@
                     @Html.DisplayFor(modelItem => item.Path)
                 </td>
                 <td>
-
-                    <a asp-action="Download" asp-route-filename="@item.Name">@item.Name</a>
+                    <a asp-action="Download" asp-route-fullpath="@item.Path">@item.Name</a><br>
+                    <a asp-action="UpdateFileInDatabase" asp-route-filename="@item.Name">UpDate</a><br>
+                    <a asp-action="RemoveFileFromServer" asp-route-fullpath="@item.Path">Remove</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
 
-<!--
-<p>List of Files</p>
+<p>Uploaded files</p>
 
 <ul>
     @foreach (var item in Model)
     {
-        <li>
-            <a asp-action="Download"
-               asp-route-filename="@item.Name">
+        @if (item.TypeOfLoad == "upload")
+        {
+            <li>
                 @item.Name
-            </a>
-        </li>
+
+                @if (item.Name.Contains(".xml"))
+                {
+                    <a asp-action="ReadFileXML"
+                       asp-route-path="@item.Path">
+                        ReadFileXML
+                    </a>
+                }
+            </li>
+        }
     }
 </ul>
--->
+<p>Download of Files</p>
+<ul>
+    @foreach (var item in Model)
+    {
+        @if (item.TypeOfLoad == "download")
+        {
+            <li>
+                <a asp-action="Download"
+                   asp-route-fullpath="@item.Path">
+                    @item.Name
+                </a>
+            </li>
+        }
+
+    }
+</ul>
+

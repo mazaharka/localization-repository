@@ -1,34 +1,34 @@
 ﻿<Properties StartupConfiguration="{AE01DA3A-9154-4308-A3CF-4D64A8CF2C22}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LocalizationRep/Controllers/FileActionController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LocalizationRep/Views/FileAction/Index.cshtml">
     <Files>
-      <File FileName="LocalizationRep/Views/MainTable/Index.cshtml" Line="57" Column="1" />
-      <File FileName="LocalizationRep/Views/FileAction/Index.cshtml" />
-      <File FileName="LocalizationRep/Controllers/FileActionController.cs" Line="415" Column="1" />
-      <File FileName="LocalizationRep/Program.cs" Line="24" Column="18" />
-      <File FileName="LocalizationRep/Migrations/LocalizationRepContextModelSnapshot.cs" Line="1" Column="1" />
-      <File FileName="LocalizationRep/Migrations/20200526145736_AddLastIndexOfCommonID.cs" Line="1" Column="1" />
-      <File FileName="LocalizationRep/Migrations/20200526081631_InitialCreate.cs" Line="39" Column="38" />
+      <File FileName="LocalizationRep/Views/FileAction/Index.cshtml" Line="17" Column="47" />
+      <File FileName="LocalizationRep/Controllers/FileActionController.cs" Line="465" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LocalizationRep" expanded="True">
             <Node name="LocalizationRep" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="FileActionController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="FileAction" expanded="True" />
+                <Node name="FileAction" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
                 <Node name="Home" expanded="True" />
                 <Node name="MainTable" expanded="True" />
                 <Node name="Sections" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
                 <Node name="Files" expanded="True" />
+                <Node name="img" expanded="True" />
+                <Node name="js" expanded="True" />
               </Node>
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -38,8 +38,10 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/zakharklochkov/localization-repository/LocalizationRep/Controllers/FileActionController.cs" relfile="LocalizationRep/Controllers/FileActionController.cs" line="201" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.LocalizationRep PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.LocalizationRep PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

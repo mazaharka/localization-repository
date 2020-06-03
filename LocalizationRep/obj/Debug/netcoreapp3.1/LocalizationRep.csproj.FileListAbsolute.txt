@@ -173,15 +173,6 @@
 /Users/zakharklochkov/Projects/LocalizationRep/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.dll
 /Users/zakharklochkov/Projects/LocalizationRep/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.pdb
 /Users/zakharklochkov/Projects/LocalizationRep/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.genruntimeconfig.cache
-/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.csprojAssemblyReference.cache
-/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.AssemblyInfoInputs.cache
-/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.AssemblyInfo.cs
-/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.csproj.CoreCompileInputs.cache
-/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.MvcApplicationPartsAssemblyInfo.cache
-/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.RazorAssemblyInfo.cache
-/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.RazorAssemblyInfo.cs
-/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.dll
-/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.pdb
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/appsettings.json
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
@@ -192,6 +183,7 @@
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/LocalizationRep.pdb
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/LocalizationRep.Views.dll
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/LocalizationRep.Views.pdb
+/Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/CsvHelper.dll
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
@@ -320,6 +312,12 @@
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.AssemblyInfoInputs.cache
+/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.AssemblyInfo.cs
+/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.csproj.CoreCompileInputs.cache
+/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.MvcApplicationPartsAssemblyInfo.cache
+/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.RazorAssemblyInfo.cache
+/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.RazorAssemblyInfo.cs
 /Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.TagHelpers.input.cache
 /Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.TagHelpers.output.cache
 /Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.RazorCoreGenerate.cache
@@ -347,4 +345,8 @@
 /Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.csproj.CopyComplete
 /Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/staticwebassets/LocalizationRep.StaticWebAssets.Manifest.cache
 /Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/staticwebassets/LocalizationRep.StaticWebAssets.xml
+/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.dll
+/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.pdb
 /Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.genruntimeconfig.cache
+/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.csprojAssemblyReference.cache
+/Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/auth.json

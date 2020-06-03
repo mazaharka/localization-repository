@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "iLsrT2hg2CB1bnH4RgARuk5IRUmCNBEMlDS32Y4y6e0m0RUgJzJ7HGWlZC3toU+w3AAHunT2sEr7fCa30dT2aA==",
+  "dgSpecHash": "1T3A3LSSh+GdBqPs02OkuC1/ncLK9a4rf399kgfXh/QzxNvpOBfc5u8LsrmrhH75CiKPmmHOeP5ostKEHxFxJA==",
   "success": true,
   "projectFilePath": "/Users/zakharklochkov/localization-repository/LocalizationRep/LocalizationRep.csproj",
   "expectedPackageFiles": [
+    "/Users/zakharklochkov/.nuget/packages/csvhelper/15.0.5/csvhelper.15.0.5.nupkg.sha512",
     "/Users/zakharklochkov/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "/Users/zakharklochkov/.nuget/packages/microsoft.aspnetcore.razor/2.2.0/microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "/Users/zakharklochkov/.nuget/packages/microsoft.aspnetcore.razor.language/3.1.0/microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

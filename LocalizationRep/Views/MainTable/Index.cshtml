@@ -1,4 +1,3 @@
-
 @model LocalizationRep.Models.SectionSearchViewModel
 
 @{
@@ -23,19 +22,19 @@
     </p>
 </form>
 
-<div class="table-responsive-sm">
+<div>
     <table class="table table-striped">
         <thead>
             <tr>
-                <th scope="col">
+                <th>
                     @Html.DisplayNameFor(model => model.MainTables[0].CommonID)
                 </th>
-                <th scope="col">
+                <th>
                     @Html.DisplayNameFor(model => model.MainTables[0].IOsID)
                     <br />
                     @Html.DisplayNameFor(model => model.MainTables[0].AndroidID)
                 </th>
-                <th scope="col">
+                <th>
                     @Html.DisplayNameFor(model => model.MainTables[0].TextRU)
                     /
                     @Html.DisplayNameFor(model => model.MainTables[0].TextEN)
@@ -47,7 +46,7 @@
                     @Html.DisplayNameFor(model => model.MainTables[0].IsFreezing)
                 </th>
 
-                <th scope="col">
+                <th>
                     @Html.DisplayNameFor(model => model.MainTables[0].Section)
                     <form asp-controller="MainTable" asp-action="Index" method="get">
                         <p>
@@ -58,7 +57,6 @@
                         </p>
                     </form>
                 </th>
-                <th scope="col"></th>
             </tr>
         </thead>
         <tbody>

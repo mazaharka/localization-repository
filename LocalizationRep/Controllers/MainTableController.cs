@@ -19,36 +19,10 @@ namespace LocalizationRep.Controllers
             _context = context;
         }
 
-        //// GET: MainTable
-        //public async Task<IActionResult> Index()
-        //{
-        //    var localizationRepContext = _context.MainTable.Include(m => m.Section);
-        //    return View(await localizationRepContext.ToListAsync());
-        //}
-
-
-
-        //// second TRY
-        //// GET: MainTable
-        //public async Task<IActionResult> Index(string searchString)
-        //{            
-        //    var localizationRepContext = _context.MainTable.Include(m => m.Section);
-
-        //    if (!String.IsNullOrEmpty(searchString))
-        //    {
-        //        localizationRepContext = localizationRepContext.Where(s => s.Section.Title == searchString).Include(m => m.Section); 
-        //    }
-
-        //    return View(await localizationRepContext.ToListAsync());
-        //}
-
-
-
         // GET: Movies
         public async Task<IActionResult> Index(string sectionSearch, string searchString)
         {
             var localizationRepContext = _context.MainTable.Include(m => m.Section);
-            // Use LINQ to get list of genres.
             IQueryable<string> genreQuery = from m in _context.MainTable
                                             orderby m.Section.ID
                                             select m.Section.Title;
@@ -74,18 +48,6 @@ namespace LocalizationRep.Controllers
 
             return View(localizationSectionVM);
         }
-
-
-
-
-
-
-
-
-
-
-
-
 
         // GET: MainTable/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -114,11 +76,9 @@ namespace LocalizationRep.Controllers
         }
 
         // POST: MainTable/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,SectionID,IOsID,AndroidID,TextRU,TextEN,TextUA,IsFreezing")] MainTable mainTable)
+        public async Task<IActionResult> Create([Bind("ID,CommonID,SectionID,IOsID,AndroidID,TextRU,TextEN,TextUA,IsFreezing")] MainTable mainTable)
         {
             if (ModelState.IsValid)
             {
@@ -148,11 +108,9 @@ namespace LocalizationRep.Controllers
         }
 
         // POST: MainTable/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,SectionID,IOsID,AndroidID,TextRU,TextEN,TextUA,IsFreezing")] MainTable mainTable)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,CommonID,SectionID,IOsID,AndroidID,TextRU,TextEN,TextUA,IsFreezing")] MainTable mainTable)
         {
             if (id != mainTable.ID)
             {

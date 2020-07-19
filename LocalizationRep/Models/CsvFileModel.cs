@@ -8,12 +8,20 @@ namespace LocalizationRep.Models
         public string CommonID { get; set; }
         [Name("SectorName")]
         public string SectorName { get; set; }
-        [Name("TextRU")]
-        public string TextRU { get; set; }
-        [Name("TextEN")]
-        public string TextEN { get; set; }
-        [Name("TextUA")]
-        public string TextUA { get; set; }
+        [Name("Style")]
+        public string TextStyle { get; set; }
+        [Name("TextRUSingle")]
+        public string TextRUSingle { get; set; }
+        [Name("TextRUPrular")]
+        public string TextRUPrular { get; set; }
+        [Name("TextENSingle")]
+        public string TextENSingle { get; set; }
+        [Name("TextENPrular")]
+        public string TextENPrular { get; set; }
+        [Name("TextUASingle")]
+        public string TextUASingle { get; set; }
+        [Name("TextUAPrular")]
+        public string TextUAPrular { get; set; }
 
     }
 }

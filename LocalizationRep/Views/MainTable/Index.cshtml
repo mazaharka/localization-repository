@@ -34,18 +34,11 @@
                     <br />
                     @Html.DisplayNameFor(model => model.MainTables[0].AndroidID)
                 </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.MainTables[0].TextRU)
-                    /
-                    @Html.DisplayNameFor(model => model.MainTables[0].TextEN)
-                    /
-                    @Html.DisplayNameFor(model => model.MainTables[0].TextUA)
-                </th>
-
-                <th hidden="true">
-                    @Html.DisplayNameFor(model => model.MainTables[0].IsFreezing)
-                </th>
-
+                
+                @foreach (var item in ViewBag.Head)
+                {
+                    <th><p>@item </p></th>
+                }
                 <th>
                     @Html.DisplayNameFor(model => model.MainTables[0].Section)
                     <form asp-controller="MainTable" asp-action="Index" method="get">
@@ -53,7 +46,6 @@
                             <select asp-for="SectionSearch" asp-items="Model.Sections" onChange="this.form.submit()" class="text-uppercase">
                                 <option value="">All</option>
                             </select>
-
                         </p>
                     </form>
                 </th>
@@ -71,13 +63,25 @@
                         <br />
                         @Html.DisplayFor(modelItem => item.AndroidID)
                     </td>
-                    <td>
-                        RU: @Html.DisplayFor(modelItem => item.TextRU)
-                        <br />
-                        EN: @Html.DisplayFor(modelItem => item.TextEN)
-                        <br />
-                        UA: @Html.DisplayFor(modelItem => item.TextUA)
-                    </td>
+
+                    @foreach (var lang in item.StyleJsonKeyModel.OrderBy(s => s.StyleName))
+                    {
+
+
+                        <td>
+                            @foreach (var l in lang.LangKeyModels)
+                            {
+
+                                <p>@Html.DisplayFor(modelItem => l.LangName) @Html.DisplayFor(modelItem => l.LangValue.Single)</p>
+                                @if (l.LangValue.Prular != null)
+                                {
+                                    <p>@Html.DisplayFor(modelItem => l.LangName) @Html.DisplayFor(modelItem => l.LangValue.Prular)</p>
+                                }
+
+                            }
+                        </td>
+                    }
+
                     <td hidden="true">
                         @Html.DisplayFor(modelItem => item.IsFreezing)
                     </td>

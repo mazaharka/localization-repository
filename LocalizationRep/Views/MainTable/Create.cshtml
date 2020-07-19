@@ -30,22 +30,24 @@
                 <label asp-for="AndroidID" class="control-label"></label>
                 <input asp-for="AndroidID" class="form-control" />
                 <span asp-validation-for="AndroidID" class="text-danger"></span>
-            </div> 
-            <div class="form-group">
-                <label asp-for="TextRU" class="control-label"></label>
-                <input asp-for="TextRU" class="form-control" />
-                <span asp-validation-for="TextRU" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="TextEN" class="control-label"></label>
-                <input asp-for="TextEN" class="form-control" />
-                <span asp-validation-for="TextEN" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TextUA" class="control-label"></label>
-                <input asp-for="TextUA" class="form-control" />
-                <span asp-validation-for="TextUA" class="text-danger"></span>
-            </div>
+            <!--
+    <div class="form-group">
+        <label asp-for="TextRU" class="control-label"></label>
+        <input asp-for="TextRU" class="form-control" />
+        <span asp-validation-for="TextRU" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TextEN" class="control-label"></label>
+        <input asp-for="TextEN" class="form-control" />
+        <span asp-validation-for="TextEN" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TextUA" class="control-label"></label>
+        <input asp-for="TextUA" class="form-control" />
+        <span asp-validation-for="TextUA" class="text-danger"></span>
+    </div>
+        -->
             <div class="form-group form-check">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="IsFreezing" /> @Html.DisplayNameFor(model => model.IsFreezing)

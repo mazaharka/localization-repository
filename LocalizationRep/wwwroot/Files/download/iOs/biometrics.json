@@ -1,0 +1,138 @@
+{
+    "biometrics-faceID-access-denided-title" : {
+        "official" : {
+            "en" : "This feature requires FaceID access",
+            "ru" : "Эта функция требует доступ к FaceID",
+            "uk" : "Ця функція вимагає доступу до FaceID"
+        },
+        "common" : {
+            "en" : "This feature requires FaceID access",
+            "ru" : "Эта функция требует доступ к FaceID",
+            "uk" : "Ця функція вимагає доступу до FaceID"
+        },
+        "dude" : {
+            "en" : "This feature requires FaceID access",
+            "ru" : "Эта функция требует доступ к FaceID",
+            "uk" : "Ця функція вимагає доступу до FaceID"
+        }
+    },
+    "biometrics-faceID_reason" : {
+        "dude" : {
+            "ru" : "Используйте FaceID для входа",
+            "en" : "Use FaceID to login",
+            "uk" : "Використовуйте FaceID для входу"
+        },
+        "common" : {
+            "ru" : "Используйте FaceID для входа",
+            "en" : "Use FaceID to login",
+            "uk" : "Використовуйте FaceID для входу"
+        },
+        "official" : {
+            "ru" : "Используйте FaceID для входа",
+            "en" : "Use FaceID to login",
+            "uk" : "Використовуйте FaceID для входу"
+        }
+    },
+    "biometrics-unavailable-global-error" : {
+        "official" : {
+            "uk" : "Биометрия недоступна",
+            "en" : "Биометрия недоступна",
+            "ru" : "Биометрия недоступна"
+        },
+        "common" : {
+            "uk" : "Биометрия недоступна",
+            "en" : "Биометрия недоступна",
+            "ru" : "Биометрия недоступна"
+        },
+        "dude" : {
+            "uk" : "Биометрия недоступна",
+            "en" : "Биометрия недоступна",
+            "ru" : "Биометрия недоступна"
+        }
+    },
+    "biometrics-touchID-access-denided-message" : {
+        "official" : {
+            "ru" : "В настройках iPhone, дайте доступ к TouchID приложению Альфа-Банк",
+            "en" : "In the iPhone settings, grant TouchID access to the Alfa-Bank application",
+            "uk" : "В налаштуваннях iPhone, надайте доступ до TouchID додатку Альфа-Банк"
+        },
+        "dude" : {
+            "ru" : "В настройках iPhone, дайте доступ к TouchID приложению Альфа-Банк",
+            "en" : "In the iPhone settings, grant TouchID access to the Alfa-Bank application",
+            "uk" : "В налаштуваннях iPhone, надайте доступ до TouchID додатку Альфа-Банк"
+        },
+        "common" : {
+            "ru" : "В настройках iPhone, дайте доступ к TouchID приложению Альфа-Банк",
+            "en" : "In the iPhone settings, grant TouchID access to the Alfa-Bank application",
+            "uk" : "В налаштуваннях iPhone, надайте доступ до TouchID додатку Альфа-Банк"
+        }
+    },
+    "biometrics-touchID-access-denided-title" : {
+        "dude" : {
+            "ru" : "Эта функция требует доступ к TouchID",
+            "en" : "This feature requires TouchID access",
+            "uk" : "Ця функція вимагає доступу до TouchID"
+        },
+        "official" : {
+            "ru" : "Эта функция требует доступ к TouchID",
+            "en" : "This feature requires TouchID access",
+            "uk" : "Ця функція вимагає доступу до TouchID"
+        },
+        "common" : {
+            "ru" : "Эта функция требует доступ к TouchID",
+            "en" : "This feature requires TouchID access",
+            "uk" : "Ця функція вимагає доступу до TouchID"
+        }
+    },
+    "biometrics-not-enrolled-error" : {
+        "dude" : {
+            "en" : "Нет отпечатков",
+            "ru" : "Нет отпечатков",
+            "uk" : "Нет отпечатков"
+        },
+        "common" : {
+            "en" : "Нет отпечатков",
+            "ru" : "Нет отпечатков",
+            "uk" : "Нет отпечатков"
+        },
+        "official" : {
+            "en" : "Нет отпечатков",
+            "ru" : "Нет отпечатков",
+            "uk" : "Нет отпечатков"
+        }
+    },
+    "biometrics-faceID-access-denided-message" : {
+        "common" : {
+            "ru" : "В настройках iPhone, дайте доступ к FaceID приложению Альфа-Банк",
+            "en" : "In the iPhone settings, grant FaceID access to the Alfa-Bank application",
+            "uk" : "В налаштуваннях iPhone, надайте доступ до FaceID додатку Альфа-Банк"
+        },
+        "official" : {
+            "ru" : "В настройках iPhone, дайте доступ к FaceID приложению Альфа-Банк",
+            "en" : "In the iPhone settings, grant FaceID access to the Alfa-Bank application",
+            "uk" : "В налаштуваннях iPhone, надайте доступ до FaceID додатку Альфа-Банк"
+        },
+        "dude" : {
+            "ru" : "В настройках iPhone, дайте доступ к FaceID приложению Альфа-Банк",
+            "en" : "In the iPhone settings, grant FaceID access to the Alfa-Bank application",
+            "uk" : "В налаштуваннях iPhone, надайте доступ до FaceID додатку Альфа-Банк"
+        }
+    },
+    "biometrics-touchID_reason" : {
+        "common" : {
+            "ru" : "Используйте отпечаток пальца для входа",
+            "en" : "Log in with touch ID",
+            "uk" : "Використовуйте відбиток пальця для входу"
+        },
+        "official" : {
+            "ru" : "Используйте отпечаток пальца для входа",
+            "en" : "Log in with touch ID",
+            "uk" : "Використовуйте відбиток пальця для входу"
+        },
+        "dude" : {
+            "ru" : "Используйте отпечаток пальца для входа",
+            "en" : "Log in with touch ID",
+            "uk" : "Використовуйте відбиток пальця для входу"
+        }
+    }
+}

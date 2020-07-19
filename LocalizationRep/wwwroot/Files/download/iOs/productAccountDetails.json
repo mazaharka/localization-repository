@@ -1,0 +1,444 @@
+{
+    "card-account-details-total-debt-title" : {
+        "official" : {
+            "en" : "Total debt",
+            "uk" : "Загальна заборгованість",
+            "ru" : "Общая задолженность"
+        },
+        "dude" : {
+            "en" : "Total debt",
+            "uk" : "Загальна заборгованість",
+            "ru" : "Общая задолженность"
+        },
+        "common" : {
+            "en" : "Total debt",
+            "uk" : "Загальна заборгованість",
+            "ru" : "Общая задолженность"
+        }
+    },
+    "card-account-details-installments-title" : {
+        "common" : {
+            "uk" : "Моi розстрочки",
+            "en" : "My installments",
+            "ru" : "Мои расстрочки"
+        },
+        "dude" : {
+            "uk" : "Моi розстрочки",
+            "en" : "My installments",
+            "ru" : "Мои расстрочки"
+        },
+        "official" : {
+            "uk" : "Моi розстрочки",
+            "en" : "My installments",
+            "ru" : "Мои расстрочки"
+        }
+    },
+    "account-details-information-tap" : {
+        "official" : {
+            "uk" : "Інформація",
+            "en" : "Information",
+            "ru" : "Информация"
+        },
+        "dude" : {
+            "uk" : "Інформація",
+            "en" : "Information",
+            "ru" : "Информация"
+        },
+        "common" : {
+            "uk" : "Інформація",
+            "en" : "Information",
+            "ru" : "Информация"
+        }
+    },
+    "account-contract-date-title" : {
+        "official" : {
+            "uk" : "Дата укладення договору",
+            "ru" : "Дата заключения договора",
+            "en" : "Contract date"
+        },
+        "dude" : {
+            "uk" : "Дата укладення договору",
+            "ru" : "Дата заключения договора",
+            "en" : "Contract date"
+        },
+        "common" : {
+            "uk" : "Дата укладення договору",
+            "ru" : "Дата заключения договора",
+            "en" : "Contract date"
+        }
+    },
+    "card-account-details-expiration-date-description" : {
+        "official" : {
+            "en" : "Expiration date",
+            "uk" : "Строк дії",
+            "ru" : "Срок действия"
+        },
+        "dude" : {
+            "en" : "Expiration date",
+            "uk" : "Строк дії",
+            "ru" : "Срок действия"
+        },
+        "common" : {
+            "en" : "Expiration date",
+            "uk" : "Строк дії",
+            "ru" : "Срок действия"
+        }
+    },
+    "account-details-common-info-title" : {
+        "common" : {
+            "uk" : "Загальна інформація",
+            "ru" : "Общая информация",
+            "en" : "Common information"
+        },
+        "official" : {
+            "uk" : "Загальна інформація",
+            "ru" : "Общая информация",
+            "en" : "Common information"
+        },
+        "dude" : {
+            "uk" : "Загальна інформація",
+            "ru" : "Общая информация",
+            "en" : "Common information"
+        }
+    },
+    "card-account-details-overdue-debt-title" : {
+        "common" : {
+            "ru" : "Задолженность",
+            "uk" : "Заборгованість",
+            "en" : "Debt"
+        },
+        "dude" : {
+            "ru" : "Задолженность",
+            "uk" : "Заборгованість",
+            "en" : "Debt"
+        },
+        "official" : {
+            "ru" : "Задолженность",
+            "uk" : "Заборгованість",
+            "en" : "Debt"
+        }
+    },
+    "card-account-details-increase-credit-limit-title" : {
+        "dude" : {
+            "ru" : "Увеличение кредитного лимита",
+            "en" : "Credit limit increase",
+            "uk" : "Збiльшення кредитного лiмiту"
+        },
+        "common" : {
+            "ru" : "Увеличение кредитного лимита",
+            "en" : "Credit limit increase",
+            "uk" : "Збiльшення кредитного лiмiту"
+        },
+        "official" : {
+            "ru" : "Увеличение кредитного лимита",
+            "en" : "Credit limit increase",
+            "uk" : "Збiльшення кредитного лiмiту"
+        }
+    },
+    "card-account-details-no-debt-title" : {
+        "dude" : {
+            "ru" : "Oтсутствует",
+            "uk" : "Вiдсутня",
+            "en" : "No debt"
+        },
+        "common" : {
+            "ru" : "Oтсутствует",
+            "uk" : "Вiдсутня",
+            "en" : "No debt"
+        },
+        "official" : {
+            "ru" : "Oтсутствует",
+            "uk" : "Вiдсутня",
+            "en" : "No debt"
+        }
+    },
+    "account-details-refil-title" : {
+        "dude" : {
+            "en" : "Refil",
+            "uk" : "Поповнити",
+            "ru" : "Пополнить"
+        },
+        "official" : {
+            "en" : "Refil",
+            "uk" : "Поповнити",
+            "ru" : "Пополнить"
+        },
+        "common" : {
+            "en" : "Refil",
+            "uk" : "Поповнити",
+            "ru" : "Пополнить"
+        }
+    },
+    "card-account-details-pay-by-specified-date-title" : {
+        "dude" : {
+            "uk" : "Щоб залишитись у пільговому періоді сплатіть до вказаної дати",
+            "en" : "To stay in the grace period, pay by the specified date",
+            "ru" : "Чтобы остаться в льготном периоде оплатите до указанной даты"
+        },
+        "common" : {
+            "uk" : "Щоб залишитись у пільговому періоді сплатіть до вказаної дати",
+            "en" : "To stay in the grace period, pay by the specified date",
+            "ru" : "Чтобы остаться в льготном периоде оплатите до указанной даты"
+        },
+        "official" : {
+            "uk" : "Щоб залишитись у пільговому періоді сплатіть до вказаної дати",
+            "en" : "To stay in the grace period, pay by the specified date",
+            "ru" : "Чтобы остаться в льготном периоде оплатите до указанной даты"
+        }
+    },
+    "account-details-cards-tap-title" : {
+        "common" : {
+            "ru" : "Карточки",
+            "en" : "Cards",
+            "uk" : "Картки"
+        },
+        "official" : {
+            "ru" : "Карточки",
+            "en" : "Cards",
+            "uk" : "Картки"
+        },
+        "dude" : {
+            "ru" : "Карточки",
+            "en" : "Cards",
+            "uk" : "Картки"
+        }
+    },
+    "card-account-details-in-installments-title" : {
+        "common" : {
+            "ru" : "Из них в рассрочку",
+            "en" : "Installment debt",
+            "uk" : "З них у розстрочці"
+        },
+        "official" : {
+            "ru" : "Из них в рассрочку",
+            "en" : "Installment debt",
+            "uk" : "З них у розстрочці"
+        },
+        "dude" : {
+            "ru" : "Из них в рассрочку",
+            "en" : "Installment debt",
+            "uk" : "З них у розстрочці"
+        }
+    },
+    "account-details-management-tap" : {
+        "dude" : {
+            "uk" : "Керування",
+            "en" : "Management",
+            "ru" : "Управление"
+        },
+        "official" : {
+            "uk" : "Керування",
+            "en" : "Management",
+            "ru" : "Управление"
+        },
+        "common" : {
+            "uk" : "Керування",
+            "en" : "Management",
+            "ru" : "Управление"
+        }
+    },
+    "card-account-details-available-funds-title" : {
+        "dude" : {
+            "uk" : "Доступно",
+            "en" : "Available",
+            "ru" : "Доступно"
+        },
+        "common" : {
+            "uk" : "Доступно",
+            "en" : "Available",
+            "ru" : "Доступно"
+        },
+        "official" : {
+            "uk" : "Доступно",
+            "en" : "Available",
+            "ru" : "Доступно"
+        }
+    },
+    "card-account-details-five-days-before-title" : {
+        "official" : {
+            "uk" : "Рекомендуємо внести кошти за 5 днів до дати платежу",
+            "en" : "It's recommended to deposit funds 5 days before the payment date",
+            "ru" : "Рекомендуется внести средства за 5 дней до даты платежа"
+        },
+        "common" : {
+            "uk" : "Рекомендуємо внести кошти за 5 днів до дати платежу",
+            "en" : "It's recommended to deposit funds 5 days before the payment date",
+            "ru" : "Рекомендуется внести средства за 5 дней до даты платежа"
+        },
+        "dude" : {
+            "uk" : "Рекомендуємо внести кошти за 5 днів до дати платежу",
+            "en" : "It's recommended to deposit funds 5 days before the payment date",
+            "ru" : "Рекомендуется внести средства за 5 дней до даты платежа"
+        }
+    },
+    "card-account-details-estimated-date-title" : {
+        "official" : {
+            "en" : "Estimated date",
+            "ru" : "Расчетная дата",
+            "uk" : "Розрахункова дата"
+        },
+        "common" : {
+            "en" : "Estimated date",
+            "ru" : "Расчетная дата",
+            "uk" : "Розрахункова дата"
+        },
+        "dude" : {
+            "en" : "Estimated date",
+            "ru" : "Расчетная дата",
+            "uk" : "Розрахункова дата"
+        }
+    },
+    "card-account-details-installment-details-title" : {
+        "official" : {
+            "en" : "Installment details",
+            "uk" : "Детальніше про розстрочки",
+            "ru" : "Подробнее о рассрочке"
+        },
+        "dude" : {
+            "en" : "Installment details",
+            "uk" : "Детальніше про розстрочки",
+            "ru" : "Подробнее о рассрочке"
+        },
+        "common" : {
+            "en" : "Installment details",
+            "uk" : "Детальніше про розстрочки",
+            "ru" : "Подробнее о рассрочке"
+        }
+    },
+    "account-details-other-info-title" : {
+        "common" : {
+            "en" : "Other information",
+            "uk" : "Інша інформація",
+            "ru" : "Прочая информация"
+        },
+        "official" : {
+            "en" : "Other information",
+            "uk" : "Інша інформація",
+            "ru" : "Прочая информация"
+        },
+        "dude" : {
+            "en" : "Other information",
+            "uk" : "Інша інформація",
+            "ru" : "Прочая информация"
+        }
+    },
+    "card-account-details-amount-label-description" : {
+        "official" : {
+            "ru" : "и %@ %@ в Доходном сейфе",
+            "uk" : "и %@ %@ в Доходном сейфе",
+            "en" : "и %@ %@ в Доходном сейфе"
+        },
+        "dude" : {
+            "ru" : "и %@ %@ в Доходном сейфе",
+            "uk" : "и %@ %@ в Доходном сейфе",
+            "en" : "и %@ %@ в Доходном сейфе"
+        },
+        "common" : {
+            "ru" : "и %@ %@ в Доходном сейфе",
+            "uk" : "и %@ %@ в Доходном сейфе",
+            "en" : "и %@ %@ в Доходном сейфе"
+        }
+    },
+    "card-account-details-credit-limit-title" : {
+        "dude" : {
+            "uk" : "Кредитний лiмiт",
+            "ru" : "Кредитный лимит",
+            "en" : "Credit limit"
+        },
+        "common" : {
+            "uk" : "Кредитний лiмiт",
+            "ru" : "Кредитный лимит",
+            "en" : "Credit limit"
+        },
+        "official" : {
+            "uk" : "Кредитний лiмiт",
+            "ru" : "Кредитный лимит",
+            "en" : "Credit limit"
+        }
+    },
+    "account-details-history-tap" : {
+        "common" : {
+            "uk" : "Історія",
+            "ru" : "История",
+            "en" : "History"
+        },
+        "official" : {
+            "uk" : "Історія",
+            "ru" : "История",
+            "en" : "History"
+        },
+        "dude" : {
+            "uk" : "Історія",
+            "ru" : "История",
+            "en" : "History"
+        }
+    },
+    "card-account-details-billing-period-title" : {
+        "common" : {
+            "uk" : "Розрахунковий період",
+            "en" : "Billing period",
+            "ru" : "Расчетный период"
+        },
+        "official" : {
+            "uk" : "Розрахунковий період",
+            "en" : "Billing period",
+            "ru" : "Расчетный период"
+        },
+        "dude" : {
+            "uk" : "Розрахунковий період",
+            "en" : "Billing period",
+            "ru" : "Расчетный период"
+        }
+    },
+    "account-contract-number-title" : {
+        "dude" : {
+            "uk" : "Номер договору",
+            "en" : "Contract number",
+            "ru" : "Номер договора"
+        },
+        "common" : {
+            "uk" : "Номер договору",
+            "en" : "Contract number",
+            "ru" : "Номер договора"
+        },
+        "official" : {
+            "uk" : "Номер договору",
+            "en" : "Contract number",
+            "ru" : "Номер договора"
+        }
+    },
+    "card-account-details-close-account-title" : {
+        "dude" : {
+            "ru" : "Закрыть счет",
+            "uk" : "Закрити рахунок",
+            "en" : "Close an account"
+        },
+        "common" : {
+            "ru" : "Закрыть счет",
+            "uk" : "Закрити рахунок",
+            "en" : "Close an account"
+        },
+        "official" : {
+            "ru" : "Закрыть счет",
+            "uk" : "Закрити рахунок",
+            "en" : "Close an account"
+        }
+    },
+    "account-details-transfer-title" : {
+        "common" : {
+            "en" : "Transfer",
+            "ru" : "Перевести",
+            "uk" : "Перевести"
+        },
+        "official" : {
+            "en" : "Transfer",
+            "ru" : "Перевести",
+            "uk" : "Перевести"
+        },
+        "dude" : {
+            "en" : "Transfer",
+            "ru" : "Перевести",
+            "uk" : "Перевести"
+        }
+    }
+}

@@ -4,6 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Localization</title>
+    <style>
+        .layer {
+            /* background: #fc3; /* Цвет фона */
+            /* border: 2px solid black; /* Параметры рамки */
+            padding-left: 200px; /* Поля вокруг текста */
+            padding-right: 200px;
+        }
+    </style>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -30,12 +38,15 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="FileAction" asp-action="Index">FileAction</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="FileAction" asp-action="NotMatched">NotMatched</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="layer">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>

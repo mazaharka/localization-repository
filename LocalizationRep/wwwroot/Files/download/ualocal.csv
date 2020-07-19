@@ -1,0 +1,1945 @@
+CommonID;SectorName;Style;TextRUSingle;TextRUPrular;TextENSingle;TextENPrular;TextUASingle;TextUAPrular
+STTN0001;settings;common;Зміни вступлять в силу після перезапуску додатку;;Зміни вступлять в силу після перезапуску додатку;;Зміни вступлять в силу після перезапуску додатку;
+STTN0001;settings;official;Зміни вступлять в силу після перезапуску додатку;;Зміни вступлять в силу після перезапуску додатку;;Зміни вступлять в силу після перезапуску додатку;
+STTN0001;settings;dude;Зміни вступлять в силу після перезапуску додатку;;Зміни вступлять в силу після перезапуску додатку;;Зміни вступлять в силу після перезапуску додатку;
+STTN0002;settings;common;Увага;;Увага;;Увага;
+STTN0002;settings;dude;Увага;;Увага;;Увага;
+STTN0002;settings;official;Увага;;Увага;;Увага;
+STTN0003;settings;official;Warning;;Warning;;Warning;
+STTN0003;settings;dude;Warning;;Warning;;Warning;
+STTN0003;settings;common;Warning;;Warning;;Warning;
+STTN0004;settings;official;Светлая;;Light;;Світла;
+STTN0004;settings;dude;Светлая;;Light;;Світла;
+STTN0004;settings;common;Светлая;;Light;;Світла;
+STTN0005;settings;dude;Українська;;Українська;;Українська;
+STTN0005;settings;common;Українська;;Українська;;Українська;
+STTN0005;settings;official;Українська;;Українська;;Українська;
+STTN0006;settings;official;Внимание;;Внимание;;Внимание;
+STTN0006;settings;common;Внимание;;Внимание;;Внимание;
+STTN0006;settings;dude;Внимание;;Внимание;;Внимание;
+STTN0007;settings;common;Темная;;Dark;;Темна;
+STTN0007;settings;official;Темная;;Dark;;Темна;
+STTN0007;settings;dude;Темная;;Dark;;Темна;
+STTN0008;settings;official;Changes will take effect after application restart;;Changes will take effect after application restart;;Changes will take effect after application restart;
+STTN0008;settings;dude;Changes will take effect after application restart;;Changes will take effect after application restart;;Changes will take effect after application restart;
+STTN0008;settings;common;Changes will take effect after application restart;;Changes will take effect after application restart;;Changes will take effect after application restart;
+STTN0009;settings;official;Системная;;System;;Cистемная;
+STTN0009;settings;common;Системная;;System;;Cистемная;
+STTN0009;settings;dude;Системная;;System;;Cистемная;
+STTN0010;settings;official;English;;English;;English;
+STTN0010;settings;common;English;;English;;English;
+STTN0010;settings;dude;English;;English;;English;
+STTN0011;settings;official;Русский;;Русский;;Русский;
+STTN0011;settings;dude;Русский;;Русский;;Русский;
+STTN0011;settings;common;Русский;;Русский;;Русский;
+STTN0012;settings;common;Цветовая схема;;Appearance;;Кольорова схема;
+STTN0012;settings;dude;Цветовая схема;;Appearance;;Кольорова схема;
+STTN0012;settings;official;Цветовая схема;;Appearance;;Кольорова схема;
+STTN0013;settings;common;%@ был скопирован в буфер;;%@ was copied to clipboard;;%@ був скопійований в буфер;
+STTN0013;settings;dude;%@ был скопирован в буфер;;%@ was copied to clipboard;;%@ був скопійований в буфер;
+STTN0013;settings;official;%@ был скопирован в буфер;;%@ was copied to clipboard;;%@ був скопійований в буфер;
+STTN0014;settings;official;Изменения вступят в силу после перезапуска приложения;;Изменения вступят в силу после перезапуска приложения;;Изменения вступят в силу после перезапуска приложения;
+STTN0014;settings;dude;Изменения вступят в силу после перезапуска приложения;;Изменения вступят в силу после перезапуска приложения;;Изменения вступят в силу после перезапуска приложения;
+STTN0014;settings;common;Изменения вступят в силу после перезапуска приложения;;Изменения вступят в силу после перезапуска приложения;;Изменения вступят в силу после перезапуска приложения;
+ERRR0001;errors;common;Ок;;Ok;;Ок;
+ERRR0001;errors;official;Ок;;Ok;;Ок;
+ERRR0001;errors;dude;Ок;;Ok;;Ок;
+ERRR0002;errors;official;Возникла ошибка, что-то пошло не так;;Something went wrong...;;Виникла помилка, щось пійшло не так;
+ERRR0002;errors;common;Возникла ошибка, что-то пошло не так;;Something went wrong...;;Виникла помилка, щось пійшло не так;
+ERRR0002;errors;dude;Возникла ошибка, что-то пошло не так;;Something went wrong...;;Виникла помилка, щось пійшло не так;
+ERRR0003;errors;official;Проверьте подключение к сети интернет и повторите снова;;Please check your Internet connection and try one more time;;Перевірьте підключення до мережі і попробуйте ще раз;
+ERRR0003;errors;common;Проверьте подключение к сети интернет и повторите снова;;Please check your Internet connection and try one more time;;Перевірьте підключення до мережі і попробуйте ще раз;
+ERRR0003;errors;dude;Проверьте подключение к сети интернет и повторите снова;;Please check your Internet connection and try one more time;;Перевірьте підключення до мережі і попробуйте ще раз;
+ERRR0004;errors;common;Попробуйте еще раз или обратитесь в поддержку в чате;;Please try one more time or contact our support via chat if you still experience the issue;;Спробуйте будь ласка ще раз, або зверніться в підтримку в чаті;
+ERRR0004;errors;official;Попробуйте еще раз или обратитесь в поддержку в чате;;Please try one more time or contact our support via chat if you still experience the issue;;Спробуйте будь ласка ще раз, або зверніться в підтримку в чаті;
+ERRR0004;errors;dude;Попробуйте еще раз или обратитесь в поддержку в чате;;Please try one more time or contact our support via chat if you still experience the issue;;Спробуйте будь ласка ще раз, або зверніться в підтримку в чаті;
+ERRR0005;errors;official;Отсутствует подключение к сети;;There is no Internet connection;;Відсутнє підключення до мережі;
+ERRR0005;errors;dude;Отсутствует подключение к сети;;There is no Internet connection;;Відсутнє підключення до мережі;
+ERRR0005;errors;common;Отсутствует подключение к сети;;There is no Internet connection;;Відсутнє підключення до мережі;
+ERRR0006;errors;official;Ошибка;;Error;;Помилка;
+ERRR0006;errors;common;Ошибка;;Error;;Помилка;
+ERRR0006;errors;dude;Ошибка;;Error;;Помилка;
+PSHC0001;pushActions;dude;Select;;Select;;Select;
+PSHC0001;pushActions;official;Select;;Select;;Select;
+PSHC0001;pushActions;common;Select;;Select;;Select;
+PSHC0002;pushActions;dude;Dismiss;;Dismiss;;Dismiss;
+PSHC0002;pushActions;official;Dismiss;;Dismiss;;Dismiss;
+PSHC0002;pushActions;common;Dismiss;;Dismiss;;Dismiss;
+PSHC0003;pushActions;dude;Reply;;Reply;;Reply;
+PSHC0003;pushActions;common;Reply;;Reply;;Reply;
+PSHC0003;pushActions;official;Reply;;Reply;;Reply;
+PSHC0004;pushActions;official;More Details;;More Details;;More Details;
+PSHC0004;pushActions;dude;More Details;;More Details;;More Details;
+PSHC0004;pushActions;common;More Details;;More Details;;More Details;
+PSHC0005;pushActions;official;Pay Now;;Pay Now;;Pay Now;
+PSHC0005;pushActions;common;Pay Now;;Pay Now;;Pay Now;
+PSHC0005;pushActions;dude;Pay Now;;Pay Now;;Pay Now;
+OTHR0001;other;dude;Светлый;;Light;;Светлый;
+OTHR0001;other;official;Светлый;;Light;;Светлый;
+OTHR0001;other;common;Светлый;;Light;;Светлый;
+OTHR0002;other;dude;Автоматически;;Auto;;Автоматически;
+OTHR0002;other;common;Автоматически;;Auto;;Автоматически;
+OTHR0002;other;official;Автоматически;;Auto;;Автоматически;
+OTHR0003;other;common;Тёмный;;Dark;;Тёмный;
+OTHR0003;other;dude;Тёмный;;Dark;;Тёмный;
+OTHR0003;other;official;Тёмный;;Dark;;Тёмный;
+PRDC0001;productAccountSMEDetails;official;Доступный остаток;;Доступный остаток;;Доступный остаток;
+PRDC0001;productAccountSMEDetails;dude;Доступный остаток;;Доступный остаток;;Доступный остаток;
+PRDC0001;productAccountSMEDetails;common;Доступный остаток;;Доступный остаток;;Доступный остаток;
+PRDC0002;productAccountSMEDetails;dude;Задолженность по комиссиям;;Задолженность по комиссиям;;Задолженность по комиссиям;
+PRDC0002;productAccountSMEDetails;common;Задолженность по комиссиям;;Задолженность по комиссиям;;Задолженность по комиссиям;
+PRDC0002;productAccountSMEDetails;official;Задолженность по комиссиям;;Задолженность по комиссиям;;Задолженность по комиссиям;
+PRDC0003;productAccountSMEDetails;official;История;;History;;Історія;
+PRDC0003;productAccountSMEDetails;dude;История;;History;;Історія;
+PRDC0003;productAccountSMEDetails;common;История;;History;;Історія;
+PRDC0004;productAccountSMEDetails;dude;Общая информация;;Common information;;Загальна інформація;
+PRDC0004;productAccountSMEDetails;common;Общая информация;;Common information;;Загальна інформація;
+PRDC0004;productAccountSMEDetails;official;Общая информация;;Common information;;Загальна інформація;
+PRDC0005;productAccountSMEDetails;dude;Действия;;Действия;;Действия;
+PRDC0005;productAccountSMEDetails;common;Действия;;Действия;;Действия;
+PRDC0005;productAccountSMEDetails;official;Действия;;Действия;;Действия;
+PRDC0006;productAccountSMEDetails;common;Действия;;Действия;;Действия;
+PRDC0006;productAccountSMEDetails;dude;Действия;;Действия;;Действия;
+PRDC0006;productAccountSMEDetails;official;Действия;;Действия;;Действия;
+PRDC0007;productAccountSMEDetails;common;Статус счета;;Статус счета;;Статус счета;
+PRDC0007;productAccountSMEDetails;dude;Статус счета;;Статус счета;;Статус счета;
+PRDC0007;productAccountSMEDetails;official;Статус счета;;Статус счета;;Статус счета;
+PRDC0008;productAccountSMEDetails;official;%@ + овердрафт (%@);;%@ + овердрафт (%@);;%@ + овердрафт (%@);
+PRDC0008;productAccountSMEDetails;common;%@ + овердрафт (%@);;%@ + овердрафт (%@);;%@ + овердрафт (%@);
+PRDC0008;productAccountSMEDetails;dude;%@ + овердрафт (%@);;%@ + овердрафт (%@);;%@ + овердрафт (%@);
+PRDC0009;productAccountSMEDetails;common;Дата закрытия;;Дата закрытия;;Дата закрытия;
+PRDC0009;productAccountSMEDetails;official;Дата закрытия;;Дата закрытия;;Дата закрытия;
+PRDC0009;productAccountSMEDetails;dude;Дата закрытия;;Дата закрытия;;Дата закрытия;
+PRDC0010;productAccountSMEDetails;dude;Управление;;Management;;Керування;
+PRDC0010;productAccountSMEDetails;official;Управление;;Management;;Керування;
+PRDC0010;productAccountSMEDetails;common;Управление;;Management;;Керування;
+PRDC0011;productAccountSMEDetails;dude;Валюта счета;;Валюта счета;;Валюта счета;
+PRDC0011;productAccountSMEDetails;common;Валюта счета;;Валюта счета;;Валюта счета;
+PRDC0011;productAccountSMEDetails;official;Валюта счета;;Валюта счета;;Валюта счета;
+PRDC0012;productAccountSMEDetails;dude;Номер счета в формате IBAN;;Номер счета в формате IBAN;;Номер счета в формате IBAN;
+PRDC0012;productAccountSMEDetails;official;Номер счета в формате IBAN;;Номер счета в формате IBAN;;Номер счета в формате IBAN;
+PRDC0012;productAccountSMEDetails;common;Номер счета в формате IBAN;;Номер счета в формате IBAN;;Номер счета в формате IBAN;
+PRDC0013;productAccountSMEDetails;common;Выписка по счету;;Выписка по счету;;Выписка по счету;
+PRDC0013;productAccountSMEDetails;dude;Выписка по счету;;Выписка по счету;;Выписка по счету;
+PRDC0013;productAccountSMEDetails;official;Выписка по счету;;Выписка по счету;;Выписка по счету;
+PRDC0014;productAccountSMEDetails;common;SMS / PUSH сообщение;;SMS / PUSH messages;;SMS / PUSH повідомлення;
+PRDC0014;productAccountSMEDetails;official;SMS / PUSH сообщение;;SMS / PUSH messages;;SMS / PUSH повідомлення;
+PRDC0014;productAccountSMEDetails;dude;SMS / PUSH сообщение;;SMS / PUSH messages;;SMS / PUSH повідомлення;
+PRDC0015;productAccountSMEDetails;official;Карты;;Cards;;Картки;
+PRDC0015;productAccountSMEDetails;dude;Карты;;Cards;;Картки;
+PRDC0015;productAccountSMEDetails;common;Карты;;Cards;;Картки;
+PRDC0016;productAccountSMEDetails;common;Дата открытия;;Дата открытия;;Дата открытия;
+PRDC0016;productAccountSMEDetails;official;Дата открытия;;Дата открытия;;Дата открытия;
+PRDC0016;productAccountSMEDetails;dude;Дата открытия;;Дата открытия;;Дата открытия;
+PRDC0017;productAccountSMEDetails;common;Инфо;;Info;;Інфо;
+PRDC0017;productAccountSMEDetails;official;Инфо;;Info;;Інфо;
+PRDC0017;productAccountSMEDetails;dude;Инфо;;Info;;Інфо;
+CSH00001;cashU;official;Кешбек;;Кешбек;;Кешбек;
+CSH00001;cashU;common;Кешбек;;Кешбек;;Кешбек;
+CSH00001;cashU;dude;Кешбек;;Кешбек;;Кешбек;
+CSH00002;cashU;official;Просто чаще плати картой, и они появятся;;Просто чаще плати картой, и они появятся;;Просто чаще плати картой, и они появятся;
+CSH00002;cashU;common;Просто чаще плати картой, и они появятся;;Просто чаще плати картой, и они появятся;;Просто чаще плати картой, и они появятся;
+CSH00002;cashU;dude;Просто чаще плати картой, и они появятся;;Просто чаще плати картой, и они появятся;;Просто чаще плати картой, и они появятся;
+CSH00003;cashU;dude;Подробнее;;Подробнее;;Подробнее;
+CSH00003;cashU;official;Подробнее;;Подробнее;;Подробнее;
+CSH00003;cashU;common;Подробнее;;Подробнее;;Подробнее;
+CSH00004;cashU;dude;Перейти на сайт;;Перейти на сайт;;Перейти на сайт;
+CSH00004;cashU;official;Перейти на сайт;;Перейти на сайт;;Перейти на сайт;
+CSH00004;cashU;common;Перейти на сайт;;Перейти на сайт;;Перейти на сайт;
+CSH00005;cashU;official;Акции;;Акции;;Акции;
+CSH00005;cashU;common;Акции;;Акции;;Акции;
+CSH00005;cashU;dude;Акции;;Акции;;Акции;
+CSH00006;cashU;common;Ожидайте результатов розыгрышей;;Ожидайте результатов розыгрышей;;Ожидайте результатов розыгрышей;
+CSH00006;cashU;dude;Ожидайте результатов розыгрышей;;Ожидайте результатов розыгрышей;;Ожидайте результатов розыгрышей;
+CSH00006;cashU;official;Ожидайте результатов розыгрышей;;Ожидайте результатов розыгрышей;;Ожидайте результатов розыгрышей;
+CSH00007;cashU;official;Категории;;Категории;;Категории;
+CSH00007;cashU;dude;Категории;;Категории;;Категории;
+CSH00007;cashU;common;Категории;;Категории;;Категории;
+CSH00008;cashU;official;История бонусов;;История бонусов;;История бонусов;
+CSH00008;cashU;common;История бонусов;;История бонусов;;История бонусов;
+CSH00008;cashU;dude;История бонусов;;История бонусов;;История бонусов;
+CSH00009;cashU;official;"{
+  ""ie:x=0"": ""Январь"",
+  ""ie:x=1"": ""Февраль"",
+  ""ie:x=2"": ""Март"",
+  ""ie:x=3"": ""Апрель"",
+  ""ie:x=4"": ""Май"",
+  ""ie:x=5"": ""Июнь"",
+  ""ie:x=6"": ""Июль"",
+  ""ie:x=7"": ""Август"",
+  ""ie:x=8"": ""Сентябрь"",
+  ""ie:x=9"": ""Октябрь"",
+  ""ie:x=10"": ""Ноябрь"",
+  ""ie:x=11"": ""Декабрь""
+}";;"{
+  ""ie:x=0"": ""Январь"",
+  ""ie:x=1"": ""Февраль"",
+  ""ie:x=2"": ""Март"",
+  ""ie:x=3"": ""Апрель"",
+  ""ie:x=4"": ""Май"",
+  ""ie:x=5"": ""Июнь"",
+  ""ie:x=6"": ""Июль"",
+  ""ie:x=7"": ""Август"",
+  ""ie:x=8"": ""Сентябрь"",
+  ""ie:x=9"": ""Октябрь"",
+  ""ie:x=10"": ""Ноябрь"",
+  ""ie:x=11"": ""Декабрь""
+}";;"{
+  ""ie:x=0"": ""Январь"",
+  ""ie:x=1"": ""Февраль"",
+  ""ie:x=2"": ""Март"",
+  ""ie:x=3"": ""Апрель"",
+  ""ie:x=4"": ""Май"",
+  ""ie:x=5"": ""Июнь"",
+  ""ie:x=6"": ""Июль"",
+  ""ie:x=7"": ""Август"",
+  ""ie:x=8"": ""Сентябрь"",
+  ""ie:x=9"": ""Октябрь"",
+  ""ie:x=10"": ""Ноябрь"",
+  ""ie:x=11"": ""Декабрь""
+}";
+CSH00009;cashU;common;"{
+  ""ie:x=0"": ""Январь"",
+  ""ie:x=1"": ""Февраль"",
+  ""ie:x=2"": ""Март"",
+  ""ie:x=3"": ""Апрель"",
+  ""ie:x=4"": ""Май"",
+  ""ie:x=5"": ""Июнь"",
+  ""ie:x=6"": ""Июль"",
+  ""ie:x=7"": ""Август"",
+  ""ie:x=8"": ""Сентябрь"",
+  ""ie:x=9"": ""Октябрь"",
+  ""ie:x=10"": ""Ноябрь"",
+  ""ie:x=11"": ""Декабрь""
+}";;"{
+  ""ie:x=0"": ""Январь"",
+  ""ie:x=1"": ""Февраль"",
+  ""ie:x=2"": ""Март"",
+  ""ie:x=3"": ""Апрель"",
+  ""ie:x=4"": ""Май"",
+  ""ie:x=5"": ""Июнь"",
+  ""ie:x=6"": ""Июль"",
+  ""ie:x=7"": ""Август"",
+  ""ie:x=8"": ""Сентябрь"",
+  ""ie:x=9"": ""Октябрь"",
+  ""ie:x=10"": ""Ноябрь"",
+  ""ie:x=11"": ""Декабрь""
+}";;"{
+  ""ie:x=0"": ""Январь"",
+  ""ie:x=1"": ""Февраль"",
+  ""ie:x=2"": ""Март"",
+  ""ie:x=3"": ""Апрель"",
+  ""ie:x=4"": ""Май"",
+  ""ie:x=5"": ""Июнь"",
+  ""ie:x=6"": ""Июль"",
+  ""ie:x=7"": ""Август"",
+  ""ie:x=8"": ""Сентябрь"",
+  ""ie:x=9"": ""Октябрь"",
+  ""ie:x=10"": ""Ноябрь"",
+  ""ie:x=11"": ""Декабрь""
+}";
+CSH00009;cashU;dude;"{
+  ""ie:x=0"": ""Январь"",
+  ""ie:x=1"": ""Февраль"",
+  ""ie:x=2"": ""Март"",
+  ""ie:x=3"": ""Апрель"",
+  ""ie:x=4"": ""Май"",
+  ""ie:x=5"": ""Июнь"",
+  ""ie:x=6"": ""Июль"",
+  ""ie:x=7"": ""Август"",
+  ""ie:x=8"": ""Сентябрь"",
+  ""ie:x=9"": ""Октябрь"",
+  ""ie:x=10"": ""Ноябрь"",
+  ""ie:x=11"": ""Декабрь""
+}";;"{
+  ""ie:x=0"": ""Январь"",
+  ""ie:x=1"": ""Февраль"",
+  ""ie:x=2"": ""Март"",
+  ""ie:x=3"": ""Апрель"",
+  ""ie:x=4"": ""Май"",
+  ""ie:x=5"": ""Июнь"",
+  ""ie:x=6"": ""Июль"",
+  ""ie:x=7"": ""Август"",
+  ""ie:x=8"": ""Сентябрь"",
+  ""ie:x=9"": ""Октябрь"",
+  ""ie:x=10"": ""Ноябрь"",
+  ""ie:x=11"": ""Декабрь""
+}";;"{
+  ""ie:x=0"": ""Январь"",
+  ""ie:x=1"": ""Февраль"",
+  ""ie:x=2"": ""Март"",
+  ""ie:x=3"": ""Апрель"",
+  ""ie:x=4"": ""Май"",
+  ""ie:x=5"": ""Июнь"",
+  ""ie:x=6"": ""Июль"",
+  ""ie:x=7"": ""Август"",
+  ""ie:x=8"": ""Сентябрь"",
+  ""ie:x=9"": ""Октябрь"",
+  ""ie:x=10"": ""Ноябрь"",
+  ""ie:x=11"": ""Декабрь""
+}";
+CSH00010;cashU;official;Узнать больше;;Узнать больше;;Узнать больше;
+CSH00010;cashU;common;Узнать больше;;Узнать больше;;Узнать больше;
+CSH00010;cashU;dude;Узнать больше;;Узнать больше;;Узнать больше;
+CSH00011;cashU;official;Обратите внимание, новые категории вы сможете выбрать через %d дня;;Обратите внимание, новые категории вы сможете выбрать через %d дня;;Обратите внимание, новые категории вы сможете выбрать через %d дня;
+CSH00011;cashU;dude;Обратите внимание, новые категории вы сможете выбрать через %d дня;;Обратите внимание, новые категории вы сможете выбрать через %d дня;;Обратите внимание, новые категории вы сможете выбрать через %d дня;
+CSH00011;cashU;common;Обратите внимание, новые категории вы сможете выбрать через %d дня;;Обратите внимание, новые категории вы сможете выбрать через %d дня;;Обратите внимание, новые категории вы сможете выбрать через %d дня;
+CSH00012;cashU;common;Смотреть все акции →;;Смотреть все акции →;;Смотреть все акции →;
+CSH00012;cashU;official;Смотреть все акции →;;Смотреть все акции →;;Смотреть все акции →;
+CSH00012;cashU;dude;Смотреть все акции →;;Смотреть все акции →;;Смотреть все акции →;
+CSH00013;cashU;dude;Розыгрыш завершен;;Розыгрыш завершен;;Розыгрыш завершен;
+CSH00013;cashU;official;Розыгрыш завершен;;Розыгрыш завершен;;Розыгрыш завершен;
+CSH00013;cashU;common;Розыгрыш завершен;;Розыгрыш завершен;;Розыгрыш завершен;
+CSH00014;cashU;dude;Призы и акции;;Призы и акции;;Призы и акции;
+CSH00014;cashU;common;Призы и акции;;Призы и акции;;Призы и акции;
+CSH00014;cashU;official;Призы и акции;;Призы и акции;;Призы и акции;
+CSH00015;cashU;dude;Пусто;;Пусто;;Пусто;
+CSH00015;cashU;common;Пусто;;Пусто;;Пусто;
+CSH00015;cashU;official;Пусто;;Пусто;;Пусто;
+CSH00016;cashU;dude;Количество купленных шансов;;Количество купленных шансов;;Количество купленных шансов;
+CSH00016;cashU;common;Количество купленных шансов;;Количество купленных шансов;;Количество купленных шансов;
+CSH00016;cashU;official;Количество купленных шансов;;Количество купленных шансов;;Количество купленных шансов;
+CSH00017;cashU;official;Победители определены! Детали на сайте;;Победители определены! Детали на сайте;;Победители определены! Детали на сайте;
+CSH00017;cashU;dude;Победители определены! Детали на сайте;;Победители определены! Детали на сайте;;Победители определены! Детали на сайте;
+CSH00017;cashU;common;Победители определены! Детали на сайте;;Победители определены! Детали на сайте;;Победители определены! Детали на сайте;
+CSH00018;cashU;common;Завершенные;;Завершенные;;Завершенные;
+CSH00018;cashU;official;Завершенные;;Завершенные;;Завершенные;
+CSH00018;cashU;dude;Завершенные;;Завершенные;;Завершенные;
+CSH00019;cashU;common;Полученные бонусы;;Полученные бонусы;;Полученные бонусы;
+CSH00019;cashU;official;Полученные бонусы;;Полученные бонусы;;Полученные бонусы;
+CSH00019;cashU;dude;Полученные бонусы;;Полученные бонусы;;Полученные бонусы;
+CSH00020;cashU;common;Закрыть;;Закрыть;;Закрыть;
+CSH00020;cashU;official;Закрыть;;Закрыть;;Закрыть;
+CSH00020;cashU;dude;Закрыть;;Закрыть;;Закрыть;
+CSH00021;cashU;dude;Стоимость шанса;;Стоимость шанса;;Стоимость шанса;
+CSH00021;cashU;official;Стоимость шанса;;Стоимость шанса;;Стоимость шанса;
+CSH00021;cashU;common;Стоимость шанса;;Стоимость шанса;;Стоимость шанса;
+CSH00022;cashU;dude;Ты участвуешь;;Ты участвуешь;;Ты участвуешь;
+CSH00022;cashU;common;Ты участвуешь;;Ты участвуешь;;Ты участвуешь;
+CSH00022;cashU;official;Ты участвуешь;;Ты участвуешь;;Ты участвуешь;
+CSH00023;cashU;common;В течении месяца в категориях можно заработать до %@ бонусов Cash'U!;;В течении месяца в категориях можно заработать до %@ бонусов Cash'U!;;В течении месяца в категориях можно заработать до %@ бонусов Cash'U!;
+CSH00023;cashU;dude;В течении месяца в категориях можно заработать до %@ бонусов Cash'U!;;В течении месяца в категориях можно заработать до %@ бонусов Cash'U!;;В течении месяца в категориях можно заработать до %@ бонусов Cash'U!;
+CSH00023;cashU;official;В течении месяца в категориях можно заработать до %@ бонусов Cash'U!;;В течении месяца в категориях можно заработать до %@ бонусов Cash'U!;;В течении месяца в категориях можно заработать до %@ бонусов Cash'U!;
+CSH00024;cashU;official;Бонусов будет списано;;Бонусов будет списано;;Бонусов будет списано;
+CSH00024;cashU;dude;Бонусов будет списано;;Бонусов будет списано;;Бонусов будет списано;
+CSH00024;cashU;common;Бонусов будет списано;;Бонусов будет списано;;Бонусов будет списано;
+CSH00025;cashU;official;Выберите %@ категории;;Выберите %@ категории;;Выберите %@ категории;
+CSH00025;cashU;dude;Выберите %@ категории;;Выберите %@ категории;;Выберите %@ категории;
+CSH00025;cashU;common;Выберите %@ категории;;Выберите %@ категории;;Выберите %@ категории;
+CSH00026;cashU;common;шансов;;шансов;;шансов;
+CSH00026;cashU;official;шансов;;шансов;;шансов;
+CSH00026;cashU;dude;шансов;;шансов;;шансов;
+CSH00027;cashU;dude;Дополнительные условия;;Дополнительные условия;;Дополнительные условия;
+CSH00027;cashU;common;Дополнительные условия;;Дополнительные условия;;Дополнительные условия;
+CSH00027;cashU;official;Дополнительные условия;;Дополнительные условия;;Дополнительные условия;
+CSH00028;cashU;official;Теперь ты участник розыгрыша;;Теперь ты участник розыгрыша;;Теперь ты участник розыгрыша;
+CSH00028;cashU;common;Теперь ты участник розыгрыша;;Теперь ты участник розыгрыша;;Теперь ты участник розыгрыша;
+CSH00028;cashU;dude;Теперь ты участник розыгрыша;;Теперь ты участник розыгрыша;;Теперь ты участник розыгрыша;
+CSH00029;cashU;official;Готово;;Готово;;Готово;
+CSH00029;cashU;dude;Готово;;Готово;;Готово;
+CSH00029;cashU;common;Готово;;Готово;;Готово;
+CSH00030;cashU;dude;Купить;;Купить;;Купить;
+CSH00030;cashU;common;Купить;;Купить;;Купить;
+CSH00030;cashU;official;Купить;;Купить;;Купить;
+CSH00031;cashU;dude;Выбери количество шансов;;Выбери количество шансов;;Выбери количество шансов;
+CSH00031;cashU;common;Выбери количество шансов;;Выбери количество шансов;;Выбери количество шансов;
+CSH00031;cashU;official;Выбери количество шансов;;Выбери количество шансов;;Выбери количество шансов;
+CSH00032;cashU;dude;Осталось %d дней;;Осталось %d дней;;Осталось %d дней;
+CSH00032;cashU;common;Осталось %d дней;;Осталось %d дней;;Осталось %d дней;
+CSH00032;cashU;official;Осталось %d дней;;Осталось %d дней;;Осталось %d дней;
+CSH00033;cashU;dude;Итого;;Итого;;Итого;
+CSH00033;cashU;common;Итого;;Итого;;Итого;
+CSH00033;cashU;official;Итого;;Итого;;Итого;
+CSH00034;cashU;common;Ожидай результаты розыгрыша %@;;Ожидай результаты розыгрыша %@;;Ожидай результаты розыгрыша %@;
+CSH00034;cashU;official;Ожидай результаты розыгрыша %@;;Ожидай результаты розыгрыша %@;;Ожидай результаты розыгрыша %@;
+CSH00034;cashU;dude;Ожидай результаты розыгрыша %@;;Ожидай результаты розыгрыша %@;;Ожидай результаты розыгрыша %@;
+CSH00035;cashU;common;Период розыгрыша;;Период розыгрыша;;Период розыгрыша;
+CSH00035;cashU;official;Период розыгрыша;;Период розыгрыша;;Период розыгрыша;
+CSH00035;cashU;dude;Период розыгрыша;;Период розыгрыша;;Период розыгрыша;
+CSH00036;cashU;dude;Шансов;;Шансов;;Шансов;
+CSH00036;cashU;official;Шансов;;Шансов;;Шансов;
+CSH00036;cashU;common;Шансов;;Шансов;;Шансов;
+CSH00037;cashU;dude;Принимайте участие в розыгрышах;;Принимайте участие в розыгрышах;;Принимайте участие в розыгрышах;
+CSH00037;cashU;official;Принимайте участие в розыгрышах;;Принимайте участие в розыгрышах;;Принимайте участие в розыгрышах;
+CSH00037;cashU;common;Принимайте участие в розыгрышах;;Принимайте участие в розыгрышах;;Принимайте участие в розыгрышах;
+CSH00038;cashU;dude;Условия и Правила акции;;Условия и Правила акции;;Условия и Правила акции;
+CSH00038;cashU;common;Условия и Правила акции;;Условия и Правила акции;;Условия и Правила акции;
+CSH00038;cashU;official;Условия и Правила акции;;Условия и Правила акции;;Условия и Правила акции;
+CSH00039;cashU;dude;Смотреть все призы →;;Смотреть все призы →;;Смотреть все призы →;
+CSH00039;cashU;official;Смотреть все призы →;;Смотреть все призы →;;Смотреть все призы →;
+CSH00039;cashU;common;Смотреть все призы →;;Смотреть все призы →;;Смотреть все призы →;
+CSH00040;cashU;official;Бонусов;;Бонусов;;Бонусов;
+CSH00040;cashU;dude;Бонусов;;Бонусов;;Бонусов;
+CSH00040;cashU;common;Бонусов;;Бонусов;;Бонусов;
+CSH00041;cashU;official;"Я ознакомлен и согласен с ";;"Я ознакомлен и согласен с ";;"Я ознакомлен и согласен с ";
+CSH00041;cashU;common;"Я ознакомлен и согласен с ";;"Я ознакомлен и согласен с ";;"Я ознакомлен и согласен с ";
+CSH00041;cashU;dude;"Я ознакомлен и согласен с ";;"Я ознакомлен и согласен с ";;"Я ознакомлен и согласен с ";
+CSH00042;cashU;common;Начислено;;Начислено;;Начислено;
+CSH00042;cashU;official;Начислено;;Начислено;;Начислено;
+CSH00042;cashU;dude;Начислено;;Начислено;;Начислено;
+CSH00043;cashU;common;Другие;;Другие;;Другие;
+CSH00043;cashU;dude;Другие;;Другие;;Другие;
+CSH00043;cashU;official;Другие;;Другие;;Другие;
+CSH00044;cashU;official;Cash'U CLUB;;Cash'U CLUB;;Cash'U CLUB;
+CSH00044;cashU;common;Cash'U CLUB;;Cash'U CLUB;;Cash'U CLUB;
+CSH00044;cashU;dude;Cash'U CLUB;;Cash'U CLUB;;Cash'U CLUB;
+CSH00045;cashU;dude;Призы;;Призы;;Призы;
+CSH00045;cashU;common;Призы;;Призы;;Призы;
+CSH00045;cashU;official;Призы;;Призы;;Призы;
+CSH00046;cashU;official;Условиями и Правилами акции;;Условиями и Правилами акции;;Условиями и Правилами акции;
+CSH00046;cashU;dude;Условиями и Правилами акции;;Условиями и Правилами акции;;Условиями и Правилами акции;
+CSH00046;cashU;common;Условиями и Правилами акции;;Условиями и Правилами акции;;Условиями и Правилами акции;
+CSH00047;cashU;common;Купить шанс;;Купить шанс;;Купить шанс;
+CSH00047;cashU;official;Купить шанс;;Купить шанс;;Купить шанс;
+CSH00047;cashU;dude;Купить шанс;;Купить шанс;;Купить шанс;
+CSH00048;cashU;common;Обменивай больше бонусов, чтоб увеличить шансы на победу;;Обменивай больше бонусов, чтоб увеличить шансы на победу;;Обменивай больше бонусов, чтоб увеличить шансы на победу;
+CSH00048;cashU;official;Обменивай больше бонусов, чтоб увеличить шансы на победу;;Обменивай больше бонусов, чтоб увеличить шансы на победу;;Обменивай больше бонусов, чтоб увеличить шансы на победу;
+CSH00048;cashU;dude;Обменивай больше бонусов, чтоб увеличить шансы на победу;;Обменивай больше бонусов, чтоб увеличить шансы на победу;;Обменивай больше бонусов, чтоб увеличить шансы на победу;
+CSH00049;cashU;dude;Применить;;Применить;;Применить;
+CSH00049;cashU;official;Применить;;Применить;;Применить;
+CSH00049;cashU;common;Применить;;Применить;;Применить;
+CSH00050;cashU;common;Отмена;;Отмена;;Отмена;
+CSH00050;cashU;dude;Отмена;;Отмена;;Отмена;
+CSH00050;cashU;official;Отмена;;Отмена;;Отмена;
+CSH00051;cashU;official;Текущий месяц;;Текущий месяц;;Текущий месяц;
+CSH00051;cashU;dude;Текущий месяц;;Текущий месяц;;Текущий месяц;
+CSH00051;cashU;common;Текущий месяц;;Текущий месяц;;Текущий месяц;
+CSH00052;cashU;dude;Статус;;Статус;;Статус;
+CSH00052;cashU;common;Статус;;Статус;;Статус;
+CSH00052;cashU;official;Статус;;Статус;;Статус;
+CSH00053;cashU;dude;Призы;;Призы;;Призы;
+CSH00053;cashU;official;Призы;;Призы;;Призы;
+CSH00053;cashU;common;Призы;;Призы;;Призы;
+CSH00054;cashU;common;Недостаточно бонусов для участия;;Недостаточно бонусов для участия;;Недостаточно бонусов для участия;
+CSH00054;cashU;official;Недостаточно бонусов для участия;;Недостаточно бонусов для участия;;Недостаточно бонусов для участия;
+CSH00054;cashU;dude;Недостаточно бонусов для участия;;Недостаточно бонусов для участия;;Недостаточно бонусов для участия;
+CSH00055;cashU;official;Активные;;Активные;;Активные;
+CSH00055;cashU;common;Активные;;Активные;;Активные;
+CSH00055;cashU;dude;Активные;;Активные;;Активные;
+WLLT0001;wallet;common;"Додайте картку до Apple Pay
+та сплачуйте покупки своїм iPhone";;"Додайте картку до Apple Pay
+та сплачуйте покупки своїм iPhone";;"Додайте картку до Apple Pay
+та сплачуйте покупки своїм iPhone";
+WLLT0001;wallet;dude;"Додайте картку до Apple Pay
+та сплачуйте покупки своїм iPhone";;"Додайте картку до Apple Pay
+та сплачуйте покупки своїм iPhone";;"Додайте картку до Apple Pay
+та сплачуйте покупки своїм iPhone";
+WLLT0001;wallet;official;"Додайте картку до Apple Pay
+та сплачуйте покупки своїм iPhone";;"Додайте картку до Apple Pay
+та сплачуйте покупки своїм iPhone";;"Додайте картку до Apple Pay
+та сплачуйте покупки своїм iPhone";
+WLLT0002;wallet;common;Нагадати пізніше;;Нагадати пізніше;;Нагадати пізніше;
+WLLT0002;wallet;official;Нагадати пізніше;;Нагадати пізніше;;Нагадати пізніше;
+WLLT0002;wallet;dude;Нагадати пізніше;;Нагадати пізніше;;Нагадати пізніше;
+WLLT0003;wallet;common;Більше не показувати;;Більше не показувати;;Більше не показувати;
+WLLT0003;wallet;dude;Більше не показувати;;Більше не показувати;;Більше не показувати;
+WLLT0003;wallet;official;Більше не показувати;;Більше не показувати;;Більше не показувати;
+WLLT0004;wallet;common;Виберіть картку;;Виберіть картку;;Виберіть картку;
+WLLT0004;wallet;dude;Виберіть картку;;Виберіть картку;;Виберіть картку;
+WLLT0004;wallet;official;Виберіть картку;;Виберіть картку;;Виберіть картку;
+WLLT0005;wallet;common;Дізнатися більше про Apple Pay;;Дізнатися більше про Apple Pay;;Дізнатися більше про Apple Pay;
+WLLT0005;wallet;official;Дізнатися більше про Apple Pay;;Дізнатися більше про Apple Pay;;Дізнатися більше про Apple Pay;
+WLLT0005;wallet;dude;Дізнатися більше про Apple Pay;;Дізнатися більше про Apple Pay;;Дізнатися більше про Apple Pay;
+PRD00001;productDetails;dude;Управление лимитами;;Limit management;;Керування лімітами;
+PRD00001;productDetails;common;Управление лимитами;;Limit management;;Керування лімітами;
+PRD00001;productDetails;official;Управление лимитами;;Limit management;;Керування лімітами;
+PRD00002;productDetails;official;Тип карты;;Card type;;Тип картки;
+PRD00002;productDetails;dude;Тип карты;;Card type;;Тип картки;
+PRD00002;productDetails;common;Тип карты;;Card type;;Тип картки;
+PRD00003;productDetails;common;Информация;;Information;;Інформація;
+PRD00003;productDetails;official;Информация;;Information;;Інформація;
+PRD00003;productDetails;dude;Информация;;Information;;Інформація;
+PRD00004;productDetails;official;Отображается на рабочем столе;;Displayed on the desktop;;Відображається на рабочому столі;
+PRD00004;productDetails;dude;Отображается на рабочем столе;;Displayed on the desktop;;Відображається на рабочому столі;
+PRD00004;productDetails;common;Отображается на рабочем столе;;Displayed on the desktop;;Відображається на рабочому столі;
+PRD00005;productDetails;dude;Реквизиты;;Requisites;;Реквізити;
+PRD00005;productDetails;official;Реквизиты;;Requisites;;Реквізити;
+PRD00005;productDetails;common;Реквизиты;;Requisites;;Реквізити;
+PRD00006;productDetails;common;Начислено процентов;;Interest accrued;;Нараховано процентів;
+PRD00006;productDetails;official;Начислено процентов;;Interest accrued;;Нараховано процентів;
+PRD00006;productDetails;dude;Начислено процентов;;Interest accrued;;Нараховано процентів;
+PRD00007;productDetails;dude;Договоа;;Contract;;Договір;
+PRD00007;productDetails;common;Договоа;;Contract;;Договір;
+PRD00007;productDetails;official;Договоа;;Contract;;Договір;
+PRD00008;productDetails;common;Для осуществления операций с карточкой разблокируйте ее;;Unlock the card to perform card transactions;;Для здійснення операцій з карткою розблокуйте її;
+PRD00008;productDetails;official;Для осуществления операций с карточкой разблокируйте ее;;Unlock the card to perform card transactions;;Для здійснення операцій з карткою розблокуйте її;
+PRD00008;productDetails;dude;Для осуществления операций с карточкой разблокируйте ее;;Unlock the card to perform card transactions;;Для здійснення операцій з карткою розблокуйте її;
+PRD00009;productDetails;common;Добавить в Apple Wallet;;Add to Apple Wallet;;Додати до Apple Wallet;
+PRD00009;productDetails;official;Добавить в Apple Wallet;;Add to Apple Wallet;;Додати до Apple Wallet;
+PRD00009;productDetails;dude;Добавить в Apple Wallet;;Add to Apple Wallet;;Додати до Apple Wallet;
+PRD00010;productDetails;official;Разрешено;;Allowed;;Дозволено;
+PRD00010;productDetails;dude;Разрешено;;Allowed;;Дозволено;
+PRD00010;productDetails;common;Разрешено;;Allowed;;Дозволено;
+PRD00011;productDetails;common;Сохранить;;Save;;Зберегти;
+PRD00011;productDetails;official;Сохранить;;Save;;Зберегти;
+PRD00011;productDetails;dude;Сохранить;;Save;;Зберегти;
+PRD00012;productDetails;dude;Остаток по кредиту;;Loan balance;;Залишок по кредиту;
+PRD00012;productDetails;official;Остаток по кредиту;;Loan balance;;Залишок по кредиту;
+PRD00012;productDetails;common;Остаток по кредиту;;Loan balance;;Залишок по кредиту;
+PRD00013;productDetails;official;Доступные операции;;Available Operations;;Доступні операції;
+PRD00013;productDetails;common;Доступные операции;;Available Operations;;Доступні операції;
+PRD00013;productDetails;dude;Доступные операции;;Available Operations;;Доступні операції;
+PRD00014;productDetails;dude;Цвет ярлыка;;Shortcut color;;Колір ярлика;
+PRD00014;productDetails;common;Цвет ярлыка;;Shortcut color;;Колір ярлика;
+PRD00014;productDetails;official;Цвет ярлыка;;Shortcut color;;Колір ярлика;
+PRD00015;productDetails;dude;Карта не добавлено;;Card not added;;Картку не додано;
+PRD00015;productDetails;official;Карта не добавлено;;Card not added;;Картку не додано;
+PRD00015;productDetails;common;Карта не добавлено;;Card not added;;Картку не додано;
+PRD00016;productDetails;common;Изменить имя карты;;Change the name of the card;;Змінити назву картки;
+PRD00016;productDetails;dude;Изменить имя карты;;Change the name of the card;;Змінити назву картки;
+PRD00016;productDetails;official;Изменить имя карты;;Change the name of the card;;Змінити назву картки;
+PRD00017;productDetails;common;Статус картки;;Статус картки;;Статус картки;
+PRD00017;productDetails;dude;Статус картки;;Статус картки;;Статус картки;
+PRD00017;productDetails;official;Статус картки;;Статус картки;;Статус картки;
+PRD00018;productDetails;official;Тарифы и условия;;Tariffs and conditions;;Тарифи та умови;
+PRD00018;productDetails;dude;Тарифы и условия;;Tariffs and conditions;;Тарифи та умови;
+PRD00018;productDetails;common;Тарифы и условия;;Tariffs and conditions;;Тарифи та умови;
+PRD00019;productDetails;common;Редактирование депозита;;Deposit editing;;Редагування депозиту;
+PRD00019;productDetails;official;Редактирование депозита;;Deposit editing;;Редагування депозиту;
+PRD00019;productDetails;dude;Редактирование депозита;;Deposit editing;;Редагування депозиту;
+PRD00020;productDetails;official;Операции с картой будут заблокированы. Разблокировка возможна в любое время;;Card operation will be blocked. Unblocking is possible at any moment;;Операції з карткою будуть заблоковані. Розблокування можлива в будь-який час;
+PRD00020;productDetails;dude;Операции с картой будут заблокированы. Разблокировка возможна в любое время;;Card operation will be blocked. Unblocking is possible at any moment;;Операції з карткою будуть заблоковані. Розблокування можлива в будь-який час;
+PRD00020;productDetails;common;Операции с картой будут заблокированы. Разблокировка возможна в любое время;;Card operation will be blocked. Unblocking is possible at any moment;;Операції з карткою будуть заблоковані. Розблокування можлива в будь-який час;
+PRD00021;productDetails;common;Не активована;;Не активована;;Не активована;
+PRD00021;productDetails;official;Не активована;;Не активована;;Не активована;
+PRD00021;productDetails;dude;Не активована;;Не активована;;Не активована;
+PRD00022;productDetails;dude;С капитализацией;;With capitalization;;З капіталізацією;
+PRD00022;productDetails;common;С капитализацией;;With capitalization;;З капіталізацією;
+PRD00022;productDetails;official;С капитализацией;;With capitalization;;З капіталізацією;
+PRD00023;productDetails;common;В конце срока;;At the end of the term;;В кінці терміну;
+PRD00023;productDetails;dude;В конце срока;;At the end of the term;;В кінці терміну;
+PRD00023;productDetails;official;В конце срока;;At the end of the term;;В кінці терміну;
+PRD00024;productDetails;official;Снять;;Withdraw;;Зняти;
+PRD00024;productDetails;dude;Снять;;Withdraw;;Зняти;
+PRD00024;productDetails;common;Снять;;Withdraw;;Зняти;
+PRD00025;productDetails;official;Ежемесячно;;Monthly;;Щомісяця;
+PRD00025;productDetails;common;Ежемесячно;;Monthly;;Щомісяця;
+PRD00025;productDetails;dude;Ежемесячно;;Monthly;;Щомісяця;
+PRD00026;productDetails;official;SMS / PUSH сообщение;;SMS / PUSH messages;;SMS / PUSH повідомлення;
+PRD00026;productDetails;common;SMS / PUSH сообщение;;SMS / PUSH messages;;SMS / PUSH повідомлення;
+PRD00026;productDetails;dude;SMS / PUSH сообщение;;SMS / PUSH messages;;SMS / PUSH повідомлення;
+PRD00027;productDetails;official;Общая информация;;General information;;Загальна інформація;
+PRD00027;productDetails;dude;Общая информация;;General information;;Загальна інформація;
+PRD00027;productDetails;common;Общая информация;;General information;;Загальна інформація;
+PRD00028;productDetails;common;Дополнительная информация;;Other information;;Інша інформація;
+PRD00028;productDetails;official;Дополнительная информация;;Other information;;Інша інформація;
+PRD00028;productDetails;dude;Дополнительная информация;;Other information;;Інша інформація;
+PRD00029;productDetails;dude;Изменить цвет ярлыка и название;;Change shortcut color and title;;Змінити колір ярлика та назву;
+PRD00029;productDetails;common;Изменить цвет ярлыка и название;;Change shortcut color and title;;Змінити колір ярлика та назву;
+PRD00029;productDetails;official;Изменить цвет ярлыка и название;;Change shortcut color and title;;Змінити колір ярлика та назву;
+PRD00030;productDetails;common;Активна;;Активна;;Активна;
+PRD00030;productDetails;official;Активна;;Активна;;Активна;
+PRD00030;productDetails;dude;Активна;;Активна;;Активна;
+PRD00031;productDetails;common;Пополнить;;Refil;;Поповнити;
+PRD00031;productDetails;official;Пополнить;;Refil;;Поповнити;
+PRD00031;productDetails;dude;Пополнить;;Refil;;Поповнити;
+PRD00032;productDetails;dude;Сумма вклада;;Deposit amount;;Сума вкладу;
+PRD00032;productDetails;common;Сумма вклада;;Deposit amount;;Сума вкладу;
+PRD00032;productDetails;official;Сумма вклада;;Deposit amount;;Сума вкладу;
+PRD00033;productDetails;official;Нет привязанных карт;;No linked cards;;Немає прив'язаних карт;
+PRD00033;productDetails;common;Нет привязанных карт;;No linked cards;;Немає прив'язаних карт;
+PRD00033;productDetails;dude;Нет привязанных карт;;No linked cards;;Немає прив'язаних карт;
+PRD00034;productDetails;dude;Редактирование ярлыка;;Shortcut editing;;Редагування ярлика;
+PRD00034;productDetails;official;Редактирование ярлыка;;Shortcut editing;;Редагування ярлика;
+PRD00034;productDetails;common;Редактирование ярлыка;;Shortcut editing;;Редагування ярлика;
+PRD00035;productDetails;common;Название счета;;Account name;;Назва рахунку;
+PRD00035;productDetails;dude;Название счета;;Account name;;Назва рахунку;
+PRD00035;productDetails;official;Название счета;;Account name;;Назва рахунку;
+PRD00036;productDetails;common;Изменить PIN;;Change PIN;;Змінити PIN;
+PRD00036;productDetails;official;Изменить PIN;;Change PIN;;Змінити PIN;
+PRD00036;productDetails;dude;Изменить PIN;;Change PIN;;Змінити PIN;
+PRD00037;productDetails;common;Не разрешено;;Not allowed;;Не дозволено;
+PRD00037;productDetails;official;Не разрешено;;Not allowed;;Не дозволено;
+PRD00037;productDetails;dude;Не разрешено;;Not allowed;;Не дозволено;
+PRD00038;productDetails;official;Дата заключения договора;;Date of conclusion of the contract;;Дата укладення договору;
+PRD00038;productDetails;common;Дата заключения договора;;Date of conclusion of the contract;;Дата укладення договору;
+PRD00038;productDetails;dude;Дата заключения договора;;Date of conclusion of the contract;;Дата укладення договору;
+PRD00039;productDetails;official;Доступный баланс;;Available balance;;Доступний баланс;
+PRD00039;productDetails;common;Доступный баланс;;Available balance;;Доступний баланс;
+PRD00039;productDetails;dude;Доступный баланс;;Available balance;;Доступний баланс;
+PRD00040;productDetails;official;Доступные документы;;Available documents;;Доступні документи;
+PRD00040;productDetails;dude;Доступные документы;;Available documents;;Доступні документи;
+PRD00040;productDetails;common;Доступные документы;;Available documents;;Доступні документи;
+PRD00041;productDetails;official;Доступный баланс;;Available balance;;Доступний баланс;
+PRD00041;productDetails;dude;Доступный баланс;;Available balance;;Доступний баланс;
+PRD00041;productDetails;common;Доступный баланс;;Available balance;;Доступний баланс;
+PRD00042;productDetails;official;Выплата процентов;;Payment of interest;;Виплата процентів;
+PRD00042;productDetails;common;Выплата процентов;;Payment of interest;;Виплата процентів;
+PRD00042;productDetails;dude;Выплата процентов;;Payment of interest;;Виплата процентів;
+PRD00043;productDetails;dude;Полное название;;Full name;;Повна назва;
+PRD00043;productDetails;common;Полное название;;Full name;;Повна назва;
+PRD00043;productDetails;official;Полное название;;Full name;;Повна назва;
+PRD00044;productDetails;common;Не отображается на рабочем столе;;Not displayed on the desktop;;Не відображається на рабочому столі;
+PRD00044;productDetails;official;Не отображается на рабочем столе;;Not displayed on the desktop;;Не відображається на рабочому столі;
+PRD00044;productDetails;dude;Не отображается на рабочем столе;;Not displayed on the desktop;;Не відображається на рабочому столі;
+PRD00045;productDetails;dude;Сумма начисленных процентов за текущий период до налогообложения;;The sum of insured interest for the valid period before the withdrawal;;Сума нарахованих процентів за поточний період до оподаткування;
+PRD00045;productDetails;official;Сумма начисленных процентов за текущий период до налогообложения;;The sum of insured interest for the valid period before the withdrawal;;Сума нарахованих процентів за поточний період до оподаткування;
+PRD00045;productDetails;common;Сумма начисленных процентов за текущий период до налогообложения;;The sum of insured interest for the valid period before the withdrawal;;Сума нарахованих процентів за поточний період до оподаткування;
+PRD00046;productDetails;official;Дата окончания депозита;;Deposit expiry date;;Дата закінчення депозиту;
+PRD00046;productDetails;dude;Дата окончания депозита;;Deposit expiry date;;Дата закінчення депозиту;
+PRD00046;productDetails;common;Дата окончания депозита;;Deposit expiry date;;Дата закінчення депозиту;
+PRD00047;productDetails;dude;Общая информация;;General information;;Загальна інформація;
+PRD00047;productDetails;common;Общая информация;;General information;;Загальна інформація;
+PRD00047;productDetails;official;Общая информация;;General information;;Загальна інформація;
+PRD00048;productDetails;dude;Заблокована;;Заблокована;;Заблокована;
+PRD00048;productDetails;official;Заблокована;;Заблокована;;Заблокована;
+PRD00048;productDetails;common;Заблокована;;Заблокована;;Заблокована;
+PRD00049;productDetails;common;Поделиться;;Share;;Поділитися;
+PRD00049;productDetails;official;Поделиться;;Share;;Поділитися;
+PRD00049;productDetails;dude;Поделиться;;Share;;Поділитися;
+PRD00050;productDetails;dude;Редактирование счета;;Account editing;;Редагування счета;
+PRD00050;productDetails;common;Редактирование счета;;Account editing;;Редагування счета;
+PRD00050;productDetails;official;Редактирование счета;;Account editing;;Редагування счета;
+PRD00051;productDetails;official;Карточный счет;;Card account;;Картковий рахунок;
+PRD00051;productDetails;dude;Карточный счет;;Card account;;Картковий рахунок;
+PRD00051;productDetails;common;Карточный счет;;Card account;;Картковий рахунок;
+PRD00052;productDetails;common;Установить кодовое слово;;Set the code word;;Встановити кодове слово;
+PRD00052;productDetails;official;Установить кодовое слово;;Set the code word;;Встановити кодове слово;
+PRD00052;productDetails;dude;Установить кодовое слово;;Set the code word;;Встановити кодове слово;
+PRD00053;productDetails;dude;Процентная ставка, годовых;;Interest rate, per annum;;Процентна ставка, річних;
+PRD00053;productDetails;official;Процентная ставка, годовых;;Interest rate, per annum;;Процентна ставка, річних;
+PRD00053;productDetails;common;Процентная ставка, годовых;;Interest rate, per annum;;Процентна ставка, річних;
+PRD00054;productDetails;dude;Пролонгация вклада;;Continuation of contribution;;Пролонгація вкладу;
+PRD00054;productDetails;common;Пролонгация вклада;;Continuation of contribution;;Пролонгація вкладу;
+PRD00054;productDetails;official;Пролонгация вклада;;Continuation of contribution;;Пролонгація вкладу;
+PRD00055;productDetails;official;Активувати картку;;Активувати картку;;Активувати картку;
+PRD00055;productDetails;common;Активувати картку;;Активувати картку;;Активувати картку;
+PRD00055;productDetails;dude;Активувати картку;;Активувати картку;;Активувати картку;
+PRD00056;productDetails;common;Тип депозита;;Deposit type;;Тип депозиту;
+PRD00056;productDetails;dude;Тип депозита;;Deposit type;;Тип депозиту;
+PRD00056;productDetails;official;Тип депозита;;Deposit type;;Тип депозиту;
+PRD00057;productDetails;common;Блокировка карты;;Block card;;Блокування картки;
+PRD00057;productDetails;official;Блокировка карты;;Block card;;Блокування картки;
+PRD00057;productDetails;dude;Блокировка карты;;Block card;;Блокування картки;
+PRD00058;productDetails;common;Частичное снятие средств;;Partial withdrawal;;Часткове зняття коштів;
+PRD00058;productDetails;official;Частичное снятие средств;;Partial withdrawal;;Часткове зняття коштів;
+PRD00058;productDetails;dude;Частичное снятие средств;;Partial withdrawal;;Часткове зняття коштів;
+PRD00059;productDetails;official;Перевести с карты на карту;;Transfer from card to card;;Переказати з карти на карту;
+PRD00059;productDetails;common;Перевести с карты на карту;;Transfer from card to card;;Переказати з карти на карту;
+PRD00059;productDetails;dude;Перевести с карты на карту;;Transfer from card to card;;Переказати з карти на карту;
+PRD00060;productDetails;dude;Apple Pay;;Apple Pay;;Apple Pay;
+PRD00060;productDetails;official;Apple Pay;;Apple Pay;;Apple Pay;
+PRD00060;productDetails;common;Apple Pay;;Apple Pay;;Apple Pay;
+PRD00061;productDetails;official;Управление;;Settings;;Керування;
+PRD00061;productDetails;common;Управление;;Settings;;Керування;
+PRD00061;productDetails;dude;Управление;;Settings;;Керування;
+PRD00062;productDetails;official;Номер договора;;Contract number;;Номер договору;
+PRD00062;productDetails;common;Номер договора;;Contract number;;Номер договору;
+PRD00062;productDetails;dude;Номер договора;;Contract number;;Номер договору;
+PRD00063;productDetails;common;Пополнение депозита;;Deposit replenishment;;Поповнення депозиту;
+PRD00063;productDetails;dude;Пополнение депозита;;Deposit replenishment;;Поповнення депозиту;
+PRD00063;productDetails;official;Пополнение депозита;;Deposit replenishment;;Поповнення депозиту;
+CRRN0001;currencyExchange;dude;Минимальная сумма покупки %@;;Минимальная сумма покупки %@;;Минимальная сумма покупки %@;
+CRRN0001;currencyExchange;official;Минимальная сумма покупки %@;;Минимальная сумма покупки %@;;Минимальная сумма покупки %@;
+CRRN0001;currencyExchange;common;Минимальная сумма покупки %@;;Минимальная сумма покупки %@;;Минимальная сумма покупки %@;
+CRRN0002;currencyExchange;official;Продать, %@;;Продать, %@;;Продать, %@;
+CRRN0002;currencyExchange;dude;Продать, %@;;Продать, %@;;Продать, %@;
+CRRN0002;currencyExchange;common;Продать, %@;;Продать, %@;;Продать, %@;
+CRRN0003;currencyExchange;official;Купить, %@;;Купить, %@;;Купить, %@;
+CRRN0003;currencyExchange;common;Купить, %@;;Купить, %@;;Купить, %@;
+CRRN0003;currencyExchange;dude;Купить, %@;;Купить, %@;;Купить, %@;
+CRRN0004;currencyExchange;common;Курс обміну;;Курс обміну;;Курс обміну;
+CRRN0004;currencyExchange;official;Курс обміну;;Курс обміну;;Курс обміну;
+CRRN0004;currencyExchange;dude;Курс обміну;;Курс обміну;;Курс обміну;
+CRRN0005;currencyExchange;dude;Сумма операции не соответствует лимитам. Пожалуйста, измените сумму и повторите операцию;;На счете недостаточно средств для  проведения операции;;Сума операції не відповідає діючим лімітам. Будь ласка, змініть суму та повторіть операцію;
+CRRN0005;currencyExchange;common;Сумма операции не соответствует лимитам. Пожалуйста, измените сумму и повторите операцию;;На счете недостаточно средств для  проведения операции;;Сума операції не відповідає діючим лімітам. Будь ласка, змініть суму та повторіть операцію;
+CRRN0005;currencyExchange;official;Сумма операции не соответствует лимитам. Пожалуйста, измените сумму и повторите операцию;;На счете недостаточно средств для  проведения операции;;Сума операції не відповідає діючим лімітам. Будь ласка, змініть суму та повторіть операцію;
+CRRN0006;currencyExchange;dude;Для подтверждения введите SMS код, отправленный на номер <маскированный номер телефона>;;Для подтверждения введите SMS код, отправленный на номер <маскированный номер телефона>;;Для подтверждения введите SMS код, отправленный на номер <маскированный номер телефона>;
+CRRN0006;currencyExchange;official;Для подтверждения введите SMS код, отправленный на номер <маскированный номер телефона>;;Для подтверждения введите SMS код, отправленный на номер <маскированный номер телефона>;;Для подтверждения введите SMS код, отправленный на номер <маскированный номер телефона>;
+CRRN0006;currencyExchange;common;Для подтверждения введите SMS код, отправленный на номер <маскированный номер телефона>;;Для подтверждения введите SMS код, отправленный на номер <маскированный номер телефона>;;Для подтверждения введите SMS код, отправленный на номер <маскированный номер телефона>;
+CRRN0007;currencyExchange;common;Комісія;;Комісія;;Комісія;
+CRRN0007;currencyExchange;official;Комісія;;Комісія;;Комісія;
+CRRN0007;currencyExchange;dude;Комісія;;Комісія;;Комісія;
+CRRN0008;currencyExchange;official;Закрыть;;Закрыть;;Закрыть;
+CRRN0008;currencyExchange;dude;Закрыть;;Закрыть;;Закрыть;
+CRRN0008;currencyExchange;common;Закрыть;;Закрыть;;Закрыть;
+CRRN0009;currencyExchange;official;Подтверждение jgthfwbb;;Подтверждение jgthfwbb;;Подтверждение jgthfwbb;
+CRRN0009;currencyExchange;dude;Подтверждение jgthfwbb;;Подтверждение jgthfwbb;;Подтверждение jgthfwbb;
+CRRN0009;currencyExchange;common;Подтверждение jgthfwbb;;Подтверждение jgthfwbb;;Подтверждение jgthfwbb;
+CRRN0010;currencyExchange;common;Перевести;;Перевести;;Перевести;
+CRRN0010;currencyExchange;official;Перевести;;Перевести;;Перевести;
+CRRN0010;currencyExchange;dude;Перевести;;Перевести;;Перевести;
+CRRN0011;currencyExchange;common;Повторить;;Повторить;;Повторити;
+CRRN0011;currencyExchange;official;Повторить;;Повторить;;Повторити;
+CRRN0011;currencyExchange;dude;Повторить;;Повторить;;Повторити;
+CRRN0012;currencyExchange;official;Курс изменился;;Курс изменился;;Курс змінився;
+CRRN0012;currencyExchange;dude;Курс изменился;;Курс изменился;;Курс змінився;
+CRRN0012;currencyExchange;common;Курс изменился;;Курс изменился;;Курс змінився;
+CRRN0013;currencyExchange;dude;Неизвестная ошибка;;Неизвестная ошибка;;Неизвестная ошибка;
+CRRN0013;currencyExchange;common;Неизвестная ошибка;;Неизвестная ошибка;;Неизвестная ошибка;
+CRRN0013;currencyExchange;official;Неизвестная ошибка;;Неизвестная ошибка;;Неизвестная ошибка;
+CRRN0014;currencyExchange;official;Обмен валют;;Обмен валют;;Обмін валют;
+CRRN0014;currencyExchange;common;Обмен валют;;Обмен валют;;Обмін валют;
+CRRN0014;currencyExchange;dude;Обмен валют;;Обмен валют;;Обмін валют;
+CRRN0015;currencyExchange;official;Укажите счет с которого вы хотите сделать перевод;;Укажите счет с которого вы хотите сделать перевод;;Вкажіть рахунок з якого ви хочете зробити переказ;
+CRRN0015;currencyExchange;common;Укажите счет с которого вы хотите сделать перевод;;Укажите счет с которого вы хотите сделать перевод;;Вкажіть рахунок з якого ви хочете зробити переказ;
+CRRN0015;currencyExchange;dude;Укажите счет с которого вы хотите сделать перевод;;Укажите счет с которого вы хотите сделать перевод;;Вкажіть рахунок з якого ви хочете зробити переказ;
+CRRN0016;currencyExchange;dude;Обмен валют;;Обмен валют;;Обмін валют;
+CRRN0016;currencyExchange;common;Обмен валют;;Обмен валют;;Обмін валют;
+CRRN0016;currencyExchange;official;Обмен валют;;Обмен валют;;Обмін валют;
+CRRN0017;currencyExchange;dude;Минимальная сумма продажи %@;;Минимальная сумма продажи %@;;Минимальная сумма продажи %@;
+CRRN0017;currencyExchange;official;Минимальная сумма продажи %@;;Минимальная сумма продажи %@;;Минимальная сумма продажи %@;
+CRRN0017;currencyExchange;common;Минимальная сумма продажи %@;;Минимальная сумма продажи %@;;Минимальная сумма продажи %@;
+CRRN0018;currencyExchange;dude;У вас нет соответствующих счетов для обмена валют, откройте счет в нужной валюте;;У вас нет соответствующих счетов для обмена валют, откройте счет в нужной валюте;;У вас немає відповідних рахунків для обміну валют, відкрийте рахунок у потрібній валюті;
+CRRN0018;currencyExchange;official;У вас нет соответствующих счетов для обмена валют, откройте счет в нужной валюте;;У вас нет соответствующих счетов для обмена валют, откройте счет в нужной валюте;;У вас немає відповідних рахунків для обміну валют, відкрийте рахунок у потрібній валюті;
+CRRN0018;currencyExchange;common;У вас нет соответствующих счетов для обмена валют, откройте счет в нужной валюте;;У вас нет соответствующих счетов для обмена валют, откройте счет в нужной валюте;;У вас немає відповідних рахунків для обміну валют, відкрийте рахунок у потрібній валюті;
+CRRN0019;currencyExchange;official;За время проведения операции online-курс изменился. Для обмена валюты по новому курсу необходимо повторить операцию. Новый курс зафиксирован на 5 минут;;За время проведения операции online-курс изменился. Для обмена валюты по новому курсу необходимо повторить операцию. Новый курс зафиксирован на 5 минут;;За час проведення операції online курс змінився. Для обміну валюти за новим курсом потрібно повторити операцію. Новий курс зафіксовано на 5 хвилин;
+CRRN0019;currencyExchange;dude;За время проведения операции online-курс изменился. Для обмена валюты по новому курсу необходимо повторить операцию. Новый курс зафиксирован на 5 минут;;За время проведения операции online-курс изменился. Для обмена валюты по новому курсу необходимо повторить операцию. Новый курс зафиксирован на 5 минут;;За час проведення операції online курс змінився. Для обміну валюти за новим курсом потрібно повторити операцію. Новий курс зафіксовано на 5 хвилин;
+CRRN0019;currencyExchange;common;За время проведения операции online-курс изменился. Для обмена валюты по новому курсу необходимо повторить операцию. Новый курс зафиксирован на 5 минут;;За время проведения операции online-курс изменился. Для обмена валюты по новому курсу необходимо повторить операцию. Новый курс зафиксирован на 5 минут;;За час проведення операції online курс змінився. Для обміну валюти за новим курсом потрібно повторити операцію. Новий курс зафіксовано на 5 хвилин;
+CRRN0020;currencyExchange;common;Закрыть;;Закрыть;;Закрити;
+CRRN0020;currencyExchange;official;Закрыть;;Закрыть;;Закрити;
+CRRN0020;currencyExchange;dude;Закрыть;;Закрыть;;Закрити;
+CRRN0021;currencyExchange;official;Укажите счет на который вы хотите сделать перевод;;Укажите счет на который вы хотите сделать перевод;;Вкажіть рахунок на який ви хочете зробити переказ;
+CRRN0021;currencyExchange;dude;Укажите счет на который вы хотите сделать перевод;;Укажите счет на который вы хотите сделать перевод;;Вкажіть рахунок на який ви хочете зробити переказ;
+CRRN0021;currencyExchange;common;Укажите счет на который вы хотите сделать перевод;;Укажите счет на который вы хотите сделать перевод;;Вкажіть рахунок на який ви хочете зробити переказ;
+CRRN0022;currencyExchange;official;Обмен валют;;Обмен валют;;Обмін валют;
+CRRN0022;currencyExchange;common;Обмен валют;;Обмен валют;;Обмін валют;
+CRRN0022;currencyExchange;dude;Обмен валют;;Обмен валют;;Обмін валют;
+CRRN0023;currencyExchange;common;Укажите сумму обмена;;Укажите сумму обмена;;Вкажіть суму обміну;
+CRRN0023;currencyExchange;official;Укажите сумму обмена;;Укажите сумму обмена;;Вкажіть суму обміну;
+CRRN0023;currencyExchange;dude;Укажите сумму обмена;;Укажите сумму обмена;;Вкажіть суму обміну;
+CRRN0024;currencyExchange;common;Превышен доступный лимит операций. В один день можно купить валюты на %@ гривен в эквиваленте.;;Available transaction limit exceeded. You can buy currency worth up to an equivalent of %@ hryvnias in one day.;;Перевищено допустимий ліміт операцій. За один день можна купити валюти на %@ грнивень в еквіваленті.;
+CRRN0024;currencyExchange;dude;Превышен доступный лимит операций. В один день можно купить валюты на %@ гривен в эквиваленте.;;Available transaction limit exceeded. You can buy currency worth up to an equivalent of %@ hryvnias in one day.;;Перевищено допустимий ліміт операцій. За один день можна купити валюти на %@ грнивень в еквіваленті.;
+CRRN0024;currencyExchange;official;Превышен доступный лимит операций. В один день можно купить валюты на %@ гривен в эквиваленте.;;Available transaction limit exceeded. You can buy currency worth up to an equivalent of %@ hryvnias in one day.;;Перевищено допустимий ліміт операцій. За один день можна купити валюти на %@ грнивень в еквіваленті.;
+CRRN0025;currencyExchange;official;На счете недостаточно средств для  проведения операции;;На счете недостаточно средств для  проведения операции;;На рахунку недостатньо коштів для здійснення операції;
+CRRN0025;currencyExchange;common;На счете недостаточно средств для  проведения операции;;На счете недостаточно средств для  проведения операции;;На рахунку недостатньо коштів для здійснення операції;
+CRRN0025;currencyExchange;dude;На счете недостаточно средств для  проведения операции;;На счете недостаточно средств для  проведения операции;;На рахунку недостатньо коштів для здійснення операції;
+ATHR0001;authorization;common;"Ваш аккаунт
+заблокирован";;"Your account
+has been blocked";;"Ваш акаунт
+заблокований";
+ATHR0001;authorization;official;"Ваш аккаунт
+заблокирован";;"Your account
+has been blocked";;"Ваш акаунт
+заблокований";
+ATHR0001;authorization;dude;"Ваш аккаунт
+заблокирован";;"Your account
+has been blocked";;"Ваш акаунт
+заблокований";
+ATHR0002;authorization;common;Введите пароль из SMS;;Введите пароль из SMS;;Введите пароль из SMS;
+ATHR0002;authorization;dude;Введите пароль из SMS;;Введите пароль из SMS;;Введите пароль из SMS;
+ATHR0002;authorization;official;Введите пароль из SMS;;Введите пароль из SMS;;Введите пароль из SMS;
+ATHR0003;authorization;common;Touch ID;;Touch ID;;Touch ID;
+ATHR0003;authorization;official;Touch ID;;Touch ID;;Touch ID;
+ATHR0003;authorization;dude;Touch ID;;Touch ID;;Touch ID;
+ATHR0004;authorization;official;Неверный код из SMS;;Invalid OTP-code from the SMS;;Неправильний код з SMS;
+ATHR0004;authorization;dude;Неверный код из SMS;;Invalid OTP-code from the SMS;;Неправильний код з SMS;
+ATHR0004;authorization;common;Неверный код из SMS;;Invalid OTP-code from the SMS;;Неправильний код з SMS;
+ATHR0005;authorization;common;Повторите попытку еще раз. Если возникают сложности со входом - обратитесь в поддержку в чате;;Please try one more time or contact our support via chat if you still experience the issue.;;Спробуйте будь ласка ще раз, якщо труднощі з входом продовжуються - зверніться в підтримку в чаті;
+ATHR0005;authorization;official;Повторите попытку еще раз. Если возникают сложности со входом - обратитесь в поддержку в чате;;Please try one more time or contact our support via chat if you still experience the issue.;;Спробуйте будь ласка ще раз, якщо труднощі з входом продовжуються - зверніться в підтримку в чаті;
+ATHR0005;authorization;dude;Повторите попытку еще раз. Если возникают сложности со входом - обратитесь в поддержку в чате;;Please try one more time or contact our support via chat if you still experience the issue.;;Спробуйте будь ласка ще раз, якщо труднощі з входом продовжуються - зверніться в підтримку в чаті;
+ATHR0006;authorization;official;Создайте PIN для входа;;Создайте PIN для входа;;Создайте PIN для входа;
+ATHR0006;authorization;common;Создайте PIN для входа;;Создайте PIN для входа;;Создайте PIN для входа;
+ATHR0006;authorization;dude;Создайте PIN для входа;;Создайте PIN для входа;;Создайте PIN для входа;
+ATHR0007;authorization;common;Ваше устройство заблокировано;;Your device has been blocked;;Ваш пристрій заблоковано;
+ATHR0007;authorization;dude;Ваше устройство заблокировано;;Your device has been blocked;;Ваш пристрій заблоковано;
+ATHR0007;authorization;official;Ваше устройство заблокировано;;Your device has been blocked;;Ваш пристрій заблоковано;
+ATHR0008;authorization;common;Привет;;Привет;;Привет;
+ATHR0008;authorization;dude;Привет;;Привет;;Привет;
+ATHR0008;authorization;official;Привет;;Привет;;Привет;
+ATHR0009;authorization;common;Вы превысили допустимое количество попыток входа. Мы заблокировали аккаунт до %@;;You've exceeded the login attempts number. We've blocked your account till %@;;Ви перевищи допустиму кількість спроб для входу. Ми заблокували акаунт до %@;
+ATHR0009;authorization;official;Вы превысили допустимое количество попыток входа. Мы заблокировали аккаунт до %@;;You've exceeded the login attempts number. We've blocked your account till %@;;Ви перевищи допустиму кількість спроб для входу. Ми заблокували акаунт до %@;
+ATHR0009;authorization;dude;Вы превысили допустимое количество попыток входа. Мы заблокировали аккаунт до %@;;You've exceeded the login attempts number. We've blocked your account till %@;;Ви перевищи допустиму кількість спроб для входу. Ми заблокували акаунт до %@;
+ATHR0010;authorization;official;Ввести пароль для входа;;Enter password to login;;Введіть пароль для входу;
+ATHR0010;authorization;common;Ввести пароль для входа;;Enter password to login;;Введіть пароль для входу;
+ATHR0010;authorization;dude;Ввести пароль для входа;;Enter password to login;;Введіть пароль для входу;
+ATHR0011;authorization;dude;Используется вместо PIN для входа;;Используется вместо PIN для входа;;Используется вместо PIN для входа;
+ATHR0011;authorization;common;Используется вместо PIN для входа;;Используется вместо PIN для входа;;Используется вместо PIN для входа;
+ATHR0011;authorization;official;Используется вместо PIN для входа;;Используется вместо PIN для входа;;Используется вместо PIN для входа;
+ATHR0012;authorization;dude;Не использовать %@;;Не использовать %@;;Не использовать %@;
+ATHR0012;authorization;common;Не использовать %@;;Не использовать %@;;Не использовать %@;
+ATHR0012;authorization;official;Не использовать %@;;Не использовать %@;;Не использовать %@;
+ATHR0013;authorization;common;Номер телефона;;Номер телефона;;Номер телефона;
+ATHR0013;authorization;dude;Номер телефона;;Номер телефона;;Номер телефона;
+ATHR0013;authorization;official;Номер телефона;;Номер телефона;;Номер телефона;
+ATHR0014;authorization;common;Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут.;;Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут.;;Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут.;
+ATHR0014;authorization;official;Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут.;;Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут.;;Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут.;
+ATHR0014;authorization;dude;Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут.;;Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут.;;Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут.;
+ATHR0015;authorization;common;"Пароль отправлен SMS сообщением
+на номер %@";;"Пароль отправлен SMS сообщением
+на номер %@";;"Пароль отправлен SMS сообщением
+на номер %@";
+ATHR0015;authorization;dude;"Пароль отправлен SMS сообщением
+на номер %@";;"Пароль отправлен SMS сообщением
+на номер %@";;"Пароль отправлен SMS сообщением
+на номер %@";
+ATHR0015;authorization;official;"Пароль отправлен SMS сообщением
+на номер %@";;"Пароль отправлен SMS сообщением
+на номер %@";;"Пароль отправлен SMS сообщением
+на номер %@";
+ATHR0016;authorization;common;Использовать %@;;Использовать %@;;Использовать %@;
+ATHR0016;authorization;official;Использовать %@;;Использовать %@;;Использовать %@;
+ATHR0016;authorization;dude;Использовать %@;;Использовать %@;;Использовать %@;
+ATHR0017;authorization;dude;"Использовать
+%@?";;"Использовать
+%@?";;"Использовать
+%@?";
+ATHR0017;authorization;common;"Использовать
+%@?";;"Использовать
+%@?";;"Использовать
+%@?";
+ATHR0017;authorization;official;"Использовать
+%@?";;"Использовать
+%@?";;"Использовать
+%@?";
+ATHR0018;authorization;common;Неверная дата;;Неверная дата;;Неверная дата;
+ATHR0018;authorization;official;Неверная дата;;Неверная дата;;Неверная дата;
+ATHR0018;authorization;dude;Неверная дата;;Неверная дата;;Неверная дата;
+ATHR0019;authorization;common;Пароль можно будет отправить еще раз через %@ сек.;;Пароль можно будет отправить еще раз через %@ сек.;;Пароль можно будет отправить еще раз через %@ сек.;
+ATHR0019;authorization;official;Пароль можно будет отправить еще раз через %@ сек.;;Пароль можно будет отправить еще раз через %@ сек.;;Пароль можно будет отправить еще раз через %@ сек.;
+ATHR0019;authorization;dude;Пароль можно будет отправить еще раз через %@ сек.;;Пароль можно будет отправить еще раз через %@ сек.;;Пароль можно будет отправить еще раз через %@ сек.;
+ATHR0020;authorization;common;Повторите PIN для входа;;Повторите PIN для входа;;Повторите PIN для входа;
+ATHR0020;authorization;dude;Повторите PIN для входа;;Повторите PIN для входа;;Повторите PIN для входа;
+ATHR0020;authorization;official;Повторите PIN для входа;;Повторите PIN для входа;;Повторите PIN для входа;
+ATHR0021;authorization;common;Когда вам выдали паспорт?;;Когда вам выдали паспорт?;;Когда вам выдали паспорт?;
+ATHR0021;authorization;dude;Когда вам выдали паспорт?;;Когда вам выдали паспорт?;;Когда вам выдали паспорт?;
+ATHR0021;authorization;official;Когда вам выдали паспорт?;;Когда вам выдали паспорт?;;Когда вам выдали паспорт?;
+ATHR0022;authorization;official;%@, введите ПИН;;%@, введите ПИН;;%@, введите ПИН;
+ATHR0022;authorization;dude;%@, введите ПИН;;%@, введите ПИН;;%@, введите ПИН;
+ATHR0022;authorization;common;%@, введите ПИН;;%@, введите ПИН;;%@, введите ПИН;
+ATHR0023;authorization;official;"{
+  ""ie:x=1"": ""Осталась 1 попытка"",
+  ""iex:1<x<5"": ""Осталось %d попытки""
+}";;"{
+  ""ie:x=1"": ""Осталась 1 попытка"",
+  ""iex:1<x<5"": ""Осталось %d попытки""
+}";;"{
+  ""ie:x=1"": ""Осталась 1 попытка"",
+  ""iex:1<x<5"": ""Осталось %d попытки""
+}";
+ATHR0023;authorization;dude;"{
+  ""ie:x=1"": ""Осталась 1 попытка"",
+  ""iex:1<x<5"": ""Осталось %d попытки""
+}";;"{
+  ""ie:x=1"": ""Осталась 1 попытка"",
+  ""iex:1<x<5"": ""Осталось %d попытки""
+}";;"{
+  ""ie:x=1"": ""Осталась 1 попытка"",
+  ""iex:1<x<5"": ""Осталось %d попытки""
+}";
+ATHR0023;authorization;common;"{
+  ""ie:x=1"": ""Осталась 1 попытка"",
+  ""iex:1<x<5"": ""Осталось %d попытки""
+}";;"{
+  ""ie:x=1"": ""Осталась 1 попытка"",
+  ""iex:1<x<5"": ""Осталось %d попытки""
+}";;"{
+  ""ie:x=1"": ""Осталась 1 попытка"",
+  ""iex:1<x<5"": ""Осталось %d попытки""
+}";
+ATHR0024;authorization;official;Пароль;;Пароль;;Пароль;
+ATHR0024;authorization;dude;Пароль;;Пароль;;Пароль;
+ATHR0024;authorization;common;Пароль;;Пароль;;Пароль;
+ATHR0025;authorization;official;Проверьте правильность введенных реквизитов карты. В случае повторения ошибки, обратитесь в поддержку в чате;;Please double-check the card' details you've entered. If you still experience the issue, please contact support via chat.;;Перевірьте правильні введених реквізитів картки. У випадку повторення помилки, зверніться в підтримку в чаті.;
+ATHR0025;authorization;dude;Проверьте правильность введенных реквизитов карты. В случае повторения ошибки, обратитесь в поддержку в чате;;Please double-check the card' details you've entered. If you still experience the issue, please contact support via chat.;;Перевірьте правильні введених реквізитів картки. У випадку повторення помилки, зверніться в підтримку в чаті.;
+ATHR0025;authorization;common;Проверьте правильность введенных реквизитов карты. В случае повторения ошибки, обратитесь в поддержку в чате;;Please double-check the card' details you've entered. If you still experience the issue, please contact support via chat.;;Перевірьте правильні введених реквізитів картки. У випадку повторення помилки, зверніться в підтримку в чаті.;
+ATHR0026;authorization;dude;Неверные реквизиты карты;;Invalid card details;;Неправильні реквізити картки;
+ATHR0026;authorization;common;Неверные реквизиты карты;;Invalid card details;;Неправильні реквізити картки;
+ATHR0026;authorization;official;Неверные реквизиты карты;;Invalid card details;;Неправильні реквізити картки;
+ATHR0027;authorization;dude;Введите номер вашей карты;;Введите номер вашей карты;;Введите номер вашей карты;
+ATHR0027;authorization;official;Введите номер вашей карты;;Введите номер вашей карты;;Введите номер вашей карты;
+ATHR0027;authorization;common;Введите номер вашей карты;;Введите номер вашей карты;;Введите номер вашей карты;
+ATHR0028;authorization;official;PIN-коды не совпадают;;PIN-codes don't match;;PIN-коди не співпадають;
+ATHR0028;authorization;dude;PIN-коды не совпадают;;PIN-codes don't match;;PIN-коди не співпадають;
+ATHR0028;authorization;common;PIN-коды не совпадают;;PIN-codes don't match;;PIN-коди не співпадають;
+ATHR0029;authorization;common;Обратитесь в службу поддержки банка в чате - чтобы разблокировать устройство.;;Please contact our support via the chart to unblock the device.;;Зверніться в підтримку в чаті - щоб розблокувати пристрій.;
+ATHR0029;authorization;official;Обратитесь в службу поддержки банка в чате - чтобы разблокировать устройство.;;Please contact our support via the chart to unblock the device.;;Зверніться в підтримку в чаті - щоб розблокувати пристрій.;
+ATHR0029;authorization;dude;Обратитесь в службу поддержки банка в чате - чтобы разблокировать устройство.;;Please contact our support via the chart to unblock the device.;;Зверніться в підтримку в чаті - щоб розблокувати пристрій.;
+ATHR0030;authorization;dude;Войти по ПИН-коду;;Войти по ПИН-коду;;Войти по ПИН-коду;
+ATHR0030;authorization;common;Войти по ПИН-коду;;Войти по ПИН-коду;;Войти по ПИН-коду;
+ATHR0030;authorization;official;Войти по ПИН-коду;;Войти по ПИН-коду;;Войти по ПИН-коду;
+ATHR0031;authorization;official;Дата рождения;;Дата рождения;;Дата рождения;
+ATHR0031;authorization;dude;Дата рождения;;Дата рождения;;Дата рождения;
+ATHR0031;authorization;common;Дата рождения;;Дата рождения;;Дата рождения;
+ATHR0032;authorization;dude;"Ваш аккаунт
+заблокирован";;"Your account
+has been blocked";;"Ваш акаунт
+заблокований";
+ATHR0032;authorization;common;"Ваш аккаунт
+заблокирован";;"Your account
+has been blocked";;"Ваш акаунт
+заблокований";
+ATHR0032;authorization;official;"Ваш аккаунт
+заблокирован";;"Your account
+has been blocked";;"Ваш акаунт
+заблокований";
+ATHR0033;authorization;common;Дата выдачи;;Дата выдачи;;Дата выдачи;
+ATHR0033;authorization;official;Дата выдачи;;Дата выдачи;;Дата выдачи;
+ATHR0033;authorization;dude;Дата выдачи;;Дата выдачи;;Дата выдачи;
+ATHR0034;authorization;dude;PIN-код слишком простой;;PIN-code is too easy;;PIN-код занадто простий;
+ATHR0034;authorization;official;PIN-код слишком простой;;PIN-code is too easy;;PIN-код занадто простий;
+ATHR0034;authorization;common;PIN-код слишком простой;;PIN-code is too easy;;PIN-код занадто простий;
+ATHR0035;authorization;common;Восстановить пароль;;Восстановить пароль;;Восстановить пароль;
+ATHR0035;authorization;official;Восстановить пароль;;Восстановить пароль;;Восстановить пароль;
+ATHR0035;authorization;dude;Восстановить пароль;;Восстановить пароль;;Восстановить пароль;
+ATHR0036;authorization;official;"Введите номер телефона
+и дату рождения";;"Введите номер телефона
+и дату рождения";;"Введите номер телефона
+и дату рождения";
+ATHR0036;authorization;dude;"Введите номер телефона
+и дату рождения";;"Введите номер телефона
+и дату рождения";;"Введите номер телефона
+и дату рождения";
+ATHR0036;authorization;common;"Введите номер телефона
+и дату рождения";;"Введите номер телефона
+и дату рождения";;"Введите номер телефона
+и дату рождения";
+ATHR0037;authorization;dude;Face ID;;Face ID;;Face ID;
+ATHR0037;authorization;official;Face ID;;Face ID;;Face ID;
+ATHR0037;authorization;common;Face ID;;Face ID;;Face ID;
+ATHR0038;authorization;dude;Срок действия кода истек;;OTP-code expired;;Термін дії коду закінчився;
+ATHR0038;authorization;official;Срок действия кода истек;;OTP-code expired;;Термін дії коду закінчився;
+ATHR0038;authorization;common;Срок действия кода истек;;OTP-code expired;;Термін дії коду закінчився;
+ATHR0039;authorization;official;Введите дату выдачи паспорта;;Введите дату выдачи паспорта;;Введите дату выдачи паспорта;
+ATHR0039;authorization;dude;Введите дату выдачи паспорта;;Введите дату выдачи паспорта;;Введите дату выдачи паспорта;
+ATHR0039;authorization;common;Введите дату выдачи паспорта;;Введите дату выдачи паспорта;;Введите дату выдачи паспорта;
+ATHR0040;authorization;dude;Некорректные данные;;Invalid information;;Введені дані є некоректними;
+ATHR0040;authorization;official;Некорректные данные;;Invalid information;;Введені дані є некоректними;
+ATHR0040;authorization;common;Некорректные данные;;Invalid information;;Введені дані є некоректними;
+ATHR0041;authorization;common;Ваш аккаунт заблокирован;;Your account has been blocked;;Ваш акаунт заблоковано;
+ATHR0041;authorization;dude;Ваш аккаунт заблокирован;;Your account has been blocked;;Ваш акаунт заблоковано;
+ATHR0041;authorization;official;Ваш аккаунт заблокирован;;Your account has been blocked;;Ваш акаунт заблоковано;
+ATHR0042;authorization;dude;Войти по %@;;Войти по %@;;Войти по %@;
+ATHR0042;authorization;common;Войти по %@;;Войти по %@;;Войти по %@;
+ATHR0042;authorization;official;Войти по %@;;Войти по %@;;Войти по %@;
+ATHR0043;authorization;common;Проверьте правильность введенных данных. В случае повторения ошибки, обратитесь в поддержку в чате.;;Please double-check the information you've entered. If you still experience the issue, please contact support via chat.;;Перевірьте правильні введених даних. У випадку повторення помилки, зверніться в підтримку в чаті.;
+ATHR0043;authorization;official;Проверьте правильность введенных данных. В случае повторения ошибки, обратитесь в поддержку в чате.;;Please double-check the information you've entered. If you still experience the issue, please contact support via chat.;;Перевірьте правильні введених даних. У випадку повторення помилки, зверніться в підтримку в чаті.;
+ATHR0043;authorization;dude;Проверьте правильность введенных данных. В случае повторения ошибки, обратитесь в поддержку в чате.;;Please double-check the information you've entered. If you still experience the issue, please contact support via chat.;;Перевірьте правильні введених даних. У випадку повторення помилки, зверніться в підтримку в чаті.;
+ATHR0044;authorization;official;Введите последние четыре цифры вашей карты и CVV код;;Введите последние четыре цифры вашей карты и CVV код;;Введите последние четыре цифры вашей карты и CVV код;
+ATHR0044;authorization;dude;Введите последние четыре цифры вашей карты и CVV код;;Введите последние четыре цифры вашей карты и CVV код;;Введите последние четыре цифры вашей карты и CVV код;
+ATHR0044;authorization;common;Введите последние четыре цифры вашей карты и CVV код;;Введите последние четыре цифры вашей карты и CVV код;;Введите последние четыре цифры вашей карты и CVV код;
+ATHR0045;authorization;official;Отправить пароль еще раз;;Отправить пароль еще раз;;Отправить пароль еще раз;
+ATHR0045;authorization;dude;Отправить пароль еще раз;;Отправить пароль еще раз;;Отправить пароль еще раз;
+ATHR0045;authorization;common;Отправить пароль еще раз;;Отправить пароль еще раз;;Отправить пароль еще раз;
+ACCP0001;accept;dude;Некорректный e-mail;;Invalid e-mail;;Некоректний e-mail;
+ACCP0001;accept;common;Некорректный e-mail;;Invalid e-mail;;Некоректний e-mail;
+ACCP0001;accept;official;Некорректный e-mail;;Invalid e-mail;;Некоректний e-mail;
+ACCP0002;accept;common;E-mail;;E-mail;;E-mail;
+ACCP0002;accept;official;E-mail;;E-mail;;E-mail;
+ACCP0002;accept;dude;E-mail;;E-mail;;E-mail;
+ACCP0003;accept;official;Отправить Договор на e-mail;;Send an agreement by e-mail;;Надіслати Договір на e-mail;
+ACCP0003;accept;dude;Отправить Договор на e-mail;;Send an agreement by e-mail;;Надіслати Договір на e-mail;
+ACCP0003;accept;common;Отправить Договор на e-mail;;Send an agreement by e-mail;;Надіслати Договір на e-mail;
+ACCP0004;accept;official;Отправка договора;;Sending the contract;;Відправка договора;
+ACCP0004;accept;common;Отправка договора;;Sending the contract;;Відправка договора;
+ACCP0004;accept;dude;Отправка договора;;Sending the contract;;Відправка договора;
+ACCP0005;accept;common;Отправить;;Send;;Надіслати;
+ACCP0005;accept;official;Отправить;;Send;;Надіслати;
+ACCP0005;accept;dude;Отправить;;Send;;Надіслати;
+SRVC0001;serviceOperations;dude;"Повідомлення про транзакції приходити не будуть ";;"Повідомлення про транзакції приходити не будуть ";;"Повідомлення про транзакції приходити не будуть ";
+SRVC0001;serviceOperations;common;"Повідомлення про транзакції приходити не будуть ";;"Повідомлення про транзакції приходити не будуть ";;"Повідомлення про транзакції приходити не будуть ";
+SRVC0001;serviceOperations;official;"Повідомлення про транзакції приходити не будуть ";;"Повідомлення про транзакції приходити не будуть ";;"Повідомлення про транзакції приходити не будуть ";
+SRVC0002;serviceOperations;official;Зберегти телефон;;Зберегти телефон;;Зберегти телефон;
+SRVC0002;serviceOperations;dude;Зберегти телефон;;Зберегти телефон;;Зберегти телефон;
+SRVC0002;serviceOperations;common;Зберегти телефон;;Зберегти телефон;;Зберегти телефон;
+SRVC0003;serviceOperations;official;PIN код должен содержать не менее 3-х различных цифр;;PIN код должен содержать не менее 3-х различных цифр;;PIN код должен содержать не менее 3-х различных цифр;
+SRVC0003;serviceOperations;common;PIN код должен содержать не менее 3-х различных цифр;;PIN код должен содержать не менее 3-х различных цифр;;PIN код должен содержать не менее 3-х различных цифр;
+SRVC0003;serviceOperations;dude;PIN код должен содержать не менее 3-х различных цифр;;PIN код должен содержать не менее 3-х различных цифр;;PIN код должен содержать не менее 3-х различных цифр;
+SRVC0004;serviceOperations;official;Вітаємо! Картку активовано;;Вітаємо! Картку активовано;;Вітаємо! Картку активовано;
+SRVC0004;serviceOperations;dude;Вітаємо! Картку активовано;;Вітаємо! Картку активовано;;Вітаємо! Картку активовано;
+SRVC0004;serviceOperations;common;Вітаємо! Картку активовано;;Вітаємо! Картку активовано;;Вітаємо! Картку активовано;
+SRVC0005;serviceOperations;official;Кодове слово;;Кодове слово;;Кодове слово;
+SRVC0005;serviceOperations;dude;Кодове слово;;Кодове слово;;Кодове слово;
+SRVC0005;serviceOperations;common;Кодове слово;;Кодове слово;;Кодове слово;
+SRVC0006;serviceOperations;official;PUSH-повідомлення безкоштовні;;PUSH-повідомлення безкоштовні;;PUSH-повідомлення безкоштовні;
+SRVC0006;serviceOperations;dude;PUSH-повідомлення безкоштовні;;PUSH-повідомлення безкоштовні;;PUSH-повідомлення безкоштовні;
+SRVC0006;serviceOperations;common;PUSH-повідомлення безкоштовні;;PUSH-повідомлення безкоштовні;;PUSH-повідомлення безкоштовні;
+SRVC0007;serviceOperations;common;Кодове слово встановлено!;;Кодове слово встановлено!;;Кодове слово встановлено!;
+SRVC0007;serviceOperations;official;Кодове слово встановлено!;;Кодове слово встановлено!;;Кодове слово встановлено!;
+SRVC0007;serviceOperations;dude;Кодове слово встановлено!;;Кодове слово встановлено!;;Кодове слово встановлено!;
+SRVC0008;serviceOperations;dude;Встановити;;Встановити;;Встановити;
+SRVC0008;serviceOperations;common;Встановити;;Встановити;;Встановити;
+SRVC0008;serviceOperations;official;Встановити;;Встановити;;Встановити;
+SRVC0009;serviceOperations;dude;Повідомлення про транзакції будуть приходити у вибраний вами спосіб;;Повідомлення про транзакції будуть приходити у вибраний вами спосіб;;Повідомлення про транзакції будуть приходити у вибраний вами спосіб;
+SRVC0009;serviceOperations;common;Повідомлення про транзакції будуть приходити у вибраний вами спосіб;;Повідомлення про транзакції будуть приходити у вибраний вами спосіб;;Повідомлення про транзакції будуть приходити у вибраний вами спосіб;
+SRVC0009;serviceOperations;official;Повідомлення про транзакції будуть приходити у вибраний вами спосіб;;Повідомлення про транзакції будуть приходити у вибраний вами спосіб;;Повідомлення про транзакції будуть приходити у вибраний вами спосіб;
+SRVC0010;serviceOperations;official;Перейти на головний екран;;Перейти на головний екран;;Перейти на головний екран;
+SRVC0010;serviceOperations;common;Перейти на головний екран;;Перейти на головний екран;;Перейти на головний екран;
+SRVC0010;serviceOperations;dude;Перейти на головний екран;;Перейти на головний екран;;Перейти на головний екран;
+SRVC0011;serviceOperations;common;Кількість операцій на добу;;Кількість операцій на добу;;Кількість операцій на добу;
+SRVC0011;serviceOperations;official;Кількість операцій на добу;;Кількість операцій на добу;;Кількість операцій на добу;
+SRVC0011;serviceOperations;dude;Кількість операцій на добу;;Кількість операцій на добу;;Кількість операцій на добу;
+SRVC0012;serviceOperations;common;Ліміт на зняття готівки;;Ліміт на зняття готівки;;Ліміт на зняття готівки;
+SRVC0012;serviceOperations;dude;Ліміт на зняття готівки;;Ліміт на зняття готівки;;Ліміт на зняття готівки;
+SRVC0012;serviceOperations;official;Ліміт на зняття готівки;;Ліміт на зняття готівки;;Ліміт на зняття готівки;
+SRVC0013;serviceOperations;official;Ліміт на покупки;;Ліміт на покупки;;Ліміт на покупки;
+SRVC0013;serviceOperations;common;Ліміт на покупки;;Ліміт на покупки;;Ліміт на покупки;
+SRVC0013;serviceOperations;dude;Ліміт на покупки;;Ліміт на покупки;;Ліміт на покупки;
+SRVC0014;serviceOperations;official;Картка заблокована;;Картка заблокована;;Картка заблокована;
+SRVC0014;serviceOperations;dude;Картка заблокована;;Картка заблокована;;Картка заблокована;
+SRVC0014;serviceOperations;common;Картка заблокована;;Картка заблокована;;Картка заблокована;
+SRVC0015;serviceOperations;common;Змінити PIN;;Змінити PIN;;Змінити PIN;
+SRVC0015;serviceOperations;official;Змінити PIN;;Змінити PIN;;Змінити PIN;
+SRVC0015;serviceOperations;dude;Змінити PIN;;Змінити PIN;;Змінити PIN;
+SRVC0016;serviceOperations;common;Залишити заблокованою;;Залишити заблокованою;;Залишити заблокованою;
+SRVC0016;serviceOperations;dude;Залишити заблокованою;;Залишити заблокованою;;Залишити заблокованою;
+SRVC0016;serviceOperations;official;Залишити заблокованою;;Залишити заблокованою;;Залишити заблокованою;
+SRVC0017;serviceOperations;common;Підтвердження операції;;Підтвердження операції;;Підтвердження операції;
+SRVC0017;serviceOperations;official;Підтвердження операції;;Підтвердження операції;;Підтвердження операції;
+SRVC0017;serviceOperations;dude;Підтвердження операції;;Підтвердження операції;;Підтвердження операції;
+SRVC0018;serviceOperations;official;Зберегти;;Зберегти;;Зберегти;
+SRVC0018;serviceOperations;common;Зберегти;;Зберегти;;Зберегти;
+SRVC0018;serviceOperations;dude;Зберегти;;Зберегти;;Зберегти;
+SRVC0019;serviceOperations;official;Номер телефону збережено;;Номер телефону збережено;;Номер телефону збережено;
+SRVC0019;serviceOperations;dude;Номер телефону збережено;;Номер телефону збережено;;Номер телефону збережено;
+SRVC0019;serviceOperations;common;Номер телефону збережено;;Номер телефону збережено;;Номер телефону збережено;
+SRVC0020;serviceOperations;official;Введіть кодове слово;;Введіть кодове слово;;Введіть кодове слово;
+SRVC0020;serviceOperations;common;Введіть кодове слово;;Введіть кодове слово;;Введіть кодове слово;
+SRVC0020;serviceOperations;dude;Введіть кодове слово;;Введіть кодове слово;;Введіть кодове слово;
+SRVC0021;serviceOperations;official;Відправляти PUSH-повідомлення замість SMS;;Відправляти PUSH-повідомлення замість SMS;;Відправляти PUSH-повідомлення замість SMS;
+SRVC0021;serviceOperations;common;Відправляти PUSH-повідомлення замість SMS;;Відправляти PUSH-повідомлення замість SMS;;Відправляти PUSH-повідомлення замість SMS;
+SRVC0021;serviceOperations;dude;Відправляти PUSH-повідомлення замість SMS;;Відправляти PUSH-повідомлення замість SMS;;Відправляти PUSH-повідомлення замість SMS;
+SRVC0022;serviceOperations;official;Ліміти діятимуть до вказаної дати включно, після чого повернуться до стандартних значень;;Ліміти діятимуть до вказаної дати включно, після чого повернуться до стандартних значень;;Ліміти діятимуть до вказаної дати включно, після чого повернуться до стандартних значень;
+SRVC0022;serviceOperations;common;Ліміти діятимуть до вказаної дати включно, після чого повернуться до стандартних значень;;Ліміти діятимуть до вказаної дати включно, після чого повернуться до стандартних значень;;Ліміти діятимуть до вказаної дати включно, після чого повернуться до стандартних значень;
+SRVC0022;serviceOperations;dude;Ліміти діятимуть до вказаної дати включно, після чого повернуться до стандартних значень;;Ліміти діятимуть до вказаної дати включно, після чого повернуться до стандартних значень;;Ліміти діятимуть до вказаної дати включно, після чого повернуться до стандартних значень;
+SRVC0023;serviceOperations;official;Одразу додай картку до Apple Wallet та роби покупки смартфоном;;Одразу додай картку до Apple Wallet та роби покупки смартфоном;;Одразу додай картку до Apple Wallet та роби покупки смартфоном;
+SRVC0023;serviceOperations;dude;Одразу додай картку до Apple Wallet та роби покупки смартфоном;;Одразу додай картку до Apple Wallet та роби покупки смартфоном;;Одразу додай картку до Apple Wallet та роби покупки смартфоном;
+SRVC0023;serviceOperations;common;Одразу додай картку до Apple Wallet та роби покупки смартфоном;;Одразу додай картку до Apple Wallet та роби покупки смартфоном;;Одразу додай картку до Apple Wallet та роби покупки смартфоном;
+SRVC0024;serviceOperations;dude;Нагадати пізніше;;Нагадати пізніше;;Нагадати пізніше;
+SRVC0024;serviceOperations;official;Нагадати пізніше;;Нагадати пізніше;;Нагадати пізніше;
+SRVC0024;serviceOperations;common;Нагадати пізніше;;Нагадати пізніше;;Нагадати пізніше;
+SRVC0025;serviceOperations;common;Застосувати;;Застосувати;;Застосувати;
+SRVC0025;serviceOperations;official;Застосувати;;Застосувати;;Застосувати;
+SRVC0025;serviceOperations;dude;Застосувати;;Застосувати;;Застосувати;
+SRVC0026;serviceOperations;dude;Тепер повідомлення про транзакції будуть приходити на вказаний номер;;Тепер повідомлення про транзакції будуть приходити на вказаний номер;;Тепер повідомлення про транзакції будуть приходити на вказаний номер;
+SRVC0026;serviceOperations;common;Тепер повідомлення про транзакції будуть приходити на вказаний номер;;Тепер повідомлення про транзакції будуть приходити на вказаний номер;;Тепер повідомлення про транзакції будуть приходити на вказаний номер;
+SRVC0026;serviceOperations;official;Тепер повідомлення про транзакції будуть приходити на вказаний номер;;Тепер повідомлення про транзакції будуть приходити на вказаний номер;;Тепер повідомлення про транзакції будуть приходити на вказаний номер;
+SRVC0027;serviceOperations;common;Для здійснення операцій з карткою розблокуйте її;;Для здійснення операцій з карткою розблокуйте її;;Для здійснення операцій з карткою розблокуйте її;
+SRVC0027;serviceOperations;official;Для здійснення операцій з карткою розблокуйте її;;Для здійснення операцій з карткою розблокуйте її;;Для здійснення операцій з карткою розблокуйте її;
+SRVC0027;serviceOperations;dude;Для здійснення операцій з карткою розблокуйте її;;Для здійснення операцій з карткою розблокуйте її;;Для здійснення операцій з карткою розблокуйте її;
+SRVC0028;serviceOperations;official;Перейти на головний екран;;Перейти на головний екран;;Перейти на головний екран;
+SRVC0028;serviceOperations;dude;Перейти на головний екран;;Перейти на головний екран;;Перейти на головний екран;
+SRVC0028;serviceOperations;common;Перейти на головний екран;;Перейти на головний екран;;Перейти на головний екран;
+SRVC0029;serviceOperations;common;"Для підтвердження введіть SMS код,
+відправленний на номер %@";;"Для підтвердження введіть SMS код,
+відправленний на номер %@";;"Для підтвердження введіть SMS код,
+відправленний на номер %@";
+SRVC0029;serviceOperations;dude;"Для підтвердження введіть SMS код,
+відправленний на номер %@";;"Для підтвердження введіть SMS код,
+відправленний на номер %@";;"Для підтвердження введіть SMS код,
+відправленний на номер %@";
+SRVC0029;serviceOperations;official;"Для підтвердження введіть SMS код,
+відправленний на номер %@";;"Для підтвердження введіть SMS код,
+відправленний на номер %@";;"Для підтвердження введіть SMS код,
+відправленний на номер %@";
+SRVC0030;serviceOperations;dude;Активація картки;;Активація картки;;Активація картки;
+SRVC0030;serviceOperations;common;Активація картки;;Активація картки;;Активація картки;
+SRVC0030;serviceOperations;official;Активація картки;;Активація картки;;Активація картки;
+SRVC0031;serviceOperations;official;Телефон;;Телефон;;Телефон;
+SRVC0031;serviceOperations;common;Телефон;;Телефон;;Телефон;
+SRVC0031;serviceOperations;dude;Телефон;;Телефон;;Телефон;
+SRVC0032;serviceOperations;official;Розблокувати;;Розблокувати;;Розблокувати;
+SRVC0032;serviceOperations;common;Розблокувати;;Розблокувати;;Розблокувати;
+SRVC0032;serviceOperations;dude;Розблокувати;;Розблокувати;;Розблокувати;
+SRVC0033;serviceOperations;official;Змінити;;Змінити;;Змінити;
+SRVC0033;serviceOperations;dude;Змінити;;Змінити;;Змінити;
+SRVC0033;serviceOperations;common;Змінити;;Змінити;;Змінити;
+SRVC0034;serviceOperations;official;Сума на добу;;Сума на добу;;Сума на добу;
+SRVC0034;serviceOperations;common;Сума на добу;;Сума на добу;;Сума на добу;
+SRVC0034;serviceOperations;dude;Сума на добу;;Сума на добу;;Сума на добу;
+SRVC0035;serviceOperations;dude;Введіть новий PIN;;Введіть новий PIN;;Введіть новий PIN;
+SRVC0035;serviceOperations;common;Введіть новий PIN;;Введіть новий PIN;;Введіть новий PIN;
+SRVC0035;serviceOperations;official;Введіть новий PIN;;Введіть новий PIN;;Введіть новий PIN;
+SRVC0036;serviceOperations;dude;Для активації картки встанановіть PIN;;Для активації картки встанановіть PIN;;Для активації картки встанановіть PIN;
+SRVC0036;serviceOperations;common;Для активації картки встанановіть PIN;;Для активації картки встанановіть PIN;;Для активації картки встанановіть PIN;
+SRVC0036;serviceOperations;official;Для активації картки встанановіть PIN;;Для активації картки встанановіть PIN;;Для активації картки встанановіть PIN;
+SRVC0037;serviceOperations;official;Вартість SMS-повідомлень згідно тарифів картки;;Вартість SMS-повідомлень згідно тарифів картки;;Вартість SMS-повідомлень згідно тарифів картки;
+SRVC0037;serviceOperations;dude;Вартість SMS-повідомлень згідно тарифів картки;;Вартість SMS-повідомлень згідно тарифів картки;;Вартість SMS-повідомлень згідно тарифів картки;
+SRVC0037;serviceOperations;common;Вартість SMS-повідомлень згідно тарифів картки;;Вартість SMS-повідомлень згідно тарифів картки;;Вартість SMS-повідомлень згідно тарифів картки;
+SRVC0038;serviceOperations;official;PIN код не должен содержать простые последовательности;;PIN код не должен содержать простые последовательности;;PIN код не должен содержать простые последовательности;
+SRVC0038;serviceOperations;dude;PIN код не должен содержать простые последовательности;;PIN код не должен содержать простые последовательности;;PIN код не должен содержать простые последовательности;
+SRVC0038;serviceOperations;common;PIN код не должен содержать простые последовательности;;PIN код не должен содержать простые последовательности;;PIN код не должен содержать простые последовательности;
+SRVC0039;serviceOperations;common;Ліміти картки;;Ліміти картки;;Ліміти картки;
+SRVC0039;serviceOperations;dude;Ліміти картки;;Ліміти картки;;Ліміти картки;
+SRVC0039;serviceOperations;official;Ліміти картки;;Ліміти картки;;Ліміти картки;
+SRVC0040;serviceOperations;official;PIN змінено!;;PIN змінено!;;PIN змінено!;
+SRVC0040;serviceOperations;dude;PIN змінено!;;PIN змінено!;;PIN змінено!;
+SRVC0040;serviceOperations;common;PIN змінено!;;PIN змінено!;;PIN змінено!;
+SRVC0041;serviceOperations;common;М-Банкінг;;М-Банкінг;;М-Банкінг;
+SRVC0041;serviceOperations;official;М-Банкінг;;М-Банкінг;;М-Банкінг;
+SRVC0041;serviceOperations;dude;М-Банкінг;;М-Банкінг;;М-Банкінг;
+SRVC0042;serviceOperations;common;Інформування про транзакції;;Інформування про транзакції;;Інформування про транзакції;
+SRVC0042;serviceOperations;dude;Інформування про транзакції;;Інформування про транзакції;;Інформування про транзакції;
+SRVC0042;serviceOperations;official;Інформування про транзакції;;Інформування про транзакції;;Інформування про транзакції;
+SRVC0043;serviceOperations;common;Строк дії лімітів;;Строк дії лімітів;;Строк дії лімітів;
+SRVC0043;serviceOperations;official;Строк дії лімітів;;Строк дії лімітів;;Строк дії лімітів;
+SRVC0043;serviceOperations;dude;Строк дії лімітів;;Строк дії лімітів;;Строк дії лімітів;
+SRVC0044;serviceOperations;common;SMS / PUSH повідомлення;;SMS / PUSH повідомлення;;SMS / PUSH повідомлення;
+SRVC0044;serviceOperations;official;SMS / PUSH повідомлення;;SMS / PUSH повідомлення;;SMS / PUSH повідомлення;
+SRVC0044;serviceOperations;dude;SMS / PUSH повідомлення;;SMS / PUSH повідомлення;;SMS / PUSH повідомлення;
+SRVC0045;serviceOperations;common;PIN код должен состоять из 4-х цифр;;PIN код должен состоять из 4-х цифр;;PIN код должен состоять из 4-х цифр;
+SRVC0045;serviceOperations;official;PIN код должен состоять из 4-х цифр;;PIN код должен состоять из 4-х цифр;;PIN код должен состоять из 4-х цифр;
+SRVC0045;serviceOperations;dude;PIN код должен состоять из 4-х цифр;;PIN код должен состоять из 4-х цифр;;PIN код должен состоять из 4-х цифр;
+BMTR0001;biometrics;official;Эта функция требует доступ к FaceID;;This feature requires FaceID access;;Ця функція вимагає доступу до FaceID;
+BMTR0001;biometrics;common;Эта функция требует доступ к FaceID;;This feature requires FaceID access;;Ця функція вимагає доступу до FaceID;
+BMTR0001;biometrics;dude;Эта функция требует доступ к FaceID;;This feature requires FaceID access;;Ця функція вимагає доступу до FaceID;
+BMTR0002;biometrics;dude;Используйте FaceID для входа;;Use FaceID to login;;Використовуйте FaceID для входу;
+BMTR0002;biometrics;common;Используйте FaceID для входа;;Use FaceID to login;;Використовуйте FaceID для входу;
+BMTR0002;biometrics;official;Используйте FaceID для входа;;Use FaceID to login;;Використовуйте FaceID для входу;
+BMTR0003;biometrics;official;Биометрия недоступна;;Биометрия недоступна;;Биометрия недоступна;
+BMTR0003;biometrics;common;Биометрия недоступна;;Биометрия недоступна;;Биометрия недоступна;
+BMTR0003;biometrics;dude;Биометрия недоступна;;Биометрия недоступна;;Биометрия недоступна;
+BMTR0004;biometrics;official;В настройках iPhone, дайте доступ к TouchID приложению Альфа-Банк;;In the iPhone settings, grant TouchID access to the Alfa-Bank application;;В налаштуваннях iPhone, надайте доступ до TouchID додатку Альфа-Банк;
+BMTR0004;biometrics;dude;В настройках iPhone, дайте доступ к TouchID приложению Альфа-Банк;;In the iPhone settings, grant TouchID access to the Alfa-Bank application;;В налаштуваннях iPhone, надайте доступ до TouchID додатку Альфа-Банк;
+BMTR0004;biometrics;common;В настройках iPhone, дайте доступ к TouchID приложению Альфа-Банк;;In the iPhone settings, grant TouchID access to the Alfa-Bank application;;В налаштуваннях iPhone, надайте доступ до TouchID додатку Альфа-Банк;
+BMTR0005;biometrics;dude;Эта функция требует доступ к TouchID;;This feature requires TouchID access;;Ця функція вимагає доступу до TouchID;
+BMTR0005;biometrics;official;Эта функция требует доступ к TouchID;;This feature requires TouchID access;;Ця функція вимагає доступу до TouchID;
+BMTR0005;biometrics;common;Эта функция требует доступ к TouchID;;This feature requires TouchID access;;Ця функція вимагає доступу до TouchID;
+BMTR0006;biometrics;dude;Нет отпечатков;;Нет отпечатков;;Нет отпечатков;
+BMTR0006;biometrics;common;Нет отпечатков;;Нет отпечатков;;Нет отпечатков;
+BMTR0006;biometrics;official;Нет отпечатков;;Нет отпечатков;;Нет отпечатков;
+BMTR0007;biometrics;common;В настройках iPhone, дайте доступ к FaceID приложению Альфа-Банк;;In the iPhone settings, grant FaceID access to the Alfa-Bank application;;В налаштуваннях iPhone, надайте доступ до FaceID додатку Альфа-Банк;
+BMTR0007;biometrics;official;В настройках iPhone, дайте доступ к FaceID приложению Альфа-Банк;;In the iPhone settings, grant FaceID access to the Alfa-Bank application;;В налаштуваннях iPhone, надайте доступ до FaceID додатку Альфа-Банк;
+BMTR0007;biometrics;dude;В настройках iPhone, дайте доступ к FaceID приложению Альфа-Банк;;In the iPhone settings, grant FaceID access to the Alfa-Bank application;;В налаштуваннях iPhone, надайте доступ до FaceID додатку Альфа-Банк;
+BMTR0008;biometrics;common;Используйте отпечаток пальца для входа;;Log in with touch ID;;Використовуйте відбиток пальця для входу;
+BMTR0008;biometrics;official;Используйте отпечаток пальца для входа;;Log in with touch ID;;Використовуйте відбиток пальця для входу;
+BMTR0008;biometrics;dude;Используйте отпечаток пальца для входа;;Log in with touch ID;;Використовуйте відбиток пальця для входу;
+PRD10001;productCreditDetails;common;Информация;;Information;;Інформація;
+PRD10001;productCreditDetails;official;Информация;;Information;;Інформація;
+PRD10001;productCreditDetails;dude;Информация;;Information;;Інформація;
+PRD10002;productCreditDetails;dude;Управление;;Management;;Керування;
+PRD10002;productCreditDetails;common;Управление;;Management;;Керування;
+PRD10002;productCreditDetails;official;Управление;;Management;;Керування;
+PRD10003;productCreditDetails;official;Оплатить;;Payment;;Сплатити;
+PRD10003;productCreditDetails;dude;Оплатить;;Payment;;Сплатити;
+PRD10003;productCreditDetails;common;Оплатить;;Payment;;Сплатити;
+PRD10004;productCreditDetails;official;Платеж просрочен;;Payment is overdue;;Платіж прострочено;
+PRD10004;productCreditDetails;dude;Платеж просрочен;;Payment is overdue;;Платіж прострочено;
+PRD10004;productCreditDetails;common;Платеж просрочен;;Payment is overdue;;Платіж прострочено;
+PRD10005;productCreditDetails;common;Тип кредита;;Loan type;;Тип кредиту;
+PRD10005;productCreditDetails;dude;Тип кредита;;Loan type;;Тип кредиту;
+PRD10005;productCreditDetails;official;Тип кредита;;Loan type;;Тип кредиту;
+PRD10006;productCreditDetails;official;Комиссия;;Commission;;Комісія;
+PRD10006;productCreditDetails;dude;Комиссия;;Commission;;Комісія;
+PRD10006;productCreditDetails;common;Комиссия;;Commission;;Комісія;
+PRD10007;productCreditDetails;common;Доступные документы;;Available documents;;Доступні документи;
+PRD10007;productCreditDetails;official;Доступные документы;;Available documents;;Доступні документи;
+PRD10007;productCreditDetails;dude;Доступные документы;;Available documents;;Доступні документи;
+PRD10008;productCreditDetails;common;Процентная ставка, годовых;;Interest rate per annum;;Відсоткова ставка, річних;
+PRD10008;productCreditDetails;dude;Процентная ставка, годовых;;Interest rate per annum;;Відсоткова ставка, річних;
+PRD10008;productCreditDetails;official;Процентная ставка, годовых;;Interest rate per annum;;Відсоткова ставка, річних;
+PRD10009;productCreditDetails;dude;Термин кредита;;Loan term;;Термін кредиту;
+PRD10009;productCreditDetails;common;Термин кредита;;Loan term;;Термін кредиту;
+PRD10009;productCreditDetails;official;Термин кредита;;Loan term;;Термін кредиту;
+PRD10010;productCreditDetails;official;Общая информация;;Common information;;Загальна інформація;
+PRD10010;productCreditDetails;common;Общая информация;;Common information;;Загальна інформація;
+PRD10010;productCreditDetails;dude;Общая информация;;Common information;;Загальна інформація;
+PRD10011;productCreditDetails;official;Номер договора;;Contract number;;Номер договору;
+PRD10011;productCreditDetails;dude;Номер договора;;Contract number;;Номер договору;
+PRD10011;productCreditDetails;common;Номер договора;;Contract number;;Номер договору;
+PRD10012;productCreditDetails;dude;График погашения;;Repayment schedule;;Графік погашення;
+PRD10012;productCreditDetails;official;График погашения;;Repayment schedule;;Графік погашення;
+PRD10012;productCreditDetails;common;График погашения;;Repayment schedule;;Графік погашення;
+PRD10013;productCreditDetails;common;Минимальный платеж;;Minimum payment;;Мінімальний платіж;
+PRD10013;productCreditDetails;dude;Минимальный платеж;;Minimum payment;;Мінімальний платіж;
+PRD10013;productCreditDetails;official;Минимальный платеж;;Minimum payment;;Мінімальний платіж;
+PRD10014;productCreditDetails;common;История;;History;;Історія;
+PRD10014;productCreditDetails;official;История;;History;;Історія;
+PRD10014;productCreditDetails;dude;История;;History;;Історія;
+PRD10015;productCreditDetails;dude;О платежах;;About payments;;О платежах;
+PRD10015;productCreditDetails;common;О платежах;;About payments;;О платежах;
+PRD10015;productCreditDetails;official;О платежах;;About payments;;О платежах;
+PRD10016;productCreditDetails;common;%@ мес.;;%@ mo.;;%@ міс.;
+PRD10016;productCreditDetails;official;%@ мес.;;%@ mo.;;%@ міс.;
+PRD10016;productCreditDetails;dude;%@ мес.;;%@ mo.;;%@ міс.;
+PRD10017;productCreditDetails;official;Внесено;;Contributed;;Внесено;
+PRD10017;productCreditDetails;dude;Внесено;;Contributed;;Внесено;
+PRD10017;productCreditDetails;common;Внесено;;Contributed;;Внесено;
+PRD10018;productCreditDetails;official;Cумма досрочного погашения кредита;;Loan repayment amount;;Сума дострокового погашення кредиту;
+PRD10018;productCreditDetails;common;Cумма досрочного погашения кредита;;Loan repayment amount;;Сума дострокового погашення кредиту;
+PRD10018;productCreditDetails;dude;Cумма досрочного погашения кредита;;Loan repayment amount;;Сума дострокового погашення кредиту;
+PRD10019;productCreditDetails;official;Полная сумма кредита;;Full loan amount;;Повна сума кредиту;
+PRD10019;productCreditDetails;dude;Полная сумма кредита;;Full loan amount;;Повна сума кредиту;
+PRD10019;productCreditDetails;common;Полная сумма кредита;;Full loan amount;;Повна сума кредиту;
+PRD10020;productCreditDetails;dude;Дата окончания кредита;;Loan expiration date;;Дата закінчення кредиту;
+PRD10020;productCreditDetails;common;Дата окончания кредита;;Loan expiration date;;Дата закінчення кредиту;
+PRD10020;productCreditDetails;official;Дата окончания кредита;;Loan expiration date;;Дата закінчення кредиту;
+PRD10021;productCreditDetails;dude;Следующий платеж;;Next payment;;Наступний платіж;
+PRD10021;productCreditDetails;common;Следующий платеж;;Next payment;;Наступний платіж;
+PRD10021;productCreditDetails;official;Следующий платеж;;Next payment;;Наступний платіж;
+PRD10022;productCreditDetails;common;Платеж необходимо внести до;;Payment must be paid before;;Платіж треба внести до;
+PRD10022;productCreditDetails;official;Платеж необходимо внести до;;Payment must be paid before;;Платіж треба внести до;
+PRD10022;productCreditDetails;dude;Платеж необходимо внести до;;Payment must be paid before;;Платіж треба внести до;
+PRD10023;productCreditDetails;common;Дата заключения договора;;Contract date;;Дата укладення договору;
+PRD10023;productCreditDetails;official;Дата заключения договора;;Contract date;;Дата укладення договору;
+PRD10023;productCreditDetails;dude;Дата заключения договора;;Contract date;;Дата укладення договору;
+PRD10024;productCreditDetails;official;Рекомендуем внести сумму за 5 дней до даты платежа;;We recommend that you deposit 5 days before the payment date;;Рекомендуємо внести кошти за 5 днів до дати платежу;
+PRD10024;productCreditDetails;common;Рекомендуем внести сумму за 5 дней до даты платежа;;We recommend that you deposit 5 days before the payment date;;Рекомендуємо внести кошти за 5 днів до дати платежу;
+PRD10024;productCreditDetails;dude;Рекомендуем внести сумму за 5 дней до даты платежа;;We recommend that you deposit 5 days before the payment date;;Рекомендуємо внести кошти за 5 днів до дати платежу;
+PRD10025;productCreditDetails;common;Сумма следующего платежа;;Next payment amount;;Сума наступного платежу;
+PRD10025;productCreditDetails;dude;Сумма следующего платежа;;Next payment amount;;Сума наступного платежу;
+PRD10025;productCreditDetails;official;Сумма следующего платежа;;Next payment amount;;Сума наступного платежу;
+PRD10026;productCreditDetails;common;Редактирование кредита;;Loan editing;;Редагування кредиту;
+PRD10026;productCreditDetails;official;Редактирование кредита;;Loan editing;;Редагування кредиту;
+PRD10026;productCreditDetails;dude;Редактирование кредита;;Loan editing;;Редагування кредиту;
+P2PT0001;p2pTransfers;dude;Тарифы и условия;;Тарифы и условия;;Тарифы и условия;
+P2PT0001;p2pTransfers;official;Тарифы и условия;;Тарифы и условия;;Тарифы и условия;
+P2PT0001;p2pTransfers;common;Тарифы и условия;;Тарифы и условия;;Тарифы и условия;
+P2PT0002;p2pTransfers;dude;Адрес получателя;;Адрес получателя;;Адрес получателя;
+P2PT0002;p2pTransfers;common;Адрес получателя;;Адрес получателя;;Адрес получателя;
+P2PT0002;p2pTransfers;official;Адрес получателя;;Адрес получателя;;Адрес получателя;
+P2PT0003;p2pTransfers;official;Имя и Фамилия отправителя;;Имя и Фамилия отправителя;;Имя и Фамилия отправителя;
+P2PT0003;p2pTransfers;common;Имя и Фамилия отправителя;;Имя и Фамилия отправителя;;Имя и Фамилия отправителя;
+P2PT0003;p2pTransfers;dude;Имя и Фамилия отправителя;;Имя и Фамилия отправителя;;Имя и Фамилия отправителя;
+P2PT0004;p2pTransfers;common;Город получателя;;Город получателя;;Город получателя;
+P2PT0004;p2pTransfers;dude;Город получателя;;Город получателя;;Город получателя;
+P2PT0004;p2pTransfers;official;Город получателя;;Город получателя;;Город получателя;
+P2PT0005;p2pTransfers;dude;CVV;;CVV;;CVV;
+P2PT0005;p2pTransfers;official;CVV;;CVV;;CVV;
+P2PT0005;p2pTransfers;common;CVV;;CVV;;CVV;
+P2PT0006;p2pTransfers;official;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я одежувача;;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я одежувача;;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я одежувача;
+P2PT0006;p2pTransfers;dude;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я одежувача;;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я одежувача;;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я одежувача;
+P2PT0006;p2pTransfers;common;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я одежувача;;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я одежувача;;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я одежувача;
+P2PT0007;p2pTransfers;dude;Нет активных счетов для переводов;;No active accounts for transfers;;Відсутні активні рахунки для переказів;
+P2PT0007;p2pTransfers;common;Нет активных счетов для переводов;;No active accounts for transfers;;Відсутні активні рахунки для переказів;
+P2PT0007;p2pTransfers;official;Нет активных счетов для переводов;;No active accounts for transfers;;Відсутні активні рахунки для переказів;
+P2PT0008;p2pTransfers;official;Имя и Фамилия получателя;;Имя и Фамилия получателя;;Имя и Фамилия получателя;
+P2PT0008;p2pTransfers;dude;Имя и Фамилия получателя;;Имя и Фамилия получателя;;Имя и Фамилия получателя;
+P2PT0008;p2pTransfers;common;Имя и Фамилия получателя;;Имя и Фамилия получателя;;Имя и Фамилия получателя;
+P2PT0009;p2pTransfers;common;Продолжить;;Продолжить;;Продолжить;
+P2PT0009;p2pTransfers;official;Продолжить;;Продолжить;;Продолжить;
+P2PT0009;p2pTransfers;dude;Продолжить;;Продолжить;;Продолжить;
+P2PT0010;p2pTransfers;dude;Срок дейтсвия;;Срок дейтсвия;;Срок дейтсвия;
+P2PT0010;p2pTransfers;common;Срок дейтсвия;;Срок дейтсвия;;Срок дейтсвия;
+P2PT0010;p2pTransfers;official;Срок дейтсвия;;Срок дейтсвия;;Срок дейтсвия;
+P2PT0011;p2pTransfers;official;Город отправителя;;Город отправителя;;Город отправителя;
+P2PT0011;p2pTransfers;dude;Город отправителя;;Город отправителя;;Город отправителя;
+P2PT0011;p2pTransfers;common;Город отправителя;;Город отправителя;;Город отправителя;
+P2PT0012;p2pTransfers;dude;Заборгованість;;Заборгованість;;Заборгованість;
+P2PT0012;p2pTransfers;official;Заборгованість;;Заборгованість;;Заборгованість;
+P2PT0012;p2pTransfers;common;Заборгованість;;Заборгованість;;Заборгованість;
+P2PT0013;p2pTransfers;common;Номер карты;;Номер карты;;Номер карты;
+P2PT0013;p2pTransfers;dude;Номер карты;;Номер карты;;Номер карты;
+P2PT0013;p2pTransfers;official;Номер карты;;Номер карты;;Номер карты;
+P2PT0014;p2pTransfers;dude;Перевод с карты на карту;;Перевод с карты на карту;;Перевод с карты на карту;
+P2PT0014;p2pTransfers;common;Перевод с карты на карту;;Перевод с карты на карту;;Перевод с карты на карту;
+P2PT0014;p2pTransfers;official;Перевод с карты на карту;;Перевод с карты на карту;;Перевод с карты на карту;
+P2PT0015;p2pTransfers;common;Укажите сумму перевода;;Укажите сумму перевода;;Укажите сумму перевода;
+P2PT0015;p2pTransfers;official;Укажите сумму перевода;;Укажите сумму перевода;;Укажите сумму перевода;
+P2PT0015;p2pTransfers;dude;Укажите сумму перевода;;Укажите сумму перевода;;Укажите сумму перевода;
+P2PT0016;p2pTransfers;common;Укажите сумму перевода в евро;;Укажите сумму перевода в евро;;Укажите сумму перевода в евро;
+P2PT0016;p2pTransfers;dude;Укажите сумму перевода в евро;;Укажите сумму перевода в евро;;Укажите сумму перевода в евро;
+P2PT0016;p2pTransfers;official;Укажите сумму перевода в евро;;Укажите сумму перевода в евро;;Укажите сумму перевода в евро;
+P2PT0017;p2pTransfers;official;Направление перевода;;Направление перевода;;Направление перевода;
+P2PT0017;p2pTransfers;dude;Направление перевода;;Направление перевода;;Направление перевода;
+P2PT0017;p2pTransfers;common;Направление перевода;;Направление перевода;;Направление перевода;
+P2PT0018;p2pTransfers;common;Перевод с другой карты;;Перевод с другой карты;;Перевод с другой карты;
+P2PT0018;p2pTransfers;official;Перевод с другой карты;;Перевод с другой карты;;Перевод с другой карты;
+P2PT0018;p2pTransfers;dude;Перевод с другой карты;;Перевод с другой карты;;Перевод с другой карты;
+P2PT0019;p2pTransfers;official;Коммисия;;Коммисия;;Коммисия;
+P2PT0019;p2pTransfers;common;Коммисия;;Коммисия;;Коммисия;
+P2PT0019;p2pTransfers;dude;Коммисия;;Коммисия;;Коммисия;
+P2PT0020;p2pTransfers;common;Адрес отправителя;;Адрес отправителя;;Адрес отправителя;
+P2PT0020;p2pTransfers;dude;Адрес отправителя;;Адрес отправителя;;Адрес отправителя;
+P2PT0020;p2pTransfers;official;Адрес отправителя;;Адрес отправителя;;Адрес отправителя;
+P2PT0021;p2pTransfers;official;Дополнительная информация;;Дополнительная информация;;Дополнительная информация;
+P2PT0021;p2pTransfers;common;Дополнительная информация;;Дополнительная информация;;Дополнительная информация;
+P2PT0021;p2pTransfers;dude;Дополнительная информация;;Дополнительная информация;;Дополнительная информация;
+P2PT0022;p2pTransfers;common;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я відправника;;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я відправника;;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я відправника;
+P2PT0022;p2pTransfers;official;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я відправника;;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я відправника;;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я відправника;
+P2PT0022;p2pTransfers;dude;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я відправника;;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я відправника;;Для переказу коштів з-за кордону необхідно ввести адресу та ім’я відправника;
+P2PT0023;p2pTransfers;common;Мінімальний платіж;;Мінімальний платіж;;Мінімальний платіж;
+P2PT0023;p2pTransfers;official;Мінімальний платіж;;Мінімальний платіж;;Мінімальний платіж;
+P2PT0023;p2pTransfers;dude;Мінімальний платіж;;Мінімальний платіж;;Мінімальний платіж;
+P2PT0024;p2pTransfers;official;Можете нажати на суму, щоб підставити її в поле вводу;;Можете нажати на суму, щоб підставити її в поле вводу;;Можете нажати на суму, щоб підставити її в поле вводу;
+P2PT0024;p2pTransfers;dude;Можете нажати на суму, щоб підставити її в поле вводу;;Можете нажати на суму, щоб підставити її в поле вводу;;Можете нажати на суму, щоб підставити її в поле вводу;
+P2PT0024;p2pTransfers;common;Можете нажати на суму, щоб підставити її в поле вводу;;Можете нажати на суму, щоб підставити її в поле вводу;;Можете нажати на суму, щоб підставити її в поле вводу;
+P2PT0025;p2pTransfers;official;Сума;;Сума;;Сума;
+P2PT0025;p2pTransfers;dude;Сума;;Сума;;Сума;
+P2PT0025;p2pTransfers;common;Сума;;Сума;;Сума;
+P2PT0026;p2pTransfers;common;Подтверждение перевода;;Подтверждение перевода;;Подтверждение перевода;
+P2PT0026;p2pTransfers;official;Подтверждение перевода;;Подтверждение перевода;;Подтверждение перевода;
+P2PT0026;p2pTransfers;dude;Подтверждение перевода;;Подтверждение перевода;;Подтверждение перевода;
+P2PT0027;p2pTransfers;official;Возникла ошибка;;Возникла ошибка;;Возникла ошибка;
+P2PT0027;p2pTransfers;common;Возникла ошибка;;Возникла ошибка;;Возникла ошибка;
+P2PT0027;p2pTransfers;dude;Возникла ошибка;;Возникла ошибка;;Возникла ошибка;
+P2PT0028;p2pTransfers;dude;Детали перевода;;Детали перевода;;Детали перевода;
+P2PT0028;p2pTransfers;common;Детали перевода;;Детали перевода;;Детали перевода;
+P2PT0028;p2pTransfers;official;Детали перевода;;Детали перевода;;Детали перевода;
+PLNL0001;pilonline;common;Укажите сумму кредита;;Specify the loan amount;;Вкажіть суму кредиту;
+PLNL0001;pilonline;dude;Укажите сумму кредита;;Specify the loan amount;;Вкажіть суму кредиту;
+PLNL0001;pilonline;official;Укажите сумму кредита;;Specify the loan amount;;Вкажіть суму кредиту;
+PLNL0002;pilonline;common;Выберите сумму кредита;;Choose loan amount;;Вкажіть суму кредиту;
+PLNL0002;pilonline;official;Выберите сумму кредита;;Choose loan amount;;Вкажіть суму кредиту;
+PLNL0002;pilonline;dude;Выберите сумму кредита;;Choose loan amount;;Вкажіть суму кредиту;
+PLNL0003;pilonline;official;Cтавка;;Rate;;Cтавка;
+PLNL0003;pilonline;dude;Cтавка;;Rate;;Cтавка;
+PLNL0003;pilonline;common;Cтавка;;Rate;;Cтавка;
+PLNL0004;pilonline;official;Месяцев;;Months;;Месяцев;
+PLNL0004;pilonline;dude;Месяцев;;Months;;Месяцев;
+PLNL0004;pilonline;common;Месяцев;;Months;;Месяцев;
+PLNL0005;pilonline;official;Выберите срок кредита;;Choose loan term;;Вкажіть строк кредиту;
+PLNL0005;pilonline;dude;Выберите срок кредита;;Choose loan term;;Вкажіть строк кредиту;
+PLNL0005;pilonline;common;Выберите срок кредита;;Choose loan term;;Вкажіть строк кредиту;
+PLNL0006;pilonline;dude;Укажите счет на который вы хотите зачислить средства;;Specify the account to which you want to transfer funds;;Вкажіть рахунок на який ви бажаєте зарахувати кошти;
+PLNL0006;pilonline;common;Укажите счет на который вы хотите зачислить средства;;Specify the account to which you want to transfer funds;;Вкажіть рахунок на який ви бажаєте зарахувати кошти;
+PLNL0006;pilonline;official;Укажите счет на который вы хотите зачислить средства;;Specify the account to which you want to transfer funds;;Вкажіть рахунок на який ви бажаєте зарахувати кошти;
+PLNL0007;pilonline;dude;Я подтверждаю, что соглашаюсь с условиями оформления онлайн-заявки;;I confirm that I agree to the online application conditions;;Я підтверджую та погоджуюсь з умовами оформлення онлайн-заявки;
+PLNL0007;pilonline;official;Я подтверждаю, что соглашаюсь с условиями оформления онлайн-заявки;;I confirm that I agree to the online application conditions;;Я підтверджую та погоджуюсь з умовами оформлення онлайн-заявки;
+PLNL0007;pilonline;common;Я подтверждаю, что соглашаюсь с условиями оформления онлайн-заявки;;I confirm that I agree to the online application conditions;;Я підтверджую та погоджуюсь з умовами оформлення онлайн-заявки;
+PLNL0008;pilonline;dude;На даний момент немає пропозицій для оформлення кредиту;;There are currently no offers for a loan;;В настоящий момент нет предложений для оформления кредита;
+PLNL0008;pilonline;common;На даний момент немає пропозицій для оформлення кредиту;;There are currently no offers for a loan;;В настоящий момент нет предложений для оформления кредита;
+PLNL0008;pilonline;official;На даний момент немає пропозицій для оформлення кредиту;;There are currently no offers for a loan;;В настоящий момент нет предложений для оформления кредита;
+PLNL0009;pilonline;common;Шаг;;Step;;Крок;
+PLNL0009;pilonline;official;Шаг;;Step;;Крок;
+PLNL0009;pilonline;dude;Шаг;;Step;;Крок;
+PLNL0010;pilonline;common;Одобрен кредит;;Credit approved;;Схвалено кредит;
+PLNL0010;pilonline;official;Одобрен кредит;;Credit approved;;Схвалено кредит;
+PLNL0010;pilonline;dude;Одобрен кредит;;Credit approved;;Схвалено кредит;
+PLNL0011;pilonline;common;Продолжить;;Continue;;Продовжити;
+PLNL0011;pilonline;official;Продолжить;;Continue;;Продовжити;
+PLNL0011;pilonline;dude;Продолжить;;Continue;;Продовжити;
+PLNL0012;pilonline;dude;Необходимо согласиться с условиями;;You must agree to the terms;;Необхідно погодитись з умовами;
+PLNL0012;pilonline;common;Необходимо согласиться с условиями;;You must agree to the terms;;Необхідно погодитись з умовами;
+PLNL0012;pilonline;official;Необходимо согласиться с условиями;;You must agree to the terms;;Необхідно погодитись з умовами;
+PLNL0013;pilonline;dude;alfabank.ua;;alfabank.ua;;alfabank.ua;
+PLNL0013;pilonline;common;alfabank.ua;;alfabank.ua;;alfabank.ua;
+PLNL0013;pilonline;official;alfabank.ua;;alfabank.ua;;alfabank.ua;
+PLNL0014;pilonline;dude;Готово;;Complete;;Готово;
+PLNL0014;pilonline;common;Готово;;Complete;;Готово;
+PLNL0014;pilonline;official;Готово;;Complete;;Готово;
+PLNL0015;pilonline;common;E-mail адрес для получения договора;;E-mail address for contract;;E-mail адреса для отримання договору;
+PLNL0015;pilonline;dude;E-mail адрес для получения договора;;E-mail address for contract;;E-mail адреса для отримання договору;
+PLNL0015;pilonline;official;E-mail адрес для получения договора;;E-mail address for contract;;E-mail адреса для отримання договору;
+PLNL0016;pilonline;common;E-mail указан не верно;;Email is invalid;;E-mail вказано не вірно;
+PLNL0016;pilonline;official;E-mail указан не верно;;Email is invalid;;E-mail вказано не вірно;
+PLNL0016;pilonline;dude;E-mail указан не верно;;Email is invalid;;E-mail вказано не вірно;
+PLNL0017;pilonline;common;Документы;;Documents;;Документы;
+PLNL0017;pilonline;dude;Документы;;Documents;;Документы;
+PLNL0017;pilonline;official;Документы;;Documents;;Документы;
+PLNL0018;pilonline;dude;Ежемесячная комиссия;;Monthly commission;;Щомісячна комісія;
+PLNL0018;pilonline;official;Ежемесячная комиссия;;Monthly commission;;Щомісячна комісія;
+PLNL0018;pilonline;common;Ежемесячная комиссия;;Monthly commission;;Щомісячна комісія;
+PLNL0019;pilonline;dude;Онлайн-заявка;;Online-offer;;Онлайн-заявка;
+PLNL0019;pilonline;common;Онлайн-заявка;;Online-offer;;Онлайн-заявка;
+PLNL0019;pilonline;official;Онлайн-заявка;;Online-offer;;Онлайн-заявка;
+PLNL0020;pilonline;dude;Ежемесячный платеж;;Monthly payment;;Щомісячний платіж;
+PLNL0020;pilonline;common;Ежемесячный платеж;;Monthly payment;;Щомісячний платіж;
+PLNL0020;pilonline;official;Ежемесячный платеж;;Monthly payment;;Щомісячний платіж;
+PLNL0021;pilonline;common;Необходимо заполнить поле e-mail;;You must fill in the e-mail field;;Необхідно заповнити поле e-mail;
+PLNL0021;pilonline;dude;Необходимо заполнить поле e-mail;;You must fill in the e-mail field;;Необхідно заповнити поле e-mail;
+PLNL0021;pilonline;official;Необходимо заполнить поле e-mail;;You must fill in the e-mail field;;Необхідно заповнити поле e-mail;
+PLNL0022;pilonline;dude;Получить;;Receive;;Отримати;
+PLNL0022;pilonline;official;Получить;;Receive;;Отримати;
+PLNL0022;pilonline;common;Получить;;Receive;;Отримати;
+PLNL0023;pilonline;official;Кредит Online;;Credit Online;;Кредит Online;
+PLNL0023;pilonline;dude;Кредит Online;;Credit Online;;Кредит Online;
+PLNL0023;pilonline;common;Кредит Online;;Credit Online;;Кредит Online;
+PLCH0001;placeholders;common;Поиск;;Search;;Пошук;
+PLCH0001;placeholders;dude;Поиск;;Search;;Пошук;
+PLCH0001;placeholders;official;Поиск;;Search;;Пошук;
+PLCH0002;placeholders;official;+380 00 000 00 00;;+380 00 000 00 00;;+380 00 000 00 00;
+PLCH0002;placeholders;dude;+380 00 000 00 00;;+380 00 000 00 00;;+380 00 000 00 00;
+PLCH0002;placeholders;common;+380 00 000 00 00;;+380 00 000 00 00;;+380 00 000 00 00;
+PLCH0003;placeholders;dude;ДД.ММ.ГГГГ;;DD.MM.YYYY;;ДД.ММ.РРРР;
+PLCH0003;placeholders;common;ДД.ММ.ГГГГ;;DD.MM.YYYY;;ДД.ММ.РРРР;
+PLCH0003;placeholders;official;ДД.ММ.ГГГГ;;DD.MM.YYYY;;ДД.ММ.РРРР;
+BASE0001;base;common;Закрыть;;Закрыть;;Закрыть;
+BASE0001;base;official;Закрыть;;Закрыть;;Закрыть;
+BASE0001;base;dude;Закрыть;;Закрыть;;Закрыть;
+BASE0002;base;common;Выбрать;;Выбрать;;Выбрать;
+BASE0002;base;dude;Выбрать;;Выбрать;;Выбрать;
+BASE0002;base;official;Выбрать;;Выбрать;;Выбрать;
+BASE0003;base;dude;OK;;OK;;OK;
+BASE0003;base;common;OK;;OK;;OK;
+BASE0003;base;official;OK;;OK;;OK;
+BASE0004;base;common;Отмена;;Отмена;;Отмена;
+BASE0004;base;official;Отмена;;Отмена;;Отмена;
+BASE0004;base;dude;Отмена;;Отмена;;Отмена;
+BASE0005;base;common;Сохранить;;Сохранить;;Сохранить;
+BASE0005;base;dude;Сохранить;;Сохранить;;Сохранить;
+BASE0005;base;official;Сохранить;;Сохранить;;Сохранить;
+BASE0006;base;common;Повторить ещё раз;;Повторить ещё раз;;Повторить ещё раз;
+BASE0006;base;dude;Повторить ещё раз;;Повторить ещё раз;;Повторить ещё раз;
+BASE0006;base;official;Повторить ещё раз;;Повторить ещё раз;;Повторить ещё раз;
+BASE0007;base;official;Попробовать еще раз;;Попробовать еще раз;;Попробовать еще раз;
+BASE0007;base;dude;Попробовать еще раз;;Попробовать еще раз;;Попробовать еще раз;
+BASE0007;base;common;Попробовать еще раз;;Попробовать еще раз;;Попробовать еще раз;
+BASE0008;base;dude;Готово;;Готово;;Готово;
+BASE0008;base;common;Готово;;Готово;;Готово;
+BASE0008;base;official;Готово;;Готово;;Готово;
+BASE0009;base;official;Продолжить;;Продолжить;;Продолжить;
+BASE0009;base;common;Продолжить;;Продолжить;;Продолжить;
+BASE0009;base;dude;Продолжить;;Продолжить;;Продолжить;
+BASE0010;base;official;Выйти;;Выйти;;Выйти;
+BASE0010;base;common;Выйти;;Выйти;;Выйти;
+BASE0010;base;dude;Выйти;;Выйти;;Выйти;
+VLDT0001;validationErrors;common;День должен быть от 01 до 31;;Day must be between 01 and 31;;День повинен бути від 01 до 31;
+VLDT0001;validationErrors;dude;День должен быть от 01 до 31;;Day must be between 01 and 31;;День повинен бути від 01 до 31;
+VLDT0001;validationErrors;official;День должен быть от 01 до 31;;Day must be between 01 and 31;;День повинен бути від 01 до 31;
+VLDT0002;validationErrors;dude;Год должен быть от %@ до %@;;Year must be between %@ and %@;;Рік повинен бути від %@ до %@;
+VLDT0002;validationErrors;official;Год должен быть от %@ до %@;;Year must be between %@ and %@;;Рік повинен бути від %@ до %@;
+VLDT0002;validationErrors;common;Год должен быть от %@ до %@;;Year must be between %@ and %@;;Рік повинен бути від %@ до %@;
+VLDT0003;validationErrors;common;Пожалуйста, введите корректный город;;Пожалуйста, введите корректный город;;Пожалуйста, введите корректный город;
+VLDT0003;validationErrors;official;Пожалуйста, введите корректный город;;Пожалуйста, введите корректный город;;Пожалуйста, введите корректный город;
+VLDT0003;validationErrors;dude;Пожалуйста, введите корректный город;;Пожалуйста, введите корректный город;;Пожалуйста, введите корректный город;
+VLDT0004;validationErrors;common;Ошибка ввода суммы;;Ошибка ввода суммы;;Ошибка ввода суммы;
+VLDT0004;validationErrors;official;Ошибка ввода суммы;;Ошибка ввода суммы;;Ошибка ввода суммы;
+VLDT0004;validationErrors;dude;Ошибка ввода суммы;;Ошибка ввода суммы;;Ошибка ввода суммы;
+VLDT0005;validationErrors;common;Неверный номер карты;;Неверный номер карты;;Неверный номер карты;
+VLDT0005;validationErrors;dude;Неверный номер карты;;Неверный номер карты;;Неверный номер карты;
+VLDT0005;validationErrors;official;Неверный номер карты;;Неверный номер карты;;Неверный номер карты;
+VLDT0006;validationErrors;official;Значение не должно быть меньше чем %@;;Value must not be less than %@;;Значение не должно быть меньше чем %@;
+VLDT0006;validationErrors;common;Значение не должно быть меньше чем %@;;Value must not be less than %@;;Значение не должно быть меньше чем %@;
+VLDT0006;validationErrors;dude;Значение не должно быть меньше чем %@;;Value must not be less than %@;;Значение не должно быть меньше чем %@;
+VLDT0007;validationErrors;official;Заполните это поле;;Fill out this field;;Заповніть поле;
+VLDT0007;validationErrors;dude;Заполните это поле;;Fill out this field;;Заповніть поле;
+VLDT0007;validationErrors;common;Заполните это поле;;Fill out this field;;Заповніть поле;
+VLDT0008;validationErrors;common;Неверная дата, проверьте день и месяц;;Invalid date. Please check day and month;;Невірна дата, перевірте день і місяць;
+VLDT0008;validationErrors;dude;Неверная дата, проверьте день и месяц;;Invalid date. Please check day and month;;Невірна дата, перевірте день і місяць;
+VLDT0008;validationErrors;official;Неверная дата, проверьте день и месяц;;Invalid date. Please check day and month;;Невірна дата, перевірте день і місяць;
+VLDT0009;validationErrors;official;Пожалуйста, введите корректный адрес;;Пожалуйста, введите корректный адрес;;Пожалуйста, введите корректный адрес;
+VLDT0009;validationErrors;common;Пожалуйста, введите корректный адрес;;Пожалуйста, введите корректный адрес;;Пожалуйста, введите корректный адрес;
+VLDT0009;validationErrors;dude;Пожалуйста, введите корректный адрес;;Пожалуйста, введите корректный адрес;;Пожалуйста, введите корректный адрес;
+VLDT0010;validationErrors;dude;Месяц должен быть от 01 до 12;;Month must be between 01 and 12;;Місяць повинен бути від 01 до 12;
+VLDT0010;validationErrors;common;Месяц должен быть от 01 до 12;;Month must be between 01 and 12;;Місяць повинен бути від 01 до 12;
+VLDT0010;validationErrors;official;Месяц должен быть от 01 до 12;;Month must be between 01 and 12;;Місяць повинен бути від 01 до 12;
+VLDT0011;validationErrors;official;Пожалуйста, введите корректное имя и фамилию;;Пожалуйста, введите корректное имя и фамилию;;Пожалуйста, введите корректное имя и фамилию;
+VLDT0011;validationErrors;dude;Пожалуйста, введите корректное имя и фамилию;;Пожалуйста, введите корректное имя и фамилию;;Пожалуйста, введите корректное имя и фамилию;
+VLDT0011;validationErrors;common;Пожалуйста, введите корректное имя и фамилию;;Пожалуйста, введите корректное имя и фамилию;;Пожалуйста, введите корректное имя и фамилию;
+VLDT0012;validationErrors;common;Значение не должно быть больше чем %@;;Value must not be more than %@;;Значение не должно быть больше чем %@;
+VLDT0012;validationErrors;official;Значение не должно быть больше чем %@;;Value must not be more than %@;;Значение не должно быть больше чем %@;
+VLDT0012;validationErrors;dude;Значение не должно быть больше чем %@;;Value must not be more than %@;;Значение не должно быть больше чем %@;
+VLDT0013;validationErrors;dude;Дата не должна быть позднее %@;;Date must not be later than %@;;Дата не повинна бути пізніше %@;
+VLDT0013;validationErrors;official;Дата не должна быть позднее %@;;Date must not be later than %@;;Дата не повинна бути пізніше %@;
+VLDT0013;validationErrors;common;Дата не должна быть позднее %@;;Date must not be later than %@;;Дата не повинна бути пізніше %@;
+VLDT0014;validationErrors;common;Дата не должна быть ранее %@;;Date must not be earlier than %@;;Дата не повинна бути раніше %@;
+VLDT0014;validationErrors;dude;Дата не должна быть ранее %@;;Date must not be earlier than %@;;Дата не повинна бути раніше %@;
+VLDT0014;validationErrors;official;Дата не должна быть ранее %@;;Date must not be earlier than %@;;Дата не повинна бути раніше %@;
+MNPR0001;mainProducts;common;Открыть карту;;Открыть карту;;Открыть карту;
+MNPR0001;mainProducts;dude;Открыть карту;;Открыть карту;;Открыть карту;
+MNPR0001;mainProducts;official;Открыть карту;;Открыть карту;;Открыть карту;
+MNPR0002;mainProducts;common;Открыть счет;;Открыть счет;;Открыть счет;
+MNPR0002;mainProducts;official;Открыть счет;;Открыть счет;;Открыть счет;
+MNPR0002;mainProducts;dude;Открыть счет;;Открыть счет;;Открыть счет;
+MNPR0003;mainProducts;common;Продукты;;Продукты;;Продукты;
+MNPR0003;mainProducts;dude;Продукты;;Продукты;;Продукты;
+MNPR0003;mainProducts;official;Продукты;;Продукты;;Продукты;
+MNPR0004;mainProducts;official;Мои кредиты;;Мои кредиты;;Мои кредиты;
+MNPR0004;mainProducts;common;Мои кредиты;;Мои кредиты;;Мои кредиты;
+MNPR0004;mainProducts;dude;Мои кредиты;;Мои кредиты;;Мои кредиты;
+MNPR0005;mainProducts;official;Смена порядка продуктов;;Смена порядка продуктов;;Смена порядка продуктов;
+MNPR0005;mainProducts;common;Смена порядка продуктов;;Смена порядка продуктов;;Смена порядка продуктов;
+MNPR0005;mainProducts;dude;Смена порядка продуктов;;Смена порядка продуктов;;Смена порядка продуктов;
+MNPR0006;mainProducts;dude;Услуги;;Услуги;;Услуги;
+MNPR0006;mainProducts;official;Услуги;;Услуги;;Услуги;
+MNPR0006;mainProducts;common;Услуги;;Услуги;;Услуги;
+MNPR0007;mainProducts;common;Открыть депозит;;Открыть депозит;;Открыть депозит;
+MNPR0007;mainProducts;dude;Открыть депозит;;Открыть депозит;;Открыть депозит;
+MNPR0007;mainProducts;official;Открыть депозит;;Открыть депозит;;Открыть депозит;
+MNPR0008;mainProducts;common;Открыть кредит;;Открыть кредит;;Открыть кредит;
+MNPR0008;mainProducts;official;Открыть кредит;;Открыть кредит;;Открыть кредит;
+MNPR0008;mainProducts;dude;Открыть кредит;;Открыть кредит;;Открыть кредит;
+MNPR0009;mainProducts;official;Мои карты;;Мои карты;;Мои карты;
+MNPR0009;mainProducts;common;Мои карты;;Мои карты;;Мои карты;
+MNPR0009;mainProducts;dude;Мои карты;;Мои карты;;Мои карты;
+MNPR0010;mainProducts;official;Мои счета;;Мои счета;;Мои счета;
+MNPR0010;mainProducts;dude;Мои счета;;Мои счета;;Мои счета;
+MNPR0010;mainProducts;common;Мои счета;;Мои счета;;Мои счета;
+MNPR0011;mainProducts;common;Шаблоны;;Шаблоны;;Шаблоны;
+MNPR0011;mainProducts;official;Шаблоны;;Шаблоны;;Шаблоны;
+MNPR0011;mainProducts;dude;Шаблоны;;Шаблоны;;Шаблоны;
+MNPR0012;mainProducts;official;Мои депозиты;;Мои депозиты;;Мои депозиты;
+MNPR0012;mainProducts;dude;Мои депозиты;;Мои депозиты;;Мои депозиты;
+MNPR0012;mainProducts;common;Мои депозиты;;Мои депозиты;;Мои депозиты;
+PRD20001;productRates;official;Курсы валют;;Курсы валют;;Курси валют;
+PRD20001;productRates;common;Курсы валют;;Курсы валют;;Курси валют;
+PRD20001;productRates;dude;Курсы валют;;Курсы валют;;Курси валют;
+PRD20002;productRates;dude;Покупка;;Покупка;;Купівля;
+PRD20002;productRates;official;Покупка;;Покупка;;Купівля;
+PRD20002;productRates;common;Покупка;;Покупка;;Купівля;
+PRD20003;productRates;common;Продажа;;Продажа;;Продаж;
+PRD20003;productRates;official;Продажа;;Продажа;;Продаж;
+PRD20003;productRates;dude;Продажа;;Продажа;;Продаж;
+PRD20004;productRates;dude;Показать все;;Показать все;;Показати всі;
+PRD20004;productRates;official;Показать все;;Показать все;;Показати всі;
+PRD20004;productRates;common;Показать все;;Показать все;;Показати всі;
+PRD20005;productRates;official;По карте;;Курс НБУ;;Курс НБУ;
+PRD20005;productRates;dude;По карте;;Курс НБУ;;Курс НБУ;
+PRD20005;productRates;common;По карте;;Курс НБУ;;Курс НБУ;
+PRD20006;productRates;dude;Валюта;;Валюта;;Валюта;
+PRD20006;productRates;common;Валюта;;Валюта;;Валюта;
+PRD20006;productRates;official;Валюта;;Валюта;;Валюта;
+PRD20007;productRates;official;Курс НБУ;;Курс НБУ;;Курс НБУ;
+PRD20007;productRates;common;Курс НБУ;;Курс НБУ;;Курс НБУ;
+PRD20007;productRates;dude;Курс НБУ;;Курс НБУ;;Курс НБУ;
+PRD20008;productRates;dude;В отделении;;В отделении;;У відділенні;
+PRD20008;productRates;official;В отделении;;В отделении;;У відділенні;
+PRD20008;productRates;common;В отделении;;В отделении;;У відділенні;
+PRD20009;productRates;common;Online обмен;;Online обмен;;Online обмін;
+PRD20009;productRates;official;Online обмен;;Online обмен;;Online обмін;
+PRD20009;productRates;dude;Online обмен;;Online обмен;;Online обмін;
+PRD20010;productRates;common;Курсы валют;;Курсы валют;;Курси валют;
+PRD20010;productRates;official;Курсы валют;;Курсы валют;;Курси валют;
+PRD20010;productRates;dude;Курсы валют;;Курсы валют;;Курси валют;
+PRD20011;productRates;official;Курсы валют;;Курсы валют;;Курси валют;
+PRD20011;productRates;dude;Курсы валют;;Курсы валют;;Курси валют;
+PRD20011;productRates;common;Курсы валют;;Курсы валют;;Курси валют;
+BNKP0001;bankOperations;official;Новий переказ;;Новий переказ;;Новий переказ;
+BNKP0001;bankOperations;common;Новий переказ;;Новий переказ;;Новий переказ;
+BNKP0001;bankOperations;dude;Новий переказ;;Новий переказ;;Новий переказ;
+BNKP0002;bankOperations;common;Переказати;;Переказати;;Переказати;
+BNKP0002;bankOperations;dude;Переказати;;Переказати;;Переказати;
+BNKP0002;bankOperations;official;Переказати;;Переказати;;Переказати;
+BNKP0003;bankOperations;official;Перекази / Платежі;;Перекази / Платежі;;Перекази / Платежі;
+BNKP0003;bankOperations;dude;Перекази / Платежі;;Перекази / Платежі;;Перекази / Платежі;
+BNKP0003;bankOperations;common;Перекази / Платежі;;Перекази / Платежі;;Перекази / Платежі;
+BNKP0004;bankOperations;dude;Платежі;;Платежі;;Платежі;
+BNKP0004;bankOperations;official;Платежі;;Платежі;;Платежі;
+BNKP0004;bankOperations;common;Платежі;;Платежі;;Платежі;
+BNKP0005;bankOperations;official;Шаблони;;Шаблони;;Шаблони;
+BNKP0005;bankOperations;common;Шаблони;;Шаблони;;Шаблони;
+BNKP0005;bankOperations;dude;Шаблони;;Шаблони;;Шаблони;
+BNKP0006;bankOperations;dude;Вкажіть тип переказу;;Вкажіть тип переказу;;Вкажіть тип переказу;
+BNKP0006;bankOperations;official;Вкажіть тип переказу;;Вкажіть тип переказу;;Вкажіть тип переказу;
+BNKP0006;bankOperations;common;Вкажіть тип переказу;;Вкажіть тип переказу;;Вкажіть тип переказу;
+BNKP0007;bankOperations;common;Перекази;;Перекази;;Перекази;
+BNKP0007;bankOperations;dude;Перекази;;Перекази;;Перекази;
+BNKP0007;bankOperations;official;Перекази;;Перекази;;Перекази;
+PRFT0001;profitableSafe;official;Сумма;;Сумма;;Сумма;
+PRFT0001;profitableSafe;dude;Сумма;;Сумма;;Сумма;
+PRFT0001;profitableSafe;common;Сумма;;Сумма;;Сумма;
+PRFT0002;profitableSafe;official;Снятие с доходного сейфа;;Снятие с доходного сейфа;;Снятие с доходного сейфа;
+PRFT0002;profitableSafe;common;Снятие с доходного сейфа;;Снятие с доходного сейфа;;Снятие с доходного сейфа;
+PRFT0002;profitableSafe;dude;Снятие с доходного сейфа;;Снятие с доходного сейфа;;Снятие с доходного сейфа;
+PRFT0003;profitableSafe;dude;Пополнить Доходный сейф;;Пополнить Доходный сейф;;Пополнить Доходный сейф;
+PRFT0003;profitableSafe;common;Пополнить Доходный сейф;;Пополнить Доходный сейф;;Пополнить Доходный сейф;
+PRFT0003;profitableSafe;official;Пополнить Доходный сейф;;Пополнить Доходный сейф;;Пополнить Доходный сейф;
+PRFT0004;profitableSafe;dude;Укажите сумму перевода;;Укажите сумму перевода;;Укажите сумму перевода;
+PRFT0004;profitableSafe;common;Укажите сумму перевода;;Укажите сумму перевода;;Укажите сумму перевода;
+PRFT0004;profitableSafe;official;Укажите сумму перевода;;Укажите сумму перевода;;Укажите сумму перевода;
+PRFT0005;profitableSafe;dude;Пополнение доходного сейфа;;Пополнение доходного сейфа;;Пополнение доходного сейфа;
+PRFT0005;profitableSafe;common;Пополнение доходного сейфа;;Пополнение доходного сейфа;;Пополнение доходного сейфа;
+PRFT0005;profitableSafe;official;Пополнение доходного сейфа;;Пополнение доходного сейфа;;Пополнение доходного сейфа;
+PRFT0006;profitableSafe;common;Процентная ставка, годовых;;Процентная ставка, годовых;;Процентная ставка, годовых;
+PRFT0006;profitableSafe;official;Процентная ставка, годовых;;Процентная ставка, годовых;;Процентная ставка, годовых;
+PRFT0006;profitableSafe;dude;Процентная ставка, годовых;;Процентная ставка, годовых;;Процентная ставка, годовых;
+PRFT0007;profitableSafe;common;Перевести;;Перевести;;Перевести;
+PRFT0007;profitableSafe;dude;Перевести;;Перевести;;Перевести;
+PRFT0007;profitableSafe;official;Перевести;;Перевести;;Перевести;
+PRFT0008;profitableSafe;common;Доходный сейф;;Доходный сейф;;Доходный сейф;
+PRFT0008;profitableSafe;official;Доходный сейф;;Доходный сейф;;Доходный сейф;
+PRFT0008;profitableSafe;dude;Доходный сейф;;Доходный сейф;;Доходный сейф;
+PRFT0009;profitableSafe;dude;Баланс;;Баланс;;Баланс;
+PRFT0009;profitableSafe;official;Баланс;;Баланс;;Баланс;
+PRFT0009;profitableSafe;common;Баланс;;Баланс;;Баланс;
+PRFT0010;profitableSafe;common;Снять с Доходного сейфа;;Снять с Доходного сейфа;;Снять с Доходного сейфа;
+PRFT0010;profitableSafe;dude;Снять с Доходного сейфа;;Снять с Доходного сейфа;;Снять с Доходного сейфа;
+PRFT0010;profitableSafe;official;Снять с Доходного сейфа;;Снять с Доходного сейфа;;Снять с Доходного сейфа;
+PRFT0011;profitableSafe;common;Доходный сейф;;Доходный сейф;;Доходный сейф;
+PRFT0011;profitableSafe;official;Доходный сейф;;Доходный сейф;;Доходный сейф;
+PRFT0011;profitableSafe;dude;Доходный сейф;;Доходный сейф;;Доходный сейф;
+PRD30001;productAccountDetails;official;Общая задолженность;;Total debt;;Загальна заборгованість;
+PRD30001;productAccountDetails;dude;Общая задолженность;;Total debt;;Загальна заборгованість;
+PRD30001;productAccountDetails;common;Общая задолженность;;Total debt;;Загальна заборгованість;
+PRD30002;productAccountDetails;common;Мои расстрочки;;My installments;;Моi розстрочки;
+PRD30002;productAccountDetails;dude;Мои расстрочки;;My installments;;Моi розстрочки;
+PRD30002;productAccountDetails;official;Мои расстрочки;;My installments;;Моi розстрочки;
+PRD30003;productAccountDetails;official;Информация;;Information;;Інформація;
+PRD30003;productAccountDetails;dude;Информация;;Information;;Інформація;
+PRD30003;productAccountDetails;common;Информация;;Information;;Інформація;
+PRD30004;productAccountDetails;official;Дата заключения договора;;Contract date;;Дата укладення договору;
+PRD30004;productAccountDetails;dude;Дата заключения договора;;Contract date;;Дата укладення договору;
+PRD30004;productAccountDetails;common;Дата заключения договора;;Contract date;;Дата укладення договору;
+PRD30005;productAccountDetails;official;Срок действия;;Expiration date;;Строк дії;
+PRD30005;productAccountDetails;dude;Срок действия;;Expiration date;;Строк дії;
+PRD30005;productAccountDetails;common;Срок действия;;Expiration date;;Строк дії;
+PRD30006;productAccountDetails;common;Общая информация;;Common information;;Загальна інформація;
+PRD30006;productAccountDetails;official;Общая информация;;Common information;;Загальна інформація;
+PRD30006;productAccountDetails;dude;Общая информация;;Common information;;Загальна інформація;
+PRD30007;productAccountDetails;common;Задолженность;;Debt;;Заборгованість;
+PRD30007;productAccountDetails;dude;Задолженность;;Debt;;Заборгованість;
+PRD30007;productAccountDetails;official;Задолженность;;Debt;;Заборгованість;
+PRD30008;productAccountDetails;dude;Увеличение кредитного лимита;;Credit limit increase;;Збiльшення кредитного лiмiту;
+PRD30008;productAccountDetails;common;Увеличение кредитного лимита;;Credit limit increase;;Збiльшення кредитного лiмiту;
+PRD30008;productAccountDetails;official;Увеличение кредитного лимита;;Credit limit increase;;Збiльшення кредитного лiмiту;
+PRD30009;productAccountDetails;dude;Oтсутствует;;No debt;;Вiдсутня;
+PRD30009;productAccountDetails;common;Oтсутствует;;No debt;;Вiдсутня;
+PRD30009;productAccountDetails;official;Oтсутствует;;No debt;;Вiдсутня;
+PRD30010;productAccountDetails;dude;Пополнить;;Refil;;Поповнити;
+PRD30010;productAccountDetails;official;Пополнить;;Refil;;Поповнити;
+PRD30010;productAccountDetails;common;Пополнить;;Refil;;Поповнити;
+PRD30011;productAccountDetails;dude;Чтобы остаться в льготном периоде оплатите до указанной даты;;To stay in the grace period, pay by the specified date;;Щоб залишитись у пільговому періоді сплатіть до вказаної дати;
+PRD30011;productAccountDetails;common;Чтобы остаться в льготном периоде оплатите до указанной даты;;To stay in the grace period, pay by the specified date;;Щоб залишитись у пільговому періоді сплатіть до вказаної дати;
+PRD30011;productAccountDetails;official;Чтобы остаться в льготном периоде оплатите до указанной даты;;To stay in the grace period, pay by the specified date;;Щоб залишитись у пільговому періоді сплатіть до вказаної дати;
+PRD30012;productAccountDetails;common;Карточки;;Cards;;Картки;
+PRD30012;productAccountDetails;official;Карточки;;Cards;;Картки;
+PRD30012;productAccountDetails;dude;Карточки;;Cards;;Картки;
+PRD30013;productAccountDetails;common;Из них в рассрочку;;Installment debt;;З них у розстрочці;
+PRD30013;productAccountDetails;official;Из них в рассрочку;;Installment debt;;З них у розстрочці;
+PRD30013;productAccountDetails;dude;Из них в рассрочку;;Installment debt;;З них у розстрочці;
+PRD30014;productAccountDetails;dude;Управление;;Management;;Керування;
+PRD30014;productAccountDetails;official;Управление;;Management;;Керування;
+PRD30014;productAccountDetails;common;Управление;;Management;;Керування;
+PRD30015;productAccountDetails;dude;Доступно;;Available;;Доступно;
+PRD30015;productAccountDetails;common;Доступно;;Available;;Доступно;
+PRD30015;productAccountDetails;official;Доступно;;Available;;Доступно;
+PRD30016;productAccountDetails;official;Рекомендуется внести средства за 5 дней до даты платежа;;It's recommended to deposit funds 5 days before the payment date;;Рекомендуємо внести кошти за 5 днів до дати платежу;
+PRD30016;productAccountDetails;common;Рекомендуется внести средства за 5 дней до даты платежа;;It's recommended to deposit funds 5 days before the payment date;;Рекомендуємо внести кошти за 5 днів до дати платежу;
+PRD30016;productAccountDetails;dude;Рекомендуется внести средства за 5 дней до даты платежа;;It's recommended to deposit funds 5 days before the payment date;;Рекомендуємо внести кошти за 5 днів до дати платежу;
+PRD30017;productAccountDetails;official;Расчетная дата;;Estimated date;;Розрахункова дата;
+PRD30017;productAccountDetails;common;Расчетная дата;;Estimated date;;Розрахункова дата;
+PRD30017;productAccountDetails;dude;Расчетная дата;;Estimated date;;Розрахункова дата;
+PRD30018;productAccountDetails;official;Подробнее о рассрочке;;Installment details;;Детальніше про розстрочки;
+PRD30018;productAccountDetails;dude;Подробнее о рассрочке;;Installment details;;Детальніше про розстрочки;
+PRD30018;productAccountDetails;common;Подробнее о рассрочке;;Installment details;;Детальніше про розстрочки;
+PRD30019;productAccountDetails;common;Прочая информация;;Other information;;Інша інформація;
+PRD30019;productAccountDetails;official;Прочая информация;;Other information;;Інша інформація;
+PRD30019;productAccountDetails;dude;Прочая информация;;Other information;;Інша інформація;
+PRD30020;productAccountDetails;official;и %@ %@ в Доходном сейфе;;и %@ %@ в Доходном сейфе;;и %@ %@ в Доходном сейфе;
+PRD30020;productAccountDetails;dude;и %@ %@ в Доходном сейфе;;и %@ %@ в Доходном сейфе;;и %@ %@ в Доходном сейфе;
+PRD30020;productAccountDetails;common;и %@ %@ в Доходном сейфе;;и %@ %@ в Доходном сейфе;;и %@ %@ в Доходном сейфе;
+PRD30021;productAccountDetails;dude;Кредитный лимит;;Credit limit;;Кредитний лiмiт;
+PRD30021;productAccountDetails;common;Кредитный лимит;;Credit limit;;Кредитний лiмiт;
+PRD30021;productAccountDetails;official;Кредитный лимит;;Credit limit;;Кредитний лiмiт;
+PRD30022;productAccountDetails;common;История;;History;;Історія;
+PRD30022;productAccountDetails;official;История;;History;;Історія;
+PRD30022;productAccountDetails;dude;История;;History;;Історія;
+PRD30023;productAccountDetails;common;Расчетный период;;Billing period;;Розрахунковий період;
+PRD30023;productAccountDetails;official;Расчетный период;;Billing period;;Розрахунковий період;
+PRD30023;productAccountDetails;dude;Расчетный период;;Billing period;;Розрахунковий період;
+PRD30024;productAccountDetails;dude;Номер договора;;Contract number;;Номер договору;
+PRD30024;productAccountDetails;common;Номер договора;;Contract number;;Номер договору;
+PRD30024;productAccountDetails;official;Номер договора;;Contract number;;Номер договору;
+PRD30025;productAccountDetails;dude;Закрыть счет;;Close an account;;Закрити рахунок;
+PRD30025;productAccountDetails;common;Закрыть счет;;Close an account;;Закрити рахунок;
+PRD30025;productAccountDetails;official;Закрыть счет;;Close an account;;Закрити рахунок;
+PRD30026;productAccountDetails;common;Перевести;;Transfer;;Перевести;
+PRD30026;productAccountDetails;official;Перевести;;Transfer;;Перевести;
+PRD30026;productAccountDetails;dude;Перевести;;Transfer;;Перевести;
+PRFL0001;profile;dude;О банке;;О банке;;О банке;
+PRFL0001;profile;common;О банке;;О банке;;О банке;
+PRFL0001;profile;official;О банке;;О банке;;О банке;
+PRFL0002;profile;common;Добавить контакт Альфа-Банка;;Добавить контакт Альфа-Банка;;Добавить контакт Альфа-Банка;
+PRFL0002;profile;official;Добавить контакт Альфа-Банка;;Добавить контакт Альфа-Банка;;Добавить контакт Альфа-Банка;
+PRFL0002;profile;dude;Добавить контакт Альфа-Банка;;Добавить контакт Альфа-Банка;;Добавить контакт Альфа-Банка;
+PRFL0003;profile;common;"универсальный коммерческий банк, который входит в десятку крупнейших банков по размеру активов. Банк является частью международного консорциума ""Альфа Групп"". Альфа-Банк (Украина) занимает ведущие позиции во всех сегментах УКРАИНСКОГО банковского рынка.";;"универсальный коммерческий банк, который входит в десятку крупнейших банков по размеру активов. Банк является частью международного консорциума ""Альфа Групп"". Альфа-Банк (Украина) занимает ведущие позиции во всех сегментах УКРАИНСКОГО банковского рынка.";;"универсальный коммерческий банк, который входит в десятку крупнейших банков по размеру активов. Банк является частью международного консорциума ""Альфа Групп"". Альфа-Банк (Украина) занимает ведущие позиции во всех сегментах УКРАИНСКОГО банковского рынка.";
+PRFL0003;profile;dude;"универсальный коммерческий банк, который входит в десятку крупнейших банков по размеру активов. Банк является частью международного консорциума ""Альфа Групп"". Альфа-Банк (Украина) занимает ведущие позиции во всех сегментах УКРАИНСКОГО банковского рынка.";;"универсальный коммерческий банк, который входит в десятку крупнейших банков по размеру активов. Банк является частью международного консорциума ""Альфа Групп"". Альфа-Банк (Украина) занимает ведущие позиции во всех сегментах УКРАИНСКОГО банковского рынка.";;"универсальный коммерческий банк, который входит в десятку крупнейших банков по размеру активов. Банк является частью международного консорциума ""Альфа Групп"". Альфа-Банк (Украина) занимает ведущие позиции во всех сегментах УКРАИНСКОГО банковского рынка.";
+PRFL0003;profile;official;"универсальный коммерческий банк, который входит в десятку крупнейших банков по размеру активов. Банк является частью международного консорциума ""Альфа Групп"". Альфа-Банк (Украина) занимает ведущие позиции во всех сегментах УКРАИНСКОГО банковского рынка.";;"универсальный коммерческий банк, который входит в десятку крупнейших банков по размеру активов. Банк является частью международного консорциума ""Альфа Групп"". Альфа-Банк (Украина) занимает ведущие позиции во всех сегментах УКРАИНСКОГО банковского рынка.";;"универсальный коммерческий банк, который входит в десятку крупнейших банков по размеру активов. Банк является частью международного консорциума ""Альфа Групп"". Альфа-Банк (Украина) занимает ведущие позиции во всех сегментах УКРАИНСКОГО банковского рынка.";
+PRFL0004;profile;common;PUSH уведомления;;PUSH уведомления;;PUSH уведомления;
+PRFL0004;profile;official;PUSH уведомления;;PUSH уведомления;;PUSH уведомления;
+PRFL0004;profile;dude;PUSH уведомления;;PUSH уведомления;;PUSH уведомления;
+PRFL0005;profile;official;Выберите тему;;Выберите тему;;Выберите тему;
+PRFL0005;profile;dude;Выберите тему;;Выберите тему;;Выберите тему;
+PRFL0005;profile;common;Выберите тему;;Выберите тему;;Выберите тему;
+PRFL0006;profile;official;Связь с банком;;Связь с банком;;Связь с банком;
+PRFL0006;profile;dude;Связь с банком;;Связь с банком;;Связь с банком;
+PRFL0006;profile;common;Связь с банком;;Связь с банком;;Связь с банком;
+PRFL0007;profile;dude;Выйти;;Выйти;;Выйти;
+PRFL0007;profile;common;Выйти;;Выйти;;Выйти;
+PRFL0007;profile;official;Выйти;;Выйти;;Выйти;
+PRFL0008;profile;common;Войти;;Войти;;Войти;
+PRFL0008;profile;official;Войти;;Войти;;Войти;
+PRFL0008;profile;dude;Войти;;Войти;;Войти;
+PRFL0009;profile;dude;Email;;Email;;Email;
+PRFL0009;profile;common;Email;;Email;;Email;
+PRFL0009;profile;official;Email;;Email;;Email;
+PRFL0010;profile;common;Стиль общения;;Стиль общения;;Стиль общения;
+PRFL0010;profile;dude;Стиль общения;;Стиль общения;;Стиль общения;
+PRFL0010;profile;official;Стиль общения;;Стиль общения;;Стиль общения;
+PRFL0011;profile;common;Выбор темы;;Выбор темы;;Выбор темы;
+PRFL0011;profile;dude;Выбор темы;;Выбор темы;;Выбор темы;
+PRFL0011;profile;official;Выбор темы;;Выбор темы;;Выбор темы;
+PRFL0012;profile;common;Вход с помощью Face ID;;Вход с помощью Face ID;;Вход с помощью Face ID;
+PRFL0012;profile;official;Вход с помощью Face ID;;Вход с помощью Face ID;;Вход с помощью Face ID;
+PRFL0012;profile;dude;Вход с помощью Face ID;;Вход с помощью Face ID;;Вход с помощью Face ID;
+PRFL0013;profile;official;Выберите стиль общения;;Выберите стиль общения;;Выберите стиль общения;
+PRFL0013;profile;dude;Выберите стиль общения;;Выберите стиль общения;;Выберите стиль общения;
+PRFL0013;profile;common;Выберите стиль общения;;Выберите стиль общения;;Выберите стиль общения;
+PRFL0014;profile;common;Вы с Альфа-Банком;;Вы с Альфа-Банком;;Вы с Альфа-Банком;
+PRFL0014;profile;official;Вы с Альфа-Банком;;Вы с Альфа-Банком;;Вы с Альфа-Банком;
+PRFL0014;profile;dude;Вы с Альфа-Банком;;Вы с Альфа-Банком;;Вы с Альфа-Банком;
+PRFL0015;profile;official;Мой профиль;;Мой профиль;;Мой профиль;
+PRFL0015;profile;dude;Мой профиль;;Мой профиль;;Мой профиль;
+PRFL0015;profile;common;Мой профиль;;Мой профиль;;Мой профиль;
+PRFL0016;profile;common;Смена языка;;Смена языка;;Смена языка;
+PRFL0016;profile;official;Смена языка;;Смена языка;;Смена языка;
+PRFL0016;profile;dude;Смена языка;;Смена языка;;Смена языка;
+PRFL0017;profile;official;Вы действительно желаете выйти из приложения?;;Вы действительно желаете выйти из приложения?;;Вы действительно желаете выйти из приложения?;
+PRFL0017;profile;dude;Вы действительно желаете выйти из приложения?;;Вы действительно желаете выйти из приложения?;;Вы действительно желаете выйти из приложения?;
+PRFL0017;profile;common;Вы действительно желаете выйти из приложения?;;Вы действительно желаете выйти из приложения?;;Вы действительно желаете выйти из приложения?;
+PRFL0018;profile;official;Skype;;Skype;;Skype;
+PRFL0018;profile;dude;Skype;;Skype;;Skype;
+PRFL0018;profile;common;Skype;;Skype;;Skype;
+PRFL0019;profile;common;Мы отправим вам письмо с ссылкой. Перейдите по этой ссылке для подтверждения вашей электронной почты;;Мы отправим вам письмо с ссылкой. Перейдите по этой ссылке для подтверждения вашей электронной почты;;Мы отправим вам письмо с ссылкой. Перейдите по этой ссылке для подтверждения вашей электронной почты;
+PRFL0019;profile;official;Мы отправим вам письмо с ссылкой. Перейдите по этой ссылке для подтверждения вашей электронной почты;;Мы отправим вам письмо с ссылкой. Перейдите по этой ссылке для подтверждения вашей электронной почты;;Мы отправим вам письмо с ссылкой. Перейдите по этой ссылке для подтверждения вашей электронной почты;
+PRFL0019;profile;dude;Мы отправим вам письмо с ссылкой. Перейдите по этой ссылке для подтверждения вашей электронной почты;;Мы отправим вам письмо с ссылкой. Перейдите по этой ссылке для подтверждения вашей электронной почты;;Мы отправим вам письмо с ссылкой. Перейдите по этой ссылке для подтверждения вашей электронной почты;
+PRFL0020;profile;common;Введите ваш email;;Введите ваш email;;Введите ваш email;
+PRFL0020;profile;dude;Введите ваш email;;Введите ваш email;;Введите ваш email;
+PRFL0020;profile;official;Введите ваш email;;Введите ваш email;;Введите ваш email;
+PRFL0021;profile;common;Выберите язык приложения;;Выберите язык приложения;;Выберите язык приложения;
+PRFL0021;profile;official;Выберите язык приложения;;Выберите язык приложения;;Выберите язык приложения;
+PRFL0021;profile;dude;Выберите язык приложения;;Выберите язык приложения;;Выберите язык приложения;
+PRFL0022;profile;common;Для подтверждения перейдите по ссылке, которую мы отправили на вашу электронную почту %@;;Для подтверждения перейдите по ссылке, которую мы отправили на вашу электронную почту %@;;Для подтверждения перейдите по ссылке, которую мы отправили на вашу электронную почту %@;
+PRFL0022;profile;official;Для подтверждения перейдите по ссылке, которую мы отправили на вашу электронную почту %@;;Для подтверждения перейдите по ссылке, которую мы отправили на вашу электронную почту %@;;Для подтверждения перейдите по ссылке, которую мы отправили на вашу электронную почту %@;
+PRFL0022;profile;dude;Для подтверждения перейдите по ссылке, которую мы отправили на вашу электронную почту %@;;Для подтверждения перейдите по ссылке, которую мы отправили на вашу электронную почту %@;;Для подтверждения перейдите по ссылке, которую мы отправили на вашу электронную почту %@;
+PRFL0023;profile;official;Email не подтвержден;;Email не подтвержден;;Email не подтвержден;
+PRFL0023;profile;dude;Email не подтвержден;;Email не подтвержден;;Email не подтвержден;
+PRFL0023;profile;common;Email не подтвержден;;Email не подтвержден;;Email не подтвержден;
+PRFL0024;profile;dude;Альфа-Банк (Украина);;Альфа-Банк (Украина);;Альфа-Банк (Украина);
+PRFL0024;profile;official;Альфа-Банк (Украина);;Альфа-Банк (Украина);;Альфа-Банк (Украина);
+PRFL0024;profile;common;Альфа-Банк (Украина);;Альфа-Банк (Украина);;Альфа-Банк (Украина);
+PRFL0025;profile;official;Стать клиентом;;Стать клиентом;;Стать клиентом;
+PRFL0025;profile;dude;Стать клиентом;;Стать клиентом;;Стать клиентом;
+PRFL0025;profile;common;Стать клиентом;;Стать клиентом;;Стать клиентом;
+PRFL0026;profile;dude;Сайт;;Сайт;;Сайт;
+PRFL0026;profile;common;Сайт;;Сайт;;Сайт;
+PRFL0026;profile;official;Сайт;;Сайт;;Сайт;
+PRFL0027;profile;common;Отправить ссылку еще раз;;Отправить ссылку еще раз;;Отправить ссылку еще раз;
+PRFL0027;profile;official;Отправить ссылку еще раз;;Отправить ссылку еще раз;;Отправить ссылку еще раз;
+PRFL0027;profile;dude;Отправить ссылку еще раз;;Отправить ссылку еще раз;;Отправить ссылку еще раз;
+PRFL0028;profile;official;Сменить электронный адрес;;Сменить электронный адрес;;Сменить электронный адрес;
+PRFL0028;profile;dude;Сменить электронный адрес;;Сменить электронный адрес;;Сменить электронный адрес;
+PRFL0028;profile;common;Сменить электронный адрес;;Сменить электронный адрес;;Сменить электронный адрес;
+PRFL0029;profile;common;Телефон;;Телефон;;Телефон;
+PRFL0029;profile;official;Телефон;;Телефон;;Телефон;
+PRFL0029;profile;dude;Телефон;;Телефон;;Телефон;
+PRFL0030;profile;official;Настройки;;Настройки;;Настройки;
+PRFL0030;profile;dude;Настройки;;Настройки;;Настройки;
+PRFL0030;profile;common;Настройки;;Настройки;;Настройки;
+IBAN0001;iban;common;Попробовать еще раз;;Remind me later;;Спробувати ще раз;
+IBAN0001;iban;official;Попробовать еще раз;;Remind me later;;Спробувати ще раз;
+IBAN0001;iban;dude;Попробовать еще раз;;Remind me later;;Спробувати ще раз;
+IBAN0002;iban;common;Комиссия %@. Недостаточно средств;;Commission %@. Insufficient funds;;Комісія %@. Недостатньо коштів;
+IBAN0002;iban;official;Комиссия %@. Недостаточно средств;;Commission %@. Insufficient funds;;Комісія %@. Недостатньо коштів;
+IBAN0002;iban;dude;Комиссия %@. Недостаточно средств;;Commission %@. Insufficient funds;;Комісія %@. Недостатньо коштів;
+IBAN0003;iban;official;Нет активных счетов для переводов;;No active accounts for transfers;;Відсутні активні рахунки для переказів;
+IBAN0003;iban;common;Нет активных счетов для переводов;;No active accounts for transfers;;Відсутні активні рахунки для переказів;
+IBAN0003;iban;dude;Нет активных счетов для переводов;;No active accounts for transfers;;Відсутні активні рахунки для переказів;
+IBAN0004;iban;common;Получатель;;Recipient;;Одержувач;
+IBAN0004;iban;dude;Получатель;;Recipient;;Одержувач;
+IBAN0004;iban;official;Получатель;;Recipient;;Одержувач;
+IBAN0005;iban;official;Назначение платежа;;Appointment of payment;;Призначення платежу;
+IBAN0005;iban;dude;Назначение платежа;;Appointment of payment;;Призначення платежу;
+IBAN0005;iban;common;Назначение платежа;;Appointment of payment;;Призначення платежу;
+IBAN0006;iban;official;Вкажіть реквізити одержувача;;Вкажіть реквізити одержувача;;Вкажіть реквізити одержувача;
+IBAN0006;iban;dude;Вкажіть реквізити одержувача;;Вкажіть реквізити одержувача;;Вкажіть реквізити одержувача;
+IBAN0006;iban;common;Вкажіть реквізити одержувача;;Вкажіть реквізити одержувача;;Вкажіть реквізити одержувача;
+IBAN0007;iban;dude;Неверный лимит;;Wrong limits;;Невірний ліміт;
+IBAN0007;iban;common;Неверный лимит;;Wrong limits;;Невірний ліміт;
+IBAN0007;iban;official;Неверный лимит;;Wrong limits;;Невірний ліміт;
+IBAN0008;iban;common;Перевести;;Confirm;;Переказати;
+IBAN0008;iban;official;Перевести;;Confirm;;Переказати;
+IBAN0008;iban;dude;Перевести;;Confirm;;Переказати;
+IBAN0009;iban;dude;ЕГРПОУ/ИНН получателя;;Identify the recipient's code;;ЄДРПОУ/ІПН отримувача;
+IBAN0009;iban;common;ЕГРПОУ/ИНН получателя;;Identify the recipient's code;;ЄДРПОУ/ІПН отримувача;
+IBAN0009;iban;official;ЕГРПОУ/ИНН получателя;;Identify the recipient's code;;ЄДРПОУ/ІПН отримувача;
+IBAN0010;iban;dude;Mинимум %@;;Min %@;;Mінімум %@;
+IBAN0010;iban;common;Mинимум %@;;Min %@;;Mінімум %@;
+IBAN0010;iban;official;Mинимум %@;;Min %@;;Mінімум %@;
+IBAN0011;iban;official;Недостаточно средств;;Insufficient funds;;Недостатньо коштів;
+IBAN0011;iban;common;Недостаточно средств;;Insufficient funds;;Недостатньо коштів;
+IBAN0011;iban;dude;Недостаточно средств;;Insufficient funds;;Недостатньо коштів;
+IBAN0012;iban;common;Проверьте корректность данных;;Check the correctness of the data;;Перевірте коректність даних;
+IBAN0012;iban;dude;Проверьте корректность данных;;Check the correctness of the data;;Перевірте коректність даних;
+IBAN0012;iban;official;Проверьте корректность данных;;Check the correctness of the data;;Перевірте коректність даних;
+IBAN0013;iban;official;Я подтверждаю, что эта операция не связана с предпринимательской деятельностью;;I confirm that this transaction isn't related to any business activity;;Я підтверджую, що ця операція непов'язана з підприємницькою діяльністю;
+IBAN0013;iban;common;Я подтверждаю, что эта операция не связана с предпринимательской деятельностью;;I confirm that this transaction isn't related to any business activity;;Я підтверджую, що ця операція непов'язана з підприємницькою діяльністю;
+IBAN0013;iban;dude;Я подтверждаю, что эта операция не связана с предпринимательской деятельностью;;I confirm that this transaction isn't related to any business activity;;Я підтверджую, що ця операція непов'язана з підприємницькою діяльністю;
+IBAN0014;iban;official;Необхідно підтвердження;;Необхідно підтвердження;;Необхідно підтвердження;
+IBAN0014;iban;dude;Необхідно підтвердження;;Необхідно підтвердження;;Необхідно підтвердження;
+IBAN0014;iban;common;Необхідно підтвердження;;Необхідно підтвердження;;Необхідно підтвердження;
+IBAN0015;iban;official;Укажите сумму перевода;;Укажите сумму перевода;;Укажите сумму перевода;
+IBAN0015;iban;common;Укажите сумму перевода;;Укажите сумму перевода;;Укажите сумму перевода;
+IBAN0015;iban;dude;Укажите сумму перевода;;Укажите сумму перевода;;Укажите сумму перевода;
+TRNS0001;transfers;common;Операция не успешна;;Operation unsuccessful;;Операція не успішна;
+TRNS0001;transfers;dude;Операция не успешна;;Operation unsuccessful;;Операція не успішна;
+TRNS0001;transfers;official;Операция не успешна;;Operation unsuccessful;;Операція не успішна;
+TRNS0002;transfers;common;По номеру телефону;;By phone number;;По номеру телефону;
+TRNS0002;transfers;dude;По номеру телефону;;By phone number;;По номеру телефону;
+TRNS0002;transfers;official;По номеру телефону;;By phone number;;По номеру телефону;
+TRNS0003;transfers;dude;За реквізитами;;За реквізитами;;За реквізитами;
+TRNS0003;transfers;common;За реквізитами;;За реквізитами;;За реквізитами;
+TRNS0003;transfers;official;За реквізитами;;За реквізитами;;За реквізитами;
+TRNS0004;transfers;official;Мінімальний платіж;;Мінімальний платіж;;Мінімальний платіж;
+TRNS0004;transfers;dude;Мінімальний платіж;;Мінімальний платіж;;Мінімальний платіж;
+TRNS0004;transfers;common;Мінімальний платіж;;Мінімальний платіж;;Мінімальний платіж;
+TRNS0005;transfers;common;"Ты только что сделал перевод на сумму
+%@";;"Ти щойно зробив переказ на суму
+%@";;"You just transferred
+%@";
+TRNS0005;transfers;official;"Ты только что сделал перевод на сумму
+%@";;"Ти щойно зробив переказ на суму
+%@";;"You just transferred
+%@";
+TRNS0005;transfers;dude;"Ты только что сделал перевод на сумму
+%@";;"Ти щойно зробив переказ на суму
+%@";;"You just transferred
+%@";
+TRNS0006;transfers;common;Комиссия %@;;Commission %@;;Комісія %@;
+TRNS0006;transfers;dude;Комиссия %@;;Commission %@;;Комісія %@;
+TRNS0006;transfers;official;Комиссия %@;;Commission %@;;Комісія %@;
+TRNS0007;transfers;common;За реквізитами;;За реквізитами;;За реквізитами;
+TRNS0007;transfers;dude;За реквізитами;;За реквізитами;;За реквізитами;
+TRNS0007;transfers;official;За реквізитами;;За реквізитами;;За реквізитами;
+TRNS0008;transfers;common;Створити шаблон;;Створити шаблон;;Створити шаблон;
+TRNS0008;transfers;official;Створити шаблон;;Створити шаблон;;Створити шаблон;
+TRNS0008;transfers;dude;Створити шаблон;;Створити шаблон;;Створити шаблон;
+TRNS0009;transfers;dude;Не вибрано;;Не вибрано;;Не вибрано;
+TRNS0009;transfers;common;Не вибрано;;Не вибрано;;Не вибрано;
+TRNS0009;transfers;official;Не вибрано;;Не вибрано;;Не вибрано;
+TRNS0010;transfers;dude;Сума, %@;;Сума, %@;;Сума, %@;
+TRNS0010;transfers;official;Сума, %@;;Сума, %@;;Сума, %@;
+TRNS0010;transfers;common;Сума, %@;;Сума, %@;;Сума, %@;
+TRNS0011;transfers;official;Подтверждение перевода %@ (получатель: %@);;Подтверждение перевода %@ (получатель: %@);;Підтвердження переказу %@ (одержувач: %@);
+TRNS0011;transfers;dude;Подтверждение перевода %@ (получатель: %@);;Подтверждение перевода %@ (получатель: %@);;Підтвердження переказу %@ (одержувач: %@);
+TRNS0011;transfers;common;Подтверждение перевода %@ (получатель: %@);;Подтверждение перевода %@ (получатель: %@);;Підтвердження переказу %@ (одержувач: %@);
+TRNS0012;transfers;common;Неверный лимит;;Неверный лимит;;Неверный лимит;
+TRNS0012;transfers;official;Неверный лимит;;Неверный лимит;;Неверный лимит;
+TRNS0012;transfers;dude;Неверный лимит;;Неверный лимит;;Неверный лимит;
+TRNS0013;transfers;official;Заборгованість;;Заборгованість;;Заборгованість;
+TRNS0013;transfers;common;Заборгованість;;Заборгованість;;Заборгованість;
+TRNS0013;transfers;dude;Заборгованість;;Заборгованість;;Заборгованість;
+TRNS0014;transfers;common;Укажите сумму перевода;;Укажите сумму перевода;;Вкажіть суму переказу;
+TRNS0014;transfers;official;Укажите сумму перевода;;Укажите сумму перевода;;Вкажіть суму переказу;
+TRNS0014;transfers;dude;Укажите сумму перевода;;Укажите сумму перевода;;Вкажіть суму переказу;
+TRNS0015;transfers;dude;Вкажіть рахунок з якого ви хочете зробити переказ;;Вкажіть рахунок з якого ви хочете зробити переказ;;Вкажіть рахунок з якого ви хочете зробити переказ;
+TRNS0015;transfers;official;Вкажіть рахунок з якого ви хочете зробити переказ;;Вкажіть рахунок з якого ви хочете зробити переказ;;Вкажіть рахунок з якого ви хочете зробити переказ;
+TRNS0015;transfers;common;Вкажіть рахунок з якого ви хочете зробити переказ;;Вкажіть рахунок з якого ви хочете зробити переказ;;Вкажіть рахунок з якого ви хочете зробити переказ;
+TRNS0016;transfers;common;Payoneer, PayUkraine, Paysend, TransferGo;;Payoneer, PayUkraine, Paysend, TransferGo;;Payoneer, PayUkraine, Paysend, TransferGo;
+TRNS0016;transfers;official;Payoneer, PayUkraine, Paysend, TransferGo;;Payoneer, PayUkraine, Paysend, TransferGo;;Payoneer, PayUkraine, Paysend, TransferGo;
+TRNS0016;transfers;dude;Payoneer, PayUkraine, Paysend, TransferGo;;Payoneer, PayUkraine, Paysend, TransferGo;;Payoneer, PayUkraine, Paysend, TransferGo;
+TRNS0017;transfers;common;Минимальная сумма перевода 1 грн;;Минимальная сумма перевода 1 грн;;Минимальная сумма перевода 1 грн;
+TRNS0017;transfers;official;Минимальная сумма перевода 1 грн;;Минимальная сумма перевода 1 грн;;Минимальная сумма перевода 1 грн;
+TRNS0017;transfers;dude;Минимальная сумма перевода 1 грн;;Минимальная сумма перевода 1 грн;;Минимальная сумма перевода 1 грн;
+TRNS0018;transfers;dude;Платіжні сервіси;;Платіжні сервіси;;Платіжні сервіси;
+TRNS0018;transfers;official;Платіжні сервіси;;Платіжні сервіси;;Платіжні сервіси;
+TRNS0018;transfers;common;Платіжні сервіси;;Платіжні сервіси;;Платіжні сервіси;
+TRNS0019;transfers;common;Комиссия %@;;Commission %@;;Комісія %@;
+TRNS0019;transfers;official;Комиссия %@;;Commission %@;;Комісія %@;
+TRNS0019;transfers;dude;Комиссия %@;;Commission %@;;Комісія %@;
+TRNS0020;transfers;official;Можете нажати на суму, щоб підставити її в поле вводу;;Можете нажати на суму, щоб підставити її в поле вводу;;Можете нажати на суму, щоб підставити її в поле вводу;
+TRNS0020;transfers;common;Можете нажати на суму, щоб підставити її в поле вводу;;Можете нажати на суму, щоб підставити її в поле вводу;;Можете нажати на суму, щоб підставити її в поле вводу;
+TRNS0020;transfers;dude;Можете нажати на суму, щоб підставити її в поле вводу;;Можете нажати на суму, щоб підставити її в поле вводу;;Можете нажати на суму, щоб підставити її в поле вводу;
+TRNS0021;transfers;dude;Зі свого рахунку;;Зі свого рахунку;;Зі свого рахунку;
+TRNS0021;transfers;common;Зі свого рахунку;;Зі свого рахунку;;Зі свого рахунку;
+TRNS0021;transfers;official;Зі свого рахунку;;Зі свого рахунку;;Зі свого рахунку;
+TRNS0022;transfers;official;У вас нет счетов для проведения перевода;;У вас нет счетов для проведения перевода;;У вас нет счетов для проведения перевода;
+TRNS0022;transfers;dude;У вас нет счетов для проведения перевода;;У вас нет счетов для проведения перевода;;У вас нет счетов для проведения перевода;
+TRNS0022;transfers;common;У вас нет счетов для проведения перевода;;У вас нет счетов для проведения перевода;;У вас нет счетов для проведения перевода;
+TRNS0023;transfers;common;Перейти на головний екран;;Перейти на головний екран;;Перейти на головний екран;
+TRNS0023;transfers;official;Перейти на головний екран;;Перейти на головний екран;;Перейти на головний екран;
+TRNS0023;transfers;dude;Перейти на головний екран;;Перейти на головний екран;;Перейти на головний екран;
+TRNS0024;transfers;dude;По номеру картки;;По номеру картки;;По номеру картки;
+TRNS0024;transfers;common;По номеру картки;;По номеру картки;;По номеру картки;
+TRNS0024;transfers;official;По номеру картки;;По номеру картки;;По номеру картки;
+TRNS0025;transfers;common;У вас нет счетов для проведения перевода;;У вас нет счетов для проведения перевода;;У вас нет счетов для проведения перевода;
+TRNS0025;transfers;official;У вас нет счетов для проведения перевода;;У вас нет счетов для проведения перевода;;У вас нет счетов для проведения перевода;
+TRNS0025;transfers;dude;У вас нет счетов для проведения перевода;;У вас нет счетов для проведения перевода;;У вас нет счетов для проведения перевода;
+TRNS0026;transfers;official;Недостаточно денег;;Недостаточно денег;;Недостаточно денег;
+TRNS0026;transfers;dude;Недостаточно денег;;Недостаточно денег;;Недостаточно денег;
+TRNS0026;transfers;common;Недостаточно денег;;Недостаточно денег;;Недостаточно денег;
+TRNS0027;transfers;official;Операция успешна!;;Operation successful!;;Операція успішна!;
+TRNS0027;transfers;common;Операция успешна!;;Operation successful!;;Операція успішна!;
+TRNS0027;transfers;dude;Операция успешна!;;Operation successful!;;Операція успішна!;
+TRNS0028;transfers;official;Клієнтам Альфа-Банку;;Клієнтам Альфа-Банку;;Клієнтам Альфа-Банку;
+TRNS0028;transfers;dude;Клієнтам Альфа-Банку;;Клієнтам Альфа-Банку;;Клієнтам Альфа-Банку;
+TRNS0028;transfers;common;Клієнтам Альфа-Банку;;Клієнтам Альфа-Банку;;Клієнтам Альфа-Банку;
+TRNS0029;transfers;official;Перекази між картками українських або іноземних банків;;Перекази між картками українських або іноземних банків;;Перекази між картками українських або іноземних банків;
+TRNS0029;transfers;dude;Перекази між картками українських або іноземних банків;;Перекази між картками українських або іноземних банків;;Перекази між картками українських або іноземних банків;
+TRNS0029;transfers;common;Перекази між картками українських або іноземних банків;;Перекази між картками українських або іноземних банків;;Перекази між картками українських або іноземних банків;
+TRNS0030;transfers;dude;З картки іншого банку;;З картки іншого банку;;З картки іншого банку;
+TRNS0030;transfers;official;З картки іншого банку;;З картки іншого банку;;З картки іншого банку;
+TRNS0030;transfers;common;З картки іншого банку;;З картки іншого банку;;З картки іншого банку;
+TRNS0031;transfers;official;Неверный лимит;;Неверный лимит;;Неверный лимит;
+TRNS0031;transfers;common;Неверный лимит;;Неверный лимит;;Неверный лимит;
+TRNS0031;transfers;dude;Неверный лимит;;Неверный лимит;;Неверный лимит;
+TRNS0032;transfers;dude;Невозможно перевести с этого счета;;Невозможно перевести с этого счета;;Невозможно перевести с этого счета;
+TRNS0032;transfers;common;Невозможно перевести с этого счета;;Невозможно перевести с этого счета;;Невозможно перевести с этого счета;
+TRNS0032;transfers;official;Невозможно перевести с этого счета;;Невозможно перевести с этого счета;;Невозможно перевести с этого счета;
+TRNS0033;transfers;common;Оплата послуг;;Оплата послуг;;Оплата послуг;
+TRNS0033;transfers;dude;Оплата послуг;;Оплата послуг;;Оплата послуг;
+TRNS0033;transfers;official;Оплата послуг;;Оплата послуг;;Оплата послуг;
+TRNS0034;transfers;dude;Укажите кому вы хотите сделать перевод;;Укажите кому вы хотите сделать перевод;;Вкажіть кому ви хочете зробити переказ;
+TRNS0034;transfers;official;Укажите кому вы хотите сделать перевод;;Укажите кому вы хотите сделать перевод;;Вкажіть кому ви хочете зробити переказ;
+TRNS0034;transfers;common;Укажите кому вы хотите сделать перевод;;Укажите кому вы хотите сделать перевод;;Вкажіть кому ви хочете зробити переказ;
+TRNS0035;transfers;common;Між своїми рахунками;;Між своїми рахунками;;Між своїми рахунками;
+TRNS0035;transfers;official;Між своїми рахунками;;Між своїми рахунками;;Між своїми рахунками;
+TRNS0035;transfers;dude;Між своїми рахунками;;Між своїми рахунками;;Між своїми рахунками;
+TRNS0036;transfers;dude;Номер телефона;;Номер телефона;;Номер телефона;
+TRNS0036;transfers;common;Номер телефона;;Номер телефона;;Номер телефона;
+TRNS0036;transfers;official;Номер телефона;;Номер телефона;;Номер телефона;
+TRNS0037;transfers;common;З іншої картки;;З іншої картки;;З іншої картки;
+TRNS0037;transfers;official;З іншої картки;;З іншої картки;;З іншої картки;
+TRNS0037;transfers;dude;З іншої картки;;З іншої картки;;З іншої картки;
+TRNS0038;transfers;common;Недостаточно денег;;Недостаточно денег;;Недостаточно денег;
+TRNS0038;transfers;dude;Недостаточно денег;;Недостаточно денег;;Недостаточно денег;
+TRNS0038;transfers;official;Недостаточно денег;;Недостаточно денег;;Недостаточно денег;
+TRNS0039;transfers;common;Ти можеш створити шаблон та додати його на робочий стол;;Ти можеш створити шаблон та додати його на робочий стол;;Ти можеш створити шаблон та додати його на робочий стол;
+TRNS0039;transfers;dude;Ти можеш створити шаблон та додати його на робочий стол;;Ти можеш створити шаблон та додати його на робочий стол;;Ти можеш створити шаблон та додати його на робочий стол;
+TRNS0039;transfers;official;Ти можеш створити шаблон та додати його на робочий стол;;Ти можеш створити шаблон та додати його на робочий стол;;Ти можеш створити шаблон та додати його на робочий стол;
+TRNS0040;transfers;common;Отримати квитанцію;;Отримати квитанцію;;Отримати квитанцію;
+TRNS0040;transfers;official;Отримати квитанцію;;Отримати квитанцію;;Отримати квитанцію;
+TRNS0040;transfers;dude;Отримати квитанцію;;Отримати квитанцію;;Отримати квитанцію;
+TRNS0041;transfers;dude;Вкажіть суму переказу;;Вкажіть суму переказу;;Вкажіть суму переказу;
+TRNS0041;transfers;common;Вкажіть суму переказу;;Вкажіть суму переказу;;Вкажіть суму переказу;
+TRNS0041;transfers;official;Вкажіть суму переказу;;Вкажіть суму переказу;;Вкажіть суму переказу;
+TRNS0042;transfers;common;Номер телефона не принадлежит клиенту Альфа-Банка;;Номер телефона не принадлежит клиенту Альфа-Банка;;Номер телефона не принадлежит клиенту Альфа-Банка;
+TRNS0042;transfers;official;Номер телефона не принадлежит клиенту Альфа-Банка;;Номер телефона не принадлежит клиенту Альфа-Банка;;Номер телефона не принадлежит клиенту Альфа-Банка;
+TRNS0042;transfers;dude;Номер телефона не принадлежит клиенту Альфа-Банка;;Номер телефона не принадлежит клиенту Альфа-Банка;;Номер телефона не принадлежит клиенту Альфа-Банка;
+TRNS0043;transfers;common;Вкажіть як ви хочете поповнити рахунок;;Вкажіть як ви хочете поповнити рахунок;;Вкажіть як ви хочете поповнити рахунок;
+TRNS0043;transfers;official;Вкажіть як ви хочете поповнити рахунок;;Вкажіть як ви хочете поповнити рахунок;;Вкажіть як ви хочете поповнити рахунок;
+TRNS0043;transfers;dude;Вкажіть як ви хочете поповнити рахунок;;Вкажіть як ви хочете поповнити рахунок;;Вкажіть як ви хочете поповнити рахунок;
+TRNS0044;transfers;common;Комунальні платежі, оплата мобільного, тощо;;Комунальні платежі, оплата мобільного, тощо;;Комунальні платежі, оплата мобільного, тощо;
+TRNS0044;transfers;official;Комунальні платежі, оплата мобільного, тощо;;Комунальні платежі, оплата мобільного, тощо;;Комунальні платежі, оплата мобільного, тощо;
+TRNS0044;transfers;dude;Комунальні платежі, оплата мобільного, тощо;;Комунальні платежі, оплата мобільного, тощо;;Комунальні платежі, оплата мобільного, тощо;
+TRNS0045;transfers;official;Між своїми рахунками;;Між своїми рахунками;;Між своїми рахунками;
+TRNS0045;transfers;common;Між своїми рахунками;;Між своїми рахунками;;Між своїми рахунками;
+TRNS0045;transfers;dude;Між своїми рахунками;;Між своїми рахунками;;Між своїми рахунками;
+DSKT0001;desktop;common;Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки;;Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки;;Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки;
+DSKT0001;desktop;dude;Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки;;Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки;;Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки;
+DSKT0001;desktop;official;Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки;;Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки;;Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки;
+DSKT0002;desktop;dude;Мои шаблоны;;Мои шаблоны;;Мои шаблоны;
+DSKT0002;desktop;common;Мои шаблоны;;Мои шаблоны;;Мои шаблоны;
+DSKT0002;desktop;official;Мои шаблоны;;Мои шаблоны;;Мои шаблоны;
+DSKT0003;desktop;official;Попробуйте обновить главный экран, если ошибка повторяется - обратитесь в поддержку.;;Please swipe down to refresh the home screen. Please contact support if you still experience the issue.;;Спробуйте оновити головний екран, якщо помилка повторюється — зверніться в підтримку.;
+DSKT0003;desktop;dude;Попробуйте обновить главный экран, если ошибка повторяется - обратитесь в поддержку.;;Please swipe down to refresh the home screen. Please contact support if you still experience the issue.;;Спробуйте оновити головний екран, якщо помилка повторюється — зверніться в підтримку.;
+DSKT0003;desktop;common;Попробуйте обновить главный экран, если ошибка повторяется - обратитесь в поддержку.;;Please swipe down to refresh the home screen. Please contact support if you still experience the issue.;;Спробуйте оновити головний екран, якщо помилка повторюється — зверніться в підтримку.;
+DSKT0004;desktop;official;Удалить папку и ярлыки в ней с рабочего стола;;Delete folder and the shortcuts in it;;Delete folder and the shortcuts in it;
+DSKT0004;desktop;dude;Удалить папку и ярлыки в ней с рабочего стола;;Delete folder and the shortcuts in it;;Delete folder and the shortcuts in it;
+DSKT0004;desktop;common;Удалить папку и ярлыки в ней с рабочего стола;;Delete folder and the shortcuts in it;;Delete folder and the shortcuts in it;
+DSKT0005;desktop;official;Удалить папку, ярлыки переместить на рабочий стол;;Delete folder and move shortcuts to desktop;;Delete folder and move shortcuts to desktop;
+DSKT0005;desktop;common;Удалить папку, ярлыки переместить на рабочий стол;;Delete folder and move shortcuts to desktop;;Delete folder and move shortcuts to desktop;
+DSKT0005;desktop;dude;Удалить папку, ярлыки переместить на рабочий стол;;Delete folder and move shortcuts to desktop;;Delete folder and move shortcuts to desktop;
+DSKT0006;desktop;official;Удаление папки;;Folder deletion;;Folder deletion;
+DSKT0006;desktop;common;Удаление папки;;Folder deletion;;Folder deletion;
+DSKT0006;desktop;dude;Удаление папки;;Folder deletion;;Folder deletion;
+DSKT0007;desktop;common;Удалить ярлык с рабочего стола;;Delete shortcut from desktop;;Видалити ярлик з робочого столу;
+DSKT0007;desktop;dude;Удалить ярлык с рабочего стола;;Delete shortcut from desktop;;Видалити ярлик з робочого столу;
+DSKT0007;desktop;official;Удалить ярлык с рабочего стола;;Delete shortcut from desktop;;Видалити ярлик з робочого столу;
+DSKT0008;desktop;common;Мои счета;;Мои счета;;Мои счета;
+DSKT0008;desktop;dude;Мои счета;;Мои счета;;Мои счета;
+DSKT0008;desktop;official;Мои счета;;Мои счета;;Мои счета;
+DSKT0009;desktop;official;Удаление ярлыка;;Shortcut deletion;;Видалення ярлика;
+DSKT0009;desktop;dude;Удаление ярлыка;;Shortcut deletion;;Видалення ярлика;
+DSKT0009;desktop;common;Удаление ярлыка;;Shortcut deletion;;Видалення ярлика;
+DSKT0010;desktop;common;История/Расходы;;История/Расходы;;История/Расходы;
+DSKT0010;desktop;official;История/Расходы;;История/Расходы;;История/Расходы;
+DSKT0010;desktop;dude;История/Расходы;;История/Расходы;;История/Расходы;
+DSKT0011;desktop;common;Больше не спрашивать;;Don't ask again;;Більше не запитувати про це;
+DSKT0011;desktop;official;Больше не спрашивать;;Don't ask again;;Більше не запитувати про це;
+DSKT0011;desktop;dude;Больше не спрашивать;;Don't ask again;;Більше не запитувати про це;
+DSKT0012;desktop;common;Редактировать рабочий стол;;Редактировать рабочий стол;;Редактировать рабочий стол;
+DSKT0012;desktop;official;Редактировать рабочий стол;;Редактировать рабочий стол;;Редактировать рабочий стол;
+DSKT0012;desktop;dude;Редактировать рабочий стол;;Редактировать рабочий стол;;Редактировать рабочий стол;
+DSKT0013;desktop;common;Мы не смогли отобразить некоторые ваши продукты.;;Oops, we haven’t loaded some of your products.;;Ми не змогли відобразити деякі ваші продукти.;
+DSKT0013;desktop;dude;Мы не смогли отобразить некоторые ваши продукты.;;Oops, we haven’t loaded some of your products.;;Ми не змогли відобразити деякі ваші продукти.;
+DSKT0013;desktop;official;Мы не смогли отобразить некоторые ваши продукты.;;Oops, we haven’t loaded some of your products.;;Ми не змогли відобразити деякі ваші продукти.;
+DSKT0014;desktop;common;Сменить обои рабочего стола;;Сменить обои рабочего стола;;Сменить обои рабочего стола;
+DSKT0014;desktop;dude;Сменить обои рабочего стола;;Сменить обои рабочего стола;;Сменить обои рабочего стола;
+DSKT0014;desktop;official;Сменить обои рабочего стола;;Сменить обои рабочего стола;;Сменить обои рабочего стола;
+DSKT0015;desktop;dude;Галерея;;Галерея;;Галерея;
+DSKT0015;desktop;common;Галерея;;Галерея;;Галерея;
+DSKT0015;desktop;official;Галерея;;Галерея;;Галерея;
+DSKT0016;desktop;dude;Вы всегда сможете создать папку снова в редактировании рабочего стола;;You'll always be able to recreate the folder again in desktop edit;;You'll always be able to recreate the folder again in desktop edit;
+DSKT0016;desktop;common;Вы всегда сможете создать папку снова в редактировании рабочего стола;;You'll always be able to recreate the folder again in desktop edit;;You'll always be able to recreate the folder again in desktop edit;
+DSKT0016;desktop;official;Вы всегда сможете создать папку снова в редактировании рабочего стола;;You'll always be able to recreate the folder again in desktop edit;;You'll always be able to recreate the folder again in desktop edit;
+DSKT0017;desktop;dude;Повторить еще раз;;Повторить еще раз;;Повторить еще раз;
+DSKT0017;desktop;official;Повторить еще раз;;Повторить еще раз;;Повторить еще раз;
+DSKT0017;desktop;common;Повторить еще раз;;Повторить еще раз;;Повторить еще раз;
+DSKT0018;desktop;common;Платеж/Перевод;;Платеж/Перевод;;Платеж/Перевод;
+DSKT0018;desktop;official;Платеж/Перевод;;Платеж/Перевод;;Платеж/Перевод;
+DSKT0018;desktop;dude;Платеж/Перевод;;Платеж/Перевод;;Платеж/Перевод;
+DSKT0019;desktop;official;Вы всегда сможете добавить этот ярлык на рабочий стол в деталях шаблона;;You'll always be able to add this shortcut to desktop via template details;;Ви завжди зможете додати цей ярлик на робочий стіл в деталях шаблону;
+DSKT0019;desktop;dude;Вы всегда сможете добавить этот ярлык на рабочий стол в деталях шаблона;;You'll always be able to add this shortcut to desktop via template details;;Ви завжди зможете додати цей ярлик на робочий стіл в деталях шаблону;
+DSKT0019;desktop;common;Вы всегда сможете добавить этот ярлык на рабочий стол в деталях шаблона;;You'll always be able to add this shortcut to desktop via template details;;Ви завжди зможете додати цей ярлик на робочий стіл в деталях шаблону;

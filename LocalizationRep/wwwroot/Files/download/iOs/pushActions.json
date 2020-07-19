@@ -1,0 +1,87 @@
+{
+    "select-action" : {
+        "dude" : {
+            "ru" : "Select",
+            "en" : "Select",
+            "uk" : "Select"
+        },
+        "official" : {
+            "ru" : "Select",
+            "en" : "Select",
+            "uk" : "Select"
+        },
+        "common" : {
+            "ru" : "Select",
+            "en" : "Select",
+            "uk" : "Select"
+        }
+    },
+    "dismiss-action" : {
+        "dude" : {
+            "ru" : "Dismiss",
+            "en" : "Dismiss",
+            "uk" : "Dismiss"
+        },
+        "official" : {
+            "ru" : "Dismiss",
+            "en" : "Dismiss",
+            "uk" : "Dismiss"
+        },
+        "common" : {
+            "ru" : "Dismiss",
+            "en" : "Dismiss",
+            "uk" : "Dismiss"
+        }
+    },
+    "reply-action" : {
+        "dude" : {
+            "ru" : "Reply",
+            "en" : "Reply",
+            "uk" : "Reply"
+        },
+        "common" : {
+            "ru" : "Reply",
+            "en" : "Reply",
+            "uk" : "Reply"
+        },
+        "official" : {
+            "ru" : "Reply",
+            "en" : "Reply",
+            "uk" : "Reply"
+        }
+    },
+    "more-details-action" : {
+        "official" : {
+            "ru" : "More Details",
+            "en" : "More Details",
+            "uk" : "More Details"
+        },
+        "dude" : {
+            "ru" : "More Details",
+            "en" : "More Details",
+            "uk" : "More Details"
+        },
+        "common" : {
+            "ru" : "More Details",
+            "en" : "More Details",
+            "uk" : "More Details"
+        }
+    },
+    "pay-now-action" : {
+        "official" : {
+            "en" : "Pay Now",
+            "uk" : "Pay Now",
+            "ru" : "Pay Now"
+        },
+        "common" : {
+            "en" : "Pay Now",
+            "uk" : "Pay Now",
+            "ru" : "Pay Now"
+        },
+        "dude" : {
+            "en" : "Pay Now",
+            "uk" : "Pay Now",
+            "ru" : "Pay Now"
+        }
+    }
+}

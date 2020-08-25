@@ -12,6 +12,7 @@ namespace LocalizationRep.Models
         public string IOsID { get; set; }
         public string AndroidID { get; set; }
         public int AndoridStringNumber { get; set; }
+        public string AndroidXMLComment { get; set; }
 
         public List<StyleJsonKeyModel> StyleJsonKeyModel { get; set; }
 

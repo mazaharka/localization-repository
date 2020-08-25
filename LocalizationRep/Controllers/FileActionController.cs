@@ -12,7 +12,6 @@ using Microsoft.EntityFrameworkCore;
 using LocalizationRep.Utilities;
 using Newtonsoft.Json;
 using System.Text.RegularExpressions;
-using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace LocalizationRep.Controllers
 {
@@ -277,7 +276,7 @@ namespace LocalizationRep.Controllers
 
         public void JsonToDb(string key, string itemOfJSONInAllString)
         {
-            string CommonID;
+            //string CommonID;
             MainTable mainTable = new MainTable();
             StyleJsonKeyModel styleJsonKeyModel = new StyleJsonKeyModel();
             LangKeyModel langKeyModel = new LangKeyModel();
@@ -321,7 +320,7 @@ namespace LocalizationRep.Controllers
                         List<StyleJsonKeyModel> styleJsonKeyModels = new List<StyleJsonKeyModel>();
 
                         string styleNameKey = "default";
-                        bool flag = false;
+                        //bool flag = false;
                         foreach (var langKey in parse.Value)
                         {
                             styleNameKey = langKey.Key;
@@ -340,12 +339,9 @@ namespace LocalizationRep.Controllers
 
                             foreach (var itemLangKey in langKey.Value)
                             {
-                                flag = false;
+                                //flag = false;
                                 itemLangName = itemLangKey.Key;
-                                if (itemLangKey.Value.ToString().Contains("%@"))
-                                {
-                                    flag = true;
-                                }
+
                                 if (itemLangKey.Value.ToString().Split('"').Count() == 2)
                                 {
                                     jsonHaveAlsoPrular = JsonConvert.DeserializeObject<Dictionary<string, string>>(itemLangKey.Value.ToString());
@@ -390,7 +386,7 @@ namespace LocalizationRep.Controllers
                         }
 
                         mainTable.StyleJsonKeyModel = styleJsonKeyModels;
-                        mainTable.CommonID = CommonIDGetNext(key, flag);
+                        mainTable.CommonID = CommonIDGetNext(key);
                         _context.MainTable.Update(mainTable);
                         _context.SaveChanges();
                     }
@@ -399,7 +395,7 @@ namespace LocalizationRep.Controllers
             }
         }
 
-        private string CommonIDGetNext(string sectionKey, bool flag)
+        private string CommonIDGetNext(string sectionKey)
         {
             string CommonID = "";
             string Zero = "0000";
@@ -414,15 +410,7 @@ namespace LocalizationRep.Controllers
                     }
                     try
                     {
-                        if (flag)
-                        {
-                            NextNumb = int.Parse(section.LastIndexOfCommonID) + 2;
-                        }
-                        else
-                        {
-                            NextNumb = int.Parse(section.LastIndexOfCommonID) + 1;
-                        }
-
+                        NextNumb = int.Parse(section.LastIndexOfCommonID) + 1;
                         CommonID += Zero.Remove(Zero.Length - NextNumb.ToString().Length) + NextNumb.ToString();
                         section.LastIndexOfCommonID = CommonID.Remove(0, 4);
                         _context.SaveChanges();
@@ -558,6 +546,22 @@ namespace LocalizationRep.Controllers
         {
 
             FAXML.DeleteDublicate();
+
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult EraseAndoridCommentInMainTable()
+        {
+
+            FAXML.RemoveAndoridCommentInMainTable();
+
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult RemoveAllAndoridIdMatchesInMainTable()
+        {
+
+            FAXML.RemoveAllAndoridIdMatchesInMainTable();
 
             return RedirectToAction("Index");
         }

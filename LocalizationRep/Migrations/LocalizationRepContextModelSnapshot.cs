@@ -16,6 +16,20 @@ namespace LocalizationRep.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.4");
 
+            modelBuilder.Entity("LocalizationRep.Models.CommentAndroidXMLModel", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("CommentValue")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("CommentAndroidXMLModel");
+                });
+
             modelBuilder.Entity("LocalizationRep.Models.FileModel", b =>
                 {
                     b.Property<int>("ID")
@@ -93,6 +107,9 @@ namespace LocalizationRep.Migrations
                     b.Property<bool>("AndroidOnly")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("AndroidXMLComment")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("CommonID")
                         .HasColumnType("TEXT");
 
@@ -133,10 +150,15 @@ namespace LocalizationRep.Migrations
                     b.Property<string>("NodeInnerText")
                         .HasColumnType("TEXT");
 
+                    b.Property<int>("SectionID")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("StringNumber")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("ID");
+
+                    b.HasIndex("SectionID");
 
                     b.ToTable("NotMatchedItem");
                 });
@@ -145,6 +167,12 @@ namespace LocalizationRep.Migrations
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("CommentAndroidXMLModelID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int?>("CommentAndroidXMLModelID1")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("LastIndexOfCommonID")
@@ -157,6 +185,8 @@ namespace LocalizationRep.Migrations
                         .HasColumnType("TEXT");
 
                     b.HasKey("ID");
+
+                    b.HasIndex("CommentAndroidXMLModelID1");
 
                     b.ToTable("Section");
                 });
@@ -203,6 +233,22 @@ namespace LocalizationRep.Migrations
                         .HasForeignKey("SectionID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("LocalizationRep.Models.NotMatchedItem", b =>
+                {
+                    b.HasOne("LocalizationRep.Models.Sections", "Section")
+                        .WithMany()
+                        .HasForeignKey("SectionID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("LocalizationRep.Models.Sections", b =>
+                {
+                    b.HasOne("LocalizationRep.Models.CommentAndroidXMLModel", "CommentAndroidXMLModel")
+                        .WithMany()
+                        .HasForeignKey("CommentAndroidXMLModelID1");
                 });
 
             modelBuilder.Entity("LocalizationRep.Models.StyleJsonKeyModel", b =>

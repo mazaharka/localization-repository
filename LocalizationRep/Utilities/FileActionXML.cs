@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Xml;
 using LocalizationRep.Data;
 using LocalizationRep.Models;
@@ -17,11 +18,15 @@ namespace LocalizationRep.Utilities
         private readonly LocalizationRepContext _context;
         private readonly IWebHostEnvironment _appEnvironment;
         Dictionary<string, XMLKeyModel> noMatchedItems = new Dictionary<string, XMLKeyModel>();
-
+        private readonly char[] TrimXMLCommentChars = new Char[] { '<', '-', '>', '!', ' ' };
+        private readonly IQueryable<string> stylesUnique;
+        private readonly IQueryable<string> langNameUnique;
         public FileActionXML(LocalizationRepContext context, IWebHostEnvironment appEnvironment)
         {
             _context = context;
             _appEnvironment = appEnvironment;
+            stylesUnique = _context.StyleJsonKeyModel.OrderBy(s => s.StyleName).Select(s => s.StyleName).AsQueryable().Distinct();
+            langNameUnique = _context.LangKeyModel.OrderBy(s => s.LangName).Select(s => s.LangName).AsQueryable().Distinct();
         }
 
         public void ReadFileXMLAction()
@@ -39,18 +44,18 @@ namespace LocalizationRep.Utilities
                 }
             }
 
-            var mainTableItem = from m in _context.MainTable
-                                            .Include(m => m.Section)
-                                            .Include(m => m.StyleJsonKeyModel)
-                                                .ThenInclude(s => s.LangKeyModels)
-                                                    .ThenInclude(l => l.LangValue)
-                                                    .Where(m => m.AndroidID == null)
-                                select m;
+            //var mainTableItem = from m in _context.MainTable
+            //                                .Include(m => m.Section)
+            //                                .Include(m => m.StyleJsonKeyModel)
+            //                                    .ThenInclude(s => s.LangKeyModels)
+            //                                        .ThenInclude(l => l.LangValue)
+            //                                        .Where(m => m.AndroidID == null)
+            //                    select m;
 
             foreach (var notMatchItem in noMatchedItems.Values)
             {
                 bool flag = false;
-                foreach (var item in mainTableItem)
+                foreach (var item in GetAllValuesMainTable())
                 {
                     if (notMatchItem.AttributeValue == item.AndroidID)
                     {
@@ -74,8 +79,9 @@ namespace LocalizationRep.Utilities
                 {
                     AndroidID = item.AttributeValue,
                     NodeInnerText = item.NodeInnerText,
-                    CommentValue = item.CommentValue,
-                    StringNumber = item.StringNumber
+                    CommentValue = item.CommentValue.Trim(TrimXMLCommentChars),
+                    StringNumber = item.StringNumber,
+                    Section = null
                 };
                 _context.NotMatchedItem.Add(notMatchedItem);
                 _context.SaveChanges();
@@ -85,6 +91,15 @@ namespace LocalizationRep.Utilities
         private void ReadAndCompareXMLFromFile(string path, Dictionary<string, XMLKeyModel> noMatchedItems)
         {
             string comment = "";
+            string pattern = @"\%.\$?";
+
+            IQueryable<string> stylesUnique = _context.StyleJsonKeyModel.OrderBy(s => s.StyleName).Select(s => s.StyleName);
+            IQueryable<string> langNameUnique = _context.LangKeyModel.OrderBy(s => s.LangName).Select(s => s.LangName);
+
+
+
+            stylesUnique = stylesUnique.AsQueryable().Distinct();
+            langNameUnique = langNameUnique.AsQueryable().Distinct();
 
             foreach (var items in ReadXMLFromFileToList(path))
             {
@@ -95,30 +110,46 @@ namespace LocalizationRep.Utilities
                 }
                 if (!items.IsComment)
                 {
-                    var mainTableItem = from m in _context.MainTable
-                                            .Include(m => m.Section)
-                                            .Include(m => m.StyleJsonKeyModel)
-                                                .ThenInclude(s => s.LangKeyModels)
-                                                    .ThenInclude(l => l.LangValue)
-                                            .Where(m => m.AndroidID == null)
-                                        select m;
 
-                    foreach (var iosRuString in mainTableItem)
+
+
+                    //var mainTableItem = from m in _context.MainTable
+                    //                        .Include(m => m.Section)
+                    //                        .Include(m => m.StyleJsonKeyModel)
+                    //                            .ThenInclude(s => s.LangKeyModels)
+                    //                                .ThenInclude(l => l.LangValue)
+                    //                        .Where(m => m.AndroidID == null)
+                    //                    select m;
+
+                    foreach (var iosRuString in GetAllValuesMainTable())
                     {
 
-                        if (IsMatchComplete(iosRuString, items, 70))
+                        if (IsMatchComplete(iosRuString, items, 70) && Regex.Matches(items.NodeInnerText, pattern).Count() == 0) // &&  !IsContainSpecialSymbol(items.NodeInnerText, pattern))
                         {
                             iosRuString.AndroidID = items.AttributeValue;
                             iosRuString.AndoridStringNumber = items.StringNumber;
+                            iosRuString.AndroidXMLComment = items.CommentValue.Trim(TrimXMLCommentChars);
+                            _context.MainTable.Update(iosRuString);
                             isMatched = true;
                             break;
                         }
+                        if (Regex.Matches(items.NodeInnerText, pattern).Count() != 0)
+                        {
+
+                        }
                     }
+                    //_context.SaveChanges();
+                    //var s = Regex.Matches(items.NodeInnerText, pattern);
+                    //var count = Regex.Matches(items.NodeInnerText, pattern).Count();
 
                     if (!isMatched && !noMatchedItems.Keys.Contains(items.AttributeValue))
                     {
                         noMatchedItems.Add(items.AttributeValue, items);
                     }
+                    //if (Regex.Matches(items.NodeInnerText, pattern).Count() != 0)
+                    //{
+                    //    noMatchedItems.Add(items.AttributeValue, items);
+                    //}
                 }
             }
             Console.WriteLine("END compare" + Path.GetDirectoryName(path));
@@ -126,23 +157,35 @@ namespace LocalizationRep.Utilities
             _context.SaveChanges();
         }
 
+        private bool IsContainSpecialSymbol(string input, string pattern)
+        {
+            var s = Regex.Matches(input, pattern);
+            foreach (Match m in Regex.Matches(input, pattern))
+            {
+                Console.WriteLine("'{0}' found at index {1}.", m.Value, m.Index);
+            }
+            return false;
+        }
         private bool IsMatchComplete(MainTable iosRuString, XMLKeyModel items, double matchEdge)
         {
 
             List<bool> resulting = new List<bool>();
             bool commonResult = false;
 
-            IQueryable<string> stylesUnique = from s in _context.StyleJsonKeyModel
-                                              orderby s.StyleName
-                                              select s.StyleName;
+            //IQueryable<string> stylesUnique = from s in _context.StyleJsonKeyModel
+            //                                  orderby s.StyleName
+            //                                  select s.StyleName;
+            //IQueryable<string> langNameUnique = from s in _context.LangKeyModel
+            //                                    orderby s.LangName
+            //                                    select s.LangName;
 
-            IQueryable<string> langNameUnique = from s in _context.LangKeyModel
-                                                orderby s.LangName
-                                                select s.LangName;
+            //IQueryable<string> stylesUnique = _context.StyleJsonKeyModel.OrderBy(s => s.StyleName).Select(s => s.StyleName);
+            //IQueryable<string> langNameUnique = _context.LangKeyModel.OrderBy(s => s.LangName).Select(s => s.LangName);
 
 
-            stylesUnique = stylesUnique.AsQueryable().Distinct();
-            langNameUnique = langNameUnique.AsQueryable().Distinct();
+
+            //stylesUnique = stylesUnique.AsQueryable().Distinct();
+            //langNameUnique = langNameUnique.AsQueryable().Distinct();
 
             foreach (var stylesUniqueItem in stylesUnique)
             {
@@ -192,21 +235,29 @@ namespace LocalizationRep.Utilities
             return matchPercent;
         }
 
-        private static List<XMLKeyModel> ReadXMLFromFileToList(string path)
+        private List<XMLKeyModel> ReadXMLFromFileToList(string path)
         {
             string XMLComment = "";
+            string Comment = "";
             int StringNumberCounter = 0;
             List<XMLKeyModel> xmlKeyModels = new List<XMLKeyModel>();
             XmlDocument xDoc = new XmlDocument();
             xDoc.Load(path);
 
             XmlElement xRoot = xDoc.DocumentElement;
-
+            var commentAndroidXMLModelEntity = _context.CommentAndroidXMLModel.ToList();
+            List<CommentAndroidXMLModel> commentAndroidXMLModels = new List<CommentAndroidXMLModel>();
             foreach (XmlNode xnode in xRoot)
             {
                 if (xnode.NodeType == XmlNodeType.Comment)
                 {
                     XMLComment = xnode.OuterXml;
+                    Comment = XMLComment.Trim(TrimXMLCommentChars);
+
+                    commentAndroidXMLModels.Add(new CommentAndroidXMLModel
+                    {
+                        CommentValue = XMLComment
+                    });
                 }
                 else if (xnode.NodeType != XmlNodeType.Comment)
                 {
@@ -215,14 +266,68 @@ namespace LocalizationRep.Utilities
                         XmlNode attr = xnode.Attributes.GetNamedItem("name");
                         if (attr != null)
                         {
-                            xmlKeyModels.Add(new XMLKeyModel { StringNumber = StringNumberCounter, AttributeValue = attr.Value, NodeInnerText = xnode.InnerText, CommentValue = XMLComment });
+                            xmlKeyModels.Add(new XMLKeyModel
+                            {
+                                StringNumber = StringNumberCounter,
+                                AttributeValue = attr.Value,
+                                NodeInnerText = xnode.InnerText,
+                                CommentValue = XMLComment
+                            });
                         }
                     }
                 }
                 StringNumberCounter++;
             }
 
+            try
+            {
+                foreach (var item in commentAndroidXMLModels)
+                {
+                    if (!_context.CommentAndroidXMLModel.Any())
+                    {
+                        _context.CommentAndroidXMLModel.Add(item);
+                    }
+                    else
+                    {
+                        var t = _context.CommentAndroidXMLModel.Where(x => x.CommentValue == item.CommentValue);
+                        if (t.Count() == 0)
+                        {
+                            _context.CommentAndroidXMLModel.Add(item);
+                        }
+                    }
+                    _context.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+
             return xmlKeyModels;
+        }
+
+        public void RemoveAndoridCommentInMainTable()
+        {
+            //List<MainTable> mainTableItems = GetAllValuesMainTable();
+
+            foreach (var mainTableItem in GetAllValuesMainTableAndroidIDNotNull())
+            {
+                mainTableItem.AndroidXMLComment = null;
+                _context.MainTable.Update(mainTableItem);
+            }
+            _context.SaveChanges();
+        }
+
+        public void RemoveAllAndoridIdMatchesInMainTable()
+        {
+            //List<MainTable> mainTableItems = GetAllValuesMainTable();
+
+            foreach (var mainTableItem in GetAllValuesMainTableAndroidIDNotNull())
+            {
+                mainTableItem.AndroidID = null;
+                _context.MainTable.Update(mainTableItem);
+            }
+            _context.SaveChanges();
         }
 
         public void DeleteDublicate()
@@ -231,17 +336,17 @@ namespace LocalizationRep.Utilities
 
             var notMatchedItemsTable = _context.NotMatchedItem.ToList();
 
-            var mainTableItem = _context.MainTable
-                                           .Include(m => m.Section)
-                                           .Include(m => m.StyleJsonKeyModel)
-                                               .ThenInclude(s => s.LangKeyModels)
-                                                   .ThenInclude(l => l.LangValue).Where(m => m.AndroidID != null).ToList();
+            //var mainTableItem = _context.MainTable
+            //                               .Include(m => m.Section)
+            //                               .Include(m => m.StyleJsonKeyModel)
+            //                                   .ThenInclude(s => s.LangKeyModels)
+            //                                       .ThenInclude(l => l.LangValue).Where(m => m.AndroidID != null).ToList();
 
 
             foreach (var notMatchedItem in notMatchedItemsTable)
             {
                 bool flag = false;
-                foreach (var item in mainTableItem)
+                foreach (var item in GetAllValuesMainTableAndroidIDNotNull())
                 {
                     if (item.AndroidID.Equals(notMatchedItem.AndroidID))
                     {
@@ -255,7 +360,29 @@ namespace LocalizationRep.Utilities
                 }
             }
             _context.SaveChanges();
-            
+
+        }
+
+        private List<MainTable> GetAllValuesMainTable()
+        {
+            return _context.MainTable
+                                     .Include(m => m.Section)
+                                     .Include(m => m.StyleJsonKeyModel)
+                                         .ThenInclude(s => s.LangKeyModels)
+                                             .ThenInclude(l => l.LangValue)
+                                        .Where(m => m.AndroidID == null).ToList();
+        }
+
+
+
+        private List<MainTable> GetAllValuesMainTableAndroidIDNotNull()
+        {
+            return _context.MainTable
+                                     .Include(m => m.Section)
+                                     .Include(m => m.StyleJsonKeyModel)
+                                         .ThenInclude(s => s.LangKeyModels)
+                                             .ThenInclude(l => l.LangValue)
+                                     .Where(m => m.AndroidID != null).ToList();
         }
     }
 }

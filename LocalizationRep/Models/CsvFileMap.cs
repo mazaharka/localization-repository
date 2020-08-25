@@ -1,5 +1,4 @@
-﻿using System;
-using CsvHelper.Configuration;
+﻿using CsvHelper.Configuration;
 
 namespace LocalizationRep.Models
 {
@@ -9,9 +8,13 @@ namespace LocalizationRep.Models
         {
             Map(m => m.CommonID).Name("CommonID");
             Map(m => m.SectorName).Name("SectorName");
-            Map(m => m.TextRU).Name("TextRU");
-            Map(m => m.TextEN).Name("TextEN");
-            Map(m => m.TextUA).Name("TextUA");
+            Map(m => m.TextStyle).Name("TextStyle");
+            Map(m => m.TextRUSingle).Name("TextRUSingle");
+            Map(m => m.TextRUPrular).Name("TextRUPrular");
+            Map(m => m.TextENSingle).Name("TextENSingle");
+            Map(m => m.TextENPrular).Name("TextENPrular");
+            Map(m => m.TextUASingle).Name("TextUASingle");
+            Map(m => m.TextUAPrular).Name("TextUAPrular");
         }
     }
 }

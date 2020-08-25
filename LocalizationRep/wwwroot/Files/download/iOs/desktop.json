@@ -1,0 +1,325 @@
+{
+    "desktop-wallpaper-image-error-alert-message" : {
+        "common" : {
+            "ru" : "Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки",
+            "en" : "Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки",
+            "uk" : "Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки"
+        },
+        "dude" : {
+            "ru" : "Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки",
+            "en" : "Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки",
+            "uk" : "Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки"
+        },
+        "official" : {
+            "ru" : "Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки",
+            "en" : "Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки",
+            "uk" : "Не удалось загрузить изображение. Попробуйте еще раз или обратитесь в службу поддержки"
+        }
+    },
+    "desktop-template-folder-initTitle" : {
+        "dude" : {
+            "uk" : "Мои шаблоны",
+            "ru" : "Мои шаблоны",
+            "en" : "Мои шаблоны"
+        },
+        "common" : {
+            "uk" : "Мои шаблоны",
+            "ru" : "Мои шаблоны",
+            "en" : "Мои шаблоны"
+        },
+        "official" : {
+            "uk" : "Мои шаблоны",
+            "ru" : "Мои шаблоны",
+            "en" : "Мои шаблоны"
+        }
+    },
+    "desktop-shortcuts-request-error-description" : {
+        "official" : {
+            "uk" : "Спробуйте оновити головний екран, якщо помилка повторюється — зверніться в підтримку.",
+            "ru" : "Попробуйте обновить главный экран, если ошибка повторяется - обратитесь в поддержку.",
+            "en" : "Please swipe down to refresh the home screen. Please contact support if you still experience the issue."
+        },
+        "dude" : {
+            "uk" : "Спробуйте оновити головний екран, якщо помилка повторюється — зверніться в підтримку.",
+            "ru" : "Попробуйте обновить главный экран, если ошибка повторяется - обратитесь в поддержку.",
+            "en" : "Please swipe down to refresh the home screen. Please contact support if you still experience the issue."
+        },
+        "common" : {
+            "uk" : "Спробуйте оновити головний екран, якщо помилка повторюється — зверніться в підтримку.",
+            "ru" : "Попробуйте обновить главный экран, если ошибка повторяется - обратитесь в поддержку.",
+            "en" : "Please swipe down to refresh the home screen. Please contact support if you still experience the issue."
+        }
+    },
+    "desktop-shortcuts-delete-alert-delete-folder-full" : {
+        "official" : {
+            "ru" : "Удалить папку и ярлыки в ней с рабочего стола",
+            "en" : "Delete folder and the shortcuts in it",
+            "uk" : "Delete folder and the shortcuts in it"
+        },
+        "dude" : {
+            "ru" : "Удалить папку и ярлыки в ней с рабочего стола",
+            "en" : "Delete folder and the shortcuts in it",
+            "uk" : "Delete folder and the shortcuts in it"
+        },
+        "common" : {
+            "ru" : "Удалить папку и ярлыки в ней с рабочего стола",
+            "en" : "Delete folder and the shortcuts in it",
+            "uk" : "Delete folder and the shortcuts in it"
+        }
+    },
+    "desktop-shortcuts-delete-alert-delete-folder-partially" : {
+        "official" : {
+            "uk" : "Delete folder and move shortcuts to desktop",
+            "en" : "Delete folder and move shortcuts to desktop",
+            "ru" : "Удалить папку, ярлыки переместить на рабочий стол"
+        },
+        "common" : {
+            "uk" : "Delete folder and move shortcuts to desktop",
+            "en" : "Delete folder and move shortcuts to desktop",
+            "ru" : "Удалить папку, ярлыки переместить на рабочий стол"
+        },
+        "dude" : {
+            "uk" : "Delete folder and move shortcuts to desktop",
+            "en" : "Delete folder and move shortcuts to desktop",
+            "ru" : "Удалить папку, ярлыки переместить на рабочий стол"
+        }
+    },
+    "desktop-shortcuts-delete-folder-title" : {
+        "official" : {
+            "en" : "Folder deletion",
+            "ru" : "Удаление папки",
+            "uk" : "Folder deletion"
+        },
+        "common" : {
+            "en" : "Folder deletion",
+            "ru" : "Удаление папки",
+            "uk" : "Folder deletion"
+        },
+        "dude" : {
+            "en" : "Folder deletion",
+            "ru" : "Удаление папки",
+            "uk" : "Folder deletion"
+        }
+    },
+    "desktop-shortcuts-delete-alert-delete-action" : {
+        "common" : {
+            "en" : "Delete shortcut from desktop",
+            "uk" : "Видалити ярлик з робочого столу",
+            "ru" : "Удалить ярлык с рабочего стола"
+        },
+        "dude" : {
+            "en" : "Delete shortcut from desktop",
+            "uk" : "Видалити ярлик з робочого столу",
+            "ru" : "Удалить ярлык с рабочего стола"
+        },
+        "official" : {
+            "en" : "Delete shortcut from desktop",
+            "uk" : "Видалити ярлик з робочого столу",
+            "ru" : "Удалить ярлык с рабочего стола"
+        }
+    },
+    "desktop-product-folder-initTitle" : {
+        "common" : {
+            "uk" : "Мои счета",
+            "ru" : "Мои счета",
+            "en" : "Мои счета"
+        },
+        "dude" : {
+            "uk" : "Мои счета",
+            "ru" : "Мои счета",
+            "en" : "Мои счета"
+        },
+        "official" : {
+            "uk" : "Мои счета",
+            "ru" : "Мои счета",
+            "en" : "Мои счета"
+        }
+    },
+    "desktop-shortcuts-delete-shortcut-title" : {
+        "official" : {
+            "uk" : "Видалення ярлика",
+            "en" : "Shortcut deletion",
+            "ru" : "Удаление ярлыка"
+        },
+        "dude" : {
+            "uk" : "Видалення ярлика",
+            "en" : "Shortcut deletion",
+            "ru" : "Удаление ярлыка"
+        },
+        "common" : {
+            "uk" : "Видалення ярлика",
+            "en" : "Shortcut deletion",
+            "ru" : "Удаление ярлыка"
+        }
+    },
+    "desktop-historyCell-title" : {
+        "common" : {
+            "en" : "История\/Расходы",
+            "uk" : "История\/Расходы",
+            "ru" : "История\/Расходы"
+        },
+        "official" : {
+            "en" : "История\/Расходы",
+            "uk" : "История\/Расходы",
+            "ru" : "История\/Расходы"
+        },
+        "dude" : {
+            "en" : "История\/Расходы",
+            "uk" : "История\/Расходы",
+            "ru" : "История\/Расходы"
+        }
+    },
+    "desktop-shortcuts-delete-alert-checkbox-description" : {
+        "common" : {
+            "ru" : "Больше не спрашивать",
+            "uk" : "Більше не запитувати про це",
+            "en" : "Don't ask again"
+        },
+        "official" : {
+            "ru" : "Больше не спрашивать",
+            "uk" : "Більше не запитувати про це",
+            "en" : "Don't ask again"
+        },
+        "dude" : {
+            "ru" : "Больше не спрашивать",
+            "uk" : "Більше не запитувати про це",
+            "en" : "Don't ask again"
+        }
+    },
+    "desktop-tabBar-edit-title" : {
+        "common" : {
+            "ru" : "Редактировать рабочий стол",
+            "uk" : "Редактировать рабочий стол",
+            "en" : "Редактировать рабочий стол"
+        },
+        "official" : {
+            "ru" : "Редактировать рабочий стол",
+            "uk" : "Редактировать рабочий стол",
+            "en" : "Редактировать рабочий стол"
+        },
+        "dude" : {
+            "ru" : "Редактировать рабочий стол",
+            "uk" : "Редактировать рабочий стол",
+            "en" : "Редактировать рабочий стол"
+        }
+    },
+    "desktop-shortcuts-request-error-title" : {
+        "common" : {
+            "uk" : "Ми не змогли відобразити деякі ваші продукти.",
+            "ru" : "Мы не смогли отобразить некоторые ваши продукты.",
+            "en" : "Oops, we haven’t loaded some of your products."
+        },
+        "dude" : {
+            "uk" : "Ми не змогли відобразити деякі ваші продукти.",
+            "ru" : "Мы не смогли отобразить некоторые ваши продукты.",
+            "en" : "Oops, we haven’t loaded some of your products."
+        },
+        "official" : {
+            "uk" : "Ми не змогли відобразити деякі ваші продукти.",
+            "ru" : "Мы не смогли отобразить некоторые ваши продукты.",
+            "en" : "Oops, we haven’t loaded some of your products."
+        }
+    },
+    "desktop-tabBar-changeWallpapers-title" : {
+        "common" : {
+            "en" : "Сменить обои рабочего стола",
+            "uk" : "Сменить обои рабочего стола",
+            "ru" : "Сменить обои рабочего стола"
+        },
+        "dude" : {
+            "en" : "Сменить обои рабочего стола",
+            "uk" : "Сменить обои рабочего стола",
+            "ru" : "Сменить обои рабочего стола"
+        },
+        "official" : {
+            "en" : "Сменить обои рабочего стола",
+            "uk" : "Сменить обои рабочего стола",
+            "ru" : "Сменить обои рабочего стола"
+        }
+    },
+    "desktop-wallpaper-gallery-title" : {
+        "dude" : {
+            "en" : "Галерея",
+            "uk" : "Галерея",
+            "ru" : "Галерея"
+        },
+        "common" : {
+            "en" : "Галерея",
+            "uk" : "Галерея",
+            "ru" : "Галерея"
+        },
+        "official" : {
+            "en" : "Галерея",
+            "uk" : "Галерея",
+            "ru" : "Галерея"
+        }
+    },
+    "desktop-folders-delete-alert-description" : {
+        "dude" : {
+            "uk" : "You'll always be able to recreate the folder again in desktop edit",
+            "ru" : "Вы всегда сможете создать папку снова в редактировании рабочего стола",
+            "en" : "You'll always be able to recreate the folder again in desktop edit"
+        },
+        "common" : {
+            "uk" : "You'll always be able to recreate the folder again in desktop edit",
+            "ru" : "Вы всегда сможете создать папку снова в редактировании рабочего стола",
+            "en" : "You'll always be able to recreate the folder again in desktop edit"
+        },
+        "official" : {
+            "uk" : "You'll always be able to recreate the folder again in desktop edit",
+            "ru" : "Вы всегда сможете создать папку снова в редактировании рабочего стола",
+            "en" : "You'll always be able to recreate the folder again in desktop edit"
+        }
+    },
+    "desktop-shortcuts-request-error-button" : {
+        "dude" : {
+            "en" : "Повторить еще раз",
+            "uk" : "Повторить еще раз",
+            "ru" : "Повторить еще раз"
+        },
+        "official" : {
+            "en" : "Повторить еще раз",
+            "uk" : "Повторить еще раз",
+            "ru" : "Повторить еще раз"
+        },
+        "common" : {
+            "en" : "Повторить еще раз",
+            "uk" : "Повторить еще раз",
+            "ru" : "Повторить еще раз"
+        }
+    },
+    "desktop-paymentCell-title" : {
+        "common" : {
+            "ru" : "Платеж\/Перевод",
+            "en" : "Платеж\/Перевод",
+            "uk" : "Платеж\/Перевод"
+        },
+        "official" : {
+            "ru" : "Платеж\/Перевод",
+            "en" : "Платеж\/Перевод",
+            "uk" : "Платеж\/Перевод"
+        },
+        "dude" : {
+            "ru" : "Платеж\/Перевод",
+            "en" : "Платеж\/Перевод",
+            "uk" : "Платеж\/Перевод"
+        }
+    },
+    "desktop-shortcuts-delete-alert-description" : {
+        "official" : {
+            "uk" : "Ви завжди зможете додати цей ярлик на робочий стіл в деталях шаблону",
+            "en" : "You'll always be able to add this shortcut to desktop via template details",
+            "ru" : "Вы всегда сможете добавить этот ярлык на рабочий стол в деталях шаблона"
+        },
+        "dude" : {
+            "uk" : "Ви завжди зможете додати цей ярлик на робочий стіл в деталях шаблону",
+            "en" : "You'll always be able to add this shortcut to desktop via template details",
+            "ru" : "Вы всегда сможете добавить этот ярлык на рабочий стол в деталях шаблона"
+        },
+        "common" : {
+            "uk" : "Ви завжди зможете додати цей ярлик на робочий стіл в деталях шаблону",
+            "en" : "You'll always be able to add this shortcut to desktop via template details",
+            "ru" : "Вы всегда сможете добавить этот ярлык на рабочий стол в деталях шаблона"
+        }
+    }
+}

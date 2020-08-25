@@ -9,11 +9,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using CsvHelper;
-using System.Globalization;
-using System.Collections;
-using System.Text.Json;
-using System.Xml;
+using LocalizationRep.Utilities;
+using Newtonsoft.Json;
+using System.Text.RegularExpressions;
 
 namespace LocalizationRep.Controllers
 {
@@ -21,13 +19,13 @@ namespace LocalizationRep.Controllers
     {
         private readonly LocalizationRepContext _context;
         private readonly IWebHostEnvironment _appEnvironment;
+        private readonly FileActionXML FAXML;
 
-        private readonly Dictionary<string, string> fileСontents = new Dictionary<string, string>();
-        //private readonly Dictionary<string, string> FileInfo = new Dictionary<string, string>();
-        private readonly List<FileModel> FileInfo = new List<FileModel>();
+
 
         public FileActionController(LocalizationRepContext context, IWebHostEnvironment appEnvironment)
         {
+            FAXML = new FileActionXML(context, appEnvironment);
             _context = context;
             _appEnvironment = appEnvironment;
         }
@@ -35,52 +33,65 @@ namespace LocalizationRep.Controllers
         // GET: FileAction
         public async Task<IActionResult> Index()
         {
+
             isHaveErrorsToUserView();
 
             return View(await _context.FileModel.ToListAsync());
         }
 
 
-        /// <summary>
-        /// Загрузка файла на сервер, в корневую папку - подпапка "Files"
-        /// Добавление информации о файле в таблицу FileModel базы данных
-        /// </summary>
-        /// <param name="uploadedFile"></param>
-        /// <returns></returns>
+        // GET: FileAction/NotMatched
+        public async Task<IActionResult> NotMatched()
+        {
+            return View(await _context.NotMatchedItem.ToListAsync());
+        }
+
+        // POST: FileAction/NotMatched
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> NotMatched([Bind("ID,StringNumber,AndroidID,NodeInnerText,CommentValue,CommonID")] NotMatchedItem notMatchedItem)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(notMatchedItem);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            //ViewData["SectionID"] = new SelectList(_context.Section, "ID", "Title", notMatchedItem.SectionID);
+            return View(notMatchedItem);
+        }
+
         [HttpPost]
         public async Task<IActionResult> AddFile(IFormFile uploadedFile)
         {
             if (uploadedFile != null)
             {
-                // путь к папке Files
-                string path = Path.Combine(_appEnvironment.WebRootPath, "/Files/upload/" + uploadedFile.FileName);
-                // сохраняем файл в папку Files в каталоге wwwroot
-                using (var fileStream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
+                string path = Path.Combine(_appEnvironment.WebRootPath, FileActionHelpers.UploadPath + uploadedFile.FileName);
+
+                using (var fileStream = new FileStream(path, FileMode.Create))
                 {
                     await uploadedFile.CopyToAsync(fileStream);
                 }
 
                 if (!_context.FileModel.Where(s => s.Path == path).Any())
                 {
-                    FileModel file = new FileModel { Name = uploadedFile.FileName, Path = path };
+                    FileModel file = new FileModel { Name = uploadedFile.FileName, Path = path, TypeOfLoad = FileActionHelpers.TypeOfLoad.UPLOAD.ToString() };
                     _context.FileModel.Add(file);
                 }
                 _context.SaveChanges();
 
             }
             UpDateInfoFilesInDB();
-            //UpdateFileInDatabase(uploadedFile);
+
             return RedirectToAction("Index");
         }
 
-
         public IActionResult UpdateFileInDatabase(string filename)
         {
-            //List<CsvFileModel> st;
             switch (Path.GetExtension(filename))
             {
                 case ".csv":
-                    UpdateFromCsv(ReadUploadedCSVFile(filename));
+                    CSVActionController.UpdateFromCsv(FileActionCSV.ReadUploadedCSV(filename), _context);
                     break;
                 case ".json":
                     break;
@@ -92,102 +103,23 @@ namespace LocalizationRep.Controllers
             return RedirectToAction("Index");
         }
 
-        private void UpdateFromCsv(List<CsvFileModel> csvFiles)
-        {
-            foreach (var item in csvFiles)
-            {
-                var entity = _context.MainTable.FirstOrDefault(e => e.CommonID == item.CommonID); //Where(m => m.CommonID == item.CommonID);
-                if (entity != null)
-                {
-                    entity.TextEN = item.TextEN;
-                    entity.TextRU = item.TextRU;
-                    entity.TextUA = item.TextUA;
-
-                    _context.MainTable.Update(entity);
-
-                    _context.SaveChanges();
-                }
-            }
-        }
-
         // POST: FileAction/UpDateInfoFilesInDB
         [HttpPost]
         public IActionResult UpDateInfoFilesInDB()
         {
-            List<FileModel> filesOnSrv = GetFilesInfo();
-            FileModel file;
-
-            if (filesOnSrv.Count == 0)
-            {
-                _context.FileModel.RemoveRange(_context.FileModel);
-            }
-            else
-            {
-                foreach (var item in filesOnSrv)
-                {
-                    if (!_context.FileModel.Where(s => s.Path == item.Path).Any())
-                    {
-                        file = new FileModel { ID = _context.FileModel.Count(), Name = item.Name, Path = item.Path, TypeOfLoad = item.TypeOfLoad };
-                        _context.FileModel.Add(file);
-                    }
-
-                }
-            }
-            _context.SaveChanges();
+            ActionWithDataBase.UpDateInfoFilesInDBAction(_context, _appEnvironment);
 
             return RedirectToAction("Index");
         }
 
-        /// <summary>
-        /// Метод обновления информации в базе данных о разделах
-        /// </summary>
-        /// <returns></returns>
         // GET: FileAction/UpdateSectionFromFile
         public IActionResult UpdateSectionFromFile()
         {
-            AddUniqeSectionToDbTable(GetFilesInfo());
+            AddUniqeSectionToDbTable(FileActionHelpers.GetFilesInfo(_appEnvironment));
 
             return RedirectToAction("Index");
         }
 
-        /// <summary>
-        /// Метод получающий данные о файлах(путь расположения) в переменную FileInfo
-        /// Также фильтрует файлы по расширениям json и xml
-        /// </summary>
-        private List<FileModel> GetFilesInfo()
-        {
-            string filePathUpload = Path.Combine(_appEnvironment.WebRootPath, "Files/upload/");
-            string filePathDownload = Path.Combine(_appEnvironment.WebRootPath, "Files/download/");
-            string[] DocumentsUpload = Directory.GetFiles(filePathUpload);
-            string[] DocumentsDownload = Directory.GetFiles(filePathDownload);
-
-            foreach (var item in DocumentsUpload)
-            {
-                if (Path.GetExtension(item) == ".json" || Path.GetExtension(item) == ".xml" || Path.GetExtension(item) == ".csv")
-                {
-                    //FileInfo.Add(new FileModel { Name = Path.GetFileNameWithoutExtension(item), Path = item, TypeOfLoad = "upload" });
-                    FileInfo.Add(new FileModel { Name = Path.GetFileName(item), Path = item, TypeOfLoad = "upload" });
-                }
-            }
-
-            foreach (var item in DocumentsDownload)
-            {
-                if (Path.GetExtension(item) == ".json" || Path.GetExtension(item) == ".xml" || Path.GetExtension(item) == ".csv")
-                {
-                    //FileInfo.Add(new FileModel { Name = Path.GetFileNameWithoutExtension(item), Path = item, TypeOfLoad = "download" });
-                    FileInfo.Add(new FileModel { Name = Path.GetFileName(item), Path = item, TypeOfLoad = "download" });
-                }
-            }
-
-            return FileInfo;
-        }
-
-        /// <summary>
-        /// Метод очищающий все таблицы базы данных
-        /// TODO разделить на отдельные методы для очистки каждой таблицы
-        /// </summary>
-        /// <returns></returns>
-        ///
         // GET: FileAction/EraseAllSectionFromDb
         [Obsolete]
         public IActionResult EraseAllSectionFromDb(string whatIMustRemove)
@@ -204,32 +136,27 @@ namespace LocalizationRep.Controllers
                     _context.MainTable.RemoveRange(_context.MainTable);
                     break;
                 default:
+
                     _context.FileModel.RemoveRange(_context.FileModel);
                     _context.Section.RemoveRange(_context.Section);
+                    _context.LangKeyModel.RemoveRange(_context.LangKeyModel);
+                    _context.LangValue.RemoveRange(_context.LangValue);
+                    _context.StyleJsonKeyModel.RemoveRange(_context.StyleJsonKeyModel);
                     _context.MainTable.RemoveRange(_context.MainTable);
                     break;
             }
-            //очистка таблицы Section
-            //if (_context.Section.Any() || _context.MainTable.Any() || _context.FileModel.Any())
-            //{
-            //    _context.FileModel.RemoveRange(_context.FileModel);
-            //    _context.Section.RemoveRange(_context.Section);
-            //    _context.MainTable.RemoveRange(_context.MainTable);
-
-            //}
             _context.SaveChanges();
             UpDateInfoFilesInDB();
+
             return RedirectToAction("Index");
         }
-
-
 
         // GET: FileAction/PopulateDBWithValuesFromFiles
         public IActionResult PopulateDBWithValuesFromFiles()
         {
             if (_context.Section.Count() != 0)
             {
-                Initialize(GetFilesInfo());
+                Initialize(FileActionHelpers.GetFilesInfo(_appEnvironment));
             }
             else
             {
@@ -248,12 +175,13 @@ namespace LocalizationRep.Controllers
                     using StreamReader sr = new StreamReader(item.Path);
                     string line;
                     string inFile = "";
+
                     while ((line = sr.ReadLine()) != null)
                     {
                         inFile += line;
                     }
 
-                    JsonToDb(Path.GetFileNameWithoutExtension(item.Name), inFile.Remove(0, 1).Remove(inFile.Length - 2, 1).Split('}'));
+                    JsonToDb(Path.GetFileNameWithoutExtension(item.Name), inFile);
                     sr.Close();
                 }
             }
@@ -265,16 +193,31 @@ namespace LocalizationRep.Controllers
             foreach (var fileСontentsItem in FilesName)
             {
                 bool next = true;
-                if (fileСontentsItem.TypeOfLoad.Equals("upload"))
+                if (fileСontentsItem.TypeOfLoad.Equals(FileActionHelpers.TypeOfLoad.UPLOAD.ToString()))
                 {
+
                     foreach (Sections section in _context.Section)
                     {
                         if (fileСontentsItem.Name.Equals(section.Title))
                         {
                             next = false;
-                            continue;
+                            break;
                         }
                     }
+
+                    string shortNameUn = GetUniqueShortName(Path.GetFileNameWithoutExtension(fileСontentsItem.Name).ToUpper());
+                    int randomNumber = 0;
+                    foreach (Sections section in _context.Section)
+                    {
+
+                        while (section.ShortName.Equals(shortNameUn))
+                        {
+                            shortNameUn = shortNameUn.Replace(shortNameUn.Substring(3, 1), randomNumber.ToString());
+                            randomNumber++;
+                        }
+                    }
+
+
                     if (next && Path.GetExtension(fileСontentsItem.Path) == ".json")
                     {
                         _context.Section.AddRange(
@@ -282,14 +225,47 @@ namespace LocalizationRep.Controllers
                                    {
                                        Title = Path.GetFileNameWithoutExtension(fileСontentsItem.Name).ToString(),
                                        LastIndexOfCommonID = "0000",
-                                       ShortName = fileСontentsItem.Name.Remove(4, fileСontentsItem.Name.Length - 4).ToUpper()
+                                       ShortName = shortNameUn
                                    });
+                        _context.SaveChanges();
                     }
                 }
             }
-            _context.SaveChanges();
+
 
             return RedirectToAction("Index");
+        }
+
+        public string GetUniqueShortName(string fileName)
+        {
+            string returnString = fileName;
+            string pattern = @"[AEYUIO]";
+            if (fileName.Length > 4)
+            {
+                returnString = fileName.Remove(1) + Regex.Replace(fileName.Substring(1), pattern, "");
+
+                if (returnString.Length > 4)
+                {
+                    returnString = returnString.Remove(4);
+                }
+                else if (returnString.Length <= 4)
+                {
+                    while (returnString.Length < 4)
+                    {
+                        returnString += "0";
+                    }
+                }
+            }
+            else if (fileName.Length < 4)
+            {
+                while (fileName.Length < 4)
+                {
+                    returnString += "0";
+                }
+            }
+
+
+            return returnString;
         }
 
         public void GetAllSectors()
@@ -298,76 +274,121 @@ namespace LocalizationRep.Controllers
                 Console.WriteLine(section.Title);
         }
 
-        public void JsonToDb(string key, string[] itemOfJSONInAllString)
+        public void JsonToDb(string key, string itemOfJSONInAllString)
         {
-            string IOsID = "", AndroidID = "", TextRU = "", TextEN = "", TextUA = "";
-            bool next = true;
+            //string CommonID;
+            MainTable mainTable = new MainTable();
+            StyleJsonKeyModel styleJsonKeyModel = new StyleJsonKeyModel();
+            LangKeyModel langKeyModel = new LangKeyModel();
+            LangValue langValue = new LangValue();
+            Dictionary<string, Dictionary<string, Dictionary<string, object>>> Localiz = new Dictionary<string, Dictionary<string, Dictionary<string, object>>>();
+            Dictionary<string, string> jsonHaveAlsoPrular = new Dictionary<string, string>();
+            string jsonHaveOnlySingle = "!jsonHaveOnlySingle";
             var sections = _context.Section.Where(t => t.Title == key).ToList();
-            Dictionary<string, Dictionary<string, string>> tmp = ParceJsonToDb(key, itemOfJSONInAllString);
+            try
+            {
+                Localiz = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, Dictionary<string, object>>>>(itemOfJSONInAllString);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+
             if (sections.Count != 0)
             {
-                foreach (var parse in tmp)
+                foreach (var parse in Localiz)
                 {
-                    foreach (MainTable mainTable in _context.MainTable) //TODO переделать на _context.Maintable.FirstDefault()
+                    if (_context.MainTable.FirstOrDefault(s => s.IOsID == parse.Key) == null)
                     {
-                        if (parse.Key.Equals(mainTable.IOsID))
-                        {
-                            next = false;
-                            break;
-                        }
-                    }
-                    if (next)
-                    {
-                        IOsID = parse.Key;
-                        foreach (var item in parse.Value)
-                        {
-                            switch (item.Key)
-                            {
-                                case "uk":
-                                    TextUA = item.Value;
-                                    break;
-                                case "ru":
-                                    TextRU = item.Value;
-                                    break;
-                                case "en":
-                                    TextEN = item.Value;
-                                    break;
-                                //case "en":
-                                //    TextEN = item.Value;
-                                //    break;
-                                //case "en":
-                                //    TextEN = item.Value;
-                                //    break;
-                                default:
-                                    TextRU = "non";
-                                    TextEN = "non";
-                                    TextUA = "non";
-                                    break;
-                            }
-                        }
+                        //CommonID = CommonIDGetNext(key);
                         try
                         {
-                            _context.MainTable.AddRange(
-                            new MainTable
+                            mainTable = new MainTable
                             {
-                                SectionID = sections.First().ID,
-
-                                CommonID = CommonIDGetNext(key),
-                                IOsID = IOsID,
-                                AndroidID = AndroidID,
-
-                                TextRU = TextRU,
-                                TextEN = TextEN,
-                                TextUA = TextUA,
-
-                                IsFreezing = false
-
-                            });
+                                SectionID = sections.Find(s => s.Title == key).ID,
+                                //CommonID = CommonID,
+                                IOsID = parse.Key
+                            };
+                            _context.MainTable.Add(mainTable);
+                            _context.SaveChanges();
                         }
                         catch (InvalidOperationException ex)
                         {
                             Console.WriteLine("Нет секций в базе. Обнови секции, по-братски!\n" + ex);
                         }
+                        List<LangKeyModel> langKeyModels = new List<LangKeyModel>();
+                        List<StyleJsonKeyModel> styleJsonKeyModels = new List<StyleJsonKeyModel>();
+
+                        string styleNameKey = "default";
+                        //bool flag = false;
+                        foreach (var langKey in parse.Value)
+                        {
+                            styleNameKey = langKey.Key;
+                            styleJsonKeyModel = new StyleJsonKeyModel
+                            {
+                                StyleName = styleNameKey,
+                                //LangKeyModels = null,
+                                MainTables = mainTable
+                            };
+                            _context.StyleJsonKeyModel.Add(styleJsonKeyModel);
+                            _context.SaveChanges();
+
+                            langKeyModels.Clear();
+                            LangValue langValues = new LangValue();
+                            string itemLangName = "ru/en/ua";
+
+                            foreach (var itemLangKey in langKey.Value)
+                            {
+                                //flag = false;
+                                itemLangName = itemLangKey.Key;
+
+                                if (itemLangKey.Value.ToString().Split('"').Count() == 2)
+                                {
+                                    jsonHaveAlsoPrular = JsonConvert.DeserializeObject<Dictionary<string, string>>(itemLangKey.Value.ToString());
+                                    langValues = new LangValue
+                                    {
+                                        Single = jsonHaveAlsoPrular.Values.First(),
+                                        Prular = jsonHaveAlsoPrular.Values.Last()
+                                    };
+                                }
+                                else
+                                {
+                                    jsonHaveOnlySingle = itemLangKey.Value.ToString();
+                                    langValues = new LangValue
+                                    {
+                                        Single = jsonHaveOnlySingle
+                                    };
+                                }
+                                try
+                                {
+                                    langKeyModel = new LangKeyModel
+                                    {
+                                        LangName = itemLangName,
+                                        LangValue = langValues,
+                                        StyleJsonKeyModel = styleJsonKeyModel
+                                    };
+                                    langKeyModels.Add(langKeyModel);
+                                    _context.LangKeyModel.Add(langKeyModel);
+                                    _context.SaveChanges();
+                                }
+                                catch (Exception ex)
+                                {
+                                    Console.WriteLine("LangKeyModel not create" + ex);
+                                }
+                            }
+
+                            styleJsonKeyModel.StyleName = styleNameKey;
+                            styleJsonKeyModel.LangKeyModels = langKeyModels.GetRange(langKeyModels.Count - 3, 3);
+                            _context.StyleJsonKeyModel.Update(styleJsonKeyModel);
+                            _context.SaveChanges();
+                            styleJsonKeyModels.Add(styleJsonKeyModel);
+                            _context.SaveChanges();
+                        }
+
+                        mainTable.StyleJsonKeyModel = styleJsonKeyModels;
+                        mainTable.CommonID = CommonIDGetNext(key);
+                        _context.MainTable.Update(mainTable);
+                        _context.SaveChanges();
                     }
                 }
                 _context.SaveChanges();
@@ -404,54 +425,6 @@ namespace LocalizationRep.Controllers
             return CommonID;
         }
 
-        public Dictionary<string, Dictionary<string, string>> ParceJsonToDb(string sector, string[] itemOfJSONInAllString)
-        {
-            Dictionary<string, Dictionary<string, string>> tempJSON = new Dictionary<string, Dictionary<string, string>>();
-            Char[] elementForTrimStrings = new Char[] { ' ', '"', ':', ',', '{' };
-            string[] tempString = new string[13];
-
-            foreach (var item in itemOfJSONInAllString)
-            {
-                if (item == "")
-                {
-                    continue;
-                }
-
-                string[] tempItem = item.Split("\"");
-                List<string> trimedString = new List<string>();
-                int key = 0;
-
-                for (int i = 0; i < tempItem.Length; i++)
-                {
-                    if (tempItem[i].Trim(elementForTrimStrings) != "")
-                    {
-                        trimedString.Add(tempItem[i].Trim(elementForTrimStrings));
-                    }
-                }
-
-                Array.Clear(tempString, 0, tempString.Length);
-                tempString = new string[trimedString.Count];
-                if (tempString.Length != 0)
-                {
-                    foreach (var str in trimedString)
-                    {
-                        tempString[key] = str;
-                        key++;
-                    }
-
-                    Dictionary<string, string> pairs = new Dictionary<string, string>();
-
-                    for (int i = 1; i < tempString.Length - 1; i += 2)
-                    {
-                        pairs.Add(tempString[i], tempString[i + 1]);
-                    }
-
-                    tempJSON.Add(tempString[0], pairs);
-                }
-            }
-
-            return tempJSON;
-        }
         /// <summary>
         /// скачать файл
         /// </summary>
@@ -459,12 +432,7 @@ namespace LocalizationRep.Controllers
         /// <returns></returns>
         public async Task<IActionResult> Download(string fullpath)
         {
-            //if (filename == null)
-            //    return Content("filename not present");
-
-            var path = fullpath; // Path.Combine(
-                           //Directory.GetCurrentDirectory(),
-                           //"wwwroot/Files/download", filename);
+            var path = fullpath;
 
             var memory = new MemoryStream();
             using (var stream = new FileStream(path, FileMode.Open))
@@ -473,30 +441,13 @@ namespace LocalizationRep.Controllers
             }
             memory.Position = 0;
 
-            return File(memory, GetContentType(path), Path.GetFileName(path));
+            return File(memory, FileActionHelpers.GetContentType(path), Path.GetFileName(path));
         }
 
-        private string GetContentType(string path)
-        {
-            var types = GetMimeTypes();
-            var ext = Path.GetExtension(path).ToLowerInvariant();
 
-            return types[ext];
-        }
-
-        private Dictionary<string, string> GetMimeTypes()
+        public void ErrorsToUserVIew(string name, string message)
         {
-            return new Dictionary<string, string>
-            {
-                {".json","application/json"},
-                {".xml","application/xml"},
-                {".csv","text/csv"}
-            };
-        }
-
-        public void ErrorsToUserVIew(string id, string message)
-        {
-            ViewData[id] = message;
+            ViewData[name] = message;
         }
 
         private void isHaveErrorsToUserView()
@@ -515,7 +466,7 @@ namespace LocalizationRep.Controllers
         public IActionResult CreateFileJsonFromDb()
         {
             // указываем путь к файлу
-            string pathJsonFile;// = "wwwroot/Files/download/" + nameJsonFile + ".json";
+            string pathJsonFile;
             List<JsonKeyModel> jsonKeyModels = new List<JsonKeyModel>();
 
             foreach (var item in _context.MainTable)
@@ -525,25 +476,25 @@ namespace LocalizationRep.Controllers
                     var sections = _context.Section.Where(t => t.ID == item.SectionID).ToList();
                     List<LangKeyModel> langKeyModels = new List<LangKeyModel>
                     {
-                        new LangKeyModel { LangName = "ru", IE = item.TextRU },
-                        new LangKeyModel { LangName = "en", IE = item.TextEN },
-                        new LangKeyModel { LangName = "ua", IE = item.TextUA }
+                        //new LangKeyModel { LangName = "ru", IE = item.TextRU },
+                        //new LangKeyModel { LangName = "en", IE = item.TextEN },
+                        //new LangKeyModel { LangName = "ua", IE = item.TextUA }
                     };
-                    jsonKeyModels.Add(new JsonKeyModel { JsonKey = item.IOsID, JsonValue = langKeyModels });
+                    //jsonKeyModels.Add(new JsonKeyModel { JsonKey = item.IOsID, JsonValue = langKeyModels });
                 }
             }
             foreach (var item in _context.Section)
             {
-
                 try
                 {
                     var mainTable = _context.MainTable.Where(m => m.SectionID == item.ID).ToList();
-                    pathJsonFile = "wwwroot/Files/download/" + item.Title + ".json";
+                    pathJsonFile = FileActionHelpers.DownloadPath + item.Title + ".json";
 
                     //начало фала
                     using (StreamWriter sw = new StreamWriter(pathJsonFile, false, System.Text.Encoding.Default))
                     {
                         sw.WriteLine("{");
+                        sw.Close();
                     }
 
                     using (StreamWriter sw = new StreamWriter(pathJsonFile, true, System.Text.Encoding.Default))
@@ -553,13 +504,13 @@ namespace LocalizationRep.Controllers
                         {
                             string keyJson = "    \"" + jsonKeyModel.JsonKey + "\": {";
                             sw.WriteLine(keyJson);
-                            var lastJV = jsonKeyModel.JsonValue.Last();
-                            foreach (var JsonValues in jsonKeyModel.JsonValue)
+                            //var lastJV = jsonKeyModel.JsonValue.Last();
+                            //foreach (var JsonValues in jsonKeyModel.JsonValue)
                             {
-                                string comma = JsonValues.Equals(lastJV) ? "" : ",";
-                                sw.WriteLine(String.Format("        \"{0}\": \"{1}\"" + comma, JsonValues.LangName, JsonValues.IE));
+                                //string comma = JsonValues.Equals(lastJV) ? "" : ",";
+                                //sw.WriteLine(String.Format("        \"{0}\": \"{1}\"" + comma, JsonValues.LangName, JsonValues.IE));
                             }
-                            sw.WriteLine(jsonKeyModel.Equals(last) ? "    }" : "    },");
+                            sw.WriteLine(jsonKeyModel.Equals(last) ? "    }" : "    },"); //найти форматер стандартный из c#
                         }
                         sw.Close();
                     }
@@ -568,6 +519,7 @@ namespace LocalizationRep.Controllers
                     using (StreamWriter sw = new StreamWriter(pathJsonFile, true, System.Text.Encoding.Default))
                     {
                         sw.WriteLine("}");
+                        sw.Close();
                     }
                     Console.WriteLine("Запись выполнена");
                 }
@@ -581,34 +533,40 @@ namespace LocalizationRep.Controllers
         }
 
         //чтение файла xml
-        public IActionResult ReadFileXML(string path)
+        public IActionResult ReadFileXML()
         {
-            XmlDocument xDoc = new XmlDocument();
-            xDoc.Load(path);
+            //var list =
+            FAXML.ReadFileXMLAction();
+            //ViewBag.List = list;
+            return RedirectToAction("Index");
+        }
 
-            XmlElement xRoot = xDoc.DocumentElement;
 
-            foreach (XmlNode xnode in xRoot)
-            {
-                if (xnode.NodeType != XmlNodeType.Comment)
-                {
-                    if (xnode.Attributes.Count > 0)
-                    {
-                        XmlNode attr = xnode.Attributes.GetNamedItem("name");
-                        if (attr != null)
-                        {
-                            Console.WriteLine(attr.Value + " = " + xnode.InnerText);
-                        }
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("\n<--" + xnode.Value.ToString() + "-->");
-                }
-            }
+        public IActionResult DeleteDublicateAction()
+        {
+
+            FAXML.DeleteDublicate();
 
             return RedirectToAction("Index");
         }
+
+        public IActionResult EraseAndoridCommentInMainTable()
+        {
+
+            FAXML.RemoveAndoridCommentInMainTable();
+
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult RemoveAllAndoridIdMatchesInMainTable()
+        {
+
+            FAXML.RemoveAllAndoridIdMatchesInMainTable();
+
+            return RedirectToAction("Index");
+        }
+
+
         //формирование файла xml
         public void CreateFileXMLFromDb()
         {
@@ -618,66 +576,24 @@ namespace LocalizationRep.Controllers
         //формирование файла csv
         public IActionResult CreateFileCSVFromDb(string nameFileCsv)
         {
-            string pathCsvFile = "wwwroot/Files/download/" + nameFileCsv + ".csv";
-            List<CsvFileModel> csvFileModel = new List<CsvFileModel>();
-
-            foreach (var item in _context.MainTable)
-            {
-                if (!item.IsFreezing)
-                {
-                    var sections = _context.Section.Where(t => t.ID == item.SectionID).ToList();
-                    csvFileModel.Add(new CsvFileModel { CommonID = item.CommonID, SectorName = sections.First().Title, TextRU = item.TextRU, TextEN = item.TextEN, TextUA = item.TextUA });
-                }
-            }
-
-            using StreamWriter streamReader = new StreamWriter(pathCsvFile);
-            using CsvWriter csvReader = new CsvWriter(streamReader, CultureInfo.InvariantCulture);
-            csvReader.Configuration.Delimiter = ";";
-            csvReader.WriteRecords(csvFileModel);
+            FileActionCSV.CreateFileCSV(nameFileCsv, _context);
 
             return RedirectToAction("Index");
         }
 
         //чтение файла csv
-        public List<CsvFileModel> ReadUploadedCSVFile(string FileName)
+        public List<CsvFileModel> ReadUploadedCSVFile(string fileName)
         {
-            string pathCsvFile = "wwwroot/Files/download/" + FileName;
-            var list = new List<CsvFileModel>();
-            string line;
-            try
-            {
-                using StreamReader streamReader = new StreamReader(pathCsvFile);
-                while ((line = streamReader.ReadLine()) != null)
-                {
-                    string[] lineOfCsvFile = line.Split(';');
-                    if (lineOfCsvFile.Length == 5)
-                    {
-                        list.Add(new CsvFileModel { CommonID = lineOfCsvFile[0], SectorName = lineOfCsvFile[1], TextEN = lineOfCsvFile[2], TextRU = lineOfCsvFile[3], TextUA = lineOfCsvFile[4] });
-                    }
-                }
-                streamReader.Close();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-
-            return list;
+            return FileActionCSV.ReadUploadedCSV(fileName);
         }
 
         public IActionResult RemoveFileFromServer(string fullpath)
         {
-            RemoveFile(fullpath);
+            FileActionHelpers.RemoveFile(fullpath, _context);
+
             return RedirectToAction("Index");
         }
 
-        public void RemoveFile(string fullpath)
-        {
-            var entity = _context.FileModel.FirstOrDefault(e => e.Path == fullpath);
-            System.IO.File.Delete(fullpath);
-            _context.FileModel.Remove(entity);
-            _context.SaveChanges();
-        }
     }
 }
 

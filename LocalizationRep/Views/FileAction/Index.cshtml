@@ -19,14 +19,18 @@
 </form>
 <form>
     <input type="text" size="40" formaction="/FileAction/CreateFileCSVFromDb" name="nameFileCsv" required placeholder="Введите название файла" />
-    <input type="submit" formaction="/FileAction/CreateFileCSVFromDb" value=" Сформировать CSV" />
+    <input type="submit" formaction="/FileAction/CreateFileCSVFromDb" value="Сформировать CSV" />
 </form>
 <form>
     <input type="submit" formaction="/FileAction/ReadFileCSVFromDb" value="Прочитать CSV" />
 </form>
 <form>
-    <input type="submit" formaction="/FileAction/CreateFileJsonFromDb" value=" Сформировать Json" />
+    <input type="submit" formaction="/FileAction/CreateFileJsonFromDb" value="Сформировать Json" />
 </form>
+<form>
+    <input type="submit" formaction="/FileAction/ReadFileXML" value="Прочитать все XML файлы" />
+</form>
+
 
 <h3>@ViewData["Section"] </h3>
 <br />
@@ -47,80 +51,144 @@
     <input type="submit" value="UpDateInfoFilesInDB" />
 </form>
 
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.ID)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Path)
-            </th>
 
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ID)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Path)
-                </td>
-                <td>
-                    <a asp-action="Download" asp-route-fullpath="@item.Path">@item.Name</a><br>
-                    <a asp-action="UpdateFileInDatabase" asp-route-filename="@item.Name">UpDate</a><br>
-                    <a asp-action="RemoveFileFromServer" asp-route-fullpath="@item.Path">Remove</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
 
-<p>Uploaded files</p>
+<div id="accordion">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Разворачиваемая панель #1
+                </button>
+            </h5>
+        </div>
 
-<ul>
-    @foreach (var item in Model)
-    {
-        @if (item.TypeOfLoad == "upload")
-        {
-            <li>
-                @item.Name
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+               
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Разворачиваемая панель #2
+                </button>
+            </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ID)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Name)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Path)
+                            </th>
 
-                @if (item.Name.Contains(".xml"))
-                {
-                    <a asp-action="ReadFileXML"
-                       asp-route-path="@item.Path">
-                        ReadFileXML
-                    </a>
-                }
-            </li>
-        }
-    }
-</ul>
-<p>Download of Files</p>
-<ul>
-    @foreach (var item in Model)
-    {
-        @if (item.TypeOfLoad == "download")
-        {
-            <li>
-                <a asp-action="Download"
-                   asp-route-fullpath="@item.Path">
-                    @item.Name
-                </a>
-            </li>
-        }
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ID)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Path)
+                                </td>
+                                <td>
+                                    <a asp-action="Download" asp-route-fullpath="@item.Path">@item.Name</a><br>
+                                    <a asp-action="UpdateFileInDatabase" asp-route-filename="@item.Name">UpDate</a><br>
+                                    <a asp-action="RemoveFileFromServer" asp-route-fullpath="@item.Path">Remove</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Разворачиваемая панель #3
+                </button>
+            </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
 
-    }
-</ul>
+                <table class="table">
+                    <thead>
+                        <tr>
+
+                            <th scope="col">UPLOAD FILES</th>
+                            <th scope="col">DOWNLOAD FILES</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+
+                            <td>
+
+                                @foreach (var item in Model)
+                                {
+                                    @if (item.TypeOfLoad == "UPLOAD")
+                                    {
+                                        <li>
+                                            @item.Name
+
+                                            @if (item.Name.Contains(".xml"))
+                                            {
+                                                <a asp-action="ReadFileXML"
+                                                   asp-route-path="@item.Path">
+                                                    ReadFileXML
+                                                </a>
+                                            }
+                                        </li>
+                                    }
+                                }
+                            </td>
+                            <td>
+                                <ul>
+                                    @foreach (var item in Model)
+                                    {
+                                        @if (item.TypeOfLoad == "DOWNLOAD")
+                                        {
+                                            <li>
+                                                <a asp-action="Download"
+                                                   asp-route-fullpath="@item.Path">
+                                                    @item.Name
+                                                </a>
+                                            </li>
+                                        }
+                                    }
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
 

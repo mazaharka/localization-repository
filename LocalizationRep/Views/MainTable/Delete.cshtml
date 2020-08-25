@@ -30,23 +30,12 @@
             @Html.DisplayFor(model => model.AndroidID)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.TextRU)
+            @Html.DisplayNameFor(model => model.StyleJsonKeyModel.First().LangKeyModels.First().LangName)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.TextRU)
+            @Html.DisplayFor(model => model.StyleJsonKeyModel.First().LangKeyModels.First().LangName)
         </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.TextEN)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.TextEN)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.TextUA)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.TextUA)
-        </dd>
+
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.IsFreezing)
         </dt>

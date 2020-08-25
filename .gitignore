@@ -224,6 +224,9 @@ FakesAssemblies/
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
 
+# LocalizationRep
+**/*.wwwroot/Files/download
+
 # Paket dependency manager
 .paket/paket.exe
 

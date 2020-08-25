@@ -1,0 +1,53 @@
+{
+    "other-desktop-title-light-approach" : {
+        "dude" : {
+            "ru" : "Светлый",
+            "en" : "Light",
+            "uk" : "Светлый"
+        },
+        "official" : {
+            "ru" : "Светлый",
+            "en" : "Light",
+            "uk" : "Светлый"
+        },
+        "common" : {
+            "ru" : "Светлый",
+            "en" : "Light",
+            "uk" : "Светлый"
+        }
+    },
+    "other-desktop-title-auto-approach" : {
+        "dude" : {
+            "ru" : "Автоматически",
+            "en" : "Auto",
+            "uk" : "Автоматически"
+        },
+        "common" : {
+            "ru" : "Автоматически",
+            "en" : "Auto",
+            "uk" : "Автоматически"
+        },
+        "official" : {
+            "ru" : "Автоматически",
+            "en" : "Auto",
+            "uk" : "Автоматически"
+        }
+    },
+    "other-desktop-title-dark-approach" : {
+        "common" : {
+            "uk" : "Тёмный",
+            "ru" : "Тёмный",
+            "en" : "Dark"
+        },
+        "dude" : {
+            "uk" : "Тёмный",
+            "ru" : "Тёмный",
+            "en" : "Dark"
+        },
+        "official" : {
+            "uk" : "Тёмный",
+            "ru" : "Тёмный",
+            "en" : "Dark"
+        }
+    }
+}

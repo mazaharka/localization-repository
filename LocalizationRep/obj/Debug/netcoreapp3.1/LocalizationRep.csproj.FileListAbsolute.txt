@@ -350,3 +350,4 @@
 /Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.genruntimeconfig.cache
 /Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.csprojAssemblyReference.cache
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/auth.json
+/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/Razor/Views/FileAction/NotMatched.cshtml.g.cs

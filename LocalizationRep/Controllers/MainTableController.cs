@@ -22,12 +22,16 @@ namespace LocalizationRep.Controllers
         // GET: Movies
         public async Task<IActionResult> Index(string sectionSearch, string searchString)
         {
-            var localizationRepContext = _context.MainTable.Include(m => m.Section);
+            //var localizationRepContext = _context.MainTable.Include(m => m.Section);
             IQueryable<string> genreQuery = from m in _context.MainTable
                                             orderby m.Section.ID
                                             select m.Section.Title;
 
-            var mainTableItem = from m in _context.MainTable.Include(m => m.Section)
+            var mainTableItem = from m in _context.MainTable
+                                .Include(m => m.Section)
+                                .Include(m => m.StyleJsonKeyModel)
+                                    .ThenInclude(s => s.LangKeyModels)
+                                        .ThenInclude(l => l.LangValue)
                                 select m;
 
             if (!string.IsNullOrEmpty(searchString))
@@ -43,9 +47,17 @@ namespace LocalizationRep.Controllers
             var localizationSectionVM = new SectionSearchViewModel
             {
                 Sections = new SelectList(await genreQuery.Distinct().ToListAsync()),
-                MainTables = await mainTableItem.ToListAsync()
+                MainTables = await mainTableItem.ToListAsync(),
             };
 
+
+            IQueryable<string> stylesUnique = from s in _context.StyleJsonKeyModel
+                                            orderby s.StyleName
+                                            select s.StyleName;
+
+
+            //List<StyleJsonKeyModel> tags = _context.StyleJsonKeyModel.Select(s => s.StyleName).ToList();
+            ViewBag.Head = stylesUnique.AsQueryable().Distinct();
             return View(localizationSectionVM);
         }
 
@@ -78,7 +90,7 @@ namespace LocalizationRep.Controllers
         // POST: MainTable/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,CommonID,SectionID,IOsID,AndroidID,TextRU,TextEN,TextUA,IsFreezing")] MainTable mainTable)
+        public async Task<IActionResult> Create([Bind("ID,CommonID,SectionID,IOsID,AndroidID,LangKey,IsFreezing")] MainTable mainTable)
         {
             if (ModelState.IsValid)
             {
@@ -110,7 +122,7 @@ namespace LocalizationRep.Controllers
         // POST: MainTable/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,CommonID,SectionID,IOsID,AndroidID,TextRU,TextEN,TextUA,IsFreezing")] MainTable mainTable)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,CommonID,SectionID,IOsID,AndroidID,LangKey,IsFreezing")] MainTable mainTable)
         {
             if (id != mainTable.ID)
             {

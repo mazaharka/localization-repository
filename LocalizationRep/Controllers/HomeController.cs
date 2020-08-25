@@ -10,15 +10,22 @@ using LocalizationRep.Data;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using System.IO;
+using LocalizationRep.Utilities;
 
 namespace LocalizationRep.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly FileActionXML FAXML;
+        private readonly LocalizationRepContext _context;
+        private readonly IWebHostEnvironment _appEnvironment;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, LocalizationRepContext context, IWebHostEnvironment appEnvironment)
         {
+            FAXML = new FileActionXML(context, appEnvironment);
+            _context = context;
+            _appEnvironment = appEnvironment;
             _logger = logger;
         }
 
@@ -26,6 +33,21 @@ namespace LocalizationRep.Controllers
         {
             return View();
         }
+
+        //private async void GetBigListAsync()
+        //{
+        //    var myTask = Task.Run(() => FAXML.ReadFileXMLAction());
+        //    // your thread is free to do other useful stuff right nw
+
+        //    // after a while you need the result, await for myTask:
+        //    //var result =
+        //        await myTask;
+
+        //    // you can now use the results of loading:
+
+        //    //return result;
+        //}
+
 
         public IActionResult Privacy()
         {

@@ -1,28 +1,10 @@
-﻿<Properties StartupConfiguration="{AE01DA3A-9154-4308-A3CF-4D64A8CF2C22}|LocalizationRep">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LocalizationRep/Models/XMLKeyModel.cs">
+﻿<Properties StartupConfiguration="{AE01DA3A-9154-4308-A3CF-4D64A8CF2C22}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LocalizationRep/Controllers/CSVActionController.cs">
     <Files>
-      <File FileName="LocalizationRep/Views/FileAction/Index.cshtml" Line="68" Column="16" />
-      <File FileName="LocalizationRep/Views/MainTable/Index.cshtml" />
-      <File FileName="LocalizationRep/Controllers/FileActionController.cs" />
-      <File FileName="LocalizationRep/Utilities/FileActionXML.cs" />
-      <File FileName="LocalizationRep/Models/LangKeyModel.cs" />
-      <File FileName="LocalizationRep/Models/StyleJsonKeyModel.cs" />
-      <File FileName="LocalizationRep/Views/FileAction/NotMatched.cshtml" />
-      <File FileName="LocalizationRep/Models/LangValue.cs" />
-      <File FileName="LocalizationRep/Program.cs" />
-      <File FileName="LocalizationRep/Views/Sections/Index.cshtml" />
-      <File FileName="LocalizationRep/Controllers/SectionsController.cs" />
-      <File FileName="LocalizationRep/Models/NotMatchedItem.cs" />
-      <File FileName="LocalizationRep/Models/MainTable.cs" />
-      <File FileName="LocalizationRep/Models/JsonKeyModel.cs" />
-      <File FileName="LocalizationRep/Models/FileModel.cs" />
-      <File FileName="LocalizationRep/Models/ErrorViewModel.cs" />
-      <File FileName="LocalizationRep/Models/CsvFileModel.cs" />
-      <File FileName="LocalizationRep/Models/CsvFileMap.cs" />
-      <File FileName="LocalizationRep/Models/CommentAndroidXMLModel.cs" />
-      <File FileName="LocalizationRep/Models/Sections.cs" />
-      <File FileName="LocalizationRep/Models/SectionSearchViewModel.cs" />
-      <File FileName="LocalizationRep/Models/XMLKeyModel.cs" Line="1" Column="1" />
+      <File FileName="LocalizationRep/Utilities/FileActionCSV.cs" Line="76" Column="13" />
+      <File FileName="LocalizationRep/Controllers/FileActionController.cs" Line="96" Column="78" />
+      <File FileName="LocalizationRep/Views/FileAction/Index.cshtml" Line="98" Column="37" />
+      <File FileName="LocalizationRep/Controllers/CSVActionController.cs" Line="12" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -30,11 +12,11 @@
           <Node name="LocalizationRep" expanded="True">
             <Node name="LocalizationRep" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="XMLKeyModel.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="CSVActionController.cs" selected="True" />
               </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Utilities" expanded="True" />
               <Node name="Views" expanded="True">
@@ -43,6 +25,13 @@
                 <Node name="MainTable" expanded="True" />
                 <Node name="Sections" expanded="True" />
                 <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="Files" expanded="True">
+                  <Node name="upload" expanded="True">
+                    <Node name="CSV" expanded="True" />
+                  </Node>
+                </Node>
               </Node>
               <Node name="appsettings.json" expanded="True" />
             </Node>
@@ -54,8 +43,11 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/zakharklochkov/localization-repository/LocalizationRep/Utilities/FileActionCSV.cs" relfile="LocalizationRep/Utilities/FileActionCSV.cs" line="101" column="1" />
+      <Breakpoint file="/Users/zakharklochkov/localization-repository/LocalizationRep/Utilities/FileActionCSV.cs" relfile="LocalizationRep/Utilities/FileActionCSV.cs" line="76" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.LocalizationRep PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.LocalizationRep PreferredExecutionTarget="/Applications/Safari.app" />
 </Properties>

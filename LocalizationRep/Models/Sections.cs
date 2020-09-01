@@ -9,7 +9,9 @@ namespace LocalizationRep.Models
         public string ShortName { get; set; }
         public string LastIndexOfCommonID { get; set; }
         public string CommentAndroidXMLModelID { get; set; }
+        public string NotMatchedItemID { get; set; }
 
+        public NotMatchedItem NotMatchedItem { get; set; }
         public CommentAndroidXMLModel CommentAndroidXMLModel { get; set; }
         public ICollection<MainTable> MainTables { get; set; }
     }

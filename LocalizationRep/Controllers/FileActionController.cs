@@ -20,12 +20,14 @@ namespace LocalizationRep.Controllers
         private readonly LocalizationRepContext _context;
         private readonly IWebHostEnvironment _appEnvironment;
         private readonly FileActionXML FAXML;
+        private readonly FileActionJSON FAJSON;
 
 
 
         public FileActionController(LocalizationRepContext context, IWebHostEnvironment appEnvironment)
         {
             FAXML = new FileActionXML(context, appEnvironment);
+            FAJSON = new FileActionJSON(context, appEnvironment);
             _context = context;
             _appEnvironment = appEnvironment;
         }
@@ -49,7 +51,7 @@ namespace LocalizationRep.Controllers
         // POST: FileAction/NotMatched
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> NotMatched([Bind("ID,StringNumber,AndroidID,NodeInnerText,CommentValue,CommonID")] NotMatchedItem notMatchedItem)
+        public async Task<IActionResult> NotMatched([Bind("ID,SectionID,StringNumber,AndroidID,NodeInnerText,CommentValue,CommonID")] NotMatchedItem notMatchedItem)
         {
             if (ModelState.IsValid)
             {
@@ -94,6 +96,7 @@ namespace LocalizationRep.Controllers
                     CSVActionController.UpdateFromCsv(FileActionCSV.ReadUploadedCSV(filename), _context);
                     break;
                 case ".json":
+                    FAJSON.UpdateFromJsonToDbLocalizedText(filename);
                     break;
                 case ".xml":
                     break;
@@ -469,66 +472,57 @@ namespace LocalizationRep.Controllers
             string pathJsonFile;
             List<JsonKeyModel> jsonKeyModels = new List<JsonKeyModel>();
 
-            foreach (var item in _context.MainTable)
-            {
-                if (!item.IsFreezing)
-                {
-                    var sections = _context.Section.Where(t => t.ID == item.SectionID).ToList();
-                    List<LangKeyModel> langKeyModels = new List<LangKeyModel>
-                    {
-                        //new LangKeyModel { LangName = "ru", IE = item.TextRU },
-                        //new LangKeyModel { LangName = "en", IE = item.TextEN },
-                        //new LangKeyModel { LangName = "ua", IE = item.TextUA }
-                    };
-                    //jsonKeyModels.Add(new JsonKeyModel { JsonKey = item.IOsID, JsonValue = langKeyModels });
-                }
-            }
-            foreach (var item in _context.Section)
-            {
-                try
-                {
-                    var mainTable = _context.MainTable.Where(m => m.SectionID == item.ID).ToList();
-                    pathJsonFile = FileActionHelpers.DownloadPath + item.Title + ".json";
 
-                    //начало фала
-                    using (StreamWriter sw = new StreamWriter(pathJsonFile, false, System.Text.Encoding.Default))
-                    {
-                        sw.WriteLine("{");
-                        sw.Close();
-                    }
+            var sections = _context.Section.ToList();
+            sections.RemoveAt(sections.Count() - 1);
+            foreach (var section in sections)
+            {
 
-                    using (StreamWriter sw = new StreamWriter(pathJsonFile, true, System.Text.Encoding.Default))
+
+                var mainTableItems = (from m in _context.MainTable
+                    .Include(m => m.Section)
+                    .Include(m => m.StyleJsonKeyModel)
+                        .ThenInclude(s => s.LangKeyModels)
+                            .ThenInclude(l => l.LangValue)
+                                      where m.Section.ID == section.ID
+                                      select m).ToList();
+                var it = new Dictionary<string, Dictionary<string, Dictionary<string, object>>>();
+                Dictionary<string, Dictionary<string, Dictionary<string, object>>> Localized = new Dictionary<string, Dictionary<string, Dictionary<string, object>>>();
+
+                foreach (var mainTableItem in mainTableItems)
+                {
+                    var itt = new Dictionary<string, Dictionary<string, object>>();
+                    var ittt = new Dictionary<string, object>();
+
+                    var styleJsonKeyModelItems = mainTableItem.StyleJsonKeyModel.ToList();
+
+                    foreach (var styleJsonKeyModelItem in styleJsonKeyModelItems)
                     {
-                        var last = jsonKeyModels.Last();
-                        foreach (var jsonKeyModel in jsonKeyModels)
+
+                        var langKeyModelItems = styleJsonKeyModelItem.LangKeyModels.ToList();
+                        ittt = new Dictionary<string, object>();
+                        foreach (var langKeyModelItem in langKeyModelItems)
                         {
-                            string keyJson = "    \"" + jsonKeyModel.JsonKey + "\": {";
-                            sw.WriteLine(keyJson);
-                            //var lastJV = jsonKeyModel.JsonValue.Last();
-                            //foreach (var JsonValues in jsonKeyModel.JsonValue)
-                            {
-                                //string comma = JsonValues.Equals(lastJV) ? "" : ",";
-                                //sw.WriteLine(String.Format("        \"{0}\": \"{1}\"" + comma, JsonValues.LangName, JsonValues.IE));
-                            }
-                            sw.WriteLine(jsonKeyModel.Equals(last) ? "    }" : "    },"); //найти форматер стандартный из c#
+                            //var langKeyModelLangName = langKeyModelItem.LangName;
+
+                            ittt.Add(langKeyModelItem.LangName, langKeyModelItem.LangValue.Single);
+
                         }
-                        sw.Close();
+                        itt.Add(styleJsonKeyModelItem.StyleName, ittt);
                     }
+                    it.Add(mainTableItem.IOsID, itt);
+                    Localized.Add(mainTableItem.IOsID, itt);
+                }
 
-                    //окончание файла
-                    using (StreamWriter sw = new StreamWriter(pathJsonFile, true, System.Text.Encoding.Default))
-                    {
-                        sw.WriteLine("}");
-                        sw.Close();
-                    }
-                    Console.WriteLine("Запись выполнена");
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e.Message);
-                }
+                string json = JsonConvert.SerializeObject(Localized, Formatting.Indented);
+                pathJsonFile = "wwwroot/Files/download/iOs/" + section.Title + ".json";
+
+                //начало файла
+                using StreamWriter sw = new StreamWriter(pathJsonFile, false, System.Text.Encoding.Default);
+                sw.WriteLine(json);
+                sw.Close();
             }
-
+            
             return RedirectToAction("Index");
         }
 
@@ -582,9 +576,9 @@ namespace LocalizationRep.Controllers
         }
 
         //чтение файла csv
-        public List<CsvFileModel> ReadUploadedCSVFile(string fileName)
+        public List<CsvFileModel> ReadUploadedCSVFile(string nameFileCsv)
         {
-            return FileActionCSV.ReadUploadedCSV(fileName);
+            return FileActionCSV.ReadUploadedCSV(nameFileCsv);
         }
 
         public IActionResult RemoveFileFromServer(string fullpath)
@@ -594,6 +588,12 @@ namespace LocalizationRep.Controllers
             return RedirectToAction("Index");
         }
 
+        public IActionResult ChangeStyleName()
+        {
+            ActionWithDataBase.ChangeStyleName(_context);
+
+            return RedirectToAction("Index");
+        }
     }
 }
 

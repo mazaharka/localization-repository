@@ -71,9 +71,9 @@ namespace LocalizationRep.Utilities
         }
 
 
-        public static List<CsvFileModel> ReadUploadedCSV(string fileName)
+        public static List<CsvFileModel> ReadUploadedCSV(string nameFileCsv)
         {
-            string pathCsvFile = FileActionHelpers.UploadPath + fileName;
+            string pathCsvFile = "wwwroot/Files/upload/" + nameFileCsv;
             var list = new List<CsvFileModel>();
             string line;
             try
@@ -82,8 +82,8 @@ namespace LocalizationRep.Utilities
                 while ((line = streamReader.ReadLine()) != null)
                 {
                     string[] lineOfCsvFile = line.Split(';');
-                    if (lineOfCsvFile.Length == 5)
-                    {
+                    //if (lineOfCsvFile.Length == 5)
+                    //{
                         list.Add(new CsvFileModel
                         {
                             CommonID = lineOfCsvFile[0],
@@ -96,9 +96,10 @@ namespace LocalizationRep.Utilities
                             TextUASingle = lineOfCsvFile[7],
                             TextUAPrular = lineOfCsvFile[8]
                         });
-                    }
+                    //}
                 }
                 streamReader.Close();
+                list.RemoveAt(0);
             }
             catch (Exception ex)
             {

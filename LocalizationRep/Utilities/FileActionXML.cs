@@ -73,6 +73,21 @@ namespace LocalizationRep.Utilities
 
         private void AddNotMatchedItemsToTable(List<XMLKeyModel> noMatchedItems)
         {
+            var sectionAndroid = new Sections();
+
+            if (_context.Section.Where(s => s.Title == "ANDROID") == null)
+            {
+                sectionAndroid = new Sections
+                {
+                    Title = "ANDROID",
+                    LastIndexOfCommonID = "0000",
+                    ShortName = "ANDR"
+                };
+            }
+            
+            _context.Section.Add(sectionAndroid);
+            _context.SaveChanges();
+
             foreach (var item in noMatchedItems)
             {
                 NotMatchedItem notMatchedItem = new NotMatchedItem
@@ -81,7 +96,7 @@ namespace LocalizationRep.Utilities
                     NodeInnerText = item.NodeInnerText,
                     CommentValue = item.CommentValue.Trim(TrimXMLCommentChars),
                     StringNumber = item.StringNumber,
-                    Section = null
+                    Section = sectionAndroid
                 };
                 _context.NotMatchedItem.Add(notMatchedItem);
                 _context.SaveChanges();

@@ -1,7 +1,5 @@
 ﻿@model IEnumerable<LocalizationRep.Models.FileModel>
-@{
-    ViewData["Title"] = "Добавление файла";
-}
+@{ ViewData["Title"] = "Добавление файла"; }
 
 <h3>Выберите файл для загрузки</h3>
 <form asp-action="AddFile" asp-controller="FileAction" method="post" enctype="multipart/form-data">
@@ -30,6 +28,10 @@
 <form>
     <input type="submit" formaction="/FileAction/ReadFileXML" value="Прочитать все XML файлы" />
 </form>
+<form>
+    <input type="submit" formaction="/FileAction/ChangeStyleName" value="Заменить названия стилей" />
+</form>
+
 
 
 <h3>@ViewData["Section"] </h3>
@@ -65,7 +67,41 @@
 
         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-               
+
+                <table class="table">
+                    <thead>
+                        <tr>
+
+                            <th scope="col">UPLOAD FILES</th>
+                            <th scope="col">DOWNLOAD FILES</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+
+                            <td>
+
+                                @foreach (var item in Model)
+                                {
+                                    @if (item.TypeOfLoad == "UPLOAD" && item.Name.Contains(".csv"))
+                                    {
+                                <li>
+                                    @item.Name
+                                    <a asp-action="UpdateFileInDatabase" asp-route-filename="@item.Name">UpDate</a><br>
+                                    <a asp-action="RemoveFileFromServer" asp-route-fullpath="@item.Path">Remove</a>
+                                </li>
+                                     }
+                                 }
+                            </td>
+                            <td>
+                                <ul>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
             </div>
         </div>
     </div>
@@ -98,23 +134,28 @@
                     <tbody>
                         @foreach (var item in Model)
                         {
-                            <tr>
-                                <td>
-                                    @Html.DisplayFor(modelItem => item.ID)
-                                </td>
-                                <td>
-                                    @Html.DisplayFor(modelItem => item.Name)
-                                </td>
-                                <td>
-                                    @Html.DisplayFor(modelItem => item.Path)
-                                </td>
-                                <td>
-                                    <a asp-action="Download" asp-route-fullpath="@item.Path">@item.Name</a><br>
-                                    <a asp-action="UpdateFileInDatabase" asp-route-filename="@item.Name">UpDate</a><br>
-                                    <a asp-action="RemoveFileFromServer" asp-route-fullpath="@item.Path">Remove</a>
-                                </td>
-                            </tr>
-                        }
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Path)
+                </td>
+                <td>
+                    <a asp-action="Download" asp-route-fullpath="@item.Path">@item.Name</a><br>
+                    <a asp-action="UpdateFileInDatabase" asp-route-filename="@item.Name">UpDate</a><br>
+                    <a asp-action="RemoveFileFromServer" asp-route-fullpath="@item.Path">Remove</a>
+                    @if (@item.Name.Contains(".csv"))
+                    {
+    <a asp-action="ReadUploadedCSVFile" asp-route-nameFileCsv="@item.Name">CSV</a>}
+
+
+
+                </td>
+            </tr>}
                     </tbody>
                 </table>
             </div>
@@ -146,36 +187,31 @@
 
                                 @foreach (var item in Model)
                                 {
-                                    @if (item.TypeOfLoad == "UPLOAD")
-                                    {
-                                        <li>
-                                            @item.Name
+                    @if (item.TypeOfLoad == "UPLOAD")
+                    {
+    <li>
+        @item.Name
 
-                                            @if (item.Name.Contains(".xml"))
-                                            {
-                                                <a asp-action="ReadFileXML"
-                                                   asp-route-path="@item.Path">
-                                                    ReadFileXML
-                                                </a>
-                                            }
-                                        </li>
-                                    }
-                                }
+        @if (item.Name.Contains(".xml"))
+        {
+<a asp-action="ReadFileXML"
+   asp-route-path="@item.Path">
+    ReadFileXML
+</a>}
+    </li>}}
                             </td>
                             <td>
                                 <ul>
                                     @foreach (var item in Model)
                                     {
-                                        @if (item.TypeOfLoad == "DOWNLOAD")
-                                        {
-                                            <li>
-                                                <a asp-action="Download"
-                                                   asp-route-fullpath="@item.Path">
-                                                    @item.Name
-                                                </a>
-                                            </li>
-                                        }
-                                    }
+                        @if (item.TypeOfLoad == "DOWNLOAD")
+                        {
+        <li>
+            <a asp-action="Download"
+               asp-route-fullpath="@item.Path">
+                @item.Name
+            </a>
+        </li>}}
                                 </ul>
                             </td>
                         </tr>

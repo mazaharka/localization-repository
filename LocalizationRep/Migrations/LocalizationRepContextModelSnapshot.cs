@@ -158,7 +158,8 @@ namespace LocalizationRep.Migrations
 
                     b.HasKey("ID");
 
-                    b.HasIndex("SectionID");
+                    b.HasIndex("SectionID")
+                        .IsUnique();
 
                     b.ToTable("NotMatchedItem");
                 });
@@ -176,6 +177,9 @@ namespace LocalizationRep.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("LastIndexOfCommonID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("NotMatchedItemID")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("ShortName")
@@ -238,8 +242,8 @@ namespace LocalizationRep.Migrations
             modelBuilder.Entity("LocalizationRep.Models.NotMatchedItem", b =>
                 {
                     b.HasOne("LocalizationRep.Models.Sections", "Section")
-                        .WithMany()
-                        .HasForeignKey("SectionID")
+                        .WithOne("NotMatchedItem")
+                        .HasForeignKey("LocalizationRep.Models.NotMatchedItem", "SectionID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

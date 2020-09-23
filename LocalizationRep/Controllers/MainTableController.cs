@@ -52,8 +52,8 @@ namespace LocalizationRep.Controllers
 
 
             IQueryable<string> stylesUnique = from s in _context.StyleJsonKeyModel
-                                            orderby s.StyleName
-                                            select s.StyleName;
+                                              orderby s.StyleName
+                                              select s.StyleName;
 
 
             //List<StyleJsonKeyModel> tags = _context.StyleJsonKeyModel.Select(s => s.StyleName).ToList();
@@ -162,8 +162,12 @@ namespace LocalizationRep.Controllers
             }
 
             var mainTable = await _context.MainTable
-                .Include(m => m.Section)
-                .FirstOrDefaultAsync(m => m.ID == id);
+                                    .Include(m => m.Section)
+                                    .Include(m => m.StyleJsonKeyModel)
+                                         .ThenInclude(s => s.LangKeyModels)
+                                             .ThenInclude(l => l.LangValue)
+                                    .FirstOrDefaultAsync(m => m.ID == id);
+
             if (mainTable == null)
             {
                 return NotFound();

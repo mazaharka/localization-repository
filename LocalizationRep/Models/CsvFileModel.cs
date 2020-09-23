@@ -22,6 +22,10 @@ namespace LocalizationRep.Models
         public string TextUASingle { get; set; }
         [Name("TextUAPrular")]
         public string TextUAPrular { get; set; }
+        [Name("IosID")]
+        public string IosID { get; set; }
+        [Name("AndroidID")]
+        public string AndroidID { get; set; }
 
     }
 }

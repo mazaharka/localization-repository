@@ -175,6 +175,7 @@
 /Users/zakharklochkov/Projects/LocalizationRep/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.genruntimeconfig.cache
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/auth.json
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/LocalizationRep.deps.json
 /Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/LocalizationRep.runtimeconfig.json
@@ -349,5 +350,4 @@
 /Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.pdb
 /Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.genruntimeconfig.cache
 /Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/LocalizationRep.csprojAssemblyReference.cache
-/Users/zakharklochkov/localization-repository/LocalizationRep/bin/Debug/netcoreapp3.1/auth.json
-/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/Razor/Views/FileAction/NotMatched.cshtml.g.cs
+/Users/zakharklochkov/localization-repository/LocalizationRep/obj/Debug/netcoreapp3.1/Razor/Views/AndroidTableAction/Index.cshtml.g.cs

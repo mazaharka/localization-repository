@@ -13,8 +13,8 @@ namespace LocalizationRep.Data
 
         public LocalizationRepContext(DbContextOptions<LocalizationRepContext> options) : base(options)
         {
-            //Database.EnsureCreated();
-            Database.Migrate();
+            Database.EnsureCreated();
+            //Database.Migrate();
         }
 
         public DbSet<FileModel> FileModel { get; set; }
@@ -23,7 +23,7 @@ namespace LocalizationRep.Data
         public DbSet<StyleJsonKeyModel> StyleJsonKeyModel { get; set; }
         public DbSet<LangKeyModel> LangKeyModel { get; set; }
         public DbSet<LangValue> LangValue { get; set; }
-        public DbSet<NotMatchedItem> NotMatchedItem { get; set; }
+        public DbSet<AndroidTable> AndroidTable { get; set; }
         public DbSet<CommentAndroidXMLModel> CommentAndroidXMLModel { get; set; }
     }
 }

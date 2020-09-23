@@ -41,17 +41,21 @@ namespace LocalizationRep.Utilities
                     foreach (var itemNode in item.StyleJsonKeyModel)
                     {
 
-                        string textStyle = itemNode.StyleName;
-                        string textRUSingle = itemNode.LangKeyModels.Where(lang => lang.LangName == "ru").First().LangValue.Single;
-                        string textRUPrular = itemNode.LangKeyModels.Where(lang => lang.LangName == "ru").First().LangValue.Prular;
-                        string textENSingle = itemNode.LangKeyModels.Where(lang => lang.LangName == "en").First().LangValue.Single;
-                        string textENPrular = itemNode.LangKeyModels.Where(lang => lang.LangName == "en").First().LangValue.Prular;
-                        string textUASingle = itemNode.LangKeyModels.Where(lang => lang.LangName == "uk").First().LangValue.Single;
-                        string textUAPrular = itemNode.LangKeyModels.Where(lang => lang.LangName == "uk").First().LangValue.Prular;
+                        //string textStyle = itemNode.StyleName;
+                        //string IosID = item.IOsID;
+                        //string AndroidID = item.AndroidID;
+                        //string textRUSingle = itemNode.LangKeyModels.Where(lang => lang.LangName == "ru").First().LangValue.Single;
+                        //string textRUPrular = itemNode.LangKeyModels.Where(lang => lang.LangName == "ru").First().LangValue.Prular;
+                        //string textENSingle = itemNode.LangKeyModels.Where(lang => lang.LangName == "en").First().LangValue.Single;
+                        //string textENPrular = itemNode.LangKeyModels.Where(lang => lang.LangName == "en").First().LangValue.Prular;
+                        //string textUASingle = itemNode.LangKeyModels.Where(lang => lang.LangName == "uk").First().LangValue.Single;
+                        //string textUAPrular = itemNode.LangKeyModels.Where(lang => lang.LangName == "uk").First().LangValue.Prular;
 
                         csvFileModel.Add(new CsvFileModel
                         {
                             CommonID = item.CommonID,
+                            IosID = item.IOsID,
+                            AndroidID = item.AndroidID,
                             SectorName = sectionName,
                             TextStyle = itemNode.StyleName,
                             TextRUSingle = itemNode.LangKeyModels.Where(lang => lang.LangName == "ru").First().LangValue.Single,
@@ -82,8 +86,8 @@ namespace LocalizationRep.Utilities
                 while ((line = streamReader.ReadLine()) != null)
                 {
                     string[] lineOfCsvFile = line.Split(';');
-                    //if (lineOfCsvFile.Length == 5)
-                    //{
+                    if (lineOfCsvFile.Count() == 9)
+                    {
                         list.Add(new CsvFileModel
                         {
                             CommonID = lineOfCsvFile[0],
@@ -96,7 +100,24 @@ namespace LocalizationRep.Utilities
                             TextUASingle = lineOfCsvFile[7],
                             TextUAPrular = lineOfCsvFile[8]
                         });
-                    //}
+                    }
+                    if (lineOfCsvFile.Count() == 11)
+                    {
+                        list.Add(new CsvFileModel
+                        {
+                            CommonID = lineOfCsvFile[0],
+                            SectorName = lineOfCsvFile[1],
+                            TextStyle = lineOfCsvFile[2],
+                            TextRUSingle = lineOfCsvFile[3],
+                            TextRUPrular = lineOfCsvFile[4],
+                            TextENSingle = lineOfCsvFile[5],
+                            TextENPrular = lineOfCsvFile[6],
+                            TextUASingle = lineOfCsvFile[7],
+                            TextUAPrular = lineOfCsvFile[8],
+                            IosID = lineOfCsvFile[9],
+                            AndroidID = lineOfCsvFile[10]
+                        });
+                    }
                 }
                 streamReader.Close();
                 list.RemoveAt(0);

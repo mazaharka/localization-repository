@@ -1,5 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 using LocalizationRep.Data;
 using LocalizationRep.Models;
 using Microsoft.AspNetCore.Hosting;
@@ -25,7 +28,7 @@ namespace LocalizationRep.Utilities
                 {
                     if (!_context.FileModel.Where(s => s.Path == item.Path).Any())
                     {
-                        file = new FileModel { ID = _context.FileModel.Count(), Name = item.Name, Path = item.Path, TypeOfLoad = item.TypeOfLoad };
+                        file = new FileModel { Name = item.Name, Path = item.Path, TypeOfLoad = item.TypeOfLoad };
                         _context.FileModel.Add(file);
                     }
 
@@ -66,6 +69,152 @@ namespace LocalizationRep.Utilities
                 }
             }
             _context.SaveChanges();
+        }
+
+        public static void EraseAllSectionFromDBAction(LocalizationRepContext _context, string whatIMustRemove)
+        {
+            switch (whatIMustRemove)
+            {
+                case "Files":
+                    _context.FileModel.RemoveRange(_context.FileModel);
+                    break;
+                case "Sections":
+                    _context.Section.RemoveRange(_context.Section);
+                    break;
+                case "MainTable":
+                    _context.MainTable.RemoveRange(_context.MainTable);
+                    break;
+                default:
+
+                    _context.FileModel.RemoveRange(_context.FileModel);
+                    _context.Section.RemoveRange(_context.Section);
+                    _context.LangKeyModel.RemoveRange(_context.LangKeyModel);
+                    _context.LangValue.RemoveRange(_context.LangValue);
+                    _context.StyleJsonKeyModel.RemoveRange(_context.StyleJsonKeyModel);
+                    _context.MainTable.RemoveRange(_context.MainTable);
+                    break;
+            }
+            _context.SaveChanges();
+        }
+
+        public static void AddUniqueSection(LocalizationRepContext _context, List<FileModel> FilesName)
+        {
+            foreach (var fileСontentsItem in FilesName)
+            {
+                bool next = true;
+                if (fileСontentsItem.TypeOfLoad.Equals(FileActionHelpers.TypeOfLoad.UPLOAD.ToString()))
+                {
+
+                    foreach (Sections section in _context.Section)
+                    {
+                        if (fileСontentsItem.Name.Equals(section.Title))
+                        {
+                            next = false;
+                            break;
+                        }
+                    }
+
+                    string shortNameUn = GetUniqueShortName(Path.GetFileNameWithoutExtension(fileСontentsItem.Name).ToUpper());
+                    int randomNumber = 0;
+                    foreach (Sections section in _context.Section)
+                    {
+
+                        while (section.ShortName.Equals(shortNameUn))
+                        {
+                            shortNameUn = shortNameUn.Replace(shortNameUn.Substring(3, 1), randomNumber.ToString());
+                            randomNumber++;
+                        }
+                    }
+
+
+                    if (next && Path.GetExtension(fileСontentsItem.Path) == ".json")
+                    {
+                        _context.Section.AddRange(
+                                   new Sections
+                                   {
+                                       Title = Path.GetFileNameWithoutExtension(fileСontentsItem.Name).ToString(),
+                                       LastIndexOfCommonID = "0000",
+                                       ShortName = shortNameUn
+                                   });
+                        _context.SaveChanges();
+                    }
+                }
+            }
+        }
+
+        public static string CommonIDGetNext(LocalizationRepContext _context, string sectionKey)
+        {
+            string CommonID = "";
+            string Zero = "0000";
+            int NextNumb;
+            foreach (var section in _context.Section)
+            {
+                if (section.Title == sectionKey)
+                {
+                    if (section.ShortName != null)
+                    {
+                        CommonID = section.ShortName.Trim();
+                    }
+                    try
+                    {
+                        NextNumb = int.Parse(section.LastIndexOfCommonID) + 1;
+                        CommonID += Zero.Remove(Zero.Length - NextNumb.ToString().Length) + NextNumb.ToString();
+                        section.LastIndexOfCommonID = CommonID.Remove(0, 4);
+                        _context.SaveChanges();
+                        break;
+                    }
+                    catch (FormatException ex)
+                    {
+                        Console.WriteLine("Насяльника, как буква сыфра складывать будем? Сыфра нэту! " + ex);
+                    }
+                }
+            }
+            return CommonID;
+        }
+
+        private static string GetUniqueShortName(string fileName)
+        {
+            string returnString = fileName;
+            string pattern = @"[AEYUIO]";
+            if (fileName.Length > 4)
+            {
+                returnString = fileName.Remove(1) + Regex.Replace(fileName.Substring(1), pattern, "");
+
+                if (returnString.Length > 4)
+                {
+                    returnString = returnString.Remove(4);
+                }
+                else if (returnString.Length <= 4)
+                {
+                    while (returnString.Length < 4)
+                    {
+                        returnString += "0";
+                    }
+                }
+            }
+            else if (fileName.Length < 4)
+            {
+                while (fileName.Length < 4)
+                {
+                    returnString += "0";
+                }
+            }
+
+            return returnString;
+        }
+
+        public static void DeleteAllAndroidItemsFromMainTable(LocalizationRepContext _context)
+        {
+            var mainTable =  _context.MainTable
+                                   .Include(m => m.Section)
+                                   .Include(m => m.StyleJsonKeyModel)
+                                        .ThenInclude(s => s.LangKeyModels)
+                                            .ThenInclude(l => l.LangValue)
+                                   .Where(m => m.Section.Title == "ANDROID");
+
+
+            _context.MainTable.RemoveRange(mainTable);
+             _context.SaveChangesAsync();
         }
     }
 }

@@ -30,10 +30,10 @@
             @Html.DisplayFor(model => model.AndroidID)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.StyleJsonKeyModel.First().LangKeyModels.First().LangName)
+            @Html.DisplayNameFor(model => model.StyleJsonKeyModel.FirstOrDefault().LangKeyModels.FirstOrDefault().LangName)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.StyleJsonKeyModel.First().LangKeyModels.First().LangName)
+            @Html.DisplayFor(model => model.StyleJsonKeyModel.FirstOrDefault().LangKeyModels.FirstOrDefault().LangName)
         </dd>
 
         <dt class="col-sm-2">

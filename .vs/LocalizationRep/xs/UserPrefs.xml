@@ -1,10 +1,20 @@
 ﻿<Properties StartupConfiguration="{AE01DA3A-9154-4308-A3CF-4D64A8CF2C22}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="LocalizationRep/Controllers/CSVActionController.cs">
     <Files>
-      <File FileName="LocalizationRep/Utilities/FileActionCSV.cs" Line="76" Column="13" />
-      <File FileName="LocalizationRep/Controllers/FileActionController.cs" Line="96" Column="78" />
-      <File FileName="LocalizationRep/Views/FileAction/Index.cshtml" Line="98" Column="37" />
-      <File FileName="LocalizationRep/Controllers/CSVActionController.cs" Line="12" Column="41" />
+      <File FileName="LocalizationRep/Utilities/FileActionXML.cs" Line="173" Column="1" />
+      <File FileName="LocalizationRep/Models/SearchModel.cs" />
+      <File FileName="LocalizationRep/Controllers/FileActionController.cs" Line="94" Column="1" />
+      <File FileName="LocalizationRep/Controllers/MainTableController.cs" Line="1" Column="1" />
+      <File FileName="LocalizationRep/Views/AndroidTableAction/Index.cshtml" Line="1" Column="1" />
+      <File FileName="LocalizationRep/Controllers/AndroidTableActionController.cs" />
+      <File FileName="LocalizationRep/Utilities/ActionWithDataBase.cs" />
+      <File FileName="LocalizationRep/Views/FileAction/Index.cshtml" />
+      <File FileName="LocalizationRep/Models/XMLKeyModel.cs" />
+      <File FileName="LocalizationRep/Models/XmlEntities.cs" />
+      <File FileName="LocalizationRep/Utilities/FileActionCSV.cs" Line="86" Column="1" />
+      <File FileName="LocalizationRep/Controllers/CSVActionController.cs" Line="23" Column="91" />
+      <File FileName="LocalizationRep/Models/LangValue.cs" Line="10" Column="1" />
+      <File FileName="LocalizationRep/Program.cs" Line="32" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,27 +25,24 @@
               <Node name="Controllers" expanded="True">
                 <Node name="CSVActionController.cs" selected="True" />
               </Node>
-              <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
               <Node name="Utilities" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="AndroidTableAction" expanded="True" />
                 <Node name="FileAction" expanded="True" />
                 <Node name="Home" expanded="True" />
                 <Node name="MainTable" expanded="True" />
                 <Node name="Sections" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="Files" expanded="True">
-                  <Node name="upload" expanded="True">
-                    <Node name="CSV" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>CommonID</Value>
         </State>
       </Pad>
     </Pads>
@@ -44,8 +51,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/zakharklochkov/localization-repository/LocalizationRep/Utilities/FileActionCSV.cs" relfile="LocalizationRep/Utilities/FileActionCSV.cs" line="101" column="1" />
-      <Breakpoint file="/Users/zakharklochkov/localization-repository/LocalizationRep/Utilities/FileActionCSV.cs" relfile="LocalizationRep/Utilities/FileActionCSV.cs" line="76" column="1" />
+      <Breakpoint enabled="false" file="/Users/zakharklochkov/localization-repository/LocalizationRep/Utilities/FileActionXML.cs" relfile="LocalizationRep/Utilities/FileActionXML.cs" line="358" column="1" />
+      <Breakpoint enabled="false" file="/Users/zakharklochkov/localization-repository/LocalizationRep/Views/AndroidTable/Index.cshtml" relfile="LocalizationRep/Views/AndroidTable/Index.cshtml" line="76" column="1" />
+      <Breakpoint enabled="false" file="/Users/zakharklochkov/localization-repository/LocalizationRep/Views/AndroidTable/Index.cshtml" relfile="LocalizationRep/Views/AndroidTable/Index.cshtml" line="4" column="1" />
+      <Breakpoint enabled="false" file="/Users/zakharklochkov/localization-repository/LocalizationRep/Views/MainTable/Index.cshtml" relfile="LocalizationRep/Views/MainTable/Index.cshtml" line="76" column="1" />
+      <Breakpoint file="/Users/zakharklochkov/localization-repository/LocalizationRep/Utilities/FileActionXML.cs" relfile="LocalizationRep/Utilities/FileActionXML.cs" line="199" column="1" />
+      <Breakpoint hitCountMode="GreaterThanOrEqualTo" hitCount="1" conditionExpression="s.CommonID == &quot;PRD00045&quot;" file="/Users/zakharklochkov/localization-repository/LocalizationRep/Controllers/CSVActionController.cs" relfile="LocalizationRep/Controllers/CSVActionController.cs" line="23" column="49" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

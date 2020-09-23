@@ -1,104 +1,104 @@
 {
-    "error-alert-ok-button" : {
-        "common" : {
-            "uk" : "Ок",
-            "en" : "Ok",
-            "ru" : "Ок"
-        },
-        "official" : {
-            "uk" : "Ок",
-            "en" : "Ok",
-            "ru" : "Ок"
-        },
-        "dude" : {
-            "uk" : "Ок",
-            "en" : "Ok",
-            "ru" : "Ок"
-        }
+  "error-alert-ok-button": {
+    "neutral": {
+      "uk": "Ок",
+      "en": "Ok",
+      "ru": "Ок"
     },
-    "error-network-title" : {
-        "official" : {
-            "en" : "Something went wrong...",
-            "ru" : "Возникла ошибка, что-то пошло не так",
-            "uk" : "Виникла помилка, щось пійшло не так"
-        },
-        "common" : {
-            "en" : "Something went wrong...",
-            "ru" : "Возникла ошибка, что-то пошло не так",
-            "uk" : "Виникла помилка, щось пійшло не так"
-        },
-        "dude" : {
-            "en" : "Something went wrong...",
-            "ru" : "Возникла ошибка, что-то пошло не так",
-            "uk" : "Виникла помилка, щось пійшло не так"
-        }
+    "business": {
+      "uk": "Ок",
+      "en": "Ok",
+      "ru": "Ок"
     },
-    "error-connectionIsOffline-text" : {
-        "official" : {
-            "en" : "Please check your Internet connection and try one more time",
-            "uk" : "Перевірьте підключення до мережі і попробуйте ще раз",
-            "ru" : "Проверьте подключение к сети интернет и повторите снова"
-        },
-        "common" : {
-            "en" : "Please check your Internet connection and try one more time",
-            "uk" : "Перевірьте підключення до мережі і попробуйте ще раз",
-            "ru" : "Проверьте подключение к сети интернет и повторите снова"
-        },
-        "dude" : {
-            "en" : "Please check your Internet connection and try one more time",
-            "uk" : "Перевірьте підключення до мережі і попробуйте ще раз",
-            "ru" : "Проверьте подключение к сети интернет и повторите снова"
-        }
-    },
-    "error-network-text" : {
-        "common" : {
-            "uk" : "Спробуйте будь ласка ще раз, або зверніться в підтримку в чаті",
-            "en" : "Please try one more time or contact our support via chat if you still experience the issue",
-            "ru" : "Попробуйте еще раз или обратитесь в поддержку в чате"
-        },
-        "official" : {
-            "uk" : "Спробуйте будь ласка ще раз, або зверніться в підтримку в чаті",
-            "en" : "Please try one more time or contact our support via chat if you still experience the issue",
-            "ru" : "Попробуйте еще раз или обратитесь в поддержку в чате"
-        },
-        "dude" : {
-            "uk" : "Спробуйте будь ласка ще раз, або зверніться в підтримку в чаті",
-            "en" : "Please try one more time or contact our support via chat if you still experience the issue",
-            "ru" : "Попробуйте еще раз или обратитесь в поддержку в чате"
-        }
-    },
-    "error-connectionIsOffline-title" : {
-        "official" : {
-            "uk" : "Відсутнє підключення до мережі",
-            "ru" : "Отсутствует подключение к сети",
-            "en" : "There is no Internet connection"
-        },
-        "dude" : {
-            "uk" : "Відсутнє підключення до мережі",
-            "ru" : "Отсутствует подключение к сети",
-            "en" : "There is no Internet connection"
-        },
-        "common" : {
-            "uk" : "Відсутнє підключення до мережі",
-            "ru" : "Отсутствует подключение к сети",
-            "en" : "There is no Internet connection"
-        }
-    },
-    "error-alert-title" : {
-        "official" : {
-            "en" : "Error",
-            "ru" : "Ошибка",
-            "uk" : "Помилка"
-        },
-        "common" : {
-            "en" : "Error",
-            "ru" : "Ошибка",
-            "uk" : "Помилка"
-        },
-        "dude" : {
-            "en" : "Error",
-            "ru" : "Ошибка",
-            "uk" : "Помилка"
-        }
+    "friendly": {
+      "uk": "Ок",
+      "en": "Ok",
+      "ru": "Ок"
     }
+  },
+  "error-network-title": {
+    "business": {
+      "en": "Something went wrong...",
+      "ru": "Возникла ошибка, что-то пошло не так",
+      "uk": "Виникла помилка, щось пійшло не так"
+    },
+    "neutral": {
+      "en": "Something went wrong...",
+      "ru": "Возникла ошибка, что-то пошло не так",
+      "uk": "Виникла помилка, щось пійшло не так"
+    },
+    "friendly": {
+      "en": "Something went wrong...",
+      "ru": "Возникла ошибка, что-то пошло не так",
+      "uk": "Виникла помилка, щось пійшло не так"
+    }
+  },
+  "error-connectionIsOffline-text": {
+    "business": {
+      "en": "Please check your Internet connection and try one more time",
+      "uk": "Перевірьте підключення до мережі і попробуйте ще раз",
+      "ru": "Проверьте подключение к сети интернет и повторите снова"
+    },
+    "neutral": {
+      "en": "Please check your Internet connection and try one more time",
+      "uk": "Перевірьте підключення до мережі і попробуйте ще раз",
+      "ru": "Проверьте подключение к сети интернет и повторите снова"
+    },
+    "friendly": {
+      "en": "Please check your Internet connection and try one more time",
+      "uk": "Перевірьте підключення до мережі і попробуйте ще раз",
+      "ru": "Проверьте подключение к сети интернет и повторите снова"
+    }
+  },
+  "error-network-text": {
+    "neutral": {
+      "uk": "Спробуйте будь ласка ще раз, або зверніться в підтримку в чаті",
+      "en": "Please try one more time or contact our support via chat if you still experience the issue",
+      "ru": "Попробуйте еще раз или обратитесь в поддержку в чате"
+    },
+    "business": {
+      "uk": "Спробуйте будь ласка ще раз, або зверніться в підтримку в чаті",
+      "en": "Please try one more time or contact our support via chat if you still experience the issue",
+      "ru": "Попробуйте еще раз или обратитесь в поддержку в чате"
+    },
+    "friendly": {
+      "uk": "Спробуйте будь ласка ще раз, або зверніться в підтримку в чаті",
+      "en": "Please try one more time or contact our support via chat if you still experience the issue",
+      "ru": "Попробуйте еще раз или обратитесь в поддержку в чате"
+    }
+  },
+  "error-connectionIsOffline-title": {
+    "business": {
+      "uk": "Відсутнє підключення до мережі",
+      "ru": "Отсутствует подключение к сети",
+      "en": "There is no Internet connection"
+    },
+    "friendly": {
+      "uk": "Відсутнє підключення до мережі",
+      "ru": "Отсутствует подключение к сети",
+      "en": "There is no Internet connection"
+    },
+    "neutral": {
+      "uk": "Відсутнє підключення до мережі",
+      "ru": "Отсутствует подключение к сети",
+      "en": "There is no Internet connection"
+    }
+  },
+  "error-alert-title": {
+    "business": {
+      "en": "Error",
+      "ru": "Ошибка",
+      "uk": "Помилка"
+    },
+    "neutral": {
+      "en": "Error",
+      "ru": "Ошибка",
+      "uk": "Помилка"
+    },
+    "friendly": {
+      "en": "Error",
+      "ru": "Ошибка",
+      "uk": "Помилка"
+    }
+  }
 }

@@ -1,393 +1,393 @@
 {
-    "pil-online-set-amount-title" : {
-        "common" : {
-            "uk" : "Вкажіть суму кредиту",
-            "en" : "Specify the loan amount",
-            "ru" : "Укажите сумму кредита"
-        },
-        "dude" : {
-            "uk" : "Вкажіть суму кредиту",
-            "en" : "Specify the loan amount",
-            "ru" : "Укажите сумму кредита"
-        },
-        "official" : {
-            "uk" : "Вкажіть суму кредиту",
-            "en" : "Specify the loan amount",
-            "ru" : "Укажите сумму кредита"
-        }
+  "pil-online-set-amount-title": {
+    "neutral": {
+      "uk": "Вкажіть суму кредиту",
+      "en": "Specify the loan amount",
+      "ru": "Укажите сумму кредита"
     },
-    "pil-online-choose-amount-title" : {
-        "common" : {
-            "ru" : "Выберите сумму кредита",
-            "en" : "Choose loan amount",
-            "uk" : "Вкажіть суму кредиту"
-        },
-        "official" : {
-            "ru" : "Выберите сумму кредита",
-            "en" : "Choose loan amount",
-            "uk" : "Вкажіть суму кредиту"
-        },
-        "dude" : {
-            "ru" : "Выберите сумму кредита",
-            "en" : "Choose loan amount",
-            "uk" : "Вкажіть суму кредиту"
-        }
+    "friendly": {
+      "uk": "Вкажіть суму кредиту",
+      "en": "Specify the loan amount",
+      "ru": "Укажите сумму кредита"
     },
-    "pil-online-rate-percent-title" : {
-        "official" : {
-            "ru" : "Cтавка",
-            "uk" : "Cтавка",
-            "en" : "Rate"
-        },
-        "dude" : {
-            "ru" : "Cтавка",
-            "uk" : "Cтавка",
-            "en" : "Rate"
-        },
-        "common" : {
-            "ru" : "Cтавка",
-            "uk" : "Cтавка",
-            "en" : "Rate"
-        }
-    },
-    "pil-online-term-picker-subtitle" : {
-        "official" : {
-            "ru" : "Месяцев",
-            "uk" : "Месяцев",
-            "en" : "Months"
-        },
-        "dude" : {
-            "ru" : "Месяцев",
-            "uk" : "Месяцев",
-            "en" : "Months"
-        },
-        "common" : {
-            "ru" : "Месяцев",
-            "uk" : "Месяцев",
-            "en" : "Months"
-        }
-    },
-    "pil-online-choose-term-title" : {
-        "official" : {
-            "en" : "Choose loan term",
-            "uk" : "Вкажіть строк кредиту",
-            "ru" : "Выберите срок кредита"
-        },
-        "dude" : {
-            "en" : "Choose loan term",
-            "uk" : "Вкажіть строк кредиту",
-            "ru" : "Выберите срок кредита"
-        },
-        "common" : {
-            "en" : "Choose loan term",
-            "uk" : "Вкажіть строк кредиту",
-            "ru" : "Выберите срок кредита"
-        }
-    },
-    "pil-online-choose-card-account-title" : {
-        "dude" : {
-            "en" : "Specify the account to which you want to transfer funds",
-            "ru" : "Укажите счет на который вы хотите зачислить средства",
-            "uk" : "Вкажіть рахунок на який ви бажаєте зарахувати кошти"
-        },
-        "common" : {
-            "en" : "Specify the account to which you want to transfer funds",
-            "ru" : "Укажите счет на который вы хотите зачислить средства",
-            "uk" : "Вкажіть рахунок на який ви бажаєте зарахувати кошти"
-        },
-        "official" : {
-            "en" : "Specify the account to which you want to transfer funds",
-            "ru" : "Укажите счет на который вы хотите зачислить средства",
-            "uk" : "Вкажіть рахунок на який ви бажаєте зарахувати кошти"
-        }
-    },
-    "pil-online-offer-agrement-title" : {
-        "dude" : {
-            "uk" : "Я підтверджую та погоджуюсь з умовами оформлення онлайн-заявки",
-            "ru" : "Я подтверждаю, что соглашаюсь с условиями оформления онлайн-заявки",
-            "en" : "I confirm that I agree to the online application conditions"
-        },
-        "official" : {
-            "uk" : "Я підтверджую та погоджуюсь з умовами оформлення онлайн-заявки",
-            "ru" : "Я подтверждаю, что соглашаюсь с условиями оформления онлайн-заявки",
-            "en" : "I confirm that I agree to the online application conditions"
-        },
-        "common" : {
-            "uk" : "Я підтверджую та погоджуюсь з умовами оформлення онлайн-заявки",
-            "ru" : "Я подтверждаю, что соглашаюсь с условиями оформления онлайн-заявки",
-            "en" : "I confirm that I agree to the online application conditions"
-        }
-    },
-    "pil-online-no-propositions-title" : {
-        "dude" : {
-            "ru" : "На даний момент немає пропозицій для оформлення кредиту",
-            "uk" : "В настоящий момент нет предложений для оформления кредита",
-            "en" : "There are currently no offers for a loan"
-        },
-        "common" : {
-            "ru" : "На даний момент немає пропозицій для оформлення кредиту",
-            "uk" : "В настоящий момент нет предложений для оформления кредита",
-            "en" : "There are currently no offers for a loan"
-        },
-        "official" : {
-            "ru" : "На даний момент немає пропозицій для оформлення кредиту",
-            "uk" : "В настоящий момент нет предложений для оформления кредита",
-            "en" : "There are currently no offers for a loan"
-        }
-    },
-    "pil-online-current-step-title" : {
-        "common" : {
-            "uk" : "Крок",
-            "en" : "Step",
-            "ru" : "Шаг"
-        },
-        "official" : {
-            "uk" : "Крок",
-            "en" : "Step",
-            "ru" : "Шаг"
-        },
-        "dude" : {
-            "uk" : "Крок",
-            "en" : "Step",
-            "ru" : "Шаг"
-        }
-    },
-    "pil-online-amount-approved-title" : {
-        "common" : {
-            "uk" : "Схвалено кредит",
-            "en" : "Credit approved",
-            "ru" : "Одобрен кредит"
-        },
-        "official" : {
-            "uk" : "Схвалено кредит",
-            "en" : "Credit approved",
-            "ru" : "Одобрен кредит"
-        },
-        "dude" : {
-            "uk" : "Схвалено кредит",
-            "en" : "Credit approved",
-            "ru" : "Одобрен кредит"
-        }
-    },
-    "pil-online-continue-title" : {
-        "common" : {
-            "en" : "Continue",
-            "uk" : "Продовжити",
-            "ru" : "Продолжить"
-        },
-        "official" : {
-            "en" : "Continue",
-            "uk" : "Продовжити",
-            "ru" : "Продолжить"
-        },
-        "dude" : {
-            "en" : "Continue",
-            "uk" : "Продовжити",
-            "ru" : "Продолжить"
-        }
-    },
-    "pil-online-offer-agrement-error-text" : {
-        "dude" : {
-            "ru" : "Необходимо согласиться с условиями",
-            "uk" : "Необхідно погодитись з умовами",
-            "en" : "You must agree to the terms"
-        },
-        "common" : {
-            "ru" : "Необходимо согласиться с условиями",
-            "uk" : "Необхідно погодитись з умовами",
-            "en" : "You must agree to the terms"
-        },
-        "official" : {
-            "ru" : "Необходимо согласиться с условиями",
-            "uk" : "Необхідно погодитись з умовами",
-            "en" : "You must agree to the terms"
-        }
-    },
-    "pil-online-webview-title" : {
-        "dude" : {
-            "uk" : "alfabank.ua",
-            "ru" : "alfabank.ua",
-            "en" : "alfabank.ua"
-        },
-        "common" : {
-            "uk" : "alfabank.ua",
-            "ru" : "alfabank.ua",
-            "en" : "alfabank.ua"
-        },
-        "official" : {
-            "uk" : "alfabank.ua",
-            "ru" : "alfabank.ua",
-            "en" : "alfabank.ua"
-        }
-    },
-    "pil-online-complete-title" : {
-        "dude" : {
-            "en" : "Complete",
-            "uk" : "Готово",
-            "ru" : "Готово"
-        },
-        "common" : {
-            "en" : "Complete",
-            "uk" : "Готово",
-            "ru" : "Готово"
-        },
-        "official" : {
-            "en" : "Complete",
-            "uk" : "Готово",
-            "ru" : "Готово"
-        }
-    },
-    "pil-online-set-email-title" : {
-        "common" : {
-            "uk" : "E-mail адреса для отримання договору",
-            "ru" : "E-mail адрес для получения договора",
-            "en" : "E-mail address for contract"
-        },
-        "dude" : {
-            "uk" : "E-mail адреса для отримання договору",
-            "ru" : "E-mail адрес для получения договора",
-            "en" : "E-mail address for contract"
-        },
-        "official" : {
-            "uk" : "E-mail адреса для отримання договору",
-            "ru" : "E-mail адрес для получения договора",
-            "en" : "E-mail address for contract"
-        }
-    },
-    "pil-online-incorrect-email-title" : {
-        "common" : {
-            "uk" : "E-mail вказано не вірно",
-            "en" : "Email is invalid",
-            "ru" : "E-mail указан не верно"
-        },
-        "official" : {
-            "uk" : "E-mail вказано не вірно",
-            "en" : "Email is invalid",
-            "ru" : "E-mail указан не верно"
-        },
-        "dude" : {
-            "uk" : "E-mail вказано не вірно",
-            "en" : "Email is invalid",
-            "ru" : "E-mail указан не верно"
-        }
-    },
-    "pil-online-documents-title" : {
-        "common" : {
-            "en" : "Documents",
-            "ru" : "Документы",
-            "uk" : "Документы"
-        },
-        "dude" : {
-            "en" : "Documents",
-            "ru" : "Документы",
-            "uk" : "Документы"
-        },
-        "official" : {
-            "en" : "Documents",
-            "ru" : "Документы",
-            "uk" : "Документы"
-        }
-    },
-    "pil-online-monthly-commission-amount-title" : {
-        "dude" : {
-            "uk" : "Щомісячна комісія",
-            "en" : "Monthly commission",
-            "ru" : "Ежемесячная комиссия"
-        },
-        "official" : {
-            "uk" : "Щомісячна комісія",
-            "en" : "Monthly commission",
-            "ru" : "Ежемесячная комиссия"
-        },
-        "common" : {
-            "uk" : "Щомісячна комісія",
-            "en" : "Monthly commission",
-            "ru" : "Ежемесячная комиссия"
-        }
-    },
-    "pil-online-offer-title" : {
-        "dude" : {
-            "en" : "Online-offer",
-            "ru" : "Онлайн-заявка",
-            "uk" : "Онлайн-заявка"
-        },
-        "common" : {
-            "en" : "Online-offer",
-            "ru" : "Онлайн-заявка",
-            "uk" : "Онлайн-заявка"
-        },
-        "official" : {
-            "en" : "Online-offer",
-            "ru" : "Онлайн-заявка",
-            "uk" : "Онлайн-заявка"
-        }
-    },
-    "pil-online-monthly-payment-amount-title" : {
-        "dude" : {
-            "uk" : "Щомісячний платіж",
-            "en" : "Monthly payment",
-            "ru" : "Ежемесячный платеж"
-        },
-        "common" : {
-            "uk" : "Щомісячний платіж",
-            "en" : "Monthly payment",
-            "ru" : "Ежемесячный платеж"
-        },
-        "official" : {
-            "uk" : "Щомісячний платіж",
-            "en" : "Monthly payment",
-            "ru" : "Ежемесячный платеж"
-        }
-    },
-    "pil-online-should-fill-email-error" : {
-        "common" : {
-            "en" : "You must fill in the e-mail field",
-            "uk" : "Необхідно заповнити поле e-mail",
-            "ru" : "Необходимо заполнить поле e-mail"
-        },
-        "dude" : {
-            "en" : "You must fill in the e-mail field",
-            "uk" : "Необхідно заповнити поле e-mail",
-            "ru" : "Необходимо заполнить поле e-mail"
-        },
-        "official" : {
-            "en" : "You must fill in the e-mail field",
-            "uk" : "Необхідно заповнити поле e-mail",
-            "ru" : "Необходимо заполнить поле e-mail"
-        }
-    },
-    "pil-online-receive-funds-title" : {
-        "dude" : {
-            "uk" : "Отримати",
-            "ru" : "Получить",
-            "en" : "Receive"
-        },
-        "official" : {
-            "uk" : "Отримати",
-            "ru" : "Получить",
-            "en" : "Receive"
-        },
-        "common" : {
-            "uk" : "Отримати",
-            "ru" : "Получить",
-            "en" : "Receive"
-        }
-    },
-    "pil-online-main-title" : {
-        "official" : {
-            "uk" : "Кредит Online",
-            "en" : "Credit Online",
-            "ru" : "Кредит Online"
-        },
-        "dude" : {
-            "uk" : "Кредит Online",
-            "en" : "Credit Online",
-            "ru" : "Кредит Online"
-        },
-        "common" : {
-            "uk" : "Кредит Online",
-            "en" : "Credit Online",
-            "ru" : "Кредит Online"
-        }
+    "business": {
+      "uk": "Вкажіть суму кредиту",
+      "en": "Specify the loan amount",
+      "ru": "Укажите сумму кредита"
     }
+  },
+  "pil-online-choose-amount-title": {
+    "neutral": {
+      "ru": "Выберите сумму кредита",
+      "en": "Choose loan amount",
+      "uk": "Вкажіть суму кредиту"
+    },
+    "business": {
+      "ru": "Выберите сумму кредита",
+      "en": "Choose loan amount",
+      "uk": "Вкажіть суму кредиту"
+    },
+    "friendly": {
+      "ru": "Выберите сумму кредита",
+      "en": "Choose loan amount",
+      "uk": "Вкажіть суму кредиту"
+    }
+  },
+  "pil-online-rate-percent-title": {
+    "business": {
+      "ru": "Cтавка",
+      "uk": "Cтавка",
+      "en": "Rate"
+    },
+    "friendly": {
+      "ru": "Cтавка",
+      "uk": "Cтавка",
+      "en": "Rate"
+    },
+    "neutral": {
+      "ru": "Cтавка",
+      "uk": "Cтавка",
+      "en": "Rate"
+    }
+  },
+  "pil-online-term-picker-subtitle": {
+    "business": {
+      "ru": "Месяцев",
+      "uk": "Месяцев",
+      "en": "Months"
+    },
+    "friendly": {
+      "ru": "Месяцев",
+      "uk": "Месяцев",
+      "en": "Months"
+    },
+    "neutral": {
+      "ru": "Месяцев",
+      "uk": "Месяцев",
+      "en": "Months"
+    }
+  },
+  "pil-online-choose-term-title": {
+    "business": {
+      "en": "Choose loan term",
+      "uk": "Вкажіть строк кредиту",
+      "ru": "Выберите срок кредита"
+    },
+    "friendly": {
+      "en": "Choose loan term",
+      "uk": "Вкажіть строк кредиту",
+      "ru": "Выберите срок кредита"
+    },
+    "neutral": {
+      "en": "Choose loan term",
+      "uk": "Вкажіть строк кредиту",
+      "ru": "Выберите срок кредита"
+    }
+  },
+  "pil-online-choose-card-account-title": {
+    "friendly": {
+      "en": "Specify the account to which you want to transfer funds",
+      "ru": "Укажите счет на который вы хотите зачислить средства",
+      "uk": "Вкажіть рахунок на який ви бажаєте зарахувати кошти"
+    },
+    "neutral": {
+      "en": "Specify the account to which you want to transfer funds",
+      "ru": "Укажите счет на который вы хотите зачислить средства",
+      "uk": "Вкажіть рахунок на який ви бажаєте зарахувати кошти"
+    },
+    "business": {
+      "en": "Specify the account to which you want to transfer funds",
+      "ru": "Укажите счет на который вы хотите зачислить средства",
+      "uk": "Вкажіть рахунок на який ви бажаєте зарахувати кошти"
+    }
+  },
+  "pil-online-offer-agrement-title": {
+    "friendly": {
+      "uk": "Я підтверджую та погоджуюсь з умовами оформлення онлайн-заявки",
+      "ru": "Я подтверждаю, что соглашаюсь с условиями оформления онлайн-заявки",
+      "en": "I confirm that I agree to the online application conditions"
+    },
+    "business": {
+      "uk": "Я підтверджую та погоджуюсь з умовами оформлення онлайн-заявки",
+      "ru": "Я подтверждаю, что соглашаюсь с условиями оформления онлайн-заявки",
+      "en": "I confirm that I agree to the online application conditions"
+    },
+    "neutral": {
+      "uk": "Я підтверджую та погоджуюсь з умовами оформлення онлайн-заявки",
+      "ru": "Я подтверждаю, что соглашаюсь с условиями оформления онлайн-заявки",
+      "en": "I confirm that I agree to the online application conditions"
+    }
+  },
+  "pil-online-no-propositions-title": {
+    "friendly": {
+      "ru": "На даний момент немає пропозицій для оформлення кредиту",
+      "uk": "В настоящий момент нет предложений для оформления кредита",
+      "en": "There are currently no offers for a loan"
+    },
+    "neutral": {
+      "ru": "На даний момент немає пропозицій для оформлення кредиту",
+      "uk": "В настоящий момент нет предложений для оформления кредита",
+      "en": "There are currently no offers for a loan"
+    },
+    "business": {
+      "ru": "На даний момент немає пропозицій для оформлення кредиту",
+      "uk": "В настоящий момент нет предложений для оформления кредита",
+      "en": "There are currently no offers for a loan"
+    }
+  },
+  "pil-online-current-step-title": {
+    "neutral": {
+      "uk": "Крок",
+      "en": "Step",
+      "ru": "Шаг"
+    },
+    "business": {
+      "uk": "Крок",
+      "en": "Step",
+      "ru": "Шаг"
+    },
+    "friendly": {
+      "uk": "Крок",
+      "en": "Step",
+      "ru": "Шаг"
+    }
+  },
+  "pil-online-amount-approved-title": {
+    "neutral": {
+      "uk": "Схвалено кредит",
+      "en": "Credit approved",
+      "ru": "Одобрен кредит"
+    },
+    "business": {
+      "uk": "Схвалено кредит",
+      "en": "Credit approved",
+      "ru": "Одобрен кредит"
+    },
+    "friendly": {
+      "uk": "Схвалено кредит",
+      "en": "Credit approved",
+      "ru": "Одобрен кредит"
+    }
+  },
+  "pil-online-continue-title": {
+    "neutral": {
+      "en": "Continue",
+      "uk": "Продовжити",
+      "ru": "Продолжить"
+    },
+    "business": {
+      "en": "Continue",
+      "uk": "Продовжити",
+      "ru": "Продолжить"
+    },
+    "friendly": {
+      "en": "Continue",
+      "uk": "Продовжити",
+      "ru": "Продолжить"
+    }
+  },
+  "pil-online-offer-agrement-error-text": {
+    "friendly": {
+      "ru": "Необходимо согласиться с условиями",
+      "uk": "Необхідно погодитись з умовами",
+      "en": "You must agree to the terms"
+    },
+    "neutral": {
+      "ru": "Необходимо согласиться с условиями",
+      "uk": "Необхідно погодитись з умовами",
+      "en": "You must agree to the terms"
+    },
+    "business": {
+      "ru": "Необходимо согласиться с условиями",
+      "uk": "Необхідно погодитись з умовами",
+      "en": "You must agree to the terms"
+    }
+  },
+  "pil-online-webview-title": {
+    "friendly": {
+      "uk": "alfabank.ua",
+      "ru": "alfabank.ua",
+      "en": "alfabank.ua"
+    },
+    "neutral": {
+      "uk": "alfabank.ua",
+      "ru": "alfabank.ua",
+      "en": "alfabank.ua"
+    },
+    "business": {
+      "uk": "alfabank.ua",
+      "ru": "alfabank.ua",
+      "en": "alfabank.ua"
+    }
+  },
+  "pil-online-complete-title": {
+    "friendly": {
+      "en": "Complete",
+      "uk": "Готово",
+      "ru": "Готово"
+    },
+    "neutral": {
+      "en": "Complete",
+      "uk": "Готово",
+      "ru": "Готово"
+    },
+    "business": {
+      "en": "Complete",
+      "uk": "Готово",
+      "ru": "Готово"
+    }
+  },
+  "pil-online-set-email-title": {
+    "neutral": {
+      "uk": "E-mail адреса для отримання договору",
+      "ru": "E-mail адрес для получения договора",
+      "en": "E-mail address for contract"
+    },
+    "friendly": {
+      "uk": "E-mail адреса для отримання договору",
+      "ru": "E-mail адрес для получения договора",
+      "en": "E-mail address for contract"
+    },
+    "business": {
+      "uk": "E-mail адреса для отримання договору",
+      "ru": "E-mail адрес для получения договора",
+      "en": "E-mail address for contract"
+    }
+  },
+  "pil-online-incorrect-email-title": {
+    "neutral": {
+      "uk": "E-mail вказано не вірно",
+      "en": "Email is invalid",
+      "ru": "E-mail указан не верно"
+    },
+    "business": {
+      "uk": "E-mail вказано не вірно",
+      "en": "Email is invalid",
+      "ru": "E-mail указан не верно"
+    },
+    "friendly": {
+      "uk": "E-mail вказано не вірно",
+      "en": "Email is invalid",
+      "ru": "E-mail указан не верно"
+    }
+  },
+  "pil-online-documents-title": {
+    "neutral": {
+      "en": "Documents",
+      "ru": "Документы",
+      "uk": "Документы"
+    },
+    "friendly": {
+      "en": "Documents",
+      "ru": "Документы",
+      "uk": "Документы"
+    },
+    "business": {
+      "en": "Documents",
+      "ru": "Документы",
+      "uk": "Документы"
+    }
+  },
+  "pil-online-monthly-commission-amount-title": {
+    "friendly": {
+      "uk": "Щомісячна комісія",
+      "en": "Monthly commission",
+      "ru": "Ежемесячная комиссия"
+    },
+    "business": {
+      "uk": "Щомісячна комісія",
+      "en": "Monthly commission",
+      "ru": "Ежемесячная комиссия"
+    },
+    "neutral": {
+      "uk": "Щомісячна комісія",
+      "en": "Monthly commission",
+      "ru": "Ежемесячная комиссия"
+    }
+  },
+  "pil-online-offer-title": {
+    "friendly": {
+      "en": "Online-offer",
+      "ru": "Онлайн-заявка",
+      "uk": "Онлайн-заявка"
+    },
+    "neutral": {
+      "en": "Online-offer",
+      "ru": "Онлайн-заявка",
+      "uk": "Онлайн-заявка"
+    },
+    "business": {
+      "en": "Online-offer",
+      "ru": "Онлайн-заявка",
+      "uk": "Онлайн-заявка"
+    }
+  },
+  "pil-online-monthly-payment-amount-title": {
+    "friendly": {
+      "uk": "Щомісячний платіж",
+      "en": "Monthly payment",
+      "ru": "Ежемесячный платеж"
+    },
+    "neutral": {
+      "uk": "Щомісячний платіж",
+      "en": "Monthly payment",
+      "ru": "Ежемесячный платеж"
+    },
+    "business": {
+      "uk": "Щомісячний платіж",
+      "en": "Monthly payment",
+      "ru": "Ежемесячный платеж"
+    }
+  },
+  "pil-online-should-fill-email-error": {
+    "neutral": {
+      "en": "You must fill in the e-mail field",
+      "uk": "Необхідно заповнити поле e-mail",
+      "ru": "Необходимо заполнить поле e-mail"
+    },
+    "friendly": {
+      "en": "You must fill in the e-mail field",
+      "uk": "Необхідно заповнити поле e-mail",
+      "ru": "Необходимо заполнить поле e-mail"
+    },
+    "business": {
+      "en": "You must fill in the e-mail field",
+      "uk": "Необхідно заповнити поле e-mail",
+      "ru": "Необходимо заполнить поле e-mail"
+    }
+  },
+  "pil-online-receive-funds-title": {
+    "friendly": {
+      "uk": "Отримати",
+      "ru": "Получить",
+      "en": "Receive"
+    },
+    "business": {
+      "uk": "Отримати",
+      "ru": "Получить",
+      "en": "Receive"
+    },
+    "neutral": {
+      "uk": "Отримати",
+      "ru": "Получить",
+      "en": "Receive"
+    }
+  },
+  "pil-online-main-title": {
+    "business": {
+      "uk": "Кредит Online",
+      "en": "Credit Online",
+      "ru": "Кредит Online"
+    },
+    "friendly": {
+      "uk": "Кредит Online",
+      "en": "Credit Online",
+      "ru": "Кредит Online"
+    },
+    "neutral": {
+      "uk": "Кредит Online",
+      "en": "Credit Online",
+      "ru": "Кредит Online"
+    }
+  }
 }

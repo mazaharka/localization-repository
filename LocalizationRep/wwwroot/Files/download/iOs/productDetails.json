@@ -1,1073 +1,1073 @@
 {
-    "details-card-tab-limits-text" : {
-        "dude" : {
-            "ru" : "Управление лимитами",
-            "en" : "Limit management",
-            "uk" : "Керування лімітами"
-        },
-        "common" : {
-            "ru" : "Управление лимитами",
-            "en" : "Limit management",
-            "uk" : "Керування лімітами"
-        },
-        "official" : {
-            "ru" : "Управление лимитами",
-            "en" : "Limit management",
-            "uk" : "Керування лімітами"
-        }
+  "details-card-tab-limits-text": {
+    "friendly": {
+      "ru": "Управление лимитами",
+      "en": "Limit management",
+      "uk": "Керування лімітами"
     },
-    "details-card-tab-cardtype-text" : {
-        "official" : {
-            "uk" : "Тип картки",
-            "en" : "Card type",
-            "ru" : "Тип карты"
-        },
-        "dude" : {
-            "uk" : "Тип картки",
-            "en" : "Card type",
-            "ru" : "Тип карты"
-        },
-        "common" : {
-            "uk" : "Тип картки",
-            "en" : "Card type",
-            "ru" : "Тип карты"
-        }
+    "neutral": {
+      "ru": "Управление лимитами",
+      "en": "Limit management",
+      "uk": "Керування лімітами"
     },
-    "details-info-tab" : {
-        "common" : {
-            "ru" : "Информация",
-            "en" : "Information",
-            "uk" : "Інформація"
-        },
-        "official" : {
-            "ru" : "Информация",
-            "en" : "Information",
-            "uk" : "Інформація"
-        },
-        "dude" : {
-            "ru" : "Информация",
-            "en" : "Information",
-            "uk" : "Інформація"
-        }
-    },
-    "details-shortcut-on-desktop" : {
-        "official" : {
-            "uk" : "Відображається на рабочому столі",
-            "ru" : "Отображается на рабочем столе",
-            "en" : "Displayed on the desktop"
-        },
-        "dude" : {
-            "uk" : "Відображається на рабочому столі",
-            "ru" : "Отображается на рабочем столе",
-            "en" : "Displayed on the desktop"
-        },
-        "common" : {
-            "uk" : "Відображається на рабочому столі",
-            "ru" : "Отображается на рабочем столе",
-            "en" : "Displayed on the desktop"
-        }
-    },
-    "details-requisites-main-title" : {
-        "dude" : {
-            "ru" : "Реквизиты",
-            "en" : "Requisites",
-            "uk" : "Реквізити"
-        },
-        "official" : {
-            "ru" : "Реквизиты",
-            "en" : "Requisites",
-            "uk" : "Реквізити"
-        },
-        "common" : {
-            "ru" : "Реквизиты",
-            "en" : "Requisites",
-            "uk" : "Реквізити"
-        }
-    },
-    "details-deposit-tab-accrued-text" : {
-        "common" : {
-            "uk" : "Нараховано процентів",
-            "en" : "Interest accrued",
-            "ru" : "Начислено процентов"
-        },
-        "official" : {
-            "uk" : "Нараховано процентів",
-            "en" : "Interest accrued",
-            "ru" : "Начислено процентов"
-        },
-        "dude" : {
-            "uk" : "Нараховано процентів",
-            "en" : "Interest accrued",
-            "ru" : "Начислено процентов"
-        }
-    },
-    "details-deposit-tab-сontract-option" : {
-        "dude" : {
-            "uk" : "Договір",
-            "ru" : "Договоа",
-            "en" : "Contract"
-        },
-        "common" : {
-            "uk" : "Договір",
-            "ru" : "Договоа",
-            "en" : "Contract"
-        },
-        "official" : {
-            "uk" : "Договір",
-            "ru" : "Договоа",
-            "en" : "Contract"
-        }
-    },
-    "details-card-tab-block-card-description" : {
-        "common" : {
-            "en" : "Unlock the card to perform card transactions",
-            "ru" : "Для осуществления операций с карточкой разблокируйте ее",
-            "uk" : "Для здійснення операцій з карткою розблокуйте її"
-        },
-        "official" : {
-            "en" : "Unlock the card to perform card transactions",
-            "ru" : "Для осуществления операций с карточкой разблокируйте ее",
-            "uk" : "Для здійснення операцій з карткою розблокуйте її"
-        },
-        "dude" : {
-            "en" : "Unlock the card to perform card transactions",
-            "ru" : "Для осуществления операций с карточкой разблокируйте ее",
-            "uk" : "Для здійснення операцій з карткою розблокуйте її"
-        }
-    },
-    "details-card-tab-apple-wallet-text" : {
-        "common" : {
-            "uk" : "Додати до Apple Wallet",
-            "en" : "Add to Apple Wallet",
-            "ru" : "Добавить в Apple Wallet"
-        },
-        "official" : {
-            "uk" : "Додати до Apple Wallet",
-            "en" : "Add to Apple Wallet",
-            "ru" : "Добавить в Apple Wallet"
-        },
-        "dude" : {
-            "uk" : "Додати до Apple Wallet",
-            "en" : "Add to Apple Wallet",
-            "ru" : "Добавить в Apple Wallet"
-        }
-    },
-    "details-deposit-tab-withdrawal-description-allowed" : {
-        "official" : {
-            "ru" : "Разрешено",
-            "en" : "Allowed",
-            "uk" : "Дозволено"
-        },
-        "dude" : {
-            "ru" : "Разрешено",
-            "en" : "Allowed",
-            "uk" : "Дозволено"
-        },
-        "common" : {
-            "ru" : "Разрешено",
-            "en" : "Allowed",
-            "uk" : "Дозволено"
-        }
-    },
-    "details-shortcut-save-button-title" : {
-        "common" : {
-            "uk" : "Зберегти",
-            "ru" : "Сохранить",
-            "en" : "Save"
-        },
-        "official" : {
-            "uk" : "Зберегти",
-            "ru" : "Сохранить",
-            "en" : "Save"
-        },
-        "dude" : {
-            "uk" : "Зберегти",
-            "ru" : "Сохранить",
-            "en" : "Save"
-        }
-    },
-    "details-credit-shortcut-title" : {
-        "dude" : {
-            "uk" : "Залишок по кредиту",
-            "en" : "Loan balance",
-            "ru" : "Остаток по кредиту"
-        },
-        "official" : {
-            "uk" : "Залишок по кредиту",
-            "en" : "Loan balance",
-            "ru" : "Остаток по кредиту"
-        },
-        "common" : {
-            "uk" : "Залишок по кредиту",
-            "en" : "Loan balance",
-            "ru" : "Остаток по кредиту"
-        }
-    },
-    "details-available-operations-title" : {
-        "official" : {
-            "ru" : "Доступные операции",
-            "en" : "Available Operations",
-            "uk" : "Доступні операції"
-        },
-        "common" : {
-            "ru" : "Доступные операции",
-            "en" : "Available Operations",
-            "uk" : "Доступні операції"
-        },
-        "dude" : {
-            "ru" : "Доступные операции",
-            "en" : "Available Operations",
-            "uk" : "Доступні операції"
-        }
-    },
-    "details-pallet-title" : {
-        "dude" : {
-            "uk" : "Колір ярлика",
-            "en" : "Shortcut color",
-            "ru" : "Цвет ярлыка"
-        },
-        "common" : {
-            "uk" : "Колір ярлика",
-            "en" : "Shortcut color",
-            "ru" : "Цвет ярлыка"
-        },
-        "official" : {
-            "uk" : "Колір ярлика",
-            "en" : "Shortcut color",
-            "ru" : "Цвет ярлыка"
-        }
-    },
-    "details-card-tab-applepay-description-not-added" : {
-        "dude" : {
-            "en" : "Card not added",
-            "ru" : "Карта не добавлено",
-            "uk" : "Картку не додано"
-        },
-        "official" : {
-            "en" : "Card not added",
-            "ru" : "Карта не добавлено",
-            "uk" : "Картку не додано"
-        },
-        "common" : {
-            "en" : "Card not added",
-            "ru" : "Карта не добавлено",
-            "uk" : "Картку не додано"
-        }
-    },
-    "details-card-tab-change-name-text" : {
-        "common" : {
-            "en" : "Change the name of the card",
-            "uk" : "Змінити назву картки",
-            "ru" : "Изменить имя карты"
-        },
-        "dude" : {
-            "en" : "Change the name of the card",
-            "uk" : "Змінити назву картки",
-            "ru" : "Изменить имя карты"
-        },
-        "official" : {
-            "en" : "Change the name of the card",
-            "uk" : "Змінити назву картки",
-            "ru" : "Изменить имя карты"
-        }
-    },
-    "details-card-tab-status-title" : {
-        "common" : {
-            "ru" : "Статус картки",
-            "uk" : "Статус картки",
-            "en" : "Статус картки"
-        },
-        "dude" : {
-            "ru" : "Статус картки",
-            "uk" : "Статус картки",
-            "en" : "Статус картки"
-        },
-        "official" : {
-            "ru" : "Статус картки",
-            "uk" : "Статус картки",
-            "en" : "Статус картки"
-        }
-    },
-    "details-card-tab-tariffs-text" : {
-        "official" : {
-            "ru" : "Тарифы и условия",
-            "en" : "Tariffs and conditions",
-            "uk" : "Тарифи та умови"
-        },
-        "dude" : {
-            "ru" : "Тарифы и условия",
-            "en" : "Tariffs and conditions",
-            "uk" : "Тарифи та умови"
-        },
-        "common" : {
-            "ru" : "Тарифы и условия",
-            "en" : "Tariffs and conditions",
-            "uk" : "Тарифи та умови"
-        }
-    },
-    "details-edit-deposit-screen-title" : {
-        "common" : {
-            "ru" : "Редактирование депозита",
-            "uk" : "Редагування депозиту",
-            "en" : "Deposit editing"
-        },
-        "official" : {
-            "ru" : "Редактирование депозита",
-            "uk" : "Редагування депозиту",
-            "en" : "Deposit editing"
-        },
-        "dude" : {
-            "ru" : "Редактирование депозита",
-            "uk" : "Редагування депозиту",
-            "en" : "Deposit editing"
-        }
-    },
-    "details-card-tab-unblock-card-description" : {
-        "official" : {
-            "ru" : "Операции с картой будут заблокированы. Разблокировка возможна в любое время",
-            "en" : "Card operation will be blocked. Unblocking is possible at any moment",
-            "uk" : "Операції з карткою будуть заблоковані. Розблокування можлива в будь-який час"
-        },
-        "dude" : {
-            "ru" : "Операции с картой будут заблокированы. Разблокировка возможна в любое время",
-            "en" : "Card operation will be blocked. Unblocking is possible at any moment",
-            "uk" : "Операції з карткою будуть заблоковані. Розблокування можлива в будь-який час"
-        },
-        "common" : {
-            "ru" : "Операции с картой будут заблокированы. Разблокировка возможна в любое время",
-            "en" : "Card operation will be blocked. Unblocking is possible at any moment",
-            "uk" : "Операції з карткою будуть заблоковані. Розблокування можлива в будь-який час"
-        }
-    },
-    "details-card-tab-status-inactive-text" : {
-        "common" : {
-            "uk" : "Не активована",
-            "ru" : "Не активована",
-            "en" : "Не активована"
-        },
-        "official" : {
-            "uk" : "Не активована",
-            "ru" : "Не активована",
-            "en" : "Не активована"
-        },
-        "dude" : {
-            "uk" : "Не активована",
-            "ru" : "Не активована",
-            "en" : "Не активована"
-        }
-    },
-    "details-deposit-tab-interests-description-capitalization" : {
-        "dude" : {
-            "ru" : "С капитализацией",
-            "uk" : "З капіталізацією",
-            "en" : "With capitalization"
-        },
-        "common" : {
-            "ru" : "С капитализацией",
-            "uk" : "З капіталізацією",
-            "en" : "With capitalization"
-        },
-        "official" : {
-            "ru" : "С капитализацией",
-            "uk" : "З капіталізацією",
-            "en" : "With capitalization"
-        }
-    },
-    "details-deposit-tab-interests-description-term" : {
-        "common" : {
-            "ru" : "В конце срока",
-            "uk" : "В кінці терміну",
-            "en" : "At the end of the term"
-        },
-        "dude" : {
-            "ru" : "В конце срока",
-            "uk" : "В кінці терміну",
-            "en" : "At the end of the term"
-        },
-        "official" : {
-            "ru" : "В конце срока",
-            "uk" : "В кінці терміну",
-            "en" : "At the end of the term"
-        }
-    },
-    "details-withdraw" : {
-        "official" : {
-            "en" : "Withdraw",
-            "uk" : "Зняти",
-            "ru" : "Снять"
-        },
-        "dude" : {
-            "en" : "Withdraw",
-            "uk" : "Зняти",
-            "ru" : "Снять"
-        },
-        "common" : {
-            "en" : "Withdraw",
-            "uk" : "Зняти",
-            "ru" : "Снять"
-        }
-    },
-    "details-deposit-tab-interests-description-monthly" : {
-        "official" : {
-            "ru" : "Ежемесячно",
-            "uk" : "Щомісяця",
-            "en" : "Monthly"
-        },
-        "common" : {
-            "ru" : "Ежемесячно",
-            "uk" : "Щомісяця",
-            "en" : "Monthly"
-        },
-        "dude" : {
-            "ru" : "Ежемесячно",
-            "uk" : "Щомісяця",
-            "en" : "Monthly"
-        }
-    },
-    "details-card-tab-pushes-text" : {
-        "official" : {
-            "en" : "SMS \/ PUSH messages",
-            "ru" : "SMS \/ PUSH сообщение",
-            "uk" : "SMS \/ PUSH повідомлення"
-        },
-        "common" : {
-            "en" : "SMS \/ PUSH messages",
-            "ru" : "SMS \/ PUSH сообщение",
-            "uk" : "SMS \/ PUSH повідомлення"
-        },
-        "dude" : {
-            "en" : "SMS \/ PUSH messages",
-            "ru" : "SMS \/ PUSH сообщение",
-            "uk" : "SMS \/ PUSH повідомлення"
-        }
-    },
-    "details-card-tab-info-title" : {
-        "official" : {
-            "ru" : "Общая информация",
-            "en" : "General information",
-            "uk" : "Загальна інформація"
-        },
-        "dude" : {
-            "ru" : "Общая информация",
-            "en" : "General information",
-            "uk" : "Загальна інформація"
-        },
-        "common" : {
-            "ru" : "Общая информация",
-            "en" : "General information",
-            "uk" : "Загальна інформація"
-        }
-    },
-    "details-card-tab-other-info-title" : {
-        "common" : {
-            "ru" : "Дополнительная информация",
-            "en" : "Other information",
-            "uk" : "Інша інформація"
-        },
-        "official" : {
-            "ru" : "Дополнительная информация",
-            "en" : "Other information",
-            "uk" : "Інша інформація"
-        },
-        "dude" : {
-            "ru" : "Дополнительная информация",
-            "en" : "Other information",
-            "uk" : "Інша інформація"
-        }
-    },
-    "details-edit-option" : {
-        "dude" : {
-            "en" : "Change shortcut color and title",
-            "uk" : "Змінити колір ярлика та назву",
-            "ru" : "Изменить цвет ярлыка и название"
-        },
-        "common" : {
-            "en" : "Change shortcut color and title",
-            "uk" : "Змінити колір ярлика та назву",
-            "ru" : "Изменить цвет ярлыка и название"
-        },
-        "official" : {
-            "en" : "Change shortcut color and title",
-            "uk" : "Змінити колір ярлика та назву",
-            "ru" : "Изменить цвет ярлыка и название"
-        }
-    },
-    "details-card-tab-status-active-text" : {
-        "common" : {
-            "ru" : "Активна",
-            "uk" : "Активна",
-            "en" : "Активна"
-        },
-        "official" : {
-            "ru" : "Активна",
-            "uk" : "Активна",
-            "en" : "Активна"
-        },
-        "dude" : {
-            "ru" : "Активна",
-            "uk" : "Активна",
-            "en" : "Активна"
-        }
-    },
-    "details-refil" : {
-        "common" : {
-            "en" : "Refil",
-            "uk" : "Поповнити",
-            "ru" : "Пополнить"
-        },
-        "official" : {
-            "en" : "Refil",
-            "uk" : "Поповнити",
-            "ru" : "Пополнить"
-        },
-        "dude" : {
-            "en" : "Refil",
-            "uk" : "Поповнити",
-            "ru" : "Пополнить"
-        }
-    },
-    "details-deposit-shortcut-title" : {
-        "dude" : {
-            "en" : "Deposit amount",
-            "uk" : "Сума вкладу",
-            "ru" : "Сумма вклада"
-        },
-        "common" : {
-            "en" : "Deposit amount",
-            "uk" : "Сума вкладу",
-            "ru" : "Сумма вклада"
-        },
-        "official" : {
-            "en" : "Deposit amount",
-            "uk" : "Сума вкладу",
-            "ru" : "Сумма вклада"
-        }
-    },
-    "details-no-linked-cards-error" : {
-        "official" : {
-            "uk" : "Немає прив'язаних карт",
-            "en" : "No linked cards",
-            "ru" : "Нет привязанных карт"
-        },
-        "common" : {
-            "uk" : "Немає прив'язаних карт",
-            "en" : "No linked cards",
-            "ru" : "Нет привязанных карт"
-        },
-        "dude" : {
-            "uk" : "Немає прив'язаних карт",
-            "en" : "No linked cards",
-            "ru" : "Нет привязанных карт"
-        }
-    },
-    "details-shortcut-editing-default-text" : {
-        "dude" : {
-            "ru" : "Редактирование ярлыка",
-            "en" : "Shortcut editing",
-            "uk" : "Редагування ярлика"
-        },
-        "official" : {
-            "ru" : "Редактирование ярлыка",
-            "en" : "Shortcut editing",
-            "uk" : "Редагування ярлика"
-        },
-        "common" : {
-            "ru" : "Редактирование ярлыка",
-            "en" : "Shortcut editing",
-            "uk" : "Редагування ярлика"
-        }
-    },
-    "details-card-account-name-text" : {
-        "common" : {
-            "en" : "Account name",
-            "ru" : "Название счета",
-            "uk" : "Назва рахунку"
-        },
-        "dude" : {
-            "en" : "Account name",
-            "ru" : "Название счета",
-            "uk" : "Назва рахунку"
-        },
-        "official" : {
-            "en" : "Account name",
-            "ru" : "Название счета",
-            "uk" : "Назва рахунку"
-        }
-    },
-    "details-card-tab-pin-change-text" : {
-        "common" : {
-            "uk" : "Змінити PIN",
-            "ru" : "Изменить PIN",
-            "en" : "Change PIN"
-        },
-        "official" : {
-            "uk" : "Змінити PIN",
-            "ru" : "Изменить PIN",
-            "en" : "Change PIN"
-        },
-        "dude" : {
-            "uk" : "Змінити PIN",
-            "ru" : "Изменить PIN",
-            "en" : "Change PIN"
-        }
-    },
-    "details-deposit-tab-withdrawal-description-not-allowed" : {
-        "common" : {
-            "ru" : "Не разрешено",
-            "en" : "Not allowed",
-            "uk" : "Не дозволено"
-        },
-        "official" : {
-            "ru" : "Не разрешено",
-            "en" : "Not allowed",
-            "uk" : "Не дозволено"
-        },
-        "dude" : {
-            "ru" : "Не разрешено",
-            "en" : "Not allowed",
-            "uk" : "Не дозволено"
-        }
-    },
-    "details-deposit-tab-conclusion-text" : {
-        "official" : {
-            "uk" : "Дата укладення договору",
-            "ru" : "Дата заключения договора",
-            "en" : "Date of conclusion of the contract"
-        },
-        "common" : {
-            "uk" : "Дата укладення договору",
-            "ru" : "Дата заключения договора",
-            "en" : "Date of conclusion of the contract"
-        },
-        "dude" : {
-            "uk" : "Дата укладення договору",
-            "ru" : "Дата заключения договора",
-            "en" : "Date of conclusion of the contract"
-        }
-    },
-    "details-account-shortcut-title" : {
-        "official" : {
-            "en" : "Available balance",
-            "uk" : "Доступний баланс",
-            "ru" : "Доступный баланс"
-        },
-        "common" : {
-            "en" : "Available balance",
-            "uk" : "Доступний баланс",
-            "ru" : "Доступный баланс"
-        },
-        "dude" : {
-            "en" : "Available balance",
-            "uk" : "Доступний баланс",
-            "ru" : "Доступный баланс"
-        }
-    },
-    "details-deposit-tab-documents-title" : {
-        "official" : {
-            "uk" : "Доступні документи",
-            "en" : "Available documents",
-            "ru" : "Доступные документы"
-        },
-        "dude" : {
-            "uk" : "Доступні документи",
-            "en" : "Available documents",
-            "ru" : "Доступные документы"
-        },
-        "common" : {
-            "uk" : "Доступні документи",
-            "en" : "Available documents",
-            "ru" : "Доступные документы"
-        }
-    },
-    "details-card-shortcut-title" : {
-        "official" : {
-            "ru" : "Доступный баланс",
-            "en" : "Available balance",
-            "uk" : "Доступний баланс"
-        },
-        "dude" : {
-            "ru" : "Доступный баланс",
-            "en" : "Available balance",
-            "uk" : "Доступний баланс"
-        },
-        "common" : {
-            "ru" : "Доступный баланс",
-            "en" : "Available balance",
-            "uk" : "Доступний баланс"
-        }
-    },
-    "details-deposit-tab-interests-text" : {
-        "official" : {
-            "uk" : "Виплата процентів",
-            "ru" : "Выплата процентов",
-            "en" : "Payment of interest"
-        },
-        "common" : {
-            "uk" : "Виплата процентів",
-            "ru" : "Выплата процентов",
-            "en" : "Payment of interest"
-        },
-        "dude" : {
-            "uk" : "Виплата процентів",
-            "ru" : "Выплата процентов",
-            "en" : "Payment of interest"
-        }
-    },
-    "details-card-tab-fullname-text" : {
-        "dude" : {
-            "uk" : "Повна назва",
-            "ru" : "Полное название",
-            "en" : "Full name"
-        },
-        "common" : {
-            "uk" : "Повна назва",
-            "ru" : "Полное название",
-            "en" : "Full name"
-        },
-        "official" : {
-            "uk" : "Повна назва",
-            "ru" : "Полное название",
-            "en" : "Full name"
-        }
-    },
-    "details-shortcut-not-on-desktop" : {
-        "common" : {
-            "uk" : "Не відображається на рабочому столі",
-            "ru" : "Не отображается на рабочем столе",
-            "en" : "Not displayed on the desktop"
-        },
-        "official" : {
-            "uk" : "Не відображається на рабочому столі",
-            "ru" : "Не отображается на рабочем столе",
-            "en" : "Not displayed on the desktop"
-        },
-        "dude" : {
-            "uk" : "Не відображається на рабочому столі",
-            "ru" : "Не отображается на рабочем столе",
-            "en" : "Not displayed on the desktop"
-        }
-    },
-    "details-deposit-tab-accrued-description" : {
-        "dude" : {
-            "uk" : "Сума нарахованих процентів за поточний період до оподаткування",
-            "en" : "The sum of insured interest for the valid period before the withdrawal",
-            "ru" : "Сумма начисленных процентов за текущий период до налогообложения"
-        },
-        "official" : {
-            "uk" : "Сума нарахованих процентів за поточний період до оподаткування",
-            "en" : "The sum of insured interest for the valid period before the withdrawal",
-            "ru" : "Сумма начисленных процентов за текущий период до налогообложения"
-        },
-        "common" : {
-            "uk" : "Сума нарахованих процентів за поточний період до оподаткування",
-            "en" : "The sum of insured interest for the valid period before the withdrawal",
-            "ru" : "Сумма начисленных процентов за текущий период до налогообложения"
-        }
-    },
-    "details-deposit-tab-expiry-text" : {
-        "official" : {
-            "ru" : "Дата окончания депозита",
-            "en" : "Deposit expiry date",
-            "uk" : "Дата закінчення депозиту"
-        },
-        "dude" : {
-            "ru" : "Дата окончания депозита",
-            "en" : "Deposit expiry date",
-            "uk" : "Дата закінчення депозиту"
-        },
-        "common" : {
-            "ru" : "Дата окончания депозита",
-            "en" : "Deposit expiry date",
-            "uk" : "Дата закінчення депозиту"
-        }
-    },
-    "details-deposit-tab-info-title" : {
-        "dude" : {
-            "ru" : "Общая информация",
-            "uk" : "Загальна інформація",
-            "en" : "General information"
-        },
-        "common" : {
-            "ru" : "Общая информация",
-            "uk" : "Загальна інформація",
-            "en" : "General information"
-        },
-        "official" : {
-            "ru" : "Общая информация",
-            "uk" : "Загальна інформація",
-            "en" : "General information"
-        }
-    },
-    "details-card-tab-status-blocked-text" : {
-        "dude" : {
-            "uk" : "Заблокована",
-            "ru" : "Заблокована",
-            "en" : "Заблокована"
-        },
-        "official" : {
-            "uk" : "Заблокована",
-            "ru" : "Заблокована",
-            "en" : "Заблокована"
-        },
-        "common" : {
-            "uk" : "Заблокована",
-            "ru" : "Заблокована",
-            "en" : "Заблокована"
-        }
-    },
-    "details-requisites-share-title" : {
-        "common" : {
-            "uk" : "Поділитися",
-            "en" : "Share",
-            "ru" : "Поделиться"
-        },
-        "official" : {
-            "uk" : "Поділитися",
-            "en" : "Share",
-            "ru" : "Поделиться"
-        },
-        "dude" : {
-            "uk" : "Поділитися",
-            "en" : "Share",
-            "ru" : "Поделиться"
-        }
-    },
-    "details-account-editing-default-text" : {
-        "dude" : {
-            "en" : "Account editing",
-            "ru" : "Редактирование счета",
-            "uk" : "Редагування счета"
-        },
-        "common" : {
-            "en" : "Account editing",
-            "ru" : "Редактирование счета",
-            "uk" : "Редагування счета"
-        },
-        "official" : {
-            "en" : "Account editing",
-            "ru" : "Редактирование счета",
-            "uk" : "Редагування счета"
-        }
-    },
-    "details-card-tab-account-text" : {
-        "official" : {
-            "ru" : "Карточный счет",
-            "en" : "Card account",
-            "uk" : "Картковий рахунок"
-        },
-        "dude" : {
-            "ru" : "Карточный счет",
-            "en" : "Card account",
-            "uk" : "Картковий рахунок"
-        },
-        "common" : {
-            "ru" : "Карточный счет",
-            "en" : "Card account",
-            "uk" : "Картковий рахунок"
-        }
-    },
-    "details-card-tab-codeword-text" : {
-        "common" : {
-            "ru" : "Установить кодовое слово",
-            "en" : "Set the code word",
-            "uk" : "Встановити кодове слово"
-        },
-        "official" : {
-            "ru" : "Установить кодовое слово",
-            "en" : "Set the code word",
-            "uk" : "Встановити кодове слово"
-        },
-        "dude" : {
-            "ru" : "Установить кодовое слово",
-            "en" : "Set the code word",
-            "uk" : "Встановити кодове слово"
-        }
-    },
-    "details-deposit-tab-rate-text" : {
-        "dude" : {
-            "en" : "Interest rate, per annum",
-            "ru" : "Процентная ставка, годовых",
-            "uk" : "Процентна ставка, річних"
-        },
-        "official" : {
-            "en" : "Interest rate, per annum",
-            "ru" : "Процентная ставка, годовых",
-            "uk" : "Процентна ставка, річних"
-        },
-        "common" : {
-            "en" : "Interest rate, per annum",
-            "ru" : "Процентная ставка, годовых",
-            "uk" : "Процентна ставка, річних"
-        }
-    },
-    "details-deposit-tab-prologation-text" : {
-        "dude" : {
-            "en" : "Continuation of contribution",
-            "uk" : "Пролонгація вкладу",
-            "ru" : "Пролонгация вклада"
-        },
-        "common" : {
-            "en" : "Continuation of contribution",
-            "uk" : "Пролонгація вкладу",
-            "ru" : "Пролонгация вклада"
-        },
-        "official" : {
-            "en" : "Continuation of contribution",
-            "uk" : "Пролонгація вкладу",
-            "ru" : "Пролонгация вклада"
-        }
-    },
-    "details-card-activation-button" : {
-        "official" : {
-            "ru" : "Активувати картку",
-            "en" : "Активувати картку",
-            "uk" : "Активувати картку"
-        },
-        "common" : {
-            "ru" : "Активувати картку",
-            "en" : "Активувати картку",
-            "uk" : "Активувати картку"
-        },
-        "dude" : {
-            "ru" : "Активувати картку",
-            "en" : "Активувати картку",
-            "uk" : "Активувати картку"
-        }
-    },
-    "details-deposit-tab-type-text" : {
-        "common" : {
-            "ru" : "Тип депозита",
-            "uk" : "Тип депозиту",
-            "en" : "Deposit type"
-        },
-        "dude" : {
-            "ru" : "Тип депозита",
-            "uk" : "Тип депозиту",
-            "en" : "Deposit type"
-        },
-        "official" : {
-            "ru" : "Тип депозита",
-            "uk" : "Тип депозиту",
-            "en" : "Deposit type"
-        }
-    },
-    "details-card-tab-block-card-text" : {
-        "common" : {
-            "en" : "Block card",
-            "uk" : "Блокування картки",
-            "ru" : "Блокировка карты"
-        },
-        "official" : {
-            "en" : "Block card",
-            "uk" : "Блокування картки",
-            "ru" : "Блокировка карты"
-        },
-        "dude" : {
-            "en" : "Block card",
-            "uk" : "Блокування картки",
-            "ru" : "Блокировка карты"
-        }
-    },
-    "details-deposit-tab-withdrawal-text" : {
-        "common" : {
-            "en" : "Partial withdrawal",
-            "uk" : "Часткове зняття коштів",
-            "ru" : "Частичное снятие средств"
-        },
-        "official" : {
-            "en" : "Partial withdrawal",
-            "uk" : "Часткове зняття коштів",
-            "ru" : "Частичное снятие средств"
-        },
-        "dude" : {
-            "en" : "Partial withdrawal",
-            "uk" : "Часткове зняття коштів",
-            "ru" : "Частичное снятие средств"
-        }
-    },
-    "details-card-transaction-button" : {
-        "official" : {
-            "en" : "Transfer from card to card",
-            "uk" : "Переказати з карти на карту",
-            "ru" : "Перевести с карты на карту"
-        },
-        "common" : {
-            "en" : "Transfer from card to card",
-            "uk" : "Переказати з карти на карту",
-            "ru" : "Перевести с карты на карту"
-        },
-        "dude" : {
-            "en" : "Transfer from card to card",
-            "uk" : "Переказати з карти на карту",
-            "ru" : "Перевести с карты на карту"
-        }
-    },
-    "details-card-tab-applepay-text" : {
-        "dude" : {
-            "uk" : "Apple Pay",
-            "ru" : "Apple Pay",
-            "en" : "Apple Pay"
-        },
-        "official" : {
-            "uk" : "Apple Pay",
-            "ru" : "Apple Pay",
-            "en" : "Apple Pay"
-        },
-        "common" : {
-            "uk" : "Apple Pay",
-            "ru" : "Apple Pay",
-            "en" : "Apple Pay"
-        }
-    },
-    "details-control-tab" : {
-        "official" : {
-            "ru" : "Управление",
-            "uk" : "Керування",
-            "en" : "Settings"
-        },
-        "common" : {
-            "ru" : "Управление",
-            "uk" : "Керування",
-            "en" : "Settings"
-        },
-        "dude" : {
-            "ru" : "Управление",
-            "uk" : "Керування",
-            "en" : "Settings"
-        }
-    },
-    "details-deposit-tab-contract-text" : {
-        "official" : {
-            "uk" : "Номер договору",
-            "ru" : "Номер договора",
-            "en" : "Contract number"
-        },
-        "common" : {
-            "uk" : "Номер договору",
-            "ru" : "Номер договора",
-            "en" : "Contract number"
-        },
-        "dude" : {
-            "uk" : "Номер договору",
-            "ru" : "Номер договора",
-            "en" : "Contract number"
-        }
-    },
-    "details-deposit-tab-replenishment-text" : {
-        "common" : {
-            "en" : "Deposit replenishment",
-            "uk" : "Поповнення депозиту",
-            "ru" : "Пополнение депозита"
-        },
-        "dude" : {
-            "en" : "Deposit replenishment",
-            "uk" : "Поповнення депозиту",
-            "ru" : "Пополнение депозита"
-        },
-        "official" : {
-            "en" : "Deposit replenishment",
-            "uk" : "Поповнення депозиту",
-            "ru" : "Пополнение депозита"
-        }
+    "business": {
+      "ru": "Управление лимитами",
+      "en": "Limit management",
+      "uk": "Керування лімітами"
     }
+  },
+  "details-card-tab-cardtype-text": {
+    "business": {
+      "uk": "Тип картки",
+      "en": "Card type",
+      "ru": "Тип карты"
+    },
+    "friendly": {
+      "uk": "Тип картки",
+      "en": "Card type",
+      "ru": "Тип карты"
+    },
+    "neutral": {
+      "uk": "Тип картки",
+      "en": "Card type",
+      "ru": "Тип карты"
+    }
+  },
+  "details-info-tab": {
+    "neutral": {
+      "ru": "Информация",
+      "en": "Information",
+      "uk": "Інформація"
+    },
+    "business": {
+      "ru": "Информация",
+      "en": "Information",
+      "uk": "Інформація"
+    },
+    "friendly": {
+      "ru": "Информация",
+      "en": "Information",
+      "uk": "Інформація"
+    }
+  },
+  "details-shortcut-on-desktop": {
+    "business": {
+      "uk": "Відображається на рабочому столі",
+      "ru": "Отображается на рабочем столе",
+      "en": "Displayed on the desktop"
+    },
+    "friendly": {
+      "uk": "Відображається на рабочому столі",
+      "ru": "Отображается на рабочем столе",
+      "en": "Displayed on the desktop"
+    },
+    "neutral": {
+      "uk": "Відображається на рабочому столі",
+      "ru": "Отображается на рабочем столе",
+      "en": "Displayed on the desktop"
+    }
+  },
+  "details-requisites-main-title": {
+    "friendly": {
+      "ru": "Реквизиты",
+      "en": "Requisites",
+      "uk": "Реквізити"
+    },
+    "business": {
+      "ru": "Реквизиты",
+      "en": "Requisites",
+      "uk": "Реквізити"
+    },
+    "neutral": {
+      "ru": "Реквизиты",
+      "en": "Requisites",
+      "uk": "Реквізити"
+    }
+  },
+  "details-deposit-tab-accrued-text": {
+    "neutral": {
+      "uk": "Нараховано процентів",
+      "en": "Interest accrued",
+      "ru": "Начислено процентов"
+    },
+    "business": {
+      "uk": "Нараховано процентів",
+      "en": "Interest accrued",
+      "ru": "Начислено процентов"
+    },
+    "friendly": {
+      "uk": "Нараховано процентів",
+      "en": "Interest accrued",
+      "ru": "Начислено процентов"
+    }
+  },
+  "details-deposit-tab-сontract-option": {
+    "friendly": {
+      "uk": "Договір",
+      "ru": "Договоа",
+      "en": "Contract"
+    },
+    "neutral": {
+      "uk": "Договір",
+      "ru": "Договоа",
+      "en": "Contract"
+    },
+    "business": {
+      "uk": "Договір",
+      "ru": "Договоа",
+      "en": "Contract"
+    }
+  },
+  "details-card-tab-block-card-description": {
+    "neutral": {
+      "en": "Unlock the card to perform card transactions",
+      "ru": "Для осуществления операций с карточкой разблокируйте ее",
+      "uk": "Для здійснення операцій з карткою розблокуйте її"
+    },
+    "business": {
+      "en": "Unlock the card to perform card transactions",
+      "ru": "Для осуществления операций с карточкой разблокируйте ее",
+      "uk": "Для здійснення операцій з карткою розблокуйте її"
+    },
+    "friendly": {
+      "en": "Unlock the card to perform card transactions",
+      "ru": "Для осуществления операций с карточкой разблокируйте ее",
+      "uk": "Для здійснення операцій з карткою розблокуйте її"
+    }
+  },
+  "details-card-tab-apple-wallet-text": {
+    "neutral": {
+      "uk": "Додати до Apple Wallet",
+      "en": "Add to Apple Wallet",
+      "ru": "Добавить в Apple Wallet"
+    },
+    "business": {
+      "uk": "Додати до Apple Wallet",
+      "en": "Add to Apple Wallet",
+      "ru": "Добавить в Apple Wallet"
+    },
+    "friendly": {
+      "uk": "Додати до Apple Wallet",
+      "en": "Add to Apple Wallet",
+      "ru": "Добавить в Apple Wallet"
+    }
+  },
+  "details-deposit-tab-withdrawal-description-allowed": {
+    "business": {
+      "ru": "Разрешено",
+      "en": "Allowed",
+      "uk": "Дозволено"
+    },
+    "friendly": {
+      "ru": "Разрешено",
+      "en": "Allowed",
+      "uk": "Дозволено"
+    },
+    "neutral": {
+      "ru": "Разрешено",
+      "en": "Allowed",
+      "uk": "Дозволено"
+    }
+  },
+  "details-shortcut-save-button-title": {
+    "neutral": {
+      "uk": "Зберегти",
+      "ru": "Сохранить",
+      "en": "Save"
+    },
+    "business": {
+      "uk": "Зберегти",
+      "ru": "Сохранить",
+      "en": "Save"
+    },
+    "friendly": {
+      "uk": "Зберегти",
+      "ru": "Сохранить",
+      "en": "Save"
+    }
+  },
+  "details-credit-shortcut-title": {
+    "friendly": {
+      "uk": "Залишок по кредиту",
+      "en": "Loan balance",
+      "ru": "Остаток по кредиту"
+    },
+    "business": {
+      "uk": "Залишок по кредиту",
+      "en": "Loan balance",
+      "ru": "Остаток по кредиту"
+    },
+    "neutral": {
+      "uk": "Залишок по кредиту",
+      "en": "Loan balance",
+      "ru": "Остаток по кредиту"
+    }
+  },
+  "details-available-operations-title": {
+    "business": {
+      "ru": "Доступные операции",
+      "en": "Available Operations",
+      "uk": "Доступні операції"
+    },
+    "neutral": {
+      "ru": "Доступные операции",
+      "en": "Available Operations",
+      "uk": "Доступні операції"
+    },
+    "friendly": {
+      "ru": "Доступные операции",
+      "en": "Available Operations",
+      "uk": "Доступні операції"
+    }
+  },
+  "details-pallet-title": {
+    "friendly": {
+      "uk": "Колір ярлика",
+      "en": "Shortcut color",
+      "ru": "Цвет ярлыка"
+    },
+    "neutral": {
+      "uk": "Колір ярлика",
+      "en": "Shortcut color",
+      "ru": "Цвет ярлыка"
+    },
+    "business": {
+      "uk": "Колір ярлика",
+      "en": "Shortcut color",
+      "ru": "Цвет ярлыка"
+    }
+  },
+  "details-card-tab-applepay-description-not-added": {
+    "friendly": {
+      "en": "Card not added",
+      "ru": "Карта не добавлено",
+      "uk": "Картку не додано"
+    },
+    "business": {
+      "en": "Card not added",
+      "ru": "Карта не добавлено",
+      "uk": "Картку не додано"
+    },
+    "neutral": {
+      "en": "Card not added",
+      "ru": "Карта не добавлено",
+      "uk": "Картку не додано"
+    }
+  },
+  "details-card-tab-change-name-text": {
+    "neutral": {
+      "en": "Change the name of the card",
+      "uk": "Змінити назву картки",
+      "ru": "Изменить имя карты"
+    },
+    "friendly": {
+      "en": "Change the name of the card",
+      "uk": "Змінити назву картки",
+      "ru": "Изменить имя карты"
+    },
+    "business": {
+      "en": "Change the name of the card",
+      "uk": "Змінити назву картки",
+      "ru": "Изменить имя карты"
+    }
+  },
+  "details-card-tab-status-title": {
+    "neutral": {
+      "ru": "Статус картки",
+      "uk": "Статус картки",
+      "en": "Статус картки"
+    },
+    "friendly": {
+      "ru": "Статус картки",
+      "uk": "Статус картки",
+      "en": "Статус картки"
+    },
+    "business": {
+      "ru": "Статус картки",
+      "uk": "Статус картки",
+      "en": "Статус картки"
+    }
+  },
+  "details-card-tab-tariffs-text": {
+    "business": {
+      "ru": "Тарифы и условия",
+      "en": "Tariffs and conditions",
+      "uk": "Тарифи та умови"
+    },
+    "friendly": {
+      "ru": "Тарифы и условия",
+      "en": "Tariffs and conditions",
+      "uk": "Тарифи та умови"
+    },
+    "neutral": {
+      "ru": "Тарифы и условия",
+      "en": "Tariffs and conditions",
+      "uk": "Тарифи та умови"
+    }
+  },
+  "details-edit-deposit-screen-title": {
+    "neutral": {
+      "ru": "Редактирование депозита",
+      "uk": "Редагування депозиту",
+      "en": "Deposit editing"
+    },
+    "business": {
+      "ru": "Редактирование депозита",
+      "uk": "Редагування депозиту",
+      "en": "Deposit editing"
+    },
+    "friendly": {
+      "ru": "Редактирование депозита",
+      "uk": "Редагування депозиту",
+      "en": "Deposit editing"
+    }
+  },
+  "details-card-tab-unblock-card-description": {
+    "business": {
+      "ru": "Операции с картой будут заблокированы. Разблокировка возможна в любое время",
+      "en": "Card operation will be blocked. Unblocking is possible at any moment",
+      "uk": "Операції з карткою будуть заблоковані. Розблокування можлива в будь-який час"
+    },
+    "friendly": {
+      "ru": "Операции с картой будут заблокированы. Разблокировка возможна в любое время",
+      "en": "Card operation will be blocked. Unblocking is possible at any moment",
+      "uk": "Операції з карткою будуть заблоковані. Розблокування можлива в будь-який час"
+    },
+    "neutral": {
+      "ru": "Операции с картой будут заблокированы. Разблокировка возможна в любое время",
+      "en": "Card operation will be blocked. Unblocking is possible at any moment",
+      "uk": "Операції з карткою будуть заблоковані. Розблокування можлива в будь-який час"
+    }
+  },
+  "details-card-tab-status-inactive-text": {
+    "neutral": {
+      "uk": "Не активована",
+      "ru": "Не активована",
+      "en": "Не активована"
+    },
+    "business": {
+      "uk": "Не активована",
+      "ru": "Не активована",
+      "en": "Не активована"
+    },
+    "friendly": {
+      "uk": "Не активована",
+      "ru": "Не активована",
+      "en": "Не активована"
+    }
+  },
+  "details-deposit-tab-interests-description-capitalization": {
+    "friendly": {
+      "ru": "С капитализацией",
+      "uk": "З капіталізацією",
+      "en": "With capitalization"
+    },
+    "neutral": {
+      "ru": "С капитализацией",
+      "uk": "З капіталізацією",
+      "en": "With capitalization"
+    },
+    "business": {
+      "ru": "С капитализацией",
+      "uk": "З капіталізацією",
+      "en": "With capitalization"
+    }
+  },
+  "details-deposit-tab-interests-description-term": {
+    "neutral": {
+      "ru": "В конце срока",
+      "uk": "В кінці терміну",
+      "en": "At the end of the term"
+    },
+    "friendly": {
+      "ru": "В конце срока",
+      "uk": "В кінці терміну",
+      "en": "At the end of the term"
+    },
+    "business": {
+      "ru": "В конце срока",
+      "uk": "В кінці терміну",
+      "en": "At the end of the term"
+    }
+  },
+  "details-withdraw": {
+    "business": {
+      "en": "Withdraw",
+      "uk": "Зняти",
+      "ru": "Снять"
+    },
+    "friendly": {
+      "en": "Withdraw",
+      "uk": "Зняти",
+      "ru": "Снять"
+    },
+    "neutral": {
+      "en": "Withdraw",
+      "uk": "Зняти",
+      "ru": "Снять"
+    }
+  },
+  "details-deposit-tab-interests-description-monthly": {
+    "business": {
+      "ru": "Ежемесячно",
+      "uk": "Щомісяця",
+      "en": "Monthly"
+    },
+    "neutral": {
+      "ru": "Ежемесячно",
+      "uk": "Щомісяця",
+      "en": "Monthly"
+    },
+    "friendly": {
+      "ru": "Ежемесячно",
+      "uk": "Щомісяця",
+      "en": "Monthly"
+    }
+  },
+  "details-card-tab-pushes-text": {
+    "business": {
+      "en": "SMS / PUSH messages",
+      "ru": "SMS / PUSH сообщение",
+      "uk": "SMS / PUSH повідомлення"
+    },
+    "neutral": {
+      "en": "SMS / PUSH messages",
+      "ru": "SMS / PUSH сообщение",
+      "uk": "SMS / PUSH повідомлення"
+    },
+    "friendly": {
+      "en": "SMS / PUSH messages",
+      "ru": "SMS / PUSH сообщение",
+      "uk": "SMS / PUSH повідомлення"
+    }
+  },
+  "details-card-tab-info-title": {
+    "business": {
+      "ru": "Общая информация",
+      "en": "General information",
+      "uk": "Загальна інформація"
+    },
+    "friendly": {
+      "ru": "Общая информация",
+      "en": "General information",
+      "uk": "Загальна інформація"
+    },
+    "neutral": {
+      "ru": "Общая информация",
+      "en": "General information",
+      "uk": "Загальна інформація"
+    }
+  },
+  "details-card-tab-other-info-title": {
+    "neutral": {
+      "ru": "Дополнительная информация",
+      "en": "Other information",
+      "uk": "Інша інформація"
+    },
+    "business": {
+      "ru": "Дополнительная информация",
+      "en": "Other information",
+      "uk": "Інша інформація"
+    },
+    "friendly": {
+      "ru": "Дополнительная информация",
+      "en": "Other information",
+      "uk": "Інша інформація"
+    }
+  },
+  "details-edit-option": {
+    "friendly": {
+      "en": "Change shortcut color and title",
+      "uk": "Змінити колір ярлика та назву",
+      "ru": "Изменить цвет ярлыка и название"
+    },
+    "neutral": {
+      "en": "Change shortcut color and title",
+      "uk": "Змінити колір ярлика та назву",
+      "ru": "Изменить цвет ярлыка и название"
+    },
+    "business": {
+      "en": "Change shortcut color and title",
+      "uk": "Змінити колір ярлика та назву",
+      "ru": "Изменить цвет ярлыка и название"
+    }
+  },
+  "details-card-tab-status-active-text": {
+    "neutral": {
+      "ru": "Активна",
+      "uk": "Активна",
+      "en": "Активна"
+    },
+    "business": {
+      "ru": "Активна",
+      "uk": "Активна",
+      "en": "Активна"
+    },
+    "friendly": {
+      "ru": "Активна",
+      "uk": "Активна",
+      "en": "Активна"
+    }
+  },
+  "details-refil": {
+    "neutral": {
+      "en": "Refil",
+      "uk": "Поповнити",
+      "ru": "Пополнить"
+    },
+    "business": {
+      "en": "Refil",
+      "uk": "Поповнити",
+      "ru": "Пополнить"
+    },
+    "friendly": {
+      "en": "Refil",
+      "uk": "Поповнити",
+      "ru": "Пополнить"
+    }
+  },
+  "details-deposit-shortcut-title": {
+    "friendly": {
+      "en": "Deposit amount",
+      "uk": "Сума вкладу",
+      "ru": "Сумма вклада"
+    },
+    "neutral": {
+      "en": "Deposit amount",
+      "uk": "Сума вкладу",
+      "ru": "Сумма вклада"
+    },
+    "business": {
+      "en": "Deposit amount",
+      "uk": "Сума вкладу",
+      "ru": "Сумма вклада"
+    }
+  },
+  "details-no-linked-cards-error": {
+    "business": {
+      "uk": "Немає прив'язаних карт",
+      "en": "No linked cards",
+      "ru": "Нет привязанных карт"
+    },
+    "neutral": {
+      "uk": "Немає прив'язаних карт",
+      "en": "No linked cards",
+      "ru": "Нет привязанных карт"
+    },
+    "friendly": {
+      "uk": "Немає прив'язаних карт",
+      "en": "No linked cards",
+      "ru": "Нет привязанных карт"
+    }
+  },
+  "details-shortcut-editing-default-text": {
+    "friendly": {
+      "ru": "Редактирование ярлыка",
+      "en": "Shortcut editing",
+      "uk": "Редагування ярлика"
+    },
+    "business": {
+      "ru": "Редактирование ярлыка",
+      "en": "Shortcut editing",
+      "uk": "Редагування ярлика"
+    },
+    "neutral": {
+      "ru": "Редактирование ярлыка",
+      "en": "Shortcut editing",
+      "uk": "Редагування ярлика"
+    }
+  },
+  "details-card-account-name-text": {
+    "neutral": {
+      "en": "Account name",
+      "ru": "Название счета",
+      "uk": "Назва рахунку"
+    },
+    "friendly": {
+      "en": "Account name",
+      "ru": "Название счета",
+      "uk": "Назва рахунку"
+    },
+    "business": {
+      "en": "Account name",
+      "ru": "Название счета",
+      "uk": "Назва рахунку"
+    }
+  },
+  "details-card-tab-pin-change-text": {
+    "neutral": {
+      "uk": "Змінити PIN",
+      "ru": "Изменить PIN",
+      "en": "Change PIN"
+    },
+    "business": {
+      "uk": "Змінити PIN",
+      "ru": "Изменить PIN",
+      "en": "Change PIN"
+    },
+    "friendly": {
+      "uk": "Змінити PIN",
+      "ru": "Изменить PIN",
+      "en": "Change PIN"
+    }
+  },
+  "details-deposit-tab-withdrawal-description-not-allowed": {
+    "neutral": {
+      "ru": "Не разрешено",
+      "en": "Not allowed",
+      "uk": "Не дозволено"
+    },
+    "business": {
+      "ru": "Не разрешено",
+      "en": "Not allowed",
+      "uk": "Не дозволено"
+    },
+    "friendly": {
+      "ru": "Не разрешено",
+      "en": "Not allowed",
+      "uk": "Не дозволено"
+    }
+  },
+  "details-deposit-tab-conclusion-text": {
+    "business": {
+      "uk": "Дата укладення договору",
+      "ru": "Дата заключения договора",
+      "en": "Date of conclusion of the contract"
+    },
+    "neutral": {
+      "uk": "Дата укладення договору",
+      "ru": "Дата заключения договора",
+      "en": "Date of conclusion of the contract"
+    },
+    "friendly": {
+      "uk": "Дата укладення договору",
+      "ru": "Дата заключения договора",
+      "en": "Date of conclusion of the contract"
+    }
+  },
+  "details-account-shortcut-title": {
+    "business": {
+      "en": "Available balance",
+      "uk": "Доступний баланс",
+      "ru": "Доступный баланс"
+    },
+    "neutral": {
+      "en": "Available balance",
+      "uk": "Доступний баланс",
+      "ru": "Доступный баланс"
+    },
+    "friendly": {
+      "en": "Available balance",
+      "uk": "Доступний баланс",
+      "ru": "Доступный баланс"
+    }
+  },
+  "details-deposit-tab-documents-title": {
+    "business": {
+      "uk": "Доступні документи",
+      "en": "Available documents",
+      "ru": "Доступные документы"
+    },
+    "friendly": {
+      "uk": "Доступні документи",
+      "en": "Available documents",
+      "ru": "Доступные документы"
+    },
+    "neutral": {
+      "uk": "Доступні документи",
+      "en": "Available documents",
+      "ru": "Доступные документы"
+    }
+  },
+  "details-card-shortcut-title": {
+    "business": {
+      "ru": "Доступный баланс",
+      "en": "Available balance",
+      "uk": "Доступний баланс"
+    },
+    "friendly": {
+      "ru": "Доступный баланс",
+      "en": "Available balance",
+      "uk": "Доступний баланс"
+    },
+    "neutral": {
+      "ru": "Доступный баланс",
+      "en": "Available balance",
+      "uk": "Доступний баланс"
+    }
+  },
+  "details-deposit-tab-interests-text": {
+    "business": {
+      "uk": "Виплата процентів",
+      "ru": "Выплата процентов",
+      "en": "Payment of interest"
+    },
+    "neutral": {
+      "uk": "Виплата процентів",
+      "ru": "Выплата процентов",
+      "en": "Payment of interest"
+    },
+    "friendly": {
+      "uk": "Виплата процентів",
+      "ru": "Выплата процентов",
+      "en": "Payment of interest"
+    }
+  },
+  "details-card-tab-fullname-text": {
+    "friendly": {
+      "uk": "Повна назва",
+      "ru": "Полное название",
+      "en": "Full name"
+    },
+    "neutral": {
+      "uk": "Повна назва",
+      "ru": "Полное название",
+      "en": "Full name"
+    },
+    "business": {
+      "uk": "Повна назва",
+      "ru": "Полное название",
+      "en": "Full name"
+    }
+  },
+  "details-shortcut-not-on-desktop": {
+    "neutral": {
+      "uk": "Не відображається на рабочому столі",
+      "ru": "Не отображается на рабочем столе",
+      "en": "Not displayed on the desktop"
+    },
+    "business": {
+      "uk": "Не відображається на рабочому столі",
+      "ru": "Не отображается на рабочем столе",
+      "en": "Not displayed on the desktop"
+    },
+    "friendly": {
+      "uk": "Не відображається на рабочому столі",
+      "ru": "Не отображается на рабочем столе",
+      "en": "Not displayed on the desktop"
+    }
+  },
+  "details-deposit-tab-accrued-description": {
+    "friendly": {
+      "uk": "Сума нарахованих процентів за поточний період до оподаткування",
+      "en": "The sum of insured interest for the valid period before the withdrawal",
+      "ru": "Сумма начисленных процентов за текущий период до налогообложения"
+    },
+    "business": {
+      "uk": "Сума нарахованих процентів за поточний період до оподаткування",
+      "en": "The sum of insured interest for the valid period before the withdrawal",
+      "ru": "Сумма начисленных процентов за текущий период до налогообложения"
+    },
+    "neutral": {
+      "uk": "Сума нарахованих процентів за поточний період до оподаткування",
+      "en": "The sum of insured interest for the valid period before the withdrawal",
+      "ru": "Сумма начисленных процентов за текущий период до налогообложения"
+    }
+  },
+  "details-deposit-tab-expiry-text": {
+    "business": {
+      "ru": "Дата окончания депозита",
+      "en": "Deposit expiry date",
+      "uk": "Дата закінчення депозиту"
+    },
+    "friendly": {
+      "ru": "Дата окончания депозита",
+      "en": "Deposit expiry date",
+      "uk": "Дата закінчення депозиту"
+    },
+    "neutral": {
+      "ru": "Дата окончания депозита",
+      "en": "Deposit expiry date",
+      "uk": "Дата закінчення депозиту"
+    }
+  },
+  "details-deposit-tab-info-title": {
+    "friendly": {
+      "ru": "Общая информация",
+      "uk": "Загальна інформація",
+      "en": "General information"
+    },
+    "neutral": {
+      "ru": "Общая информация",
+      "uk": "Загальна інформація",
+      "en": "General information"
+    },
+    "business": {
+      "ru": "Общая информация",
+      "uk": "Загальна інформація",
+      "en": "General information"
+    }
+  },
+  "details-card-tab-status-blocked-text": {
+    "friendly": {
+      "uk": "Заблокована",
+      "ru": "Заблокована",
+      "en": "Заблокована"
+    },
+    "business": {
+      "uk": "Заблокована",
+      "ru": "Заблокована",
+      "en": "Заблокована"
+    },
+    "neutral": {
+      "uk": "Заблокована",
+      "ru": "Заблокована",
+      "en": "Заблокована"
+    }
+  },
+  "details-requisites-share-title": {
+    "neutral": {
+      "uk": "Поділитися",
+      "en": "Share",
+      "ru": "Поделиться"
+    },
+    "business": {
+      "uk": "Поділитися",
+      "en": "Share",
+      "ru": "Поделиться"
+    },
+    "friendly": {
+      "uk": "Поділитися",
+      "en": "Share",
+      "ru": "Поделиться"
+    }
+  },
+  "details-account-editing-default-text": {
+    "friendly": {
+      "en": "Account editing",
+      "ru": "Редактирование счета",
+      "uk": "Редагування счета"
+    },
+    "neutral": {
+      "en": "Account editing",
+      "ru": "Редактирование счета",
+      "uk": "Редагування счета"
+    },
+    "business": {
+      "en": "Account editing",
+      "ru": "Редактирование счета",
+      "uk": "Редагування счета"
+    }
+  },
+  "details-card-tab-account-text": {
+    "business": {
+      "ru": "Карточный счет",
+      "en": "Card account",
+      "uk": "Картковий рахунок"
+    },
+    "friendly": {
+      "ru": "Карточный счет",
+      "en": "Card account",
+      "uk": "Картковий рахунок"
+    },
+    "neutral": {
+      "ru": "Карточный счет",
+      "en": "Card account",
+      "uk": "Картковий рахунок"
+    }
+  },
+  "details-card-tab-codeword-text": {
+    "neutral": {
+      "ru": "Установить кодовое слово",
+      "en": "Set the code word",
+      "uk": "Встановити кодове слово"
+    },
+    "business": {
+      "ru": "Установить кодовое слово",
+      "en": "Set the code word",
+      "uk": "Встановити кодове слово"
+    },
+    "friendly": {
+      "ru": "Установить кодовое слово",
+      "en": "Set the code word",
+      "uk": "Встановити кодове слово"
+    }
+  },
+  "details-deposit-tab-rate-text": {
+    "friendly": {
+      "en": "Interest rate, per annum",
+      "ru": "Процентная ставка, годовых",
+      "uk": "Процентна ставка, річних"
+    },
+    "business": {
+      "en": "Interest rate, per annum",
+      "ru": "Процентная ставка, годовых",
+      "uk": "Процентна ставка, річних"
+    },
+    "neutral": {
+      "en": "Interest rate, per annum",
+      "ru": "Процентная ставка, годовых",
+      "uk": "Процентна ставка, річних"
+    }
+  },
+  "details-deposit-tab-prologation-text": {
+    "friendly": {
+      "en": "Continuation of contribution",
+      "uk": "Пролонгація вкладу",
+      "ru": "Пролонгация вклада"
+    },
+    "neutral": {
+      "en": "Continuation of contribution",
+      "uk": "Пролонгація вкладу",
+      "ru": "Пролонгация вклада"
+    },
+    "business": {
+      "en": "Continuation of contribution",
+      "uk": "Пролонгація вкладу",
+      "ru": "Пролонгация вклада"
+    }
+  },
+  "details-card-activation-button": {
+    "business": {
+      "ru": "Активувати картку",
+      "en": "Активувати картку",
+      "uk": "Активувати картку"
+    },
+    "neutral": {
+      "ru": "Активувати картку",
+      "en": "Активувати картку",
+      "uk": "Активувати картку"
+    },
+    "friendly": {
+      "ru": "Активувати картку",
+      "en": "Активувати картку",
+      "uk": "Активувати картку"
+    }
+  },
+  "details-deposit-tab-type-text": {
+    "neutral": {
+      "ru": "Тип депозита",
+      "uk": "Тип депозиту",
+      "en": "Deposit type"
+    },
+    "friendly": {
+      "ru": "Тип депозита",
+      "uk": "Тип депозиту",
+      "en": "Deposit type"
+    },
+    "business": {
+      "ru": "Тип депозита",
+      "uk": "Тип депозиту",
+      "en": "Deposit type"
+    }
+  },
+  "details-card-tab-block-card-text": {
+    "neutral": {
+      "en": "Block card",
+      "uk": "Блокування картки",
+      "ru": "Блокировка карты"
+    },
+    "business": {
+      "en": "Block card",
+      "uk": "Блокування картки",
+      "ru": "Блокировка карты"
+    },
+    "friendly": {
+      "en": "Block card",
+      "uk": "Блокування картки",
+      "ru": "Блокировка карты"
+    }
+  },
+  "details-deposit-tab-withdrawal-text": {
+    "neutral": {
+      "en": "Partial withdrawal",
+      "uk": "Часткове зняття коштів",
+      "ru": "Частичное снятие средств"
+    },
+    "business": {
+      "en": "Partial withdrawal",
+      "uk": "Часткове зняття коштів",
+      "ru": "Частичное снятие средств"
+    },
+    "friendly": {
+      "en": "Partial withdrawal",
+      "uk": "Часткове зняття коштів",
+      "ru": "Частичное снятие средств"
+    }
+  },
+  "details-card-transaction-button": {
+    "business": {
+      "en": "Transfer from card to card",
+      "uk": "Переказати з карти на карту",
+      "ru": "Перевести с карты на карту"
+    },
+    "neutral": {
+      "en": "Transfer from card to card",
+      "uk": "Переказати з карти на карту",
+      "ru": "Перевести с карты на карту"
+    },
+    "friendly": {
+      "en": "Transfer from card to card",
+      "uk": "Переказати з карти на карту",
+      "ru": "Перевести с карты на карту"
+    }
+  },
+  "details-card-tab-applepay-text": {
+    "friendly": {
+      "uk": "Apple Pay",
+      "ru": "Apple Pay",
+      "en": "Apple Pay"
+    },
+    "business": {
+      "uk": "Apple Pay",
+      "ru": "Apple Pay",
+      "en": "Apple Pay"
+    },
+    "neutral": {
+      "uk": "Apple Pay",
+      "ru": "Apple Pay",
+      "en": "Apple Pay"
+    }
+  },
+  "details-control-tab": {
+    "business": {
+      "ru": "Управление",
+      "uk": "Керування",
+      "en": "Settings"
+    },
+    "neutral": {
+      "ru": "Управление",
+      "uk": "Керування",
+      "en": "Settings"
+    },
+    "friendly": {
+      "ru": "Управление",
+      "uk": "Керування",
+      "en": "Settings"
+    }
+  },
+  "details-deposit-tab-contract-text": {
+    "business": {
+      "uk": "Номер договору",
+      "ru": "Номер договора",
+      "en": "Contract number"
+    },
+    "neutral": {
+      "uk": "Номер договору",
+      "ru": "Номер договора",
+      "en": "Contract number"
+    },
+    "friendly": {
+      "uk": "Номер договору",
+      "ru": "Номер договора",
+      "en": "Contract number"
+    }
+  },
+  "details-deposit-tab-replenishment-text": {
+    "neutral": {
+      "en": "Deposit replenishment",
+      "uk": "Поповнення депозиту",
+      "ru": "Пополнение депозита"
+    },
+    "friendly": {
+      "en": "Deposit replenishment",
+      "uk": "Поповнення депозиту",
+      "ru": "Пополнение депозита"
+    },
+    "business": {
+      "en": "Deposit replenishment",
+      "uk": "Поповнення депозиту",
+      "ru": "Пополнение депозита"
+    }
+  }
 }

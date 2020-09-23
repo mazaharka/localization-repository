@@ -26,6 +26,9 @@
     <input type="submit" formaction="/FileAction/CreateFileJsonFromDb" value="Сформировать Json" />
 </form>
 <form>
+    <input type="submit" formaction="/FileAction/CreateFileXMLFromDb" value="Сформировать XML" />
+</form>
+<form>
     <input type="submit" formaction="/FileAction/ReadFileXML" value="Прочитать все XML файлы" />
 </form>
 <form>
@@ -73,30 +76,35 @@
                         <tr>
 
                             <th scope="col">UPLOAD FILES</th>
-                            <th scope="col">DOWNLOAD FILES</th>
+                            <th scope="col">UPLOAD FILES</th>
+                            <th scope="col">UPLOAD XML FILES</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-
                             <td>
 
                                 @foreach (var item in Model)
                                 {
-                                    @if (item.TypeOfLoad == "UPLOAD" && item.Name.Contains(".csv"))
-                                    {
-                                <li>
-                                    @item.Name
-                                    <a asp-action="UpdateFileInDatabase" asp-route-filename="@item.Name">UpDate</a><br>
-                                    <a asp-action="RemoveFileFromServer" asp-route-fullpath="@item.Path">Remove</a>
-                                </li>
-                                     }
-                                 }
+                        @if (item.TypeOfLoad == "UPLOAD" && item.Name.Contains(".csv"))
+                        {
+                        <li>
+                            @item.Name
+                            <a asp-action="UpdateFileInDatabase" asp-route-filename="@item.Name">UpDate</a><br>
+                            <a asp-action="RemoveFileFromServer" asp-route-fullpath="@item.Path">Remove</a>
+                        </li>}}
                             </td>
                             <td>
-                                <ul>
-                                    
-                                </ul>
+                                @foreach (var item in Model)
+                                {
+                        @if (item.TypeOfLoad == "UPLOAD" && item.Name.Contains(".xml"))
+                        {
+                                <li>
+                                    @item.Name
+                                    <a asp-action="UpdateFileInDatabase" asp-route-filename="@item.Path">UpDate</a><br>
+                                    <a asp-action="UpdateXMLFromFile" asp-route-path="@item.Path">AddToDB</a><br>
+                                    <a asp-action="RemoveFileFromServer" asp-route-fullpath="@item.Path">Remove</a>
+                                </li>}}
                             </td>
                         </tr>
                     </tbody>

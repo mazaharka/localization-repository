@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using LocalizationRep.Data;
 using LocalizationRep.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace LocalizationRep.Controllers
 {
@@ -9,20 +11,73 @@ namespace LocalizationRep.Controllers
     {
         public static void UpdateFromCsv(List<CsvFileModel> csvFiles, LocalizationRepContext _context)
         {
-            foreach (var item in csvFiles)
+            var mainTableItemItems = (from m in _context.MainTable
+                                .Include(m => m.Section)
+                                .Include(m => m.StyleJsonKeyModel)
+                                    .ThenInclude(s => s.LangKeyModels)
+                                        .ThenInclude(l => l.LangValue)
+                                      select m).ToList();
+            CsvFileModel itCSV = new CsvFileModel();
+
+            foreach (var mainTableItemItem in mainTableItemItems)
             {
-                var entity = _context.MainTable.FirstOrDefault(e => e.CommonID == item.CommonID);
-                if (entity != null)
+                itCSV = csvFiles.Where(s => s.CommonID == mainTableItemItem.CommonID).FirstOrDefault();
+
+                if (itCSV != null)
                 {
+                    foreach (var styleJsonKeyModelItem in mainTableItemItem.StyleJsonKeyModel.Where(style => style.StyleName == itCSV.TextStyle).ToList())
+                    {
 
-                    //entity.TextEN = item.TextEN;
-                    //entity.TextRU = item.TextRU;
-                    //entity.TextUA = item.TextUA;
+                        //styleJsonKeyModelItem.StyleName = itCSV.TextStyle;
 
-                    _context.MainTable.Update(entity);
-
-                    _context.SaveChanges();
+                        foreach (var langKeyModelItem in styleJsonKeyModelItem.LangKeyModels.ToList())
+                        {
+                            switch (langKeyModelItem.LangName)
+                            {
+                                case "ru":
+                                    langKeyModelItem.LangValue.Single = itCSV.TextRUSingle;
+                                    if (itCSV.TextRUPrular != null && itCSV.TextRUPrular != "" && itCSV.TextRUPrular != " ")
+                                    {
+                                        langKeyModelItem.LangValue.Prular = itCSV.TextRUPrular;
+                                    }
+                                    break;
+                                case "en":
+                                    langKeyModelItem.LangValue.Single = itCSV.TextENSingle;
+                                    if (itCSV.TextENPrular != null && itCSV.TextENPrular != "" && itCSV.TextENPrular != " ")
+                                    {
+                                        langKeyModelItem.LangValue.Prular = itCSV.TextENPrular;
+                                    }
+                                    break;
+                                case "uk":
+                                    langKeyModelItem.LangValue.Single = itCSV.TextUASingle;
+                                    if (itCSV.TextUAPrular != null && itCSV.TextUAPrular != "" && itCSV.TextUAPrular != " ")
+                                    {
+                                        langKeyModelItem.LangValue.Prular = itCSV.TextUAPrular;
+                                    }
+                                    break;
+                                case "ua":
+                                    langKeyModelItem.LangValue.Single = itCSV.TextUASingle;
+                                    if (itCSV.TextUAPrular != null && itCSV.TextUAPrular != "" && itCSV.TextUAPrular != " ")
+                                    {
+                                        langKeyModelItem.LangValue.Prular = itCSV.TextUAPrular;
+                                    }
+                                    break;
+                                default:
+                                    break;
+                            }
+                            _context.SaveChanges();
+                        }
+                    }
                 }
+            }
+            _context.SaveChanges();
+        }
+
+        private static void RemoveSpaceItem(LangKeyModel langKeyModelItem)
+        {
+            if (langKeyModelItem.LangValue.Prular == "" || langKeyModelItem.LangValue.Prular == " ")
+            {
+                langKeyModelItem.LangValue.Prular = null;
             }
         }
     }

@@ -1,240 +1,240 @@
 {
-    "locale-changed-uk" : {
-        "common" : {
-            "ru" : "Зміни вступлять в силу після перезапуску додатку",
-            "uk" : "Зміни вступлять в силу після перезапуску додатку",
-            "en" : "Зміни вступлять в силу після перезапуску додатку"
-        },
-        "official" : {
-            "ru" : "Зміни вступлять в силу після перезапуску додатку",
-            "uk" : "Зміни вступлять в силу після перезапуску додатку",
-            "en" : "Зміни вступлять в силу після перезапуску додатку"
-        },
-        "dude" : {
-            "ru" : "Зміни вступлять в силу після перезапуску додатку",
-            "uk" : "Зміни вступлять в силу після перезапуску додатку",
-            "en" : "Зміни вступлять в силу після перезапуску додатку"
-        }
+  "locale-changed-uk": {
+    "neutral": {
+      "ru": "Изменения вступят в силу после перезапуска приложения",
+      "uk": "Зміни вступлять в силу після перезапуску додатку",
+      "en": "Зміни вступлять в силу після перезапуску додатку"
     },
-    "warning-title-uk" : {
-        "common" : {
-            "en" : "Увага",
-            "ru" : "Увага",
-            "uk" : "Увага"
-        },
-        "dude" : {
-            "en" : "Увага",
-            "ru" : "Увага",
-            "uk" : "Увага"
-        },
-        "official" : {
-            "en" : "Увага",
-            "ru" : "Увага",
-            "uk" : "Увага"
-        }
+    "business": {
+      "ru": "Изменения вступят в силу после перезапуска приложения",
+      "uk": "Зміни вступлять в силу після перезапуску додатку",
+      "en": "Зміни вступлять в силу після перезапуску додатку"
     },
-    "warning-title-en" : {
-        "official" : {
-            "en" : "Warning",
-            "ru" : "Warning",
-            "uk" : "Warning"
-        },
-        "dude" : {
-            "en" : "Warning",
-            "ru" : "Warning",
-            "uk" : "Warning"
-        },
-        "common" : {
-            "en" : "Warning",
-            "ru" : "Warning",
-            "uk" : "Warning"
-        }
-    },
-    "lightThemeName" : {
-        "official" : {
-            "en" : "Light",
-            "ru" : "Светлая",
-            "uk" : "Світла"
-        },
-        "dude" : {
-            "en" : "Light",
-            "ru" : "Светлая",
-            "uk" : "Світла"
-        },
-        "common" : {
-            "en" : "Light",
-            "ru" : "Светлая",
-            "uk" : "Світла"
-        }
-    },
-    "locale-description-uk" : {
-        "dude" : {
-            "uk" : "Українська",
-            "ru" : "Українська",
-            "en" : "Українська"
-        },
-        "common" : {
-            "uk" : "Українська",
-            "ru" : "Українська",
-            "en" : "Українська"
-        },
-        "official" : {
-            "uk" : "Українська",
-            "ru" : "Українська",
-            "en" : "Українська"
-        }
-    },
-    "warning-title-ru" : {
-        "official" : {
-            "ru" : "Внимание",
-            "en" : "Внимание",
-            "uk" : "Внимание"
-        },
-        "common" : {
-            "ru" : "Внимание",
-            "en" : "Внимание",
-            "uk" : "Внимание"
-        },
-        "dude" : {
-            "ru" : "Внимание",
-            "en" : "Внимание",
-            "uk" : "Внимание"
-        }
-    },
-    "darkThemeName" : {
-        "common" : {
-            "ru" : "Темная",
-            "uk" : "Темна",
-            "en" : "Dark"
-        },
-        "official" : {
-            "ru" : "Темная",
-            "uk" : "Темна",
-            "en" : "Dark"
-        },
-        "dude" : {
-            "ru" : "Темная",
-            "uk" : "Темна",
-            "en" : "Dark"
-        }
-    },
-    "locale-changed-en" : {
-        "official" : {
-            "uk" : "Changes will take effect after application restart",
-            "ru" : "Changes will take effect after application restart",
-            "en" : "Changes will take effect after application restart"
-        },
-        "dude" : {
-            "uk" : "Changes will take effect after application restart",
-            "ru" : "Changes will take effect after application restart",
-            "en" : "Changes will take effect after application restart"
-        },
-        "common" : {
-            "uk" : "Changes will take effect after application restart",
-            "ru" : "Changes will take effect after application restart",
-            "en" : "Changes will take effect after application restart"
-        }
-    },
-    "systemThemeName" : {
-        "official" : {
-            "en" : "System",
-            "ru" : "Системная",
-            "uk" : "Cистемная"
-        },
-        "common" : {
-            "en" : "System",
-            "ru" : "Системная",
-            "uk" : "Cистемная"
-        },
-        "dude" : {
-            "en" : "System",
-            "ru" : "Системная",
-            "uk" : "Cистемная"
-        }
-    },
-    "locale-description-en" : {
-        "official" : {
-            "en" : "English",
-            "uk" : "English",
-            "ru" : "English"
-        },
-        "common" : {
-            "en" : "English",
-            "uk" : "English",
-            "ru" : "English"
-        },
-        "dude" : {
-            "en" : "English",
-            "uk" : "English",
-            "ru" : "English"
-        }
-    },
-    "locale-description-ru" : {
-        "official" : {
-            "uk" : "Русский",
-            "ru" : "Русский",
-            "en" : "Русский"
-        },
-        "dude" : {
-            "uk" : "Русский",
-            "ru" : "Русский",
-            "en" : "Русский"
-        },
-        "common" : {
-            "uk" : "Русский",
-            "ru" : "Русский",
-            "en" : "Русский"
-        }
-    },
-    "themeSettings" : {
-        "common" : {
-            "ru" : "Цветовая схема",
-            "en" : "Appearance",
-            "uk" : "Кольорова схема"
-        },
-        "dude" : {
-            "ru" : "Цветовая схема",
-            "en" : "Appearance",
-            "uk" : "Кольорова схема"
-        },
-        "official" : {
-            "ru" : "Цветовая схема",
-            "en" : "Appearance",
-            "uk" : "Кольорова схема"
-        }
-    },
-    "token-copy-title" : {
-        "common" : {
-            "en" : "%@ was copied to clipboard",
-            "uk" : "%@ був скопійований в буфер",
-            "ru" : "%@ был скопирован в буфер"
-        },
-        "dude" : {
-            "en" : "%@ was copied to clipboard",
-            "uk" : "%@ був скопійований в буфер",
-            "ru" : "%@ был скопирован в буфер"
-        },
-        "official" : {
-            "en" : "%@ was copied to clipboard",
-            "uk" : "%@ був скопійований в буфер",
-            "ru" : "%@ был скопирован в буфер"
-        }
-    },
-    "locale-changed-ru" : {
-        "official" : {
-            "ru" : "Изменения вступят в силу после перезапуска приложения",
-            "en" : "Изменения вступят в силу после перезапуска приложения",
-            "uk" : "Изменения вступят в силу после перезапуска приложения"
-        },
-        "dude" : {
-            "ru" : "Изменения вступят в силу после перезапуска приложения",
-            "en" : "Изменения вступят в силу после перезапуска приложения",
-            "uk" : "Изменения вступят в силу после перезапуска приложения"
-        },
-        "common" : {
-            "ru" : "Изменения вступят в силу после перезапуска приложения",
-            "en" : "Изменения вступят в силу после перезапуска приложения",
-            "uk" : "Изменения вступят в силу после перезапуска приложения"
-        }
+    "friendly": {
+      "ru": "Изменения вступят в силу после перезапуска приложения",
+      "uk": "Зміни вступлять в силу після перезапуску додатку",
+      "en": "Зміни вступлять в силу після перезапуску додатку"
     }
+  },
+  "warning-title-uk": {
+    "neutral": {
+      "en": "Увага",
+      "ru": "Увага",
+      "uk": "Увага"
+    },
+    "friendly": {
+      "en": "Увага",
+      "ru": "Увага",
+      "uk": "Увага"
+    },
+    "business": {
+      "en": "Увага",
+      "ru": "Увага",
+      "uk": "Увага"
+    }
+  },
+  "warning-title-en": {
+    "business": {
+      "en": "Warning",
+      "ru": "Warning",
+      "uk": "Warning"
+    },
+    "friendly": {
+      "en": "Warning",
+      "ru": "Warning",
+      "uk": "Warning"
+    },
+    "neutral": {
+      "en": "Warning",
+      "ru": "Warning",
+      "uk": "Warning"
+    }
+  },
+  "lightThemeName": {
+    "business": {
+      "en": "Light",
+      "ru": "business",
+      "uk": "Світла"
+    },
+    "friendly": {
+      "en": "Light",
+      "ru": "Светлая",
+      "uk": "Світла"
+    },
+    "neutral": {
+      "en": "Light",
+      "ru": "Светлая",
+      "uk": "Світла"
+    }
+  },
+  "locale-description-uk": {
+    "friendly": {
+      "uk": "Українська",
+      "ru": "Українська",
+      "en": "Українська"
+    },
+    "neutral": {
+      "uk": "Українська",
+      "ru": "Українська",
+      "en": "Українська"
+    },
+    "business": {
+      "uk": "Українська",
+      "ru": "Українська",
+      "en": "Українська"
+    }
+  },
+  "warning-title-ru": {
+    "business": {
+      "ru": "Внимание",
+      "en": "Внимание",
+      "uk": "Внимание"
+    },
+    "neutral": {
+      "ru": "Внимание",
+      "en": "Внимание",
+      "uk": "Внимание"
+    },
+    "friendly": {
+      "ru": "Внимание",
+      "en": "Внимание",
+      "uk": "Внимание"
+    }
+  },
+  "darkThemeName": {
+    "neutral": {
+      "ru": "Темная",
+      "uk": "Темна",
+      "en": "Dark"
+    },
+    "business": {
+      "ru": "Темная",
+      "uk": "Темна",
+      "en": "Dark"
+    },
+    "friendly": {
+      "ru": "Темная",
+      "uk": "Темна",
+      "en": "Dark"
+    }
+  },
+  "locale-changed-en": {
+    "business": {
+      "uk": "Changes will take effect after application restart",
+      "ru": "Changes will take effect after application restart",
+      "en": "Changes will take effect after application restart"
+    },
+    "friendly": {
+      "uk": "Changes will take effect after application restart",
+      "ru": "Changes will take effect after application restart",
+      "en": "Changes will take effect after application restart"
+    },
+    "neutral": {
+      "uk": "Changes will take effect after application restart",
+      "ru": "Changes will take effect after application restart",
+      "en": "Changes will take effect after application restart"
+    }
+  },
+  "systemThemeName": {
+    "business": {
+      "en": "System",
+      "ru": "Системная",
+      "uk": "Cистемная"
+    },
+    "neutral": {
+      "en": "System",
+      "ru": "Системная",
+      "uk": "Cистемная"
+    },
+    "friendly": {
+      "en": "System",
+      "ru": "Системная",
+      "uk": "Cистемная"
+    }
+  },
+  "locale-description-en": {
+    "business": {
+      "en": "English",
+      "uk": "English",
+      "ru": "English"
+    },
+    "neutral": {
+      "en": "English",
+      "uk": "English",
+      "ru": "English"
+    },
+    "friendly": {
+      "en": "English",
+      "uk": "English",
+      "ru": "English"
+    }
+  },
+  "locale-description-ru": {
+    "business": {
+      "uk": "Русский",
+      "ru": "Русский",
+      "en": "Русский"
+    },
+    "friendly": {
+      "uk": "Русский",
+      "ru": "Русский",
+      "en": "Русский"
+    },
+    "neutral": {
+      "uk": "Русский",
+      "ru": "Русский",
+      "en": "Русский"
+    }
+  },
+  "themeSettings": {
+    "neutral": {
+      "ru": "Цветовая схема",
+      "en": "Appearance",
+      "uk": "Кольорова схема"
+    },
+    "friendly": {
+      "ru": "Цветовая схема",
+      "en": "Appearance",
+      "uk": "Кольорова схема"
+    },
+    "business": {
+      "ru": "Цветовая схема",
+      "en": "Appearance",
+      "uk": "Кольорова схема"
+    }
+  },
+  "token-copy-title": {
+    "neutral": {
+      "en": "%@ was copied to clipboard",
+      "uk": "%@ був скопійований в буфер",
+      "ru": "%@ был скопирован в буфер"
+    },
+    "friendly": {
+      "en": "%@ was copied to clipboard",
+      "uk": "%@ був скопійований в буфер",
+      "ru": "%@ был скопирован в буфер"
+    },
+    "business": {
+      "en": "%@ was copied to clipboard",
+      "uk": "%@ був скопійований в буфер",
+      "ru": "%@ был скопирован в буфер"
+    }
+  },
+  "locale-changed-ru": {
+    "business": {
+      "ru": "Изменения вступят в силу после перезапуска приложения",
+      "en": "Изменения вступят в силу после перезапуска приложения",
+      "uk": "Изменения вступят в силу после перезапуска приложения"
+    },
+    "friendly": {
+      "ru": "Изменения вступят в силу после перезапуска приложения",
+      "en": "Изменения вступят в силу после перезапуска приложения",
+      "uk": "Изменения вступят в силу после перезапуска приложения"
+    },
+    "neutral": {
+      "ru": "Изменения вступят в силу после перезапуска приложения",
+      "en": "Изменения вступят в силу после перезапуска приложения",
+      "uk": "Изменения вступят в силу после перезапуска приложения"
+    }
+  }
 }

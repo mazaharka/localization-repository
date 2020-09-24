@@ -30,8 +30,17 @@
     <Folder Include="Views\FileAction\" />
     <Folder Include="wwwroot\Files\upload\" />
     <Folder Include="wwwroot\Files\download\" />
+    <Folder Include="Views\AndroidTableAction\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="SectionController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\Files\upload\Android\values-en\strings.xml" />
+    <Content Remove="wwwroot\Files\upload\Android\values-en-rAU\strings.xml" />
+    <Content Remove="wwwroot\Files\download\Android\values-ru\string.xml" />
+    <Content Remove="wwwroot\Files\download\Android\values-ru\string.xml" />
+    <Content Remove="wwwroot\Files\download\Android\values-ru\string.xml" />
+    <Content Remove="wwwroot\Files\download\Android\values-ru\string.xml" />
   </ItemGroup>
 </Project>

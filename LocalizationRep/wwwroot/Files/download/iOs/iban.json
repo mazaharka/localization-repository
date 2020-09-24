@@ -1,257 +1,257 @@
 {
-    "transfer-repeat-button-title" : {
-        "common" : {
-            "en" : "Remind me later",
-            "ru" : "Попробовать еще раз",
-            "uk" : "Спробувати ще раз"
-        },
-        "official" : {
-            "en" : "Remind me later",
-            "ru" : "Попробовать еще раз",
-            "uk" : "Спробувати ще раз"
-        },
-        "dude" : {
-            "en" : "Remind me later",
-            "ru" : "Попробовать еще раз",
-            "uk" : "Спробувати ще раз"
-        }
+  "transfer-repeat-button-title": {
+    "neutral": {
+      "en": "Remind me later",
+      "ru": "Попробовать еще раз",
+      "uk": "Спробувати ще раз"
     },
-    "transfer-iban-comission-error" : {
-        "common" : {
-            "ru" : "Комиссия %@. Недостаточно средств",
-            "uk" : "Комісія %@. Недостатньо коштів",
-            "en" : "Commission %@. Insufficient funds"
-        },
-        "official" : {
-            "ru" : "Комиссия %@. Недостаточно средств",
-            "uk" : "Комісія %@. Недостатньо коштів",
-            "en" : "Commission %@. Insufficient funds"
-        },
-        "dude" : {
-            "ru" : "Комиссия %@. Недостаточно средств",
-            "uk" : "Комісія %@. Недостатньо коштів",
-            "en" : "Commission %@. Insufficient funds"
-        }
+    "business": {
+      "en": "Remind me later",
+      "ru": "Попробовать еще раз",
+      "uk": "Спробувати ще раз"
     },
-    "transfer-accounts-empty" : {
-        "official" : {
-            "uk" : "Відсутні активні рахунки для переказів",
-            "en" : "No active accounts for transfers",
-            "ru" : "Нет активных счетов для переводов"
-        },
-        "common" : {
-            "uk" : "Відсутні активні рахунки для переказів",
-            "en" : "No active accounts for transfers",
-            "ru" : "Нет активных счетов для переводов"
-        },
-        "dude" : {
-            "uk" : "Відсутні активні рахунки для переказів",
-            "en" : "No active accounts for transfers",
-            "ru" : "Нет активных счетов для переводов"
-        }
-    },
-    "transfer-recipient" : {
-        "common" : {
-            "ru" : "Получатель",
-            "en" : "Recipient",
-            "uk" : "Одержувач"
-        },
-        "dude" : {
-            "ru" : "Получатель",
-            "en" : "Recipient",
-            "uk" : "Одержувач"
-        },
-        "official" : {
-            "ru" : "Получатель",
-            "en" : "Recipient",
-            "uk" : "Одержувач"
-        }
-    },
-    "transfer-appointment-of-payment" : {
-        "official" : {
-            "ru" : "Назначение платежа",
-            "uk" : "Призначення платежу",
-            "en" : "Appointment of payment"
-        },
-        "dude" : {
-            "ru" : "Назначение платежа",
-            "uk" : "Призначення платежу",
-            "en" : "Appointment of payment"
-        },
-        "common" : {
-            "ru" : "Назначение платежа",
-            "uk" : "Призначення платежу",
-            "en" : "Appointment of payment"
-        }
-    },
-    "transfer-iban-header-text" : {
-        "official" : {
-            "uk" : "Вкажіть реквізити одержувача",
-            "en" : "Вкажіть реквізити одержувача",
-            "ru" : "Вкажіть реквізити одержувача"
-        },
-        "dude" : {
-            "uk" : "Вкажіть реквізити одержувача",
-            "en" : "Вкажіть реквізити одержувача",
-            "ru" : "Вкажіть реквізити одержувача"
-        },
-        "common" : {
-            "uk" : "Вкажіть реквізити одержувача",
-            "en" : "Вкажіть реквізити одержувача",
-            "ru" : "Вкажіть реквізити одержувача"
-        }
-    },
-    "transfer-verify-error" : {
-        "dude" : {
-            "ru" : "Неверный лимит",
-            "uk" : "Невірний ліміт",
-            "en" : "Wrong limits"
-        },
-        "common" : {
-            "ru" : "Неверный лимит",
-            "uk" : "Невірний ліміт",
-            "en" : "Wrong limits"
-        },
-        "official" : {
-            "ru" : "Неверный лимит",
-            "uk" : "Невірний ліміт",
-            "en" : "Wrong limits"
-        }
-    },
-    "transfer-button-title" : {
-        "common" : {
-            "en" : "Confirm",
-            "ru" : "Перевести",
-            "uk" : "Переказати"
-        },
-        "official" : {
-            "en" : "Confirm",
-            "ru" : "Перевести",
-            "uk" : "Переказати"
-        },
-        "dude" : {
-            "en" : "Confirm",
-            "ru" : "Перевести",
-            "uk" : "Переказати"
-        }
-    },
-    "transfer-ipn" : {
-        "dude" : {
-            "ru" : "ЕГРПОУ\/ИНН получателя",
-            "en" : "Identify the recipient's code",
-            "uk" : "ЄДРПОУ\/ІПН отримувача"
-        },
-        "common" : {
-            "ru" : "ЕГРПОУ\/ИНН получателя",
-            "en" : "Identify the recipient's code",
-            "uk" : "ЄДРПОУ\/ІПН отримувача"
-        },
-        "official" : {
-            "ru" : "ЕГРПОУ\/ИНН получателя",
-            "en" : "Identify the recipient's code",
-            "uk" : "ЄДРПОУ\/ІПН отримувача"
-        }
-    },
-    "transfer-iban-minValue-error" : {
-        "dude" : {
-            "ru" : "Mинимум %@",
-            "en" : "Min %@",
-            "uk" : "Mінімум %@"
-        },
-        "common" : {
-            "ru" : "Mинимум %@",
-            "en" : "Min %@",
-            "uk" : "Mінімум %@"
-        },
-        "official" : {
-            "ru" : "Mинимум %@",
-            "en" : "Min %@",
-            "uk" : "Mінімум %@"
-        }
-    },
-    "transfer-iban-notEnoughMoney-error" : {
-        "official" : {
-            "en" : "Insufficient funds",
-            "uk" : "Недостатньо коштів",
-            "ru" : "Недостаточно средств"
-        },
-        "common" : {
-            "en" : "Insufficient funds",
-            "uk" : "Недостатньо коштів",
-            "ru" : "Недостаточно средств"
-        },
-        "dude" : {
-            "en" : "Insufficient funds",
-            "uk" : "Недостатньо коштів",
-            "ru" : "Недостаточно средств"
-        }
-    },
-    "transfer-iban-incorrect-value" : {
-        "common" : {
-            "uk" : "Перевірте коректність даних",
-            "en" : "Check the correctness of the data",
-            "ru" : "Проверьте корректность данных"
-        },
-        "dude" : {
-            "uk" : "Перевірте коректність даних",
-            "en" : "Check the correctness of the data",
-            "ru" : "Проверьте корректность данных"
-        },
-        "official" : {
-            "uk" : "Перевірте коректність даних",
-            "en" : "Check the correctness of the data",
-            "ru" : "Проверьте корректность данных"
-        }
-    },
-    "transfer-iban-checkbox-agreement-text" : {
-        "official" : {
-            "ru" : "Я подтверждаю, что эта операция не связана с предпринимательской деятельностью",
-            "en" : "I confirm that this transaction isn't related to any business activity",
-            "uk" : "Я підтверджую, що ця операція непов'язана з підприємницькою діяльністю"
-        },
-        "common" : {
-            "ru" : "Я подтверждаю, что эта операция не связана с предпринимательской деятельностью",
-            "en" : "I confirm that this transaction isn't related to any business activity",
-            "uk" : "Я підтверджую, що ця операція непов'язана з підприємницькою діяльністю"
-        },
-        "dude" : {
-            "ru" : "Я подтверждаю, что эта операция не связана с предпринимательской деятельностью",
-            "en" : "I confirm that this transaction isn't related to any business activity",
-            "uk" : "Я підтверджую, що ця операція непов'язана з підприємницькою діяльністю"
-        }
-    },
-    "transfer-iban-checkbox-agreement-error-text" : {
-        "official" : {
-            "en" : "Необхідно підтвердження",
-            "ru" : "Необхідно підтвердження",
-            "uk" : "Необхідно підтвердження"
-        },
-        "dude" : {
-            "en" : "Необхідно підтвердження",
-            "ru" : "Необхідно підтвердження",
-            "uk" : "Необхідно підтвердження"
-        },
-        "common" : {
-            "en" : "Необхідно підтвердження",
-            "ru" : "Необхідно підтвердження",
-            "uk" : "Необхідно підтвердження"
-        }
-    },
-    "transfer-amount-header-title" : {
-        "official" : {
-            "uk" : "Укажите сумму перевода",
-            "en" : "Укажите сумму перевода",
-            "ru" : "Укажите сумму перевода"
-        },
-        "common" : {
-            "uk" : "Укажите сумму перевода",
-            "en" : "Укажите сумму перевода",
-            "ru" : "Укажите сумму перевода"
-        },
-        "dude" : {
-            "uk" : "Укажите сумму перевода",
-            "en" : "Укажите сумму перевода",
-            "ru" : "Укажите сумму перевода"
-        }
+    "friendly": {
+      "en": "Remind me later",
+      "ru": "Попробовать еще раз",
+      "uk": "Спробувати ще раз"
     }
+  },
+  "transfer-iban-comission-error": {
+    "neutral": {
+      "ru": "Комиссия %@. Недостаточно средств",
+      "uk": "Комісія %@. Недостатньо коштів",
+      "en": "Commission %@. Insufficient funds"
+    },
+    "business": {
+      "ru": "Комиссия %@. Недостаточно средств",
+      "uk": "Комісія %@. Недостатньо коштів",
+      "en": "Commission %@. Insufficient funds"
+    },
+    "friendly": {
+      "ru": "Комиссия %@. Недостаточно средств",
+      "uk": "Комісія %@. Недостатньо коштів",
+      "en": "Commission %@. Insufficient funds"
+    }
+  },
+  "transfer-accounts-empty": {
+    "business": {
+      "uk": "Відсутні активні рахунки для переказів",
+      "en": "No active accounts for transfers",
+      "ru": "Нет активных счетов для переводов"
+    },
+    "neutral": {
+      "uk": "Відсутні активні рахунки для переказів",
+      "en": "No active accounts for transfers",
+      "ru": "Нет активных счетов для переводов"
+    },
+    "friendly": {
+      "uk": "Відсутні активні рахунки для переказів",
+      "en": "No active accounts for transfers",
+      "ru": "Нет активных счетов для переводов"
+    }
+  },
+  "transfer-recipient": {
+    "neutral": {
+      "ru": "Получатель",
+      "en": "Recipient",
+      "uk": "Одержувач"
+    },
+    "friendly": {
+      "ru": "Получатель",
+      "en": "Recipient",
+      "uk": "Одержувач"
+    },
+    "business": {
+      "ru": "Получатель",
+      "en": "Recipient",
+      "uk": "Одержувач"
+    }
+  },
+  "transfer-appointment-of-payment": {
+    "business": {
+      "ru": "Назначение платежа",
+      "uk": "Призначення платежу",
+      "en": "Appointment of payment"
+    },
+    "friendly": {
+      "ru": "Назначение платежа",
+      "uk": "Призначення платежу",
+      "en": "Appointment of payment"
+    },
+    "neutral": {
+      "ru": "Назначение платежа",
+      "uk": "Призначення платежу",
+      "en": "Appointment of payment"
+    }
+  },
+  "transfer-iban-header-text": {
+    "business": {
+      "uk": "Вкажіть реквізити одержувача",
+      "en": "Вкажіть реквізити одержувача",
+      "ru": "Вкажіть реквізити одержувача"
+    },
+    "friendly": {
+      "uk": "Вкажіть реквізити одержувача",
+      "en": "Вкажіть реквізити одержувача",
+      "ru": "Вкажіть реквізити одержувача"
+    },
+    "neutral": {
+      "uk": "Вкажіть реквізити одержувача",
+      "en": "Вкажіть реквізити одержувача",
+      "ru": "Вкажіть реквізити одержувача"
+    }
+  },
+  "transfer-verify-error": {
+    "friendly": {
+      "ru": "Неверный лимит",
+      "uk": "Невірний ліміт",
+      "en": "Wrong limits"
+    },
+    "neutral": {
+      "ru": "Неверный лимит",
+      "uk": "Невірний ліміт",
+      "en": "Wrong limits"
+    },
+    "business": {
+      "ru": "Неверный лимит",
+      "uk": "Невірний ліміт",
+      "en": "Wrong limits"
+    }
+  },
+  "transfer-button-title": {
+    "neutral": {
+      "en": "Confirm",
+      "ru": "Перевести",
+      "uk": "Переказати"
+    },
+    "business": {
+      "en": "Confirm",
+      "ru": "Перевести",
+      "uk": "Переказати"
+    },
+    "friendly": {
+      "en": "Confirm",
+      "ru": "Перевести",
+      "uk": "Переказати"
+    }
+  },
+  "transfer-ipn": {
+    "friendly": {
+      "ru": "ЕГРПОУ/ИНН получателя",
+      "en": "Identify the recipient's code",
+      "uk": "ЄДРПОУ/ІПН отримувача"
+    },
+    "neutral": {
+      "ru": "ЕГРПОУ/ИНН получателя",
+      "en": "Identify the recipient's code",
+      "uk": "ЄДРПОУ/ІПН отримувача"
+    },
+    "business": {
+      "ru": "ЕГРПОУ/ИНН получателя",
+      "en": "Identify the recipient's code",
+      "uk": "ЄДРПОУ/ІПН отримувача"
+    }
+  },
+  "transfer-iban-minValue-error": {
+    "friendly": {
+      "ru": "Mинимум %@",
+      "en": "Min %@",
+      "uk": "Mінімум %@"
+    },
+    "neutral": {
+      "ru": "Mинимум %@",
+      "en": "Min %@",
+      "uk": "Mінімум %@"
+    },
+    "business": {
+      "ru": "Mинимум %@",
+      "en": "Min %@",
+      "uk": "Mінімум %@"
+    }
+  },
+  "transfer-iban-notEnoughMoney-error": {
+    "business": {
+      "en": "Insufficient funds",
+      "uk": "Недостатньо коштів",
+      "ru": "Недостаточно средств"
+    },
+    "neutral": {
+      "en": "Insufficient funds",
+      "uk": "Недостатньо коштів",
+      "ru": "Недостаточно средств"
+    },
+    "friendly": {
+      "en": "Insufficient funds",
+      "uk": "Недостатньо коштів",
+      "ru": "Недостаточно средств"
+    }
+  },
+  "transfer-iban-incorrect-value": {
+    "neutral": {
+      "uk": "Перевірте коректність даних",
+      "en": "Check the correctness of the data",
+      "ru": "Проверьте корректность данных"
+    },
+    "friendly": {
+      "uk": "Перевірте коректність даних",
+      "en": "Check the correctness of the data",
+      "ru": "Проверьте корректность данных"
+    },
+    "business": {
+      "uk": "Перевірте коректність даних",
+      "en": "Check the correctness of the data",
+      "ru": "Проверьте корректность данных"
+    }
+  },
+  "transfer-iban-checkbox-agreement-text": {
+    "business": {
+      "ru": "Я подтверждаю, что эта операция не связана с предпринимательской деятельностью",
+      "en": "I confirm that this transaction isn't related to any business activity",
+      "uk": "Я підтверджую, що ця операція непов'язана з підприємницькою діяльністю"
+    },
+    "neutral": {
+      "ru": "Я подтверждаю, что эта операция не связана с предпринимательской деятельностью",
+      "en": "I confirm that this transaction isn't related to any business activity",
+      "uk": "Я підтверджую, що ця операція непов'язана з підприємницькою діяльністю"
+    },
+    "friendly": {
+      "ru": "Я подтверждаю, что эта операция не связана с предпринимательской деятельностью",
+      "en": "I confirm that this transaction isn't related to any business activity",
+      "uk": "Я підтверджую, що ця операція непов'язана з підприємницькою діяльністю"
+    }
+  },
+  "transfer-iban-checkbox-agreement-error-text": {
+    "business": {
+      "en": "Необхідно підтвердження",
+      "ru": "Необхідно підтвердження",
+      "uk": "Необхідно підтвердження"
+    },
+    "friendly": {
+      "en": "Необхідно підтвердження",
+      "ru": "Необхідно підтвердження",
+      "uk": "Необхідно підтвердження"
+    },
+    "neutral": {
+      "en": "Необхідно підтвердження",
+      "ru": "Необхідно підтвердження",
+      "uk": "Необхідно підтвердження"
+    }
+  },
+  "transfer-amount-header-title": {
+    "business": {
+      "uk": "Укажите сумму перевода",
+      "en": "Укажите сумму перевода",
+      "ru": "Укажите сумму перевода"
+    },
+    "neutral": {
+      "uk": "Укажите сумму перевода",
+      "en": "Укажите сумму перевода",
+      "ru": "Укажите сумму перевода"
+    },
+    "friendly": {
+      "uk": "Укажите сумму перевода",
+      "en": "Укажите сумму перевода",
+      "ru": "Укажите сумму перевода"
+    }
+  }
 }

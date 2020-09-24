@@ -16,6 +16,61 @@ namespace LocalizationRep.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.4");
 
+            modelBuilder.Entity("LocalizationRep.Models.AndroidTable", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("AndroidID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CommentValue")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CommonID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("EN_BUSINESS")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("EN_FRIENDLY")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("EN_NEUTRAL")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("RU_BUSINESS")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("RU_FRIENDLY")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("RU_NEUTRAL")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("SectionID")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("StringNumber")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("UK_BUSINESS")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UK_FRIENDLY")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UK_NEUTRAL")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("SectionID");
+
+                    b.ToTable("NotMatchedItem");
+                });
+
             modelBuilder.Entity("LocalizationRep.Models.CommentAndroidXMLModel", b =>
                 {
                     b.Property<int>("ID")
@@ -132,37 +187,6 @@ namespace LocalizationRep.Migrations
                     b.ToTable("MainTable");
                 });
 
-            modelBuilder.Entity("LocalizationRep.Models.NotMatchedItem", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("AndroidID")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CommentValue")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CommonID")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("NodeInnerText")
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("SectionID")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("StringNumber")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("ID");
-
-                    b.HasIndex("SectionID");
-
-                    b.ToTable("NotMatchedItem");
-                });
-
             modelBuilder.Entity("LocalizationRep.Models.Sections", b =>
                 {
                     b.Property<int>("ID")
@@ -176,6 +200,9 @@ namespace LocalizationRep.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("LastIndexOfCommonID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("NotMatchedItemID")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("ShortName")
@@ -210,6 +237,15 @@ namespace LocalizationRep.Migrations
                     b.ToTable("StyleJsonKeyModel");
                 });
 
+            modelBuilder.Entity("LocalizationRep.Models.AndroidTable", b =>
+                {
+                    b.HasOne("LocalizationRep.Models.Sections", "Section")
+                        .WithMany("NotMatchedItem")
+                        .HasForeignKey("SectionID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("LocalizationRep.Models.LangKeyModel", b =>
                 {
                     b.HasOne("LocalizationRep.Models.StyleJsonKeyModel", "StyleJsonKeyModel")
@@ -230,15 +266,6 @@ namespace LocalizationRep.Migrations
                 {
                     b.HasOne("LocalizationRep.Models.Sections", "Section")
                         .WithMany("MainTables")
-                        .HasForeignKey("SectionID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("LocalizationRep.Models.NotMatchedItem", b =>
-                {
-                    b.HasOne("LocalizationRep.Models.Sections", "Section")
-                        .WithMany()
                         .HasForeignKey("SectionID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

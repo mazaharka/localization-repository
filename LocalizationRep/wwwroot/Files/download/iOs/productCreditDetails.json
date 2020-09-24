@@ -1,444 +1,444 @@
 {
-    "credit-details-information-tap" : {
-        "common" : {
-            "en" : "Information",
-            "uk" : "Інформація",
-            "ru" : "Информация"
-        },
-        "official" : {
-            "en" : "Information",
-            "uk" : "Інформація",
-            "ru" : "Информация"
-        },
-        "dude" : {
-            "en" : "Information",
-            "uk" : "Інформація",
-            "ru" : "Информация"
-        }
+  "credit-details-information-tap": {
+    "neutral": {
+      "en": "Information",
+      "uk": "Інформація",
+      "ru": "Информация"
     },
-    "credit-details-management-tap" : {
-        "dude" : {
-            "uk" : "Керування",
-            "ru" : "Управление",
-            "en" : "Management"
-        },
-        "common" : {
-            "uk" : "Керування",
-            "ru" : "Управление",
-            "en" : "Management"
-        },
-        "official" : {
-            "uk" : "Керування",
-            "ru" : "Управление",
-            "en" : "Management"
-        }
+    "business": {
+      "en": "Information",
+      "uk": "Інформація",
+      "ru": "Информация"
     },
-    "credit-details-payment-button-title" : {
-        "official" : {
-            "uk" : "Сплатити",
-            "en" : "Payment",
-            "ru" : "Оплатить"
-        },
-        "dude" : {
-            "uk" : "Сплатити",
-            "en" : "Payment",
-            "ru" : "Оплатить"
-        },
-        "common" : {
-            "uk" : "Сплатити",
-            "en" : "Payment",
-            "ru" : "Оплатить"
-        }
-    },
-    "credit-payment-overdue-title" : {
-        "official" : {
-            "uk" : "Платіж прострочено",
-            "ru" : "Платеж просрочен",
-            "en" : "Payment is overdue"
-        },
-        "dude" : {
-            "uk" : "Платіж прострочено",
-            "ru" : "Платеж просрочен",
-            "en" : "Payment is overdue"
-        },
-        "common" : {
-            "uk" : "Платіж прострочено",
-            "ru" : "Платеж просрочен",
-            "en" : "Payment is overdue"
-        }
-    },
-    "credit-type-title" : {
-        "common" : {
-            "ru" : "Тип кредита",
-            "en" : "Loan type",
-            "uk" : "Тип кредиту"
-        },
-        "dude" : {
-            "ru" : "Тип кредита",
-            "en" : "Loan type",
-            "uk" : "Тип кредиту"
-        },
-        "official" : {
-            "ru" : "Тип кредита",
-            "en" : "Loan type",
-            "uk" : "Тип кредиту"
-        }
-    },
-    "credit-commission-title" : {
-        "official" : {
-            "ru" : "Комиссия",
-            "en" : "Commission",
-            "uk" : "Комісія"
-        },
-        "dude" : {
-            "ru" : "Комиссия",
-            "en" : "Commission",
-            "uk" : "Комісія"
-        },
-        "common" : {
-            "ru" : "Комиссия",
-            "en" : "Commission",
-            "uk" : "Комісія"
-        }
-    },
-    "credit-details-documents-title" : {
-        "common" : {
-            "uk" : "Доступні документи",
-            "ru" : "Доступные документы",
-            "en" : "Available documents"
-        },
-        "official" : {
-            "uk" : "Доступні документи",
-            "ru" : "Доступные документы",
-            "en" : "Available documents"
-        },
-        "dude" : {
-            "uk" : "Доступні документи",
-            "ru" : "Доступные документы",
-            "en" : "Available documents"
-        }
-    },
-    "credit-rate-per-annum-title" : {
-        "common" : {
-            "en" : "Interest rate per annum",
-            "ru" : "Процентная ставка, годовых",
-            "uk" : "Відсоткова ставка, річних"
-        },
-        "dude" : {
-            "en" : "Interest rate per annum",
-            "ru" : "Процентная ставка, годовых",
-            "uk" : "Відсоткова ставка, річних"
-        },
-        "official" : {
-            "en" : "Interest rate per annum",
-            "ru" : "Процентная ставка, годовых",
-            "uk" : "Відсоткова ставка, річних"
-        }
-    },
-    "credit-term-title" : {
-        "dude" : {
-            "ru" : "Термин кредита",
-            "uk" : "Термін кредиту",
-            "en" : "Loan term"
-        },
-        "common" : {
-            "ru" : "Термин кредита",
-            "uk" : "Термін кредиту",
-            "en" : "Loan term"
-        },
-        "official" : {
-            "ru" : "Термин кредита",
-            "uk" : "Термін кредиту",
-            "en" : "Loan term"
-        }
-    },
-    "credit-details-common-info-title" : {
-        "official" : {
-            "uk" : "Загальна інформація",
-            "ru" : "Общая информация",
-            "en" : "Common information"
-        },
-        "common" : {
-            "uk" : "Загальна інформація",
-            "ru" : "Общая информация",
-            "en" : "Common information"
-        },
-        "dude" : {
-            "uk" : "Загальна інформація",
-            "ru" : "Общая информация",
-            "en" : "Common information"
-        }
-    },
-    "credit-contract-number-title" : {
-        "official" : {
-            "en" : "Contract number",
-            "uk" : "Номер договору",
-            "ru" : "Номер договора"
-        },
-        "dude" : {
-            "en" : "Contract number",
-            "uk" : "Номер договору",
-            "ru" : "Номер договора"
-        },
-        "common" : {
-            "en" : "Contract number",
-            "uk" : "Номер договору",
-            "ru" : "Номер договора"
-        }
-    },
-    "credit-details-repayment-schedule-view-title" : {
-        "dude" : {
-            "uk" : "Графік погашення",
-            "ru" : "График погашения",
-            "en" : "Repayment schedule"
-        },
-        "official" : {
-            "uk" : "Графік погашення",
-            "ru" : "График погашения",
-            "en" : "Repayment schedule"
-        },
-        "common" : {
-            "uk" : "Графік погашення",
-            "ru" : "График погашения",
-            "en" : "Repayment schedule"
-        }
-    },
-    "credit-minimum-payment-title" : {
-        "common" : {
-            "uk" : "Мінімальний платіж",
-            "en" : "Minimum payment",
-            "ru" : "Минимальный платеж"
-        },
-        "dude" : {
-            "uk" : "Мінімальний платіж",
-            "en" : "Minimum payment",
-            "ru" : "Минимальный платеж"
-        },
-        "official" : {
-            "uk" : "Мінімальний платіж",
-            "en" : "Minimum payment",
-            "ru" : "Минимальный платеж"
-        }
-    },
-    "credit-details-history-tap" : {
-        "common" : {
-            "en" : "History",
-            "uk" : "Історія",
-            "ru" : "История"
-        },
-        "official" : {
-            "en" : "History",
-            "uk" : "Історія",
-            "ru" : "История"
-        },
-        "dude" : {
-            "en" : "History",
-            "uk" : "Історія",
-            "ru" : "История"
-        }
-    },
-    "credit-details-abount-payments-title" : {
-        "dude" : {
-            "en" : "About payments",
-            "uk" : "О платежах",
-            "ru" : "О платежах"
-        },
-        "common" : {
-            "en" : "About payments",
-            "uk" : "О платежах",
-            "ru" : "О платежах"
-        },
-        "official" : {
-            "en" : "About payments",
-            "uk" : "О платежах",
-            "ru" : "О платежах"
-        }
-    },
-    "credit-months-title" : {
-        "common" : {
-            "uk" : "%@ міс.",
-            "ru" : "%@ мес.",
-            "en" : "%@ mo."
-        },
-        "official" : {
-            "uk" : "%@ міс.",
-            "ru" : "%@ мес.",
-            "en" : "%@ mo."
-        },
-        "dude" : {
-            "uk" : "%@ міс.",
-            "ru" : "%@ мес.",
-            "en" : "%@ mo."
-        }
-    },
-    "credit-contributed-payment-title" : {
-        "official" : {
-            "uk" : "Внесено",
-            "ru" : "Внесено",
-            "en" : "Contributed"
-        },
-        "dude" : {
-            "uk" : "Внесено",
-            "ru" : "Внесено",
-            "en" : "Contributed"
-        },
-        "common" : {
-            "uk" : "Внесено",
-            "ru" : "Внесено",
-            "en" : "Contributed"
-        }
-    },
-    "credit-loan-repayment-amount-title" : {
-        "official" : {
-            "en" : "Loan repayment amount",
-            "uk" : "Сума дострокового погашення кредиту",
-            "ru" : "Cумма досрочного погашения кредита"
-        },
-        "common" : {
-            "en" : "Loan repayment amount",
-            "uk" : "Сума дострокового погашення кредиту",
-            "ru" : "Cумма досрочного погашения кредита"
-        },
-        "dude" : {
-            "en" : "Loan repayment amount",
-            "uk" : "Сума дострокового погашення кредиту",
-            "ru" : "Cумма досрочного погашения кредита"
-        }
-    },
-    "credit-full-loan-amount-title" : {
-        "official" : {
-            "en" : "Full loan amount",
-            "ru" : "Полная сумма кредита",
-            "uk" : "Повна сума кредиту"
-        },
-        "dude" : {
-            "en" : "Full loan amount",
-            "ru" : "Полная сумма кредита",
-            "uk" : "Повна сума кредиту"
-        },
-        "common" : {
-            "en" : "Full loan amount",
-            "ru" : "Полная сумма кредита",
-            "uk" : "Повна сума кредиту"
-        }
-    },
-    "credit-loan-expiration-date-title" : {
-        "dude" : {
-            "en" : "Loan expiration date",
-            "uk" : "Дата закінчення кредиту",
-            "ru" : "Дата окончания кредита"
-        },
-        "common" : {
-            "en" : "Loan expiration date",
-            "uk" : "Дата закінчення кредиту",
-            "ru" : "Дата окончания кредита"
-        },
-        "official" : {
-            "en" : "Loan expiration date",
-            "uk" : "Дата закінчення кредиту",
-            "ru" : "Дата окончания кредита"
-        }
-    },
-    "credit-next-payment-title" : {
-        "dude" : {
-            "uk" : "Наступний платіж",
-            "en" : "Next payment",
-            "ru" : "Следующий платеж"
-        },
-        "common" : {
-            "uk" : "Наступний платіж",
-            "en" : "Next payment",
-            "ru" : "Следующий платеж"
-        },
-        "official" : {
-            "uk" : "Наступний платіж",
-            "en" : "Next payment",
-            "ru" : "Следующий платеж"
-        }
-    },
-    "credit-next-payment-to-date-title" : {
-        "common" : {
-            "en" : "Payment must be paid before",
-            "ru" : "Платеж необходимо внести до",
-            "uk" : "Платіж треба внести до"
-        },
-        "official" : {
-            "en" : "Payment must be paid before",
-            "ru" : "Платеж необходимо внести до",
-            "uk" : "Платіж треба внести до"
-        },
-        "dude" : {
-            "en" : "Payment must be paid before",
-            "ru" : "Платеж необходимо внести до",
-            "uk" : "Платіж треба внести до"
-        }
-    },
-    "credit-contract-date-title" : {
-        "common" : {
-            "uk" : "Дата укладення договору",
-            "en" : "Contract date",
-            "ru" : "Дата заключения договора"
-        },
-        "official" : {
-            "uk" : "Дата укладення договору",
-            "en" : "Contract date",
-            "ru" : "Дата заключения договора"
-        },
-        "dude" : {
-            "uk" : "Дата укладення договору",
-            "en" : "Contract date",
-            "ru" : "Дата заключения договора"
-        }
-    },
-    "credit-recommendation-title" : {
-        "official" : {
-            "en" : "We recommend that you deposit 5 days before the payment date",
-            "uk" : "Рекомендуємо внести кошти за 5 днів до дати платежу",
-            "ru" : "Рекомендуем внести сумму за 5 дней до даты платежа"
-        },
-        "common" : {
-            "en" : "We recommend that you deposit 5 days before the payment date",
-            "uk" : "Рекомендуємо внести кошти за 5 днів до дати платежу",
-            "ru" : "Рекомендуем внести сумму за 5 дней до даты платежа"
-        },
-        "dude" : {
-            "en" : "We recommend that you deposit 5 days before the payment date",
-            "uk" : "Рекомендуємо внести кошти за 5 днів до дати платежу",
-            "ru" : "Рекомендуем внести сумму за 5 дней до даты платежа"
-        }
-    },
-    "credit-next-payment-amount-title" : {
-        "common" : {
-            "uk" : "Сума наступного платежу",
-            "ru" : "Сумма следующего платежа",
-            "en" : "Next payment amount"
-        },
-        "dude" : {
-            "uk" : "Сума наступного платежу",
-            "ru" : "Сумма следующего платежа",
-            "en" : "Next payment amount"
-        },
-        "official" : {
-            "uk" : "Сума наступного платежу",
-            "ru" : "Сумма следующего платежа",
-            "en" : "Next payment amount"
-        }
-    },
-    "credit-edit-screen-title" : {
-        "common" : {
-            "en" : "Loan editing",
-            "ru" : "Редактирование кредита",
-            "uk" : "Редагування кредиту"
-        },
-        "official" : {
-            "en" : "Loan editing",
-            "ru" : "Редактирование кредита",
-            "uk" : "Редагування кредиту"
-        },
-        "dude" : {
-            "en" : "Loan editing",
-            "ru" : "Редактирование кредита",
-            "uk" : "Редагування кредиту"
-        }
+    "friendly": {
+      "en": "Information",
+      "uk": "Інформація",
+      "ru": "Информация"
     }
+  },
+  "credit-details-management-tap": {
+    "friendly": {
+      "uk": "Керування",
+      "ru": "Управление",
+      "en": "Management"
+    },
+    "neutral": {
+      "uk": "Керування",
+      "ru": "Управление",
+      "en": "Management"
+    },
+    "business": {
+      "uk": "Керування",
+      "ru": "Управление",
+      "en": "Management"
+    }
+  },
+  "credit-details-payment-button-title": {
+    "business": {
+      "uk": "Сплатити",
+      "en": "Payment",
+      "ru": "Оплатить"
+    },
+    "friendly": {
+      "uk": "Сплатити",
+      "en": "Payment",
+      "ru": "Оплатить"
+    },
+    "neutral": {
+      "uk": "Сплатити",
+      "en": "Payment",
+      "ru": "Оплатить"
+    }
+  },
+  "credit-payment-overdue-title": {
+    "business": {
+      "uk": "Платіж прострочено",
+      "ru": "Платеж просрочен",
+      "en": "Payment is overdue"
+    },
+    "friendly": {
+      "uk": "Платіж прострочено",
+      "ru": "Платеж просрочен",
+      "en": "Payment is overdue"
+    },
+    "neutral": {
+      "uk": "Платіж прострочено",
+      "ru": "Платеж просрочен",
+      "en": "Payment is overdue"
+    }
+  },
+  "credit-type-title": {
+    "neutral": {
+      "ru": "Тип кредита",
+      "en": "Loan type",
+      "uk": "Тип кредиту"
+    },
+    "friendly": {
+      "ru": "Тип кредита",
+      "en": "Loan type",
+      "uk": "Тип кредиту"
+    },
+    "business": {
+      "ru": "Тип кредита",
+      "en": "Loan type",
+      "uk": "Тип кредиту"
+    }
+  },
+  "credit-commission-title": {
+    "business": {
+      "ru": "Комиссия",
+      "en": "Commission",
+      "uk": "Комісія"
+    },
+    "friendly": {
+      "ru": "Комиссия",
+      "en": "Commission",
+      "uk": "Комісія"
+    },
+    "neutral": {
+      "ru": "Комиссия",
+      "en": "Commission",
+      "uk": "Комісія"
+    }
+  },
+  "credit-details-documents-title": {
+    "neutral": {
+      "uk": "Доступні документи",
+      "ru": "Доступные документы",
+      "en": "Available documents"
+    },
+    "business": {
+      "uk": "Доступні документи",
+      "ru": "Доступные документы",
+      "en": "Available documents"
+    },
+    "friendly": {
+      "uk": "Доступні документи",
+      "ru": "Доступные документы",
+      "en": "Available documents"
+    }
+  },
+  "credit-rate-per-annum-title": {
+    "neutral": {
+      "en": "Interest rate per annum",
+      "ru": "Процентная ставка, годовых",
+      "uk": "Відсоткова ставка, річних"
+    },
+    "friendly": {
+      "en": "Interest rate per annum",
+      "ru": "Процентная ставка, годовых",
+      "uk": "Відсоткова ставка, річних"
+    },
+    "business": {
+      "en": "Interest rate per annum",
+      "ru": "Процентная ставка, годовых",
+      "uk": "Відсоткова ставка, річних"
+    }
+  },
+  "credit-term-title": {
+    "friendly": {
+      "ru": "Термин кредита",
+      "uk": "Термін кредиту",
+      "en": "Loan term"
+    },
+    "neutral": {
+      "ru": "Термин кредита",
+      "uk": "Термін кредиту",
+      "en": "Loan term"
+    },
+    "business": {
+      "ru": "Термин кредита",
+      "uk": "Термін кредиту",
+      "en": "Loan term"
+    }
+  },
+  "credit-details-common-info-title": {
+    "business": {
+      "uk": "Загальна інформація",
+      "ru": "Общая информация",
+      "en": "Common information"
+    },
+    "neutral": {
+      "uk": "Загальна інформація",
+      "ru": "Общая информация",
+      "en": "Common information"
+    },
+    "friendly": {
+      "uk": "Загальна інформація",
+      "ru": "Общая информация",
+      "en": "Common information"
+    }
+  },
+  "credit-contract-number-title": {
+    "business": {
+      "en": "Contract number",
+      "uk": "Номер договору",
+      "ru": "Номер договора"
+    },
+    "friendly": {
+      "en": "Contract number",
+      "uk": "Номер договору",
+      "ru": "Номер договора"
+    },
+    "neutral": {
+      "en": "Contract number",
+      "uk": "Номер договору",
+      "ru": "Номер договора"
+    }
+  },
+  "credit-details-repayment-schedule-view-title": {
+    "friendly": {
+      "uk": "Графік погашення",
+      "ru": "График погашения",
+      "en": "Repayment schedule"
+    },
+    "business": {
+      "uk": "Графік погашення",
+      "ru": "График погашения",
+      "en": "Repayment schedule"
+    },
+    "neutral": {
+      "uk": "Графік погашення",
+      "ru": "График погашения",
+      "en": "Repayment schedule"
+    }
+  },
+  "credit-minimum-payment-title": {
+    "neutral": {
+      "uk": "Мінімальний платіж",
+      "en": "Minimum payment",
+      "ru": "Минимальный платеж"
+    },
+    "friendly": {
+      "uk": "Мінімальний платіж",
+      "en": "Minimum payment",
+      "ru": "Минимальный платеж"
+    },
+    "business": {
+      "uk": "Мінімальний платіж",
+      "en": "Minimum payment",
+      "ru": "Минимальный платеж"
+    }
+  },
+  "credit-details-history-tap": {
+    "neutral": {
+      "en": "History",
+      "uk": "Історія",
+      "ru": "История"
+    },
+    "business": {
+      "en": "History",
+      "uk": "Історія",
+      "ru": "История"
+    },
+    "friendly": {
+      "en": "History",
+      "uk": "Історія",
+      "ru": "История"
+    }
+  },
+  "credit-details-abount-payments-title": {
+    "friendly": {
+      "en": "About payments",
+      "uk": "О платежах",
+      "ru": "О платежах"
+    },
+    "neutral": {
+      "en": "About payments",
+      "uk": "О платежах",
+      "ru": "О платежах"
+    },
+    "business": {
+      "en": "About payments",
+      "uk": "О платежах",
+      "ru": "О платежах"
+    }
+  },
+  "credit-months-title": {
+    "neutral": {
+      "uk": "%@ міс.",
+      "ru": "%@ мес.",
+      "en": "%@ mo."
+    },
+    "business": {
+      "uk": "%@ міс.",
+      "ru": "%@ мес.",
+      "en": "%@ mo."
+    },
+    "friendly": {
+      "uk": "%@ міс.",
+      "ru": "%@ мес.",
+      "en": "%@ mo."
+    }
+  },
+  "credit-contributed-payment-title": {
+    "business": {
+      "uk": "Внесено",
+      "ru": "Внесено",
+      "en": "Contributed"
+    },
+    "friendly": {
+      "uk": "Внесено",
+      "ru": "Внесено",
+      "en": "Contributed"
+    },
+    "neutral": {
+      "uk": "Внесено",
+      "ru": "Внесено",
+      "en": "Contributed"
+    }
+  },
+  "credit-loan-repayment-amount-title": {
+    "business": {
+      "en": "Loan repayment amount",
+      "uk": "Сума дострокового погашення кредиту",
+      "ru": "Cумма досрочного погашения кредита"
+    },
+    "neutral": {
+      "en": "Loan repayment amount",
+      "uk": "Сума дострокового погашення кредиту",
+      "ru": "Cумма досрочного погашения кредита"
+    },
+    "friendly": {
+      "en": "Loan repayment amount",
+      "uk": "Сума дострокового погашення кредиту",
+      "ru": "Cумма досрочного погашения кредита"
+    }
+  },
+  "credit-full-loan-amount-title": {
+    "business": {
+      "en": "Full loan amount",
+      "ru": "Полная сумма кредита",
+      "uk": "Повна сума кредиту"
+    },
+    "friendly": {
+      "en": "Full loan amount",
+      "ru": "Полная сумма кредита",
+      "uk": "Повна сума кредиту"
+    },
+    "neutral": {
+      "en": "Full loan amount",
+      "ru": "Полная сумма кредита",
+      "uk": "Повна сума кредиту"
+    }
+  },
+  "credit-loan-expiration-date-title": {
+    "friendly": {
+      "en": "Loan expiration date",
+      "uk": "Дата закінчення кредиту",
+      "ru": "Дата окончания кредита"
+    },
+    "neutral": {
+      "en": "Loan expiration date",
+      "uk": "Дата закінчення кредиту",
+      "ru": "Дата окончания кредита"
+    },
+    "business": {
+      "en": "Loan expiration date",
+      "uk": "Дата закінчення кредиту",
+      "ru": "Дата окончания кредита"
+    }
+  },
+  "credit-next-payment-title": {
+    "friendly": {
+      "uk": "Наступний платіж",
+      "en": "Next payment",
+      "ru": "Следующий платеж"
+    },
+    "neutral": {
+      "uk": "Наступний платіж",
+      "en": "Next payment",
+      "ru": "Следующий платеж"
+    },
+    "business": {
+      "uk": "Наступний платіж",
+      "en": "Next payment",
+      "ru": "Следующий платеж"
+    }
+  },
+  "credit-next-payment-to-date-title": {
+    "neutral": {
+      "en": "Payment must be paid before",
+      "ru": "Платеж необходимо внести до",
+      "uk": "Платіж треба внести до"
+    },
+    "business": {
+      "en": "Payment must be paid before",
+      "ru": "Платеж необходимо внести до",
+      "uk": "Платіж треба внести до"
+    },
+    "friendly": {
+      "en": "Payment must be paid before",
+      "ru": "Платеж необходимо внести до",
+      "uk": "Платіж треба внести до"
+    }
+  },
+  "credit-contract-date-title": {
+    "neutral": {
+      "uk": "Дата укладення договору",
+      "en": "Contract date",
+      "ru": "Дата заключения договора"
+    },
+    "business": {
+      "uk": "Дата укладення договору",
+      "en": "Contract date",
+      "ru": "Дата заключения договора"
+    },
+    "friendly": {
+      "uk": "Дата укладення договору",
+      "en": "Contract date",
+      "ru": "Дата заключения договора"
+    }
+  },
+  "credit-recommendation-title": {
+    "business": {
+      "en": "We recommend that you deposit 5 days before the payment date",
+      "uk": "Рекомендуємо внести кошти за 5 днів до дати платежу",
+      "ru": "Рекомендуем внести сумму за 5 дней до даты платежа"
+    },
+    "neutral": {
+      "en": "We recommend that you deposit 5 days before the payment date",
+      "uk": "Рекомендуємо внести кошти за 5 днів до дати платежу",
+      "ru": "Рекомендуем внести сумму за 5 дней до даты платежа"
+    },
+    "friendly": {
+      "en": "We recommend that you deposit 5 days before the payment date",
+      "uk": "Рекомендуємо внести кошти за 5 днів до дати платежу",
+      "ru": "Рекомендуем внести сумму за 5 дней до даты платежа"
+    }
+  },
+  "credit-next-payment-amount-title": {
+    "neutral": {
+      "uk": "Сума наступного платежу",
+      "ru": "Сумма следующего платежа",
+      "en": "Next payment amount"
+    },
+    "friendly": {
+      "uk": "Сума наступного платежу",
+      "ru": "Сумма следующего платежа",
+      "en": "Next payment amount"
+    },
+    "business": {
+      "uk": "Сума наступного платежу",
+      "ru": "Сумма следующего платежа",
+      "en": "Next payment amount"
+    }
+  },
+  "credit-edit-screen-title": {
+    "neutral": {
+      "en": "Loan editing",
+      "ru": "Редактирование кредита",
+      "uk": "Редагування кредиту"
+    },
+    "business": {
+      "en": "Loan editing",
+      "ru": "Редактирование кредита",
+      "uk": "Редагування кредиту"
+    },
+    "friendly": {
+      "en": "Loan editing",
+      "ru": "Редактирование кредита",
+      "uk": "Редагування кредиту"
+    }
+  }
 }

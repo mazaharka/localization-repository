@@ -1,28 +1,16 @@
-﻿<Properties StartupConfiguration="{AE01DA3A-9154-4308-A3CF-4D64A8CF2C22}|LocalizationRep">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LocalizationRep/Models/XMLKeyModel.cs">
+﻿<Properties StartupConfiguration="{AE01DA3A-9154-4308-A3CF-4D64A8CF2C22}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LocalizationRep/Utilities/FileActionXML.cs">
     <Files>
-      <File FileName="LocalizationRep/Views/FileAction/Index.cshtml" Line="68" Column="16" />
-      <File FileName="LocalizationRep/Views/MainTable/Index.cshtml" />
-      <File FileName="LocalizationRep/Controllers/FileActionController.cs" />
-      <File FileName="LocalizationRep/Utilities/FileActionXML.cs" />
-      <File FileName="LocalizationRep/Models/LangKeyModel.cs" />
-      <File FileName="LocalizationRep/Models/StyleJsonKeyModel.cs" />
-      <File FileName="LocalizationRep/Views/FileAction/NotMatched.cshtml" />
-      <File FileName="LocalizationRep/Models/LangValue.cs" />
-      <File FileName="LocalizationRep/Program.cs" />
-      <File FileName="LocalizationRep/Views/Sections/Index.cshtml" />
-      <File FileName="LocalizationRep/Controllers/SectionsController.cs" />
-      <File FileName="LocalizationRep/Models/NotMatchedItem.cs" />
-      <File FileName="LocalizationRep/Models/MainTable.cs" />
-      <File FileName="LocalizationRep/Models/JsonKeyModel.cs" />
-      <File FileName="LocalizationRep/Models/FileModel.cs" />
-      <File FileName="LocalizationRep/Models/ErrorViewModel.cs" />
-      <File FileName="LocalizationRep/Models/CsvFileModel.cs" />
-      <File FileName="LocalizationRep/Models/CsvFileMap.cs" />
-      <File FileName="LocalizationRep/Models/CommentAndroidXMLModel.cs" />
-      <File FileName="LocalizationRep/Models/Sections.cs" />
-      <File FileName="LocalizationRep/Models/SectionSearchViewModel.cs" />
-      <File FileName="LocalizationRep/Models/XMLKeyModel.cs" Line="1" Column="1" />
+      <File FileName="LocalizationRep/Utilities/FileActionXML.cs" Line="286" Column="1" />
+      <File FileName="LocalizationRep/Controllers/FileActionController.cs" Line="289" Column="32" />
+      <File FileName="LocalizationRep/Controllers/MainTableController.cs" Line="1" Column="1" />
+      <File FileName="LocalizationRep/Controllers/AndroidTableActionController.cs" Line="130" Column="49" />
+      <File FileName="LocalizationRep/Utilities/ActionWithDataBase.cs" Line="184" Column="1" />
+      <File FileName="LocalizationRep/Views/FileAction/Index.cshtml" Line="95" Column="32" />
+      <File FileName="LocalizationRep/Utilities/FileActionHelpers.cs" Line="24" Column="35" />
+      <File FileName="LocalizationRep/Utilities/FileActionJSON.cs" Line="47" Column="18" />
+      <File FileName="LocalizationRep/Views/AndroidTableAction/Index.cshtml" Line="36" Column="103" />
+      <File FileName="LocalizationRep/Models/LangValue.cs" Line="10" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -31,13 +19,12 @@
             <Node name="LocalizationRep" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="XMLKeyModel.cs" selected="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Utilities" expanded="True">
+                <Node name="FileActionXML.cs" selected="True" />
               </Node>
-              <Node name="Properties" expanded="True" />
-              <Node name="Utilities" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="AndroidTableAction" expanded="True" />
                 <Node name="FileAction" expanded="True" />
                 <Node name="Home" expanded="True" />
                 <Node name="MainTable" expanded="True" />
@@ -49,13 +36,22 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>CommonID</Value>
+          <Value>fileСontentsItem.Name</Value>
+        </State>
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/zakharklochkov/localization-repository/LocalizationRep/Utilities/FileActionXML.cs" relfile="LocalizationRep/Utilities/FileActionXML.cs" line="276" column="1" />
+      <Breakpoint file="/Users/zakharklochkov/localization-repository/LocalizationRep/Utilities/FileActionXML.cs" relfile="LocalizationRep/Utilities/FileActionXML.cs" line="289" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.LocalizationRep PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.LocalizationRep PreferredExecutionTarget="/Applications/Safari.app" />
 </Properties>

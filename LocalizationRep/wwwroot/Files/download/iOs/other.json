@@ -1,53 +1,53 @@
 {
-    "other-desktop-title-light-approach" : {
-        "dude" : {
-            "ru" : "Светлый",
-            "en" : "Light",
-            "uk" : "Светлый"
-        },
-        "official" : {
-            "ru" : "Светлый",
-            "en" : "Light",
-            "uk" : "Светлый"
-        },
-        "common" : {
-            "ru" : "Светлый",
-            "en" : "Light",
-            "uk" : "Светлый"
-        }
+  "other-desktop-title-light-approach": {
+    "friendly": {
+      "ru": "Светлый",
+      "en": "Light",
+      "uk": "Светлый"
     },
-    "other-desktop-title-auto-approach" : {
-        "dude" : {
-            "ru" : "Автоматически",
-            "en" : "Auto",
-            "uk" : "Автоматически"
-        },
-        "common" : {
-            "ru" : "Автоматически",
-            "en" : "Auto",
-            "uk" : "Автоматически"
-        },
-        "official" : {
-            "ru" : "Автоматически",
-            "en" : "Auto",
-            "uk" : "Автоматически"
-        }
+    "business": {
+      "ru": "Светлый",
+      "en": "Light",
+      "uk": "Светлый"
     },
-    "other-desktop-title-dark-approach" : {
-        "common" : {
-            "uk" : "Тёмный",
-            "ru" : "Тёмный",
-            "en" : "Dark"
-        },
-        "dude" : {
-            "uk" : "Тёмный",
-            "ru" : "Тёмный",
-            "en" : "Dark"
-        },
-        "official" : {
-            "uk" : "Тёмный",
-            "ru" : "Тёмный",
-            "en" : "Dark"
-        }
+    "neutral": {
+      "ru": "Светлый",
+      "en": "Light",
+      "uk": "Светлый"
     }
+  },
+  "other-desktop-title-auto-approach": {
+    "friendly": {
+      "ru": "Автоматически",
+      "en": "Auto",
+      "uk": "Автоматически"
+    },
+    "neutral": {
+      "ru": "Автоматически",
+      "en": "Auto",
+      "uk": "Автоматически"
+    },
+    "business": {
+      "ru": "Автоматически",
+      "en": "Auto",
+      "uk": "Автоматически"
+    }
+  },
+  "other-desktop-title-dark-approach": {
+    "neutral": {
+      "uk": "Тёмный",
+      "ru": "Тёмный",
+      "en": "Dark"
+    },
+    "friendly": {
+      "uk": "Тёмный",
+      "ru": "Тёмный",
+      "en": "Dark"
+    },
+    "business": {
+      "uk": "Тёмный",
+      "ru": "Тёмный",
+      "en": "Dark"
+    }
+  }
 }

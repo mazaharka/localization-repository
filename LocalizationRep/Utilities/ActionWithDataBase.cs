@@ -99,44 +99,65 @@ namespace LocalizationRep.Utilities
 
         public static void AddUniqueSection(LocalizationRepContext _context, List<FileModel> FilesName)
         {
+            string IOS = "ios";
+            var sections = _context.Section.ToList();
+            List<string> sectionsToAdd = new List<string>();
+
+            foreach (var sectionsItem in sections)
+            {
+                sectionsToAdd.Add(sectionsItem.Title);
+            }
+
+
+
             foreach (var fileСontentsItem in FilesName)
             {
+                DirectoryInfo directoryInfo = new DirectoryInfo(fileСontentsItem.Path);
+                string directoryInfoParentName = directoryInfo.Parent.Name;
                 bool next = true;
-                if (fileСontentsItem.TypeOfLoad.Equals(FileActionHelpers.TypeOfLoad.UPLOAD.ToString()))
+                if (fileСontentsItem.TypeOfLoad.Equals(FileActionHelpers.TypeOfLoad.UPLOAD.ToString()) && directoryInfoParentName.ToLower() == IOS.ToLower())
                 {
-
-                    foreach (Sections section in _context.Section)
+                    string tempFileName = Path.GetFileNameWithoutExtension(fileСontentsItem.Name);
+                    //var s = sectionsToAdd.Contains(tempFileName);
+                    if (!sectionsToAdd.Contains(tempFileName))// _context.Section.Where(s => s.Title == Path.GetFileNameWithoutExtension(fileСontentsItem.Name)) == null)
                     {
-                        if (fileСontentsItem.Name.Equals(section.Title))
+
+                        //}
+
+                        //foreach (Sections section in _context.Section)
+                        //{
+                        //    if (fileСontentsItem.Name.Equals(section.Title))
+                        //    {
+                        //        next = false;
+                        //        break;
+                        //    }
+                        //}
+
+                        string shortNameUn = GetUniqueShortName(tempFileName.ToUpper());
+                        int randomNumber = 0;
+                        foreach (Sections section in _context.Section)
                         {
-                            next = false;
-                            break;
+
+                            while (section.ShortName.Equals(shortNameUn))
+                            {
+                                shortNameUn = shortNameUn.Replace(shortNameUn.Substring(3, 1), randomNumber.ToString());
+                                randomNumber++;
+                            }
                         }
-                    }
-
-                    string shortNameUn = GetUniqueShortName(Path.GetFileNameWithoutExtension(fileСontentsItem.Name).ToUpper());
-                    int randomNumber = 0;
-                    foreach (Sections section in _context.Section)
-                    {
-
-                        while (section.ShortName.Equals(shortNameUn))
-                        {
-                            shortNameUn = shortNameUn.Replace(shortNameUn.Substring(3, 1), randomNumber.ToString());
-                            randomNumber++;
-                        }
-                    }
 
 
-                    if (next && Path.GetExtension(fileСontentsItem.Path) == ".json")
-                    {
-                        _context.Section.AddRange(
-                                   new Sections
-                                   {
-                                       Title = Path.GetFileNameWithoutExtension(fileСontentsItem.Name).ToString(),
-                                       LastIndexOfCommonID = "0000",
-                                       ShortName = shortNameUn
-                                   });
-                        _context.SaveChanges();
+                        //if (next && Path.GetExtension(fileСontentsItem.Path) == ".json")
+                        //{
+                            _context.Section.AddRange(
+                                       new Sections
+                                       {
+                                           Title = tempFileName,
+                                           LastIndexOfCommonID = "0000",
+                                           ShortName = shortNameUn
+                                       });
+                            _context.SaveChanges();
+                        //}
+                        sectionsToAdd.Add(tempFileName);
                     }
                 }
             }
@@ -194,7 +215,7 @@ namespace LocalizationRep.Utilities
             }
             else if (fileName.Length < 4)
             {
-                while (fileName.Length < 4)
+                while (returnString.Length < 4)
                 {
                     returnString += "0";
                 }

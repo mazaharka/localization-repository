@@ -1,0 +1,189 @@
+﻿@model LocalizationRep.Models.AndroidTableSearchViewModel
+
+@{ ViewData["Title"] = "Добавление файла"; }
+
+
+<form>
+    <input type="submit" formaction="/AndroidTableAction/UpdateSectionFromFile" value="Обновить разделы" />
+    <input type="submit" formaction="/AndroidTableAction/EraseAllSectionFromDb" name="whatIMustRemove" value="All" />
+</form>
+
+
+<form>
+    <input type="submit" formaction="/AndroidTableAction/ReadFileXML" value="Прочитать все XML файлы" />
+</form>
+
+<form>
+    <input type="submit" formaction="/AndroidTableAction/DeleteDublicateAction" value="Найти дубликаты" />
+</form>
+
+<form>
+    <input type="submit" formaction="/AndroidTableAction/EraseAndoridCommentInMainTable" value="Удалить комментарии из сводной таблицы" />
+</form>
+<form>
+    <input type="submit" formaction="/AndroidTableAction/RemoveAllAndoridIdMatchesInMainTable" value="Удалить все совпадения ID из сводной таблицы" />
+</form>
+
+<form>
+    <input type="submit" formaction="/AndroidTableAction/ReadAndCompareXMLBetweenTable" value="Найти совпадения" />
+</form>
+
+<form>
+    <input type="submit" formaction="/AndroidTableAction/CompareCommonIDBetweenMainTableAndAndroid" value="Сопоставить общие идентификаторы" />
+</form>
+
+<form>
+    <input type="submit" formaction="/AndroidTableAction/CreateEntitesFromNullCommandIdInAndroidTables" value="Создать записи в общей таблице из несовпавших" />
+</form>
+
+<form>
+    <input type="submit" formaction="/AndroidTableAction/FillCommonIdInAndroidTableAccordingMainTable" value="Заполнить CommandID для Android в соответствие с общей таблицей" />
+</form>
+
+<form>
+    <input type="submit" formaction="/AndroidTableAction/FillInMissingTextsInAndroidTable" value="Заполнить пустые тексты" />
+</form>
+
+<form>
+    <input type="submit" formaction="/AndroidTableAction/FillInMainTableAndroidInfo" value="Заполнить номера строк XML в главной таблице" />
+</form>
+
+<form>
+    <input type="submit" formaction="/AndroidTableAction/DeleteAllAndroidItemsFromMainTable" value="Удалить все записи Android" />
+</form>
+
+<form>
+    <input type="submit" formaction="/AndroidTableAction/ChangeSectionByPack" value="Обновить секции по комментарию Android" />
+</form>
+
+
+<h3>@ViewData["Section"] </h3>
+<br />
+
+
+<div id="accordion">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Разворачиваемая панель #1
+                </button>
+            </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.AndroidTable[0].CommonID)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.AndroidTable[0].AndroidID)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.AndroidTable[0].RU_NEUTRAL)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.AndroidTable[0].CommentValue)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.AndroidTable[0].StringNumber)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.AndroidTable[0].Section)
+                                <form asp-controller="AndroidTableAction" asp-action="Index" method="get">
+                                    <p>
+                                        <select asp-for="SectionSearch" asp-items="Model.Sections" onChange="this.form.submit()" class="text-uppercase">
+                                            <option value="">All</option>
+                                        </select>
+                                    </p>
+                                </form>
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.AndroidTable)
+                        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CommonID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AndroidID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RU_NEUTRAL)<br />
+                    @Html.DisplayFor(modelItem => item.EN_NEUTRAL)<br />
+                    @Html.DisplayFor(modelItem => item.UK_NEUTRAL)<br /><br />
+
+                    @Html.DisplayFor(modelItem => item.RU_BUSINESS)<br />
+                    @Html.DisplayFor(modelItem => item.EN_BUSINESS)<br />
+                    @Html.DisplayFor(modelItem => item.UK_BUSINESS)<br /><br />
+
+                    @Html.DisplayFor(modelItem => item.RU_FRIENDLY)<br />
+                    @Html.DisplayFor(modelItem => item.EN_FRIENDLY)<br />
+                    @Html.DisplayFor(modelItem => item.UK_FRIENDLY)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CommentValue)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StringNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Section.Title)
+                    <form asp-controller="AndroidTableAction" asp-action="UpdateItem" asp-route-commonID="@item.CommonID" method="post">
+                        <p>
+                            <select name="androidItemSection" asp-for="SectionSearch" asp-items="Model.Sections" onChange="this.form.submit()" class="text-uppercase">
+                                <option selected="selected" value="@item.CommonID">@item.Section.Title</option>
+                            </select>
+                        </p>
+                    </form>
+                </td>
+            </tr>}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Разворачиваемая панель #2
+                </button>
+            </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Разворачиваемая панель #3
+                </button>
+            </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+

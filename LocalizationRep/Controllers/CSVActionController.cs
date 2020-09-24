@@ -65,6 +65,7 @@ namespace LocalizationRep.Controllers
                                 default:
                                     break;
                             }
+                            _context.SaveChanges();
                         }
                     }
                 }

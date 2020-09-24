@@ -101,6 +101,7 @@
                         {
                                 <li>
                                     @item.Name
+                                
                                     <a asp-action="UpdateFileInDatabase" asp-route-filename="@item.Path">UpDate</a><br>
                                     <a asp-action="UpdateXMLFromFile" asp-route-path="@item.Path">AddToDB</a><br>
                                     <a asp-action="RemoveFileFromServer" asp-route-fullpath="@item.Path">Remove</a>

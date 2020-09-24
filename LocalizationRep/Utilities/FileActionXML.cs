@@ -122,45 +122,45 @@ namespace LocalizationRep.Utilities
 
                         _context.AndroidTable.Add(androidItem);
                     }
-                    else
-                    {
-                        var androidItemExist = _context.AndroidTable.FirstOrDefault(b => b.AndroidID == item.AttributeValue);
-                        DirectoryInfo directoryInfo = new DirectoryInfo(path);
+                    //else
+                    //{
+                    //    var androidItemExist = _context.AndroidTable.FirstOrDefault(b => b.AndroidID == item.AttributeValue);
+                    //    DirectoryInfo directoryInfo = new DirectoryInfo(path);
 
-                        switch (directoryInfo.Parent.Name)
-                        {
-                            case "values-" + RU_NEUTRAL:
-                                androidItemExist.RU_NEUTRAL = item.NodeInnerText;
-                                break;
-                            case "values-" + EN_NEUTRAL:
-                                androidItemExist.EN_NEUTRAL = item.NodeInnerText;
-                                break;
-                            case "values":
-                                androidItemExist.UK_NEUTRAL = item.NodeInnerText;
-                                break;
-                            case "values-" + RU_BUSINESS:
-                                androidItemExist.RU_BUSINESS = item.NodeInnerText;
-                                break;
-                            case "values-" + EN_BUSINESS:
-                                androidItemExist.EN_BUSINESS = item.NodeInnerText;
-                                break;
-                            case "values-" + UK_BUSINESS:
-                                androidItemExist.UK_BUSINESS = item.NodeInnerText;
-                                break;
-                            case "values-" + RU_FRIENDLY:
-                                androidItemExist.RU_FRIENDLY = item.NodeInnerText;
-                                break;
-                            case "values-" + EN_FRIENDLY:
-                                androidItemExist.EN_FRIENDLY = item.NodeInnerText;
-                                break;
-                            case "values-" + UK_FRIENDLY:
-                                androidItemExist.UK_FRIENDLY = item.NodeInnerText;
-                                break;
-                            default:
-                                break;
-                        }
-                        _context.AndroidTable.Update(androidItemExist);
-                    }
+                    //    switch (directoryInfo.Parent.Name)
+                    //    {
+                    //        case "values-" + RU_NEUTRAL:
+                    //            androidItemExist.RU_NEUTRAL = item.NodeInnerText;
+                    //            break;
+                    //        case "values-" + EN_NEUTRAL:
+                    //            androidItemExist.EN_NEUTRAL = item.NodeInnerText;
+                    //            break;
+                    //        case "values":
+                    //            androidItemExist.UK_NEUTRAL = item.NodeInnerText;
+                    //            break;
+                    //        case "values-" + RU_BUSINESS:
+                    //            androidItemExist.RU_BUSINESS = item.NodeInnerText;
+                    //            break;
+                    //        case "values-" + EN_BUSINESS:
+                    //            androidItemExist.EN_BUSINESS = item.NodeInnerText;
+                    //            break;
+                    //        case "values-" + UK_BUSINESS:
+                    //            androidItemExist.UK_BUSINESS = item.NodeInnerText;
+                    //            break;
+                    //        case "values-" + RU_FRIENDLY:
+                    //            androidItemExist.RU_FRIENDLY = item.NodeInnerText;
+                    //            break;
+                    //        case "values-" + EN_FRIENDLY:
+                    //            androidItemExist.EN_FRIENDLY = item.NodeInnerText;
+                    //            break;
+                    //        case "values-" + UK_FRIENDLY:
+                    //            androidItemExist.UK_FRIENDLY = item.NodeInnerText;
+                    //            break;
+                    //        default:
+                    //            break;
+                    //    }
+                    //    _context.AndroidTable.Update(androidItemExist);
+                    //}
                 }
             }
 

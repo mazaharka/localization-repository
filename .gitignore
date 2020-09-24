@@ -232,3 +232,10 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+
+#DB files
+*.dll
+*.pdb
+*.Views.dll
+*.Views.pdb
+*.db

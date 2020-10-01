@@ -1,59 +1,59 @@
 {
   "locale-changed-uk": {
     "neutral": {
-      "ru": "Изменения вступят в силу после перезапуска приложения",
-      "uk": "Зміни вступлять в силу після перезапуску додатку",
-      "en": "Зміни вступлять в силу після перезапуску додатку"
+      "ru": "Перезапусти приложение, чтобы изменения вступили в силу",
+      "uk": "Перезапусти додаток, щоб зміни вступили в дію",
+      "en": "Restart the app for changes to take effect"
     },
     "business": {
       "ru": "Изменения вступят в силу после перезапуска приложения",
       "uk": "Зміни вступлять в силу після перезапуску додатку",
-      "en": "Зміни вступлять в силу після перезапуску додатку"
+      "en": "For changes to take effect, the app shall be restarted"
     },
     "friendly": {
-      "ru": "Изменения вступят в силу после перезапуска приложения",
-      "uk": "Зміни вступлять в силу після перезапуску додатку",
-      "en": "Зміни вступлять в силу після перезапуску додатку"
+      "ru": "Перезапусти приложение, чтобы все заработало",
+      "uk": "Перезапусти додаток, щоб усе запрацювало",
+      "en": "Restart the app to make it work"
     }
   },
   "warning-title-uk": {
     "neutral": {
-      "en": "Увага",
-      "ru": "Увага",
+      "en": "Warning",
+      "ru": "Внимание",
       "uk": "Увага"
     },
     "friendly": {
-      "en": "Увага",
-      "ru": "Увага",
+      "en": "Warning",
+      "ru": "Внимание",
       "uk": "Увага"
     },
     "business": {
-      "en": "Увага",
-      "ru": "Увага",
+      "en": "Warning",
+      "ru": "Внимание",
       "uk": "Увага"
     }
   },
   "warning-title-en": {
     "business": {
       "en": "Warning",
-      "ru": "Warning",
-      "uk": "Warning"
+      "ru": "Внимание",
+      "uk": "Увага"
     },
     "friendly": {
       "en": "Warning",
-      "ru": "Warning",
-      "uk": "Warning"
+      "ru": "Внимание",
+      "uk": "Увага"
     },
     "neutral": {
       "en": "Warning",
-      "ru": "Warning",
-      "uk": "Warning"
+      "ru": "Внимание",
+      "uk": "Увага"
     }
   },
   "lightThemeName": {
     "business": {
       "en": "Light",
-      "ru": "business",
+      "ru": "Светлая",
       "uk": "Світла"
     },
     "friendly": {
@@ -87,18 +87,18 @@
   "warning-title-ru": {
     "business": {
       "ru": "Внимание",
-      "en": "Внимание",
-      "uk": "Внимание"
+      "en": "Warning",
+      "uk": "Увага"
     },
     "neutral": {
       "ru": "Внимание",
-      "en": "Внимание",
-      "uk": "Внимание"
+      "en": "Warning",
+      "uk": "Увага"
     },
     "friendly": {
       "ru": "Внимание",
-      "en": "Внимание",
-      "uk": "Внимание"
+      "en": "Warning",
+      "uk": "Увага"
     }
   },
   "darkThemeName": {
@@ -120,36 +120,36 @@
   },
   "locale-changed-en": {
     "business": {
-      "uk": "Changes will take effect after application restart",
-      "ru": "Changes will take effect after application restart",
-      "en": "Changes will take effect after application restart"
+      "uk": "Зміни вступлять в силу після перезапуску додатку",
+      "ru": "Изменения вступят в силу после перезапуска приложения",
+      "en": "For changes to take effect, the app shall be restarted"
     },
     "friendly": {
-      "uk": "Changes will take effect after application restart",
-      "ru": "Changes will take effect after application restart",
-      "en": "Changes will take effect after application restart"
+      "uk": "Перезапусти додаток, щоб усе запрацювало",
+      "ru": "Перезапусти приложение, чтобы все заработало",
+      "en": "Restart the app to make it work"
     },
     "neutral": {
-      "uk": "Changes will take effect after application restart",
-      "ru": "Changes will take effect after application restart",
-      "en": "Changes will take effect after application restart"
+      "uk": "Перезапусти додаток, щоб зміни вступили в дію",
+      "ru": "Перезапусти приложение, чтобы изменения вступили в силу",
+      "en": "For changes to take effect, restart your app"
     }
   },
   "systemThemeName": {
     "business": {
       "en": "System",
       "ru": "Системная",
-      "uk": "Cистемная"
+      "uk": "Cистемна"
     },
     "neutral": {
       "en": "System",
       "ru": "Системная",
-      "uk": "Cистемная"
+      "uk": "Cистемна"
     },
     "friendly": {
       "en": "System",
       "ru": "Системная",
-      "uk": "Cистемная"
+      "uk": "Cистемна"
     }
   },
   "locale-description-en": {
@@ -188,53 +188,104 @@
   },
   "themeSettings": {
     "neutral": {
-      "ru": "Цветовая схема",
-      "en": "Appearance",
-      "uk": "Кольорова схема"
+      "ru": "Выбор темы",
+      "en": "Theme selection",
+      "uk": "Вибір теми"
     },
     "friendly": {
-      "ru": "Цветовая схема",
-      "en": "Appearance",
-      "uk": "Кольорова схема"
+      "ru": "Выбор темы",
+      "en": "Theme selection",
+      "uk": "Вибір теми"
     },
     "business": {
-      "ru": "Цветовая схема",
-      "en": "Appearance",
-      "uk": "Кольорова схема"
+      "ru": "Выбор темы",
+      "en": "Theme selection",
+      "uk": "Вибір теми"
     }
   },
   "token-copy-title": {
     "neutral": {
-      "en": "%@ was copied to clipboard",
-      "uk": "%@ був скопійований в буфер",
-      "ru": "%@ был скопирован в буфер"
+      "en": "%@ is copied",
+      "uk": "%@ скопійовано",
+      "ru": "%@ скопирован"
     },
     "friendly": {
-      "en": "%@ was copied to clipboard",
-      "uk": "%@ був скопійований в буфер",
-      "ru": "%@ был скопирован в буфер"
+      "en": "%@ is copied",
+      "uk": "%@ скопійовано",
+      "ru": "%@ скопирован"
     },
     "business": {
-      "en": "%@ was copied to clipboard",
-      "uk": "%@ був скопійований в буфер",
-      "ru": "%@ был скопирован в буфер"
+      "en": "%@ is copied",
+      "uk": "%@ скопійовано",
+      "ru": "%@ скопирован"
     }
   },
   "locale-changed-ru": {
     "business": {
       "ru": "Изменения вступят в силу после перезапуска приложения",
-      "en": "Изменения вступят в силу после перезапуска приложения",
-      "uk": "Изменения вступят в силу после перезапуска приложения"
+      "en": "For changes to take effect, the app shall be restarted",
+      "uk": "Зміни вступлять в силу після перезапуску додатку"
     },
     "friendly": {
-      "ru": "Изменения вступят в силу после перезапуска приложения",
-      "en": "Изменения вступят в силу после перезапуска приложения",
-      "uk": "Изменения вступят в силу после перезапуска приложения"
+      "ru": "Перезапусти приложение, чтобы все заработало",
+      "en": "Restart the app to make it work",
+      "uk": "Перезапусти додаток, щоб усе запрацювало"
     },
     "neutral": {
-      "ru": "Изменения вступят в силу после перезапуска приложения",
-      "en": "Изменения вступят в силу после перезапуска приложения",
-      "uk": "Изменения вступят в силу после перезапуска приложения"
+      "ru": "Перезапусти приложение, чтобы изменения вступили в силу",
+      "en": "Restart the app for changes to take effect",
+      "uk": "Перезапусти додаток, щоб зміни вступили в дію"
+    }
+  },
+  "style-description-neutral": {
+    "friendly": {
+      "uk": "Стриманий",
+      "ru": "Сдержанный",
+      "en": "Neutral"
+    },
+    "neutral": {
+      "uk": "Стриманий",
+      "ru": "Сдержанный",
+      "en": "Neutral"
+    },
+    "business": {
+      "uk": "Стриманий",
+      "ru": "Сдержанный",
+      "en": "Neutral"
+    }
+  },
+  "style-description-business": {
+    "friendly": {
+      "uk": "Діловий",
+      "ru": "Деловой",
+      "en": "Business"
+    },
+    "neutral": {
+      "uk": "Діловий",
+      "ru": "Деловой",
+      "en": "Business"
+    },
+    "business": {
+      "uk": "Діловий",
+      "ru": "Деловой",
+      "en": "Business"
+    }
+  },
+  "style-description-friendly": {
+    "friendly": {
+      "uk": "Дружній",
+      "ru": "Дружеский",
+      "en": "Friendly"
+    },
+    "neutral": {
+      "uk": "Дружній",
+      "ru": "Дружеский",
+      "en": "Friendly"
+    },
+    "business": {
+      "uk": "Дружній",
+      "ru": "Дружеский",
+      "en": "Friendly"
     }
   }
 }

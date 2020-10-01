@@ -20,17 +20,17 @@
     "business": {
       "ru": "Просто платите картой чаще, чтобы они появились",
       "uk": "Просто сплачуйте карткою частіше, щоб вони з'явилися ",
-      "en": "Just pay with your card more often and you will get them"
+      "en": "Please pay with your card more often to make them appear"
     },
     "neutral": {
       "ru": "Просто чаще плати картой, и они появятся",
       "uk": "Просто частіше сплачуй карткою, і вони з'являться",
-      "en": "Just pay with your card more often and you will get them"
+      "en": "Just pay with your card more often and they will appear"
     },
     "friendly": {
       "ru": "Просто чаще плати картой, и они появятся:)",
       "uk": "Просто частіше сплачуй карткою, і вони з'являться:)",
-      "en": "Just pay with your card more often and you will get them:)"
+      "en": "Just pay with your card more often for them to appear :)"
     }
   },
   "cashU-details-tap-prizes-promotion-prize-completed-more": {
@@ -133,23 +133,6 @@
       "uk": "Історія бонусів",
       "ru": "История бонусов",
       "en": "Bonus issue history"
-    }
-  },
-  "cashU-details-tap-categories-historyCategory-monthName": {
-    "business": {
-      "uk": "{ \"ie:x=0\": \"Січень\",  \"ie:x=1\": \"Лютий\",  \"ie:x=2\": \"Березень\",  \"ie:x=3\": \"Квітень\",  \"ie:x=4\": \"Травень\",  \"ie:x=5\": \"Червень\",  \"ie:x=6\": \"Липень\",  \"ie:x=7\": \"Серпень\",  \"ie:x=8\": \"Вересень\",  \"ie:x=9\": \"Жовтень\",  \"ie:x=10\": \"Листопад\",  \"ie:x=11\": \"Грудень\" }",
-      "ru": "{ \"ie:x=0\": \"Январь\",  \"ie:x=1\": \"Февраль\",  \"ie:x=2\": \"Март\",  \"ie:x=3\": \"Апрель\",  \"ie:x=4\": \"Май\",  \"ie:x=5\": \"Июнь\",  \"ie:x=6\": \"Июль\",  \"ie:x=7\": \"Август\",  \"ie:x=8\": \"Сентябрь\",  \"ie:x=9\": \"Октябрь\",  \"ie:x=10\": \"Ноябрь\",  \"ie:x=11\": \"Декабрь\" }",
-      "en": "{ \"ie:x=0\": \"January\",  \"ie:x=1\": \"February\",  \"ie:x=2\": \"March\",  \"ie:x=3\": \"April\",  \"ie:x=4\": \"May\",  \"ie:x=5\": \"June\",  \"ie:x=6\": \"July\",  \"ie:x=7\": \"August\",  \"ie:x=8\": \"September\",  \"ie:x=9\": \"October\",  \"ie:x=10\": \"November\",  \"ie:x=11\": \"December\" }"
-    },
-    "neutral": {
-      "uk": "{ \"ie:x=0\": \"Січень\",  \"ie:x=1\": \"Лютий\",  \"ie:x=2\": \"Березень\",  \"ie:x=3\": \"Квітень\",  \"ie:x=4\": \"Травень\",  \"ie:x=5\": \"Червень\",  \"ie:x=6\": \"Липень\",  \"ie:x=7\": \"Серпень\",  \"ie:x=8\": \"Вересень\",  \"ie:x=9\": \"Жовтень\",  \"ie:x=10\": \"Листопад\",  \"ie:x=11\": \"Грудень\" }",
-      "ru": "{ \"ie:x=0\": \"Январь\",  \"ie:x=1\": \"Февраль\",  \"ie:x=2\": \"Март\",  \"ie:x=3\": \"Апрель\",  \"ie:x=4\": \"Май\",  \"ie:x=5\": \"Июнь\",  \"ie:x=6\": \"Июль\",  \"ie:x=7\": \"Август\",  \"ie:x=8\": \"Сентябрь\",  \"ie:x=9\": \"Октябрь\",  \"ie:x=10\": \"Ноябрь\",  \"ie:x=11\": \"Декабрь\" }",
-      "en": "{ \"ie:x=0\": \"January\",  \"ie:x=1\": \"February\",  \"ie:x=2\": \"March\",  \"ie:x=3\": \"April\",  \"ie:x=4\": \"May\",  \"ie:x=5\": \"June\",  \"ie:x=6\": \"July\",  \"ie:x=7\": \"August\",  \"ie:x=8\": \"September\",  \"ie:x=9\": \"October\",  \"ie:x=10\": \"November\",  \"ie:x=11\": \"December\" }"
-    },
-    "friendly": {
-      "uk": "{ \"ie:x=0\": \"Січень\",  \"ie:x=1\": \"Лютий\",  \"ie:x=2\": \"Березень\",  \"ie:x=3\": \"Квітень\",  \"ie:x=4\": \"Травень\",  \"ie:x=5\": \"Червень\",  \"ie:x=6\": \"Липень\",  \"ie:x=7\": \"Серпень\",  \"ie:x=8\": \"Вересень\",  \"ie:x=9\": \"Жовтень\",  \"ie:x=10\": \"Листопад\",  \"ie:x=11\": \"Грудень\" }",
-      "ru": "{ \"ie:x=0\": \"Январь\",  \"ie:x=1\": \"Февраль\",  \"ie:x=2\": \"Март\",  \"ie:x=3\": \"Апрель\",  \"ie:x=4\": \"Май\",  \"ie:x=5\": \"Июнь\",  \"ie:x=6\": \"Июль\",  \"ie:x=7\": \"Август\",  \"ie:x=8\": \"Сентябрь\",  \"ie:x=9\": \"Октябрь\",  \"ie:x=10\": \"Ноябрь\",  \"ie:x=11\": \"Декабрь\" }",
-      "en": "{ \"ie:x=0\": \"January\",  \"ie:x=1\": \"February\",  \"ie:x=2\": \"March\",  \"ie:x=3\": \"April\",  \"ie:x=4\": \"May\",  \"ie:x=5\": \"June\",  \"ie:x=6\": \"July\",  \"ie:x=7\": \"August\",  \"ie:x=8\": \"September\",  \"ie:x=9\": \"October\",  \"ie:x=10\": \"November\",  \"ie:x=11\": \"December\" }"
     }
   },
   "cashU-details-alert-close-button": {
@@ -394,17 +377,17 @@
     "business": {
       "uk": "Бонусів буде списано",
       "ru": "Бонусов будет списано",
-      "en": "Bonuses to be written off "
+      "en": "Bonuses to be written off"
     },
     "friendly": {
       "uk": "Бонусів буде списано",
       "ru": "Бонусов будет списано",
-      "en": "Bonuses to be written off "
+      "en": "Bonuses to be written off"
     },
     "neutral": {
       "uk": "Бонусів буде списано",
       "ru": "Бонусов будет списано",
-      "en": "Bonuses to be written off "
+      "en": "Bonuses to be written off"
     }
   },
   "cashU-details-tap-categories-chooseCategory-header": {
@@ -932,6 +915,414 @@
       "uk": "Активні",
       "ru": "Активные",
       "en": "Active"
+    }
+  },
+  "cashU-details-topView-status-title-empty": {
+    "friendly": {
+      "uk": "Немає статусу",
+      "en": "No status",
+      "ru": "Нет статуса"
+    },
+    "neutral": {
+      "uk": "Немає статусу",
+      "en": "No status",
+      "ru": "Нет статуса"
+    },
+    "business": {
+      "uk": "Немає статусу",
+      "en": "No status",
+      "ru": "Нет статуса"
+    }
+  },
+  "cashU-details-cashBack-select-account-header": {
+    "business": {
+      "uk": "Виберіть рахунок",
+      "ru": "Выберите счет",
+      "en": "Choose the account"
+    },
+    "neutral": {
+      "uk": "Вибери рахунок",
+      "ru": "Выбери счет",
+      "en": "Choose the account"
+    },
+    "friendly": {
+      "uk": "Вибери рахунок",
+      "ru": "Выбери счет",
+      "en": "Choose the account"
+    }
+  },
+  "cashU-details-cashBack-select-purchase-header": {
+    "business": {
+      "uk": "Виберіть покупку, за яку бажаєте повернути гроші",
+      "ru": "Выберите покупку, за которую желаете вернуть деньги",
+      "en": "Please choose the purchase for which you want to return the money"
+    },
+    "neutral": {
+      "uk": "Вибери покупку, за яку бажаєш повернути гроші",
+      "ru": "Выбери покупку, за которую желаешь вернуть деньги",
+      "en": "Choose the purchase for which you want to return the money"
+    },
+    "friendly": {
+      "uk": "За що хочеш повернути гроші?",
+      "ru": "За что хочешь вернуть деньги?",
+      "en": "What do you want to return the money for?"
+    }
+  },
+  "cashU-details-cashBack-purchase-details-header": {
+    "business": {
+      "uk": "Інформація про повернення",
+      "ru": "Информация о возврате",
+      "en": "Information about the return"
+    },
+    "neutral": {
+      "uk": "Інформація про повернення",
+      "ru": "Информация о возврате",
+      "en": "Information about the return"
+    },
+    "friendly": {
+      "uk": "Інформація про повернення",
+      "ru": "Информация о возврате",
+      "en": "Information about the return"
+    }
+  },
+  "cashU-details-cashBack-purchase-details-currentBalance": {
+    "business": {
+      "uk": "Поточний баланс",
+      "ru": "Текущий баланс",
+      "en": "Current balance"
+    },
+    "neutral": {
+      "uk": "Поточний баланс",
+      "ru": "Текущий баланс",
+      "en": "Current balance"
+    },
+    "friendly": {
+      "uk": "Поточний баланс",
+      "ru": "Текущий баланс",
+      "en": "Current balance"
+    }
+  },
+  "cashU-details-cashBack-purchase-details-debitBonuses": {
+    "business": {
+      "uk": "Бонусів буде списано",
+      "ru": "Бонусов будет списано",
+      "en": "Bonuses to be written off"
+    },
+    "neutral": {
+      "uk": "Бонусів буде списано",
+      "ru": "Бонусов будет списано",
+      "en": "Bonuses to be written off"
+    },
+    "friendly": {
+      "uk": "Бонусів буде списано",
+      "ru": "Бонусов будет списано",
+      "en": "Bonuses to be written off"
+    }
+  },
+  "cashU-details-cashBack-purchase-details-amount-title": {
+    "business": {
+      "uk": "Повернеться на рахунок",
+      "ru": "Вернется на счет",
+      "en": "Will be returned to the account"
+    },
+    "neutral": {
+      "uk": "Повернеться на рахунок",
+      "ru": "Вернется на счет",
+      "en": "Will be returned to the account"
+    },
+    "friendly": {
+      "uk": "Повернеться на рахунок",
+      "ru": "Вернется на счет",
+      "en": "Will be returned to the account"
+    }
+  },
+  "cashU-details-cashBack-purchase-details-amount-desc": {
+    "business": {
+      "uk": "За вирахуванням податків: 18% ПДФО і 1,5% військового збору",
+      "ru": "За вычетом налогов: 18% ПДФЛ и 1,5% военного сбора",
+      "en": "After tax: 18% income tax and 1.5% military levy"
+    },
+    "neutral": {
+      "uk": "За вирахуванням податків: 18% ПДФО і 1,5% військового збору",
+      "ru": "За вычетом налогов: 18% ПДФЛ и 1,5% военного сбора",
+      "en": "After tax: 18% income tax and 1.5% military levy"
+    },
+    "friendly": {
+      "uk": "За вирахуванням податків: 18% ПДФО і 1,5% військового збору",
+      "ru": "За вычетом налогов: 18% ПДФЛ и 1,5% военного сбора",
+      "en": "After tax: 18% income tax and 1.5% military levy"
+    }
+  },
+  "cashU-details-cashBack-purchase-details-button": {
+    "business": {
+      "uk": "Повернути гроші",
+      "ru": "Вернуть деньги",
+      "en": "Get the money back"
+    },
+    "neutral": {
+      "uk": "Повернути гроші",
+      "ru": "Вернуть деньги",
+      "en": "Get the money back"
+    },
+    "friendly": {
+      "uk": "Повернути гроші",
+      "ru": "Вернуть деньги",
+      "en": "Get the money back"
+    }
+  },
+  "cashU-details-statuses-title": {
+    "business": {
+      "uk": "Cash'U CLUB",
+      "ru": "Cash'U CLUB",
+      "en": "Cash'U CLUB"
+    },
+    "neutral": {
+      "uk": "Cash'U CLUB",
+      "ru": "Cash'U CLUB",
+      "en": "Cash'U CLUB"
+    },
+    "friendly": {
+      "uk": "Cash'U CLUB",
+      "ru": "Cash'U CLUB",
+      "en": "Cash'U CLUB"
+    }
+  },
+  "cashU-details-statuses-totalBonuses-title": {
+    "business": {
+      "uk": "Усього зароблено",
+      "ru": "Всего заработано",
+      "en": "Total earned"
+    },
+    "neutral": {
+      "uk": "Усього зароблено",
+      "ru": "Всего заработано",
+      "en": "Total earned"
+    },
+    "friendly": {
+      "uk": "Усього зароблено",
+      "ru": "Всего заработано",
+      "en": "Total earned"
+    }
+  },
+  "cashU-details-statuses-bonuses-amount": {
+    "business": {
+      "uk": "%@ бонусів",
+      "ru": "%@ бонусов",
+      "en": "%@ bonuses"
+    },
+    "neutral": {
+      "uk": "%@ бонусів",
+      "ru": "%@ бонусов",
+      "en": "%@ bonuses"
+    },
+    "friendly": {
+      "uk": "%@ бонусів",
+      "ru": "%@ бонусов",
+      "en": "%@ bonuses"
+    }
+  },
+  "cashU-details-statuses-status-subtitle-start": {
+    "business": {
+      "uk": "Старт",
+      "ru": "Старт",
+      "en": "Start"
+    },
+    "neutral": {
+      "uk": "Старт",
+      "ru": "Старт",
+      "en": "Start"
+    },
+    "friendly": {
+      "uk": "Старт",
+      "ru": "Старт",
+      "en": "Start"
+    }
+  },
+  "cashU-details-statuses-status-description": {
+    "business": {
+      "uk": "%d категорій з %d",
+      "ru": "%d категорий из %d",
+      "en": "%d categories of %d"
+    },
+    "neutral": {
+      "uk": "%d категорій з %d",
+      "ru": "%d категорий из %d",
+      "en": "%d categories of %d"
+    },
+    "friendly": {
+      "uk": "%d категорій з %d",
+      "ru": "%d категорий из %d",
+      "en": "%d categories of %d"
+    }
+  },
+  "cashU-details-historyBonuses-date-today": {
+    "business": {
+      "uk": "Сьогодні",
+      "ru": "Сегодня",
+      "en": "Today"
+    },
+    "neutral": {
+      "uk": "Сьогодні",
+      "ru": "Сегодня",
+      "en": "Today"
+    },
+    "friendly": {
+      "uk": "Сьогодні",
+      "ru": "Сегодня",
+      "en": "Today"
+    }
+  },
+  "cashU-details-historyBonuses-date-yesterday": {
+    "business": {
+      "uk": "Вчора",
+      "ru": "Вчера",
+      "en": "Yesterday"
+    },
+    "neutral": {
+      "uk": "Вчора",
+      "ru": "Вчера",
+      "en": "Yesterday"
+    },
+    "friendly": {
+      "uk": "Вчора",
+      "ru": "Вчера",
+      "en": "Yesterday"
+    }
+  },
+  "cashU-details-infoUrl-cashBack-title": {
+    "business": {
+      "uk": "Повернути гроші",
+      "ru": "Вернуть деньги",
+      "en": "Get the money back"
+    },
+    "neutral": {
+      "uk": "Повернути гроші",
+      "ru": "Вернуть деньги",
+      "en": "Get the money back"
+    },
+    "friendly": {
+      "uk": "Повернути гроші",
+      "ru": "Вернуть деньги",
+      "en": "Get the money back"
+    }
+  },
+  "cashU-details-infoUrl-cashURules-title": {
+    "business": {
+      "uk": "Правила Cash'U CLUB",
+      "ru": "Правила Cash'U CLUB",
+      "en": "Rules of the Cash'U CLUB"
+    },
+    "neutral": {
+      "uk": "Правила Cash'U CLUB",
+      "ru": "Правила Cash'U CLUB",
+      "en": "Rules of the Cash'U CLUB"
+    },
+    "friendly": {
+      "uk": "Правила Cash'U CLUB",
+      "ru": "Правила Cash'U CLUB",
+      "en": "Rules of the Cash'U CLUB"
+    }
+  },
+  "cashU-details-infoUrl-stocks-title": {
+    "business": {
+      "uk": "Акції в Cash'U CLUB",
+      "ru": "Акции в Cash'U CLUB",
+      "en": "Promotionals of the Cash'U CLUB"
+    },
+    "neutral": {
+      "uk": "Акції в Cash'U CLUB",
+      "ru": "Акции в Cash'U CLUB",
+      "en": "Promotionals of the Cash'U CLUB"
+    },
+    "friendly": {
+      "uk": "Акції в Cash'U CLUB",
+      "ru": "Акции в Cash'U CLUB",
+      "en": "Promotionals of the Cash'U CLUB"
+    }
+  },
+  "cashU-details-infoUrl-statuses-title": {
+    "business": {
+      "uk": "Статуси Cash'U Club",
+      "ru": "Статусы Cash'U Club",
+      "en": "Cash'U Club Statuses"
+    },
+    "neutral": {
+      "uk": "Статуси Cash'U Club",
+      "ru": "Статусы Cash'U Club",
+      "en": "Cash'U Club Statuses"
+    },
+    "friendly": {
+      "uk": "Статуси Cash'U Club",
+      "ru": "Статусы Cash'U Club",
+      "en": "Cash'U Club Statuses"
+    }
+  },
+  "cashU-details-infoUrl-raffles-title": {
+    "business": {
+      "uk": "Призи в Cash'U CLUB",
+      "ru": "Призы в Cash'U CLUB",
+      "en": "Cash'U CLUB prizes"
+    },
+    "neutral": {
+      "uk": "Призи в Cash'U CLUB",
+      "ru": "Призы в Cash'U CLUB",
+      "en": "Cash'U CLUB prizes"
+    },
+    "friendly": {
+      "uk": "Призи в Cash'U CLUB",
+      "ru": "Призы в Cash'U CLUB",
+      "en": "Cash'U CLUB prizes"
+    }
+  },
+  "cashU-details-share-title": {
+    "business": {
+      "uk": "%@\nСтатус Cash`U CLUB",
+      "ru": "%@\nСтатус Cash`U CLUB",
+      "en": "%@\nCash'U CLUB Status"
+    },
+    "neutral": {
+      "uk": "%@\nСтатус Cash`U CLUB",
+      "ru": "%@\nСтатус Cash`U CLUB",
+      "en": "%@\nCash'U CLUB Status"
+    },
+    "friendly": {
+      "uk": "%@\nСтатус Cash`U CLUB",
+      "ru": "%@\nСтатус Cash`U CLUB",
+      "en": "%@\nCash'U CLUB Status"
+    }
+  },
+  "cashU-details-share-button-title": {
+    "business": {
+      "uk": "Поділитися",
+      "ru": "Поделиться",
+      "en": "Share"
+    },
+    "neutral": {
+      "uk": "Поділитися",
+      "ru": "Поделиться",
+      "en": "Share"
+    },
+    "friendly": {
+      "uk": "Поділитися",
+      "ru": "Поделиться",
+      "en": "Share"
+    }
+  },
+  "cashU-details-promotion-prize-active-alert-checkBox-error": {
+    "business": {
+      "uk": "Потрібно погодитися з умовами",
+      "ru": "Необходимо согласие с условиями",
+      "en": "You should agree to the terms and conditions"
+    },
+    "neutral": {
+      "uk": "Потрібно погодитися з умовами",
+      "ru": "Необходимо согласие с условиями",
+      "en": "Consent with the terms and conditions is required"
+    },
+    "friendly": {
+      "uk": "Постав галочку - без неї не можна продовжити",
+      "ru": "Поставь галочку - без нее нельзя продолжить",
+      "en": "Check the box otherwise you can't continue"
     }
   }
 }

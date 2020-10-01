@@ -18,70 +18,70 @@
   },
   "error-network-title": {
     "business": {
-      "en": "Something went wrong...",
-      "ru": "Возникла ошибка, что-то пошло не так",
-      "uk": "Виникла помилка, щось пійшло не так"
+      "en": "Something went wrong!",
+      "ru": "Что-то пошло не так!",
+      "uk": "Щось пішло не так!"
     },
     "neutral": {
-      "en": "Something went wrong...",
-      "ru": "Возникла ошибка, что-то пошло не так",
-      "uk": "Виникла помилка, щось пійшло не так"
+      "en": "Something went wrong!",
+      "ru": "Что-то пошло не так!",
+      "uk": "Щось пішло не так!"
     },
     "friendly": {
-      "en": "Something went wrong...",
-      "ru": "Возникла ошибка, что-то пошло не так",
-      "uk": "Виникла помилка, щось пійшло не так"
+      "en": "Oh no! Error…",
+      "ru": "Ох, какая-то ошибка:(",
+      "uk": "Ох, якась помилка:("
     }
   },
   "error-connectionIsOffline-text": {
     "business": {
-      "en": "Please check your Internet connection and try one more time",
-      "uk": "Перевірьте підключення до мережі і попробуйте ще раз",
-      "ru": "Проверьте подключение к сети интернет и повторите снова"
+      "en": "Please check your internet connection and try again",
+      "uk": "Перевірте підключення інтернету та спробуйте ще раз",
+      "ru": "Проверьте подключение интернету и попробуйте еще раз"
     },
     "neutral": {
-      "en": "Please check your Internet connection and try one more time",
-      "uk": "Перевірьте підключення до мережі і попробуйте ще раз",
-      "ru": "Проверьте подключение к сети интернет и повторите снова"
+      "en": "Check your internet connection and try again",
+      "uk": "Перевір підключення інтернету та спробуй ще раз",
+      "ru": "Проверь подключение интернету и попробуй еще раз"
     },
     "friendly": {
-      "en": "Please check your Internet connection and try one more time",
-      "uk": "Перевірьте підключення до мережі і попробуйте ще раз",
-      "ru": "Проверьте подключение к сети интернет и повторите снова"
+      "en": "Seems like there is no internet connection. Check and try again:)",
+      "uk": "Може, немає інтернету? Перевір та спробуй ще раз:)",
+      "ru": "Может, нет интернета? Проверь и попробуй еще раз:)"
     }
   },
   "error-network-text": {
     "neutral": {
-      "uk": "Спробуйте будь ласка ще раз, або зверніться в підтримку в чаті",
-      "en": "Please try one more time or contact our support via chat if you still experience the issue",
-      "ru": "Попробуйте еще раз или обратитесь в поддержку в чате"
+      "uk": "Спробуй ще раз",
+      "en": "Try again",
+      "ru": "Попробуй еще раз"
     },
     "business": {
-      "uk": "Спробуйте будь ласка ще раз, або зверніться в підтримку в чаті",
-      "en": "Please try one more time or contact our support via chat if you still experience the issue",
-      "ru": "Попробуйте еще раз или обратитесь в поддержку в чате"
+      "uk": "Спробуйте ще раз",
+      "en": "Please try again",
+      "ru": "Попробуйте еще раз"
     },
     "friendly": {
-      "uk": "Спробуйте будь ласка ще раз, або зверніться в підтримку в чаті",
-      "en": "Please try one more time or contact our support via chat if you still experience the issue",
-      "ru": "Попробуйте еще раз или обратитесь в поддержку в чате"
+      "uk": "Спробуй ще раз",
+      "en": "Try again",
+      "ru": "Попробуй еще раз"
     }
   },
   "error-connectionIsOffline-title": {
     "business": {
       "uk": "Відсутнє підключення до мережі",
       "ru": "Отсутствует подключение к сети",
-      "en": "There is no Internet connection"
+      "en": "No network connection"
     },
     "friendly": {
-      "uk": "Відсутнє підключення до мережі",
-      "ru": "Отсутствует подключение к сети",
-      "en": "There is no Internet connection"
+      "uk": "Немає інтернету:(",
+      "ru": "Нет интернета:(",
+      "en": "No Internet:("
     },
     "neutral": {
       "uk": "Відсутнє підключення до мережі",
       "ru": "Отсутствует подключение к сети",
-      "en": "There is no Internet connection"
+      "en": "No network connection available"
     }
   },
   "error-alert-title": {

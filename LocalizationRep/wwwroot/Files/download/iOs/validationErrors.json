@@ -3,203 +3,203 @@
     "neutral": {
       "ru": "День должен быть от 01 до 31",
       "uk": "День повинен бути від 01 до 31",
-      "en": "Day must be between 01 and 31"
+      "en": "Day should be between 01 and 31"
     },
     "friendly": {
       "ru": "День должен быть от 01 до 31",
       "uk": "День повинен бути від 01 до 31",
-      "en": "Day must be between 01 and 31"
+      "en": "Day should be between 01 and 31"
     },
     "business": {
       "ru": "День должен быть от 01 до 31",
       "uk": "День повинен бути від 01 до 31",
-      "en": "Day must be between 01 and 31"
+      "en": "Day should be between 01 and 31"
     }
   },
   "incorrect-year-error": {
     "friendly": {
       "ru": "Год должен быть от %@ до %@",
-      "en": "Year must be between %@ and %@",
+      "en": "Year should be between %@ and %@",
       "uk": "Рік повинен бути від %@ до %@"
     },
     "business": {
       "ru": "Год должен быть от %@ до %@",
-      "en": "Year must be between %@ and %@",
+      "en": "Year should be between %@ and %@",
       "uk": "Рік повинен бути від %@ до %@"
     },
     "neutral": {
       "ru": "Год должен быть от %@ до %@",
-      "en": "Year must be between %@ and %@",
+      "en": "Year should be between %@ and %@",
       "uk": "Рік повинен бути від %@ до %@"
     }
   },
   "incorrect-city-error": {
     "neutral": {
-      "uk": "Пожалуйста, введите корректный город",
-      "en": "Пожалуйста, введите корректный город",
-      "ru": "Пожалуйста, введите корректный город"
+      "uk": "Введи правильно місто",
+      "en": "Enter the correct city",
+      "ru": "Введи корректный город"
     },
     "business": {
-      "uk": "Пожалуйста, введите корректный город",
-      "en": "Пожалуйста, введите корректный город",
-      "ru": "Пожалуйста, введите корректный город"
+      "uk": "Введіть правильно місто",
+      "en": "Enter the correct city",
+      "ru": "Введите корректный город"
     },
     "friendly": {
-      "uk": "Пожалуйста, введите корректный город",
-      "en": "Пожалуйста, введите корректный город",
-      "ru": "Пожалуйста, введите корректный город"
+      "uk": "Вкажи справжнє місто:)",
+      "en": "Specify the existing city :)",
+      "ru": "Укажи настоящий город:)"
     }
   },
   "incorrect-amount-error": {
     "neutral": {
       "ru": "Ошибка ввода суммы",
-      "en": "Ошибка ввода суммы",
-      "uk": "Ошибка ввода суммы"
+      "en": "Amount enter error",
+      "uk": "Помилка вводу суми"
     },
     "business": {
       "ru": "Ошибка ввода суммы",
-      "en": "Ошибка ввода суммы",
-      "uk": "Ошибка ввода суммы"
+      "en": "Amount enter error",
+      "uk": "Помилка вводу суми"
     },
     "friendly": {
-      "ru": "Ошибка ввода суммы",
-      "en": "Ошибка ввода суммы",
-      "uk": "Ошибка ввода суммы"
+      "ru": "Сумма не может быть такой",
+      "en": "The amount cannot be like this",
+      "uk": "Сума не може бути такою"
     }
   },
   "incorrect-pan-error": {
     "neutral": {
       "ru": "Неверный номер карты",
-      "uk": "Неверный номер карты",
-      "en": "Неверный номер карты"
+      "uk": "Неправильний номер картки",
+      "en": "Invalid card number"
     },
     "friendly": {
       "ru": "Неверный номер карты",
-      "uk": "Неверный номер карты",
-      "en": "Неверный номер карты"
+      "uk": "Неправильний номер картки",
+      "en": "Invalid card number"
     },
     "business": {
       "ru": "Неверный номер карты",
-      "uk": "Неверный номер карты",
-      "en": "Неверный номер карты"
+      "uk": "Неправильний номер картки",
+      "en": "Invalid card number"
     }
   },
   "incorrect-minValue-error": {
     "business": {
-      "uk": "Значение не должно быть меньше чем %@",
-      "en": "Value must not be less than %@",
+      "uk": "Показник не може бути менше %@",
+      "en": "The value should not be less than %@",
       "ru": "Значение не должно быть меньше чем %@"
     },
     "neutral": {
-      "uk": "Значение не должно быть меньше чем %@",
-      "en": "Value must not be less than %@",
+      "uk": "Значення не може бути менше %@",
+      "en": "The value should not be less than %@",
       "ru": "Значение не должно быть меньше чем %@"
     },
     "friendly": {
-      "uk": "Значение не должно быть меньше чем %@",
-      "en": "Value must not be less than %@",
+      "uk": "Значення не може бути менше %@",
+      "en": "The value should not be less than %@",
       "ru": "Значение не должно быть меньше чем %@"
     }
   },
   "nonEmpty-rule-error": {
     "business": {
-      "en": "Fill out this field",
+      "en": "Please fill in this field",
       "ru": "Заполните это поле",
       "uk": "Заповніть поле"
     },
     "friendly": {
-      "en": "Fill out this field",
-      "ru": "Заполните это поле",
-      "uk": "Заповніть поле"
+      "en": "Fill in the field",
+      "ru": "Заполни поле",
+      "uk": "Заповни поле"
     },
     "neutral": {
-      "en": "Fill out this field",
-      "ru": "Заполните это поле",
-      "uk": "Заповніть поле"
+      "en": "Fill in the field",
+      "ru": "Заполни поле",
+      "uk": "Заповни поле"
     }
   },
   "incorrect-date-error": {
     "neutral": {
-      "uk": "Невірна дата, перевірте день і місяць",
-      "en": "Invalid date. Please check day and month",
-      "ru": "Неверная дата, проверьте день и месяц"
+      "uk": "Неправильна дата",
+      "en": "Invalid date",
+      "ru": "Неверная дата"
     },
     "friendly": {
-      "uk": "Невірна дата, перевірте день і місяць",
-      "en": "Invalid date. Please check day and month",
-      "ru": "Неверная дата, проверьте день и месяц"
+      "uk": "Неправильна дата:(",
+      "en": "Invalid date",
+      "ru": "Неверная дата"
     },
     "business": {
-      "uk": "Невірна дата, перевірте день і місяць",
-      "en": "Invalid date. Please check day and month",
-      "ru": "Неверная дата, проверьте день и месяц"
+      "uk": "Неправильна дата",
+      "en": "Invalid date",
+      "ru": "Неверная дата"
     }
   },
   "incorrect-adress-error": {
     "business": {
-      "en": "Пожалуйста, введите корректный адрес",
-      "uk": "Пожалуйста, введите корректный адрес",
-      "ru": "Пожалуйста, введите корректный адрес"
+      "en": "Please enter correct address",
+      "uk": "Введіть правильну адресу",
+      "ru": "Введите корректный адрес"
     },
     "neutral": {
-      "en": "Пожалуйста, введите корректный адрес",
-      "uk": "Пожалуйста, введите корректный адрес",
-      "ru": "Пожалуйста, введите корректный адрес"
+      "en": "Enter correct address",
+      "uk": "Введи правильну адресу",
+      "ru": "Введи корректный адрес"
     },
     "friendly": {
-      "en": "Пожалуйста, введите корректный адрес",
-      "uk": "Пожалуйста, введите корректный адрес",
-      "ru": "Пожалуйста, введите корректный адрес"
+      "en": "Enter correct address",
+      "uk": "Введи реальну адресу",
+      "ru": "Введи реальный адрес"
     }
   },
   "incorrect-month-error": {
     "friendly": {
       "uk": "Місяць повинен бути від 01 до 12",
-      "en": "Month must be between 01 and 12",
+      "en": "The month should be between 01 and 12",
       "ru": "Месяц должен быть от 01 до 12"
     },
     "neutral": {
       "uk": "Місяць повинен бути від 01 до 12",
-      "en": "Month must be between 01 and 12",
+      "en": "The month should be between 01 and 12",
       "ru": "Месяц должен быть от 01 до 12"
     },
     "business": {
       "uk": "Місяць повинен бути від 01 до 12",
-      "en": "Month must be between 01 and 12",
+      "en": "The month should be between 01 and 12",
       "ru": "Месяц должен быть от 01 до 12"
     }
   },
   "incorrect-name-error": {
     "business": {
-      "en": "Пожалуйста, введите корректное имя и фамилию",
-      "uk": "Пожалуйста, введите корректное имя и фамилию",
-      "ru": "Пожалуйста, введите корректное имя и фамилию"
+      "en": "Please enter your real full name",
+      "uk": "Введіть справжні ім'я та прізвище",
+      "ru": "Введите настоящие имя и фамилию"
     },
     "friendly": {
-      "en": "Пожалуйста, введите корректное имя и фамилию",
-      "uk": "Пожалуйста, введите корректное имя и фамилию",
-      "ru": "Пожалуйста, введите корректное имя и фамилию"
+      "en": "Only real full name works:)",
+      "uk": "Прокатять тільки реальні ім'я та прізвище:)",
+      "ru": "Прокатят только реальные имя и фамилия:)"
     },
     "neutral": {
-      "en": "Пожалуйста, введите корректное имя и фамилию",
-      "uk": "Пожалуйста, введите корректное имя и фамилию",
-      "ru": "Пожалуйста, введите корректное имя и фамилию"
+      "en": "Please enter your real full name",
+      "uk": "Введи справжні ім'я та прізвище",
+      "ru": "Введи настоящие имя и фамилию"
     }
   },
   "incorrect-maxValue-error": {
     "neutral": {
-      "en": "Value must not be more than %@",
-      "uk": "Значение не должно быть больше чем %@",
+      "en": "The value should not be greater than %@",
+      "uk": "Показник не може бути більше %@",
       "ru": "Значение не должно быть больше чем %@"
     },
     "business": {
-      "en": "Value must not be more than %@",
-      "uk": "Значение не должно быть больше чем %@",
+      "en": "The value should not be greater than %@",
+      "uk": "Показник не може бути більше %@",
       "ru": "Значение не должно быть больше чем %@"
     },
     "friendly": {
-      "en": "Value must not be more than %@",
-      "uk": "Значение не должно быть больше чем %@",
+      "en": "The value should not be greater than %@",
+      "uk": "Показник не може бути більше %@",
       "ru": "Значение не должно быть больше чем %@"
     }
   },
@@ -207,34 +207,306 @@
     "friendly": {
       "uk": "Дата не повинна бути пізніше %@",
       "ru": "Дата не должна быть позднее %@",
-      "en": "Date must not be later than %@"
+      "en": "Date should not be later than %@"
     },
     "business": {
       "uk": "Дата не повинна бути пізніше %@",
       "ru": "Дата не должна быть позднее %@",
-      "en": "Date must not be later than %@"
+      "en": "Date should not be later than %@"
     },
     "neutral": {
       "uk": "Дата не повинна бути пізніше %@",
       "ru": "Дата не должна быть позднее %@",
-      "en": "Date must not be later than %@"
+      "en": "Date should not be later than %@"
     }
   },
   "incorrect-minDate-error": {
     "neutral": {
-      "en": "Date must not be earlier than %@",
+      "en": "Date should not be erlier than %@",
       "ru": "Дата не должна быть ранее %@",
       "uk": "Дата не повинна бути раніше %@"
     },
     "friendly": {
-      "en": "Date must not be earlier than %@",
+      "en": "Date should not be erlier than %@",
       "ru": "Дата не должна быть ранее %@",
       "uk": "Дата не повинна бути раніше %@"
     },
     "business": {
-      "en": "Date must not be earlier than %@",
+      "en": "Date should not be erlier than %@",
       "ru": "Дата не должна быть ранее %@",
       "uk": "Дата не повинна бути раніше %@"
+    }
+  },
+  "non-zero-amount-error": {
+    "neutral": {
+      "ru": "Сумма должна быть больше нуля",
+      "en": "Amount must be greater than zero",
+      "uk": "Сума має бути більше нуля"
+    },
+    "business": {
+      "ru": "Сумма должна быть больше нуля",
+      "en": "Amount must be greater than zero",
+      "uk": "Сума має бути більше нуля"
+    },
+    "friendly": {
+      "ru": "Сумма должна быть больше нуля",
+      "en": "Amount must be greater than zero",
+      "uk": "Сума має бути більше нуля"
+    }
+  },
+  "incorrect-equalValue-error": {
+    "neutral": {
+      "en": "Value must be %@",
+      "uk": "Значення має бути %@",
+      "ru": "Значение должно быть %@"
+    },
+    "business": {
+      "en": "Value must be %@",
+      "uk": "Значення має бути %@",
+      "ru": "Значение должно быть %@"
+    },
+    "friendly": {
+      "en": "Value must be %@",
+      "uk": "Значення має бути %@",
+      "ru": "Значение должно быть %@"
+    }
+  },
+  "incorrect-email-error": {
+    "friendly": {
+      "en": "Something is wrong:(",
+      "uk": "Щось не те:(",
+      "ru": "Что-то не так:("
+    },
+    "neutral": {
+      "en": "Invalid E-mail",
+      "uk": "Неправильний E-mail",
+      "ru": "Неправильный E-mail"
+    },
+    "business": {
+      "en": "Invalid E-mail",
+      "uk": "Неправильний E-mail",
+      "ru": "Неправильный E-mail"
+    }
+  },
+  "incorrect-pilEmail-error": {
+    "neutral": {
+      "uk": "Неправильний E-mail",
+      "en": "Invalid E-mail",
+      "ru": "Неправильный E-mail"
+    },
+    "business": {
+      "uk": "Неправильний E-mail",
+      "en": "Invalid E-mail",
+      "ru": "Неправильный E-mail"
+    },
+    "friendly": {
+      "uk": "Щось не те з E-mail:(",
+      "en": "Something is wrong with E-mail:(",
+      "ru": "Что-то не так с E-mail:("
+    }
+  },
+  "incorrect-data-error": {
+    "neutral": {
+      "uk": "Перевір правильність даних",
+      "en": "Check data accuracy",
+      "ru": "Проверь корректность данных"
+    },
+    "friendly": {
+      "uk": "Без перевірки даних не обійтися",
+      "en": "You can't do without data checking",
+      "ru": "Без проверки данных не обойтись"
+    },
+    "business": {
+      "uk": "Перевірте правильність даних",
+      "en": "Please check data accuracy",
+      "ru": "Проверьте корректность данных"
+    }
+  },
+  "incorrect-pin-length-text": {
+    "neutral": {
+      "en": "PIN code must contain 4 digits",
+      "uk": "PIN-код має складатися з 4 цифр",
+      "ru": "PIN-код должен состоять из 4 цифр"
+    },
+    "business": {
+      "en": "PIN code must contain 4 digits",
+      "uk": "PIN-код має складатися з 4 цифр",
+      "ru": "PIN-код должен состоять из 4 цифр"
+    },
+    "friendly": {
+      "en": "PIN code must contain 4 digits",
+      "uk": "PIN-код має складатися з 4 цифр",
+      "ru": "PIN-код должен состоять из 4 цифр"
+    }
+  },
+  "notEnoughMoney-error": {
+    "business": {
+      "en": "Insufficient funds",
+      "uk": "Недостатньо коштів",
+      "ru": "Недостаточно средств"
+    },
+    "neutral": {
+      "en": "Insufficient funds",
+      "uk": "Недостатньо коштів",
+      "ru": "Недостаточно средств"
+    },
+    "friendly": {
+      "en": "Insufficient funds",
+      "uk": "Недостатньо коштів",
+      "ru": "Недостаточно средств"
+    }
+  },
+  "check-data-error": {
+    "neutral": {
+      "ru": "Проверь корректность данных",
+      "uk": "Перевір правильність даних",
+      "en": "Check data accuracy"
+    },
+    "business": {
+      "ru": "Проверьте корректность данных",
+      "uk": "Перевірте правильність даних",
+      "en": "Please check data accuracy"
+    },
+    "friendly": {
+      "ru": "Без проверки данных не обойтись",
+      "uk": "Без перевірки даних не обійтися",
+      "en": "You can't do without data checking"
+    }
+  },
+  "required-error": {
+    "neutral": {
+      "ru": "Обязательное поле",
+      "uk": "Обов'язкове поле",
+      "en": "Required field"
+    },
+    "business": {
+      "ru": "Обязательное поле",
+      "uk": "Обов'язкове поле",
+      "en": "Required field"
+    },
+    "friendly": {
+      "ru": "Обязательное поле",
+      "uk": "Обов'язкове поле",
+      "en": "Required field"
+    }
+  },
+  "min-purpose-of-payment-length-error": {
+    "neutral": {
+      "ru": "Минимум %@ буквенных символов (кириллица)",
+      "uk": "Мінімум %@ буквенних символів (кирилиця)",
+      "en": "Minimum %@ alphabetic characters (Cyrillic)"
+    },
+    "business": {
+      "ru": "Минимум %@ буквенных символов (кириллица)",
+      "uk": "Мінімум %@ буквенних символів (кирилиця)",
+      "en": "Minimum %@ alphabetic characters (Cyrillic)"
+    },
+    "friendly": {
+      "ru": "Минимум %@ буквенных символов (кириллица)",
+      "uk": "Мінімум %@ буквенних символів (кирилиця)",
+      "en": "Minimum %@ alphabetic characters (Cyrillic)"
+    }
+  },
+  "incorrect-minAmount-error": {
+    "friendly": {
+      "ru": "Mинимум %@",
+      "en": "Min %@",
+      "uk": "Mінімум %@"
+    },
+    "neutral": {
+      "ru": "Mинимум %@",
+      "en": "Min %@",
+      "uk": "Mінімум %@"
+    },
+    "business": {
+      "ru": "Mинимум %@",
+      "en": "Min %@",
+      "uk": "Mінімум %@"
+    }
+  },
+  "characters-not-allowed-error": {
+    "friendly": {
+      "ru": "Текст содержит запрещенные к использованию символы",
+      "en": "The text contains prohibited characters",
+      "uk": "Текст містить заборонені до використання символи"
+    },
+    "neutral": {
+      "ru": "Текст содержит запрещенные к использованию символы",
+      "en": "The text contains prohibited characters",
+      "uk": "Текст містить заборонені до використання символи"
+    },
+    "business": {
+      "ru": "Текст содержит запрещенные к использованию символы",
+      "en": "The text contains prohibited characters",
+      "uk": "Текст містить заборонені до використання символи"
+    }
+  },
+  "incorrect-minLenght-error": {
+    "friendly": {
+      "ru": "Длина должна быть не менее чем %@ символа",
+      "en": "Довжина повинна бути не менше ніж %@ символи",
+      "uk": "Length must be at least %@ characters"
+    },
+    "neutral": {
+      "ru": "Длина должна быть не менее чем %@ символа",
+      "en": "Довжина повинна бути не менше ніж %@ символи",
+      "uk": "Length must be at least %@ characters"
+    },
+    "business": {
+      "ru": "Длина должна быть не менее чем %@ символа",
+      "en": "Довжина повинна бути не менше ніж %@ символи",
+      "uk": "Length must be at least %@ characters"
+    }
+  },
+  "incorrect-Lenght-error": {
+    "friendly": {
+      "ru": "Длина может быть от %@ до %@ символов. Только цифры",
+      "en": "Довжина може бути від %@ до %@ символів. Тільки цифри",
+      "uk": "The length can be from %@ to %@ characters. Only numbers"
+    },
+    "neutral": {
+      "ru": "Длина может быть от %@ до %@ символов. Только цифры",
+      "en": "Довжина може бути від %@ до %@ символів. Тільки цифри",
+      "uk": "The length can be from %@ to %@ characters. Only numbers"
+    },
+    "business": {
+      "ru": "Длина может быть от %@ до %@ символов. Только цифры",
+      "en": "Довжина може бути від %@ до %@ символів. Тільки цифри",
+      "uk": "The length can be from %@ to %@ characters. Only numbers"
+    }
+  },
+  "incorrect-only-numbers-error": {
+    "friendly": {
+      "ru": "Допускается ввод только цифр",
+      "en": "Дозволяється введення тільки цифр",
+      "uk": "Only numbers are allowed"
+    },
+    "neutral": {
+      "ru": "Допускается ввод только цифр",
+      "en": "Дозволяється введення тільки цифр",
+      "uk": "Only numbers are allowed"
+    },
+    "business": {
+      "ru": "Допускается ввод только цифр",
+      "en": "Дозволяється введення тільки цифр",
+      "uk": "Only numbers are allowed"
+    }
+  },
+  "incorrect-iban-lenght-error": {
+    "friendly": {
+      "ru": "Длина должна быть 29 символов",
+      "en": "Довжина повинна бути 29 символів",
+      "uk": "Length must be 29 characters"
+    },
+    "neutral": {
+      "ru": "Длина должна быть 29 символов",
+      "en": "Довжина повинна бути 29 символів",
+      "uk": "Length must be 29 characters"
+    },
+    "business": {
+      "ru": "Длина должна быть 29 символов",
+      "en": "Довжина повинна бути 29 символів",
+      "uk": "Length must be 29 characters"
     }
   }
 }

@@ -1,138 +1,138 @@
 {
   "biometrics-faceID-access-denided-title": {
     "business": {
-      "en": "This feature requires FaceID access",
-      "ru": "Эта функция требует доступ к FaceID",
-      "uk": "Ця функція вимагає доступу до FaceID"
+      "en": "This feature requires Touch ID access",
+      "ru": "Эта функция требует доступ к Face ID",
+      "uk": "Ця функція вимагає доступу до Face ID"
     },
     "neutral": {
-      "en": "This feature requires FaceID access",
-      "ru": "Эта функция требует доступ к FaceID",
-      "uk": "Ця функція вимагає доступу до FaceID"
+      "en": "This feature requires Touch ID access",
+      "ru": "Эта функция требует доступ к Face ID",
+      "uk": "Ця функція вимагає доступу до Face ID"
     },
     "friendly": {
-      "en": "This feature requires FaceID access",
-      "ru": "Эта функция требует доступ к FaceID",
-      "uk": "Ця функція вимагає доступу до FaceID"
+      "en": "This feature requires Touch ID access",
+      "ru": "Эта функция требует доступ к Face ID",
+      "uk": "Ця функція вимагає доступу до Face ID"
     }
   },
   "biometrics-faceID_reason": {
     "friendly": {
-      "ru": "Используйте FaceID для входа",
-      "en": "Use FaceID to login",
-      "uk": "Використовуйте FaceID для входу"
+      "ru": "Использовать Face ID",
+      "en": "Use Face ID",
+      "uk": "Використати Face ID"
     },
     "neutral": {
-      "ru": "Используйте FaceID для входа",
-      "en": "Use FaceID to login",
-      "uk": "Використовуйте FaceID для входу"
+      "ru": "Использовать Face ID",
+      "en": "Use Face ID",
+      "uk": "Використати Face ID"
     },
     "business": {
-      "ru": "Используйте FaceID для входа",
-      "en": "Use FaceID to login",
-      "uk": "Використовуйте FaceID для входу"
+      "ru": "Использовать Face ID",
+      "en": "Use Face ID",
+      "uk": "Використати Face ID"
     }
   },
   "biometrics-unavailable-global-error": {
     "business": {
-      "uk": "Биометрия недоступна",
-      "en": "Биометрия недоступна",
+      "uk": "Біометрія недоступна",
+      "en": "Biometrics is unavailable",
       "ru": "Биометрия недоступна"
     },
     "neutral": {
-      "uk": "Биометрия недоступна",
-      "en": "Биометрия недоступна",
+      "uk": "Біометрія недоступна",
+      "en": "Unfortunately, biometrics is unavailable",
       "ru": "Биометрия недоступна"
     },
     "friendly": {
-      "uk": "Биометрия недоступна",
-      "en": "Биометрия недоступна",
-      "ru": "Биометрия недоступна"
+      "uk": "Доведеться обійтися без відбитка пальця та сканера обличчя:(",
+      "en": "You'll have to do it without a fingerprint and a face scanner :(",
+      "ru": "Придется обойтись без отпечатка пальца и сканера лица:("
     }
   },
   "biometrics-touchID-access-denided-message": {
     "business": {
-      "ru": "В настройках iPhone, дайте доступ к TouchID приложению Альфа-Банк",
-      "en": "In the iPhone settings, grant TouchID access to the Alfa-Bank application",
-      "uk": "В налаштуваннях iPhone, надайте доступ до TouchID додатку Альфа-Банк"
+      "ru": "Дайте приложению доступ к Touch ID в настройках iPhone",
+      "en": "Please give the app access to Touch ID in iPhone settings",
+      "uk": "Дайте додатку доступ до Touch ID у налаштуваннях iPhone"
     },
     "friendly": {
-      "ru": "В настройках iPhone, дайте доступ к TouchID приложению Альфа-Банк",
-      "en": "In the iPhone settings, grant TouchID access to the Alfa-Bank application",
-      "uk": "В налаштуваннях iPhone, надайте доступ до TouchID додатку Альфа-Банк"
+      "ru": "Зайди в настройки iPhone и дай нам доступ к Touch ID",
+      "en": "Go to iPhone settings and give us access to Touch ID",
+      "uk": "Зайди в налаштування iPhone і дай нам доступ до Touch ID"
     },
     "neutral": {
-      "ru": "В настройках iPhone, дайте доступ к TouchID приложению Альфа-Банк",
-      "en": "In the iPhone settings, grant TouchID access to the Alfa-Bank application",
-      "uk": "В налаштуваннях iPhone, надайте доступ до TouchID додатку Альфа-Банк"
+      "ru": "Дай приложению доступ к Touch ID в настройках iPhone",
+      "en": "Give the app access to Touch ID in your iPhone settings",
+      "uk": "Дай додатку доступ до Touch ID у налаштуваннях iPhone"
     }
   },
   "biometrics-touchID-access-denided-title": {
     "friendly": {
-      "ru": "Эта функция требует доступ к TouchID",
-      "en": "This feature requires TouchID access",
-      "uk": "Ця функція вимагає доступу до TouchID"
+      "ru": "Эта функция требует доступ к Touch ID",
+      "en": "This feature requires Touch ID access",
+      "uk": "Ця функція вимагає доступу до Touch ID"
     },
     "business": {
-      "ru": "Эта функция требует доступ к TouchID",
-      "en": "This feature requires TouchID access",
-      "uk": "Ця функція вимагає доступу до TouchID"
+      "ru": "Эта функция требует доступ к Touch ID",
+      "en": "This feature requires Touch ID access",
+      "uk": "Ця функція вимагає доступу до Touch ID"
     },
     "neutral": {
-      "ru": "Эта функция требует доступ к TouchID",
-      "en": "This feature requires TouchID access",
-      "uk": "Ця функція вимагає доступу до TouchID"
+      "ru": "Эта функция требует доступ к Touch ID",
+      "en": "This feature requires Touch ID access",
+      "uk": "Ця функція вимагає доступу до Touch ID"
     }
   },
   "biometrics-not-enrolled-error": {
     "friendly": {
-      "en": "Нет отпечатков",
+      "en": "No fingerprints",
       "ru": "Нет отпечатков",
-      "uk": "Нет отпечатков"
+      "uk": "Немає відбитків"
     },
     "neutral": {
-      "en": "Нет отпечатков",
+      "en": "No fingerprints",
       "ru": "Нет отпечатков",
-      "uk": "Нет отпечатков"
+      "uk": "Немає відбитків"
     },
     "business": {
-      "en": "Нет отпечатков",
+      "en": "No fingerprints",
       "ru": "Нет отпечатков",
-      "uk": "Нет отпечатков"
+      "uk": "Немає відбитків"
     }
   },
   "biometrics-faceID-access-denided-message": {
     "neutral": {
-      "ru": "В настройках iPhone, дайте доступ к FaceID приложению Альфа-Банк",
-      "en": "In the iPhone settings, grant FaceID access to the Alfa-Bank application",
-      "uk": "В налаштуваннях iPhone, надайте доступ до FaceID додатку Альфа-Банк"
+      "ru": "Дай приложению доступ к Face ID в настройках iPhone",
+      "en": "Give the app access to Touch ID in your iPhone settings",
+      "uk": "Дай додатку доступ до Face ID у налаштуваннях iPhone"
     },
     "business": {
-      "ru": "В настройках iPhone, дайте доступ к FaceID приложению Альфа-Банк",
-      "en": "In the iPhone settings, grant FaceID access to the Alfa-Bank application",
-      "uk": "В налаштуваннях iPhone, надайте доступ до FaceID додатку Альфа-Банк"
+      "ru": "Дайте приложению доступ к Face ID в настройках iPhone",
+      "en": "Please give the app access to Touch ID in iPhone settings",
+      "uk": "Дайте додатку доступ до Face ID у налаштуваннях iPhone"
     },
     "friendly": {
-      "ru": "В настройках iPhone, дайте доступ к FaceID приложению Альфа-Банк",
-      "en": "In the iPhone settings, grant FaceID access to the Alfa-Bank application",
-      "uk": "В налаштуваннях iPhone, надайте доступ до FaceID додатку Альфа-Банк"
+      "ru": "Зайди в настройки iPhone и дай нам доступ к Face ID",
+      "en": "Go to iPhone settings and give us access to Touch ID",
+      "uk": "Зайди в налаштування iPhone і дай нам доступ до Face ID"
     }
   },
   "biometrics-touchID_reason": {
     "neutral": {
-      "ru": "Используйте отпечаток пальца для входа",
-      "en": "Log in with touch ID",
-      "uk": "Використовуйте відбиток пальця для входу"
+      "ru": "Войти по отпечатку пальца",
+      "en": "Login with fingerprint",
+      "uk": "Увійти за відбитком пальця"
     },
     "business": {
-      "ru": "Используйте отпечаток пальца для входа",
-      "en": "Log in with touch ID",
-      "uk": "Використовуйте відбиток пальця для входу"
+      "ru": "Войти по отпечатку пальца",
+      "en": "Login with fingerprint",
+      "uk": "Увійти за відбитком пальця"
     },
     "friendly": {
-      "ru": "Используйте отпечаток пальца для входа",
-      "en": "Log in with touch ID",
-      "uk": "Використовуйте відбиток пальця для входу"
+      "ru": "Войти по отпечатку пальца",
+      "en": "Login with fingerprint",
+      "uk": "Увійти за відбитком пальця"
     }
   }
 }

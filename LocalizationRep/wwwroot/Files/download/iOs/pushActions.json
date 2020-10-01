@@ -1,87 +1,87 @@
 {
   "select-action": {
     "friendly": {
-      "ru": "Select",
+      "ru": "Выбрать",
       "en": "Select",
-      "uk": "Select"
+      "uk": "Вибрати"
     },
     "business": {
-      "ru": "Select",
+      "ru": "Выбрать",
       "en": "Select",
-      "uk": "Select"
+      "uk": "Вибрати"
     },
     "neutral": {
-      "ru": "Select",
+      "ru": "Выбрать",
       "en": "Select",
-      "uk": "Select"
+      "uk": "Вибрати"
     }
   },
   "dismiss-action": {
     "friendly": {
-      "ru": "Dismiss",
+      "ru": "Отклонить",
       "en": "Dismiss",
-      "uk": "Dismiss"
+      "uk": "Відхилити"
     },
     "business": {
-      "ru": "Dismiss",
+      "ru": "Отклонить",
       "en": "Dismiss",
-      "uk": "Dismiss"
+      "uk": "Відхилити"
     },
     "neutral": {
-      "ru": "Dismiss",
+      "ru": "Отклонить",
       "en": "Dismiss",
-      "uk": "Dismiss"
+      "uk": "Відхилити"
     }
   },
   "reply-action": {
     "friendly": {
-      "ru": "Reply",
+      "ru": "Ответить",
       "en": "Reply",
-      "uk": "Reply"
+      "uk": "Відповісти"
     },
     "neutral": {
-      "ru": "Reply",
+      "ru": "Ответить",
       "en": "Reply",
-      "uk": "Reply"
+      "uk": "Відповісти"
     },
     "business": {
-      "ru": "Reply",
+      "ru": "Ответить",
       "en": "Reply",
-      "uk": "Reply"
+      "uk": "Відповісти"
     }
   },
   "more-details-action": {
     "business": {
-      "ru": "More Details",
-      "en": "More Details",
-      "uk": "More Details"
+      "ru": "Подробнее",
+      "en": "More details",
+      "uk": "Детальніше"
     },
     "friendly": {
-      "ru": "More Details",
-      "en": "More Details",
-      "uk": "More Details"
+      "ru": "Подробнее",
+      "en": "More details",
+      "uk": "Детальніше"
     },
     "neutral": {
-      "ru": "More Details",
-      "en": "More Details",
-      "uk": "More Details"
+      "ru": "Подробнее",
+      "en": "More details",
+      "uk": "Детальніше"
     }
   },
   "pay-now-action": {
     "business": {
       "en": "Pay Now",
-      "uk": "Pay Now",
-      "ru": "Pay Now"
+      "uk": "Заплатити зараз",
+      "ru": "Заплатить сейчас"
     },
     "neutral": {
       "en": "Pay Now",
-      "uk": "Pay Now",
-      "ru": "Pay Now"
+      "uk": "Заплатити зараз",
+      "ru": "Заплатить сейчас"
     },
     "friendly": {
       "en": "Pay Now",
-      "uk": "Pay Now",
-      "ru": "Pay Now"
+      "uk": "Заплатити зараз",
+      "ru": "Заплатить сейчас"
     }
   }
 }

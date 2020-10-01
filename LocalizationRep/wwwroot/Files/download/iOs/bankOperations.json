@@ -1,121 +1,121 @@
 {
   "bankOperations-newTransfer-title": {
     "business": {
-      "ru": "Новий переказ",
-      "en": "Новий переказ",
+      "ru": "Новый перевод",
+      "en": "New transfer",
       "uk": "Новий переказ"
     },
     "neutral": {
-      "ru": "Новий переказ",
-      "en": "Новий переказ",
+      "ru": "Новый перевод",
+      "en": "New transfer",
       "uk": "Новий переказ"
     },
     "friendly": {
-      "ru": "Новий переказ",
-      "en": "Новий переказ",
+      "ru": "Новый перевод",
+      "en": "New transfer",
       "uk": "Новий переказ"
     }
   },
   "bankOperations-transferButton-title": {
     "neutral": {
       "uk": "Переказати",
-      "ru": "Переказати",
-      "en": "Переказати"
+      "ru": "Перевести",
+      "en": "Transfer"
     },
     "friendly": {
       "uk": "Переказати",
-      "ru": "Переказати",
-      "en": "Переказати"
+      "ru": "Перевести",
+      "en": "Transfer"
     },
     "business": {
       "uk": "Переказати",
-      "ru": "Переказати",
-      "en": "Переказати"
+      "ru": "Перевести",
+      "en": "Transfer"
     }
   },
   "bankOperations-title": {
     "business": {
-      "en": "Перекази / Платежі",
-      "uk": "Перекази / Платежі",
-      "ru": "Перекази / Платежі"
+      "en": "Transfers/Payments",
+      "uk": "Перекази/Платежі",
+      "ru": "Переводы/Платежи"
     },
     "friendly": {
-      "en": "Перекази / Платежі",
-      "uk": "Перекази / Платежі",
-      "ru": "Перекази / Платежі"
+      "en": "Transfers/Payments",
+      "uk": "Перекази/Платежі",
+      "ru": "Переводы/Платежи"
     },
     "neutral": {
-      "en": "Перекази / Платежі",
-      "uk": "Перекази / Платежі",
-      "ru": "Перекази / Платежі"
+      "en": "Transfers/Payments",
+      "uk": "Перекази/Платежі",
+      "ru": "Переводы/Платежи"
     }
   },
   "bankOperations-paymentsTab-title": {
     "friendly": {
-      "en": "Платежі",
+      "en": "Payments",
       "uk": "Платежі",
-      "ru": "Платежі"
+      "ru": "Платежи"
     },
     "business": {
-      "en": "Платежі",
+      "en": "Payments",
       "uk": "Платежі",
-      "ru": "Платежі"
+      "ru": "Платежи"
     },
     "neutral": {
-      "en": "Платежі",
+      "en": "Payments",
       "uk": "Платежі",
-      "ru": "Платежі"
+      "ru": "Платежи"
     }
   },
   "bankOperations-templatesTab-title": {
     "business": {
-      "en": "Шаблони",
+      "en": "Templates",
       "uk": "Шаблони",
-      "ru": "Шаблони"
+      "ru": "Шаблоны"
     },
     "neutral": {
-      "en": "Шаблони",
+      "en": "Templates",
       "uk": "Шаблони",
-      "ru": "Шаблони"
+      "ru": "Шаблоны"
     },
     "friendly": {
-      "en": "Шаблони",
+      "en": "Templates",
       "uk": "Шаблони",
-      "ru": "Шаблони"
+      "ru": "Шаблоны"
     }
   },
   "bankOperations-overlayView-title": {
     "friendly": {
-      "uk": "Вкажіть тип переказу",
-      "ru": "Вкажіть тип переказу",
-      "en": "Вкажіть тип переказу"
+      "uk": "Вкажи тип переказу",
+      "ru": "Укажи тип перевода",
+      "en": "Specify the transaction type"
     },
     "business": {
       "uk": "Вкажіть тип переказу",
-      "ru": "Вкажіть тип переказу",
-      "en": "Вкажіть тип переказу"
+      "ru": "Укажите тип перевода",
+      "en": "Please specify the transaction type"
     },
     "neutral": {
-      "uk": "Вкажіть тип переказу",
-      "ru": "Вкажіть тип переказу",
-      "en": "Вкажіть тип переказу"
+      "uk": "Вкажи тип переказу",
+      "ru": "Укажи тип перевода",
+      "en": "Specify the transaction type"
     }
   },
   "bankOperations-transfersTab-title": {
     "neutral": {
       "uk": "Перекази",
-      "ru": "Перекази",
-      "en": "Перекази"
+      "ru": "Переводы",
+      "en": "Transfers"
     },
     "friendly": {
       "uk": "Перекази",
-      "ru": "Перекази",
-      "en": "Перекази"
+      "ru": "Переводы",
+      "en": "Transfers"
     },
     "business": {
       "uk": "Перекази",
-      "ru": "Перекази",
-      "en": "Перекази"
+      "ru": "Переводы",
+      "en": "Transfers"
     }
   }
 }

@@ -1,17 +1,17 @@
 {
   "credit-details-information-tap": {
     "neutral": {
-      "en": "Information",
+      "en": "Info",
       "uk": "Інформація",
       "ru": "Информация"
     },
     "business": {
-      "en": "Information",
+      "en": "Info",
       "uk": "Інформація",
       "ru": "Информация"
     },
     "friendly": {
-      "en": "Information",
+      "en": "Info",
       "uk": "Інформація",
       "ru": "Информация"
     }
@@ -35,34 +35,34 @@
   },
   "credit-details-payment-button-title": {
     "business": {
-      "uk": "Сплатити",
-      "en": "Payment",
+      "uk": "Оплатити",
+      "en": "Pay",
       "ru": "Оплатить"
     },
     "friendly": {
-      "uk": "Сплатити",
-      "en": "Payment",
+      "uk": "Оплатити",
+      "en": "Pay",
       "ru": "Оплатить"
     },
     "neutral": {
-      "uk": "Сплатити",
-      "en": "Payment",
+      "uk": "Оплатити",
+      "en": "Pay",
       "ru": "Оплатить"
     }
   },
   "credit-payment-overdue-title": {
     "business": {
-      "uk": "Платіж прострочено",
+      "uk": "Строк платежу минув",
       "ru": "Платеж просрочен",
       "en": "Payment is overdue"
     },
     "friendly": {
-      "uk": "Платіж прострочено",
+      "uk": "Строк платежу минув",
       "ru": "Платеж просрочен",
       "en": "Payment is overdue"
     },
     "neutral": {
-      "uk": "Платіж прострочено",
+      "uk": "Строк платежу минув",
       "ru": "Платеж просрочен",
       "en": "Payment is overdue"
     }
@@ -120,36 +120,36 @@
   },
   "credit-rate-per-annum-title": {
     "neutral": {
-      "en": "Interest rate per annum",
+      "en": "Interest rate, per annum",
       "ru": "Процентная ставка, годовых",
       "uk": "Відсоткова ставка, річних"
     },
     "friendly": {
-      "en": "Interest rate per annum",
+      "en": "Interest rate, per annum",
       "ru": "Процентная ставка, годовых",
       "uk": "Відсоткова ставка, річних"
     },
     "business": {
-      "en": "Interest rate per annum",
+      "en": "Interest rate, per annum",
       "ru": "Процентная ставка, годовых",
       "uk": "Відсоткова ставка, річних"
     }
   },
   "credit-term-title": {
     "friendly": {
-      "ru": "Термин кредита",
-      "uk": "Термін кредиту",
-      "en": "Loan term"
+      "ru": "Срок кредита",
+      "uk": "Строк кредиту",
+      "en": "Loan period"
     },
     "neutral": {
-      "ru": "Термин кредита",
-      "uk": "Термін кредиту",
-      "en": "Loan term"
+      "ru": "Срок кредита",
+      "uk": "Строк кредиту",
+      "en": "Loan period"
     },
     "business": {
-      "ru": "Термин кредита",
-      "uk": "Термін кредиту",
-      "en": "Loan term"
+      "ru": "Срок кредита",
+      "uk": "Строк кредиту",
+      "en": "Loan period"
     }
   },
   "credit-details-common-info-title": {
@@ -190,17 +190,17 @@
     "friendly": {
       "uk": "Графік погашення",
       "ru": "График погашения",
-      "en": "Repayment schedule"
+      "en": "Repayment schedule "
     },
     "business": {
       "uk": "Графік погашення",
       "ru": "График погашения",
-      "en": "Repayment schedule"
+      "en": "Repayment schedule "
     },
     "neutral": {
       "uk": "Графік погашення",
       "ru": "График погашения",
-      "en": "Repayment schedule"
+      "en": "Repayment schedule "
     }
   },
   "credit-minimum-payment-title": {
@@ -240,17 +240,17 @@
   "credit-details-abount-payments-title": {
     "friendly": {
       "en": "About payments",
-      "uk": "О платежах",
+      "uk": "Про платежі",
       "ru": "О платежах"
     },
     "neutral": {
       "en": "About payments",
-      "uk": "О платежах",
+      "uk": "Про платежі",
       "ru": "О платежах"
     },
     "business": {
       "en": "About payments",
-      "uk": "О платежах",
+      "uk": "Про платежі",
       "ru": "О платежах"
     }
   },
@@ -274,33 +274,33 @@
   "credit-contributed-payment-title": {
     "business": {
       "uk": "Внесено",
-      "ru": "Внесено",
-      "en": "Contributed"
+      "ru": "Внесен",
+      "en": "Submitted"
     },
     "friendly": {
       "uk": "Внесено",
-      "ru": "Внесено",
-      "en": "Contributed"
+      "ru": "Внесен",
+      "en": "Submitted"
     },
     "neutral": {
       "uk": "Внесено",
-      "ru": "Внесено",
-      "en": "Contributed"
+      "ru": "Внесен",
+      "en": "Submitted"
     }
   },
   "credit-loan-repayment-amount-title": {
     "business": {
-      "en": "Loan repayment amount",
+      "en": "Amount of early loan repayment",
       "uk": "Сума дострокового погашення кредиту",
       "ru": "Cумма досрочного погашения кредита"
     },
     "neutral": {
-      "en": "Loan repayment amount",
+      "en": "Amount of early loan repayment",
       "uk": "Сума дострокового погашення кредиту",
       "ru": "Cумма досрочного погашения кредита"
     },
     "friendly": {
-      "en": "Loan repayment amount",
+      "en": "Amount of early loan repayment",
       "uk": "Сума дострокового погашення кредиту",
       "ru": "Cумма досрочного погашения кредита"
     }
@@ -324,17 +324,17 @@
   },
   "credit-loan-expiration-date-title": {
     "friendly": {
-      "en": "Loan expiration date",
+      "en": "Loan expiry date",
       "uk": "Дата закінчення кредиту",
       "ru": "Дата окончания кредита"
     },
     "neutral": {
-      "en": "Loan expiration date",
+      "en": "Loan expiry date",
       "uk": "Дата закінчення кредиту",
       "ru": "Дата окончания кредита"
     },
     "business": {
-      "en": "Loan expiration date",
+      "en": "Loan expiry date",
       "uk": "Дата закінчення кредиту",
       "ru": "Дата окончания кредита"
     }
@@ -359,52 +359,52 @@
   "credit-next-payment-to-date-title": {
     "neutral": {
       "en": "Payment must be paid before",
-      "ru": "Платеж необходимо внести до",
-      "uk": "Платіж треба внести до"
+      "ru": "Платеж надо внести до",
+      "uk": "Платіж потрібно внести до"
     },
     "business": {
       "en": "Payment must be paid before",
-      "ru": "Платеж необходимо внести до",
-      "uk": "Платіж треба внести до"
+      "ru": "Платеж надо внести до",
+      "uk": "Платіж потрібно внести до"
     },
     "friendly": {
       "en": "Payment must be paid before",
-      "ru": "Платеж необходимо внести до",
-      "uk": "Платіж треба внести до"
+      "ru": "Платеж надо внести до",
+      "uk": "Платіж потрібно внести до"
     }
   },
   "credit-contract-date-title": {
     "neutral": {
-      "uk": "Дата укладення договору",
-      "en": "Contract date",
+      "uk": "Дата укладання договору",
+      "en": "Date of agreement",
       "ru": "Дата заключения договора"
     },
     "business": {
-      "uk": "Дата укладення договору",
-      "en": "Contract date",
+      "uk": "Дата укладання договору",
+      "en": "Date of agreement",
       "ru": "Дата заключения договора"
     },
     "friendly": {
-      "uk": "Дата укладення договору",
-      "en": "Contract date",
+      "uk": "Дата укладання договору",
+      "en": "Date of agreement",
       "ru": "Дата заключения договора"
     }
   },
   "credit-recommendation-title": {
     "business": {
-      "en": "We recommend that you deposit 5 days before the payment date",
+      "en": "We recommend to deposit funds 5 days before the due date",
       "uk": "Рекомендуємо внести кошти за 5 днів до дати платежу",
-      "ru": "Рекомендуем внести сумму за 5 дней до даты платежа"
+      "ru": "Рекомендуем внести средства за 5 дней до даты платежа"
     },
     "neutral": {
-      "en": "We recommend that you deposit 5 days before the payment date",
+      "en": "We recommend to deposit funds 5 days before the due date",
       "uk": "Рекомендуємо внести кошти за 5 днів до дати платежу",
-      "ru": "Рекомендуем внести сумму за 5 дней до даты платежа"
+      "ru": "Рекомендуем внести средства за 5 дней до даты платежа"
     },
     "friendly": {
-      "en": "We recommend that you deposit 5 days before the payment date",
-      "uk": "Рекомендуємо внести кошти за 5 днів до дати платежу",
-      "ru": "Рекомендуем внести сумму за 5 дней до даты платежа"
+      "en": "Tip: deposit funds 5 days before the due date",
+      "uk": "Порада: внеси кошти за 5 днів до дати платежу",
+      "ru": "Совет: внеси средства за 5 дней до даты платежа"
     }
   },
   "credit-next-payment-amount-title": {
@@ -426,17 +426,17 @@
   },
   "credit-edit-screen-title": {
     "neutral": {
-      "en": "Loan editing",
+      "en": "Loan adjustment",
       "ru": "Редактирование кредита",
       "uk": "Редагування кредиту"
     },
     "business": {
-      "en": "Loan editing",
+      "en": "Loan adjustment",
       "ru": "Редактирование кредита",
       "uk": "Редагування кредиту"
     },
     "friendly": {
-      "en": "Loan editing",
+      "en": "Loan adjustment",
       "ru": "Редактирование кредита",
       "uk": "Редагування кредиту"
     }

@@ -2,35 +2,35 @@
   "close": {
     "neutral": {
       "ru": "Закрыть",
-      "uk": "Закрыть",
-      "en": "Закрыть"
+      "uk": "Закрити",
+      "en": "Close"
     },
     "business": {
       "ru": "Закрыть",
-      "uk": "Закрыть",
-      "en": "Закрыть"
+      "uk": "Закрити",
+      "en": "Close"
     },
     "friendly": {
       "ru": "Закрыть",
-      "uk": "Закрыть",
-      "en": "Закрыть"
+      "uk": "Закрити",
+      "en": "Close"
     }
   },
   "choose": {
     "neutral": {
       "ru": "Выбрать",
-      "uk": "Выбрать",
-      "en": "Выбрать"
+      "uk": "Вибрати",
+      "en": "Select"
     },
     "friendly": {
       "ru": "Выбрать",
-      "uk": "Выбрать",
-      "en": "Выбрать"
+      "uk": "Вибрати",
+      "en": "Select"
     },
     "business": {
       "ru": "Выбрать",
-      "uk": "Выбрать",
-      "en": "Выбрать"
+      "uk": "Вибрати",
+      "en": "Select"
     }
   },
   "ok": {
@@ -52,121 +52,495 @@
   },
   "cancel": {
     "neutral": {
-      "uk": "Отмена",
-      "en": "Отмена",
-      "ru": "Отмена"
+      "uk": "Скасувати",
+      "en": "Cancel",
+      "ru": "Отменить"
     },
     "business": {
-      "uk": "Отмена",
-      "en": "Отмена",
-      "ru": "Отмена"
+      "uk": "Скасувати",
+      "en": "Cancel",
+      "ru": "Отменить"
     },
     "friendly": {
-      "uk": "Отмена",
-      "en": "Отмена",
-      "ru": "Отмена"
+      "uk": "Скасувати",
+      "en": "Cancel",
+      "ru": "Отменить"
     }
   },
   "save": {
     "neutral": {
       "ru": "Сохранить",
-      "en": "Сохранить",
-      "uk": "Сохранить"
+      "en": "Save",
+      "uk": "Зберегти"
     },
     "friendly": {
       "ru": "Сохранить",
-      "en": "Сохранить",
-      "uk": "Сохранить"
+      "en": "Save",
+      "uk": "Зберегти"
     },
     "business": {
       "ru": "Сохранить",
-      "en": "Сохранить",
-      "uk": "Сохранить"
+      "en": "Save",
+      "uk": "Зберегти"
     }
   },
   "retry": {
     "neutral": {
-      "uk": "Повторить ещё раз",
-      "ru": "Повторить ещё раз",
-      "en": "Повторить ещё раз"
+      "uk": "Спробувати ще раз",
+      "ru": "Попробовать еще раз",
+      "en": "Try again"
     },
     "friendly": {
-      "uk": "Повторить ещё раз",
-      "ru": "Повторить ещё раз",
-      "en": "Повторить ещё раз"
+      "uk": "Спробувати ще раз",
+      "ru": "Попробовать еще раз",
+      "en": "Try again"
     },
     "business": {
-      "uk": "Повторить ещё раз",
-      "ru": "Повторить ещё раз",
-      "en": "Повторить ещё раз"
+      "uk": "Спробувати ще раз",
+      "ru": "Попробовать еще раз",
+      "en": "Try again"
     }
   },
   "tryAgain": {
     "business": {
-      "uk": "Попробовать еще раз",
+      "uk": "Спробувати ще раз",
       "ru": "Попробовать еще раз",
-      "en": "Попробовать еще раз"
+      "en": "Try again"
     },
     "friendly": {
-      "uk": "Попробовать еще раз",
+      "uk": "Спробувати ще раз",
       "ru": "Попробовать еще раз",
-      "en": "Попробовать еще раз"
+      "en": "Try again"
     },
     "neutral": {
-      "uk": "Попробовать еще раз",
+      "uk": "Спробувати ще раз",
       "ru": "Попробовать еще раз",
-      "en": "Попробовать еще раз"
+      "en": "Try again"
     }
   },
   "ready": {
     "friendly": {
       "uk": "Готово",
       "ru": "Готово",
-      "en": "Готово"
+      "en": "Done"
     },
     "neutral": {
       "uk": "Готово",
       "ru": "Готово",
-      "en": "Готово"
+      "en": "Done"
     },
     "business": {
       "uk": "Готово",
       "ru": "Готово",
-      "en": "Готово"
+      "en": "Done"
     }
   },
   "continue": {
     "business": {
-      "en": "Продолжить",
-      "uk": "Продолжить",
+      "en": "Continue",
+      "uk": "Продовжити",
       "ru": "Продолжить"
     },
     "neutral": {
-      "en": "Продолжить",
-      "uk": "Продолжить",
+      "en": "Continue",
+      "uk": "Продовжити",
       "ru": "Продолжить"
     },
     "friendly": {
-      "en": "Продолжить",
-      "uk": "Продолжить",
+      "en": "Continue",
+      "uk": "Продовжити",
       "ru": "Продолжить"
     }
   },
   "exit": {
     "business": {
       "ru": "Выйти",
-      "en": "Выйти",
-      "uk": "Выйти"
+      "en": "Log out",
+      "uk": "Вийти"
     },
     "neutral": {
       "ru": "Выйти",
-      "en": "Выйти",
-      "uk": "Выйти"
+      "en": "Log out",
+      "uk": "Вийти"
     },
     "friendly": {
       "ru": "Выйти",
-      "en": "Выйти",
-      "uk": "Выйти"
+      "en": "Log out",
+      "uk": "Вийти"
+    }
+  },
+  "todayDate": {
+    "business": {
+      "uk": "Сьогодні",
+      "ru": "Сегодня",
+      "en": "Today"
+    },
+    "neutral": {
+      "uk": "Сьогодні",
+      "ru": "Сегодня",
+      "en": "Today"
+    },
+    "friendly": {
+      "uk": "Сьогодні",
+      "ru": "Сегодня",
+      "en": "Today"
+    }
+  },
+  "yesterdayDate": {
+    "business": {
+      "uk": "Вчора",
+      "ru": "Вчера",
+      "en": "Yesterday"
+    },
+    "neutral": {
+      "uk": "Вчора",
+      "ru": "Вчера",
+      "en": "Yesterday"
+    },
+    "friendly": {
+      "uk": "Вчора",
+      "ru": "Вчера",
+      "en": "Yesterday"
+    }
+  },
+  "arrange": {
+    "business": {
+      "uk": "Оформити",
+      "ru": "Оформить",
+      "en": "Draw up"
+    },
+    "neutral": {
+      "uk": "Оформити",
+      "ru": "Оформить",
+      "en": "Draw up"
+    },
+    "friendly": {
+      "uk": "Оформити",
+      "ru": "Оформить",
+      "en": "Draw up"
+    }
+  },
+  "openSettings": {
+    "neutral": {
+      "uk": "Відкрити налаштування",
+      "ru": "Открыть настройки",
+      "en": "Open settings"
+    },
+    "friendly": {
+      "uk": "Відкрити налаштування",
+      "ru": "Открыть настройки",
+      "en": "Open settings"
+    },
+    "business": {
+      "uk": "Відкрити налаштування",
+      "ru": "Открыть настройки",
+      "en": "Open settings"
+    }
+  },
+  "contactAccess": {
+    "neutral": {
+      "uk": "Дозволь доступ до контактів",
+      "ru": "Разреши доступ к контактам",
+      "en": "Allow access to contacts"
+    },
+    "friendly": {
+      "uk": "Дозволь доступ до контактів",
+      "ru": "Разреши доступ к контактам",
+      "en": "Allow access to contacts"
+    },
+    "business": {
+      "uk": "Необхідно дозволити доступ до контактів",
+      "ru": "Необходимо разрешить доступ к контактам",
+      "en": "You should allow access to contacts"
+    }
+  },
+  "cameraAccess": {
+    "neutral": {
+      "uk": "Дай додатку доступ до камери",
+      "ru": "Дай приложению доступ к камере",
+      "en": "Give the app access to camera"
+    },
+    "friendly": {
+      "uk": "Дай додатку доступ до камери:)",
+      "ru": "Дай приложению доступ к камере:)",
+      "en": "Give the app access to camera:)"
+    },
+    "business": {
+      "uk": "Необхідно дозволити доступ до камери",
+      "ru": "Необходимо разрешить доступ к камере",
+      "en": "You should allow access to camera"
+    }
+  },
+  "CardIOPaymentViewController_scanInstructions": {
+    "neutral": {
+      "uk": "Тримай картку всередині рамки. Вона буде зчитана автоматично",
+      "ru": "Держи карту внутри рамки. Она будет считана автоматически",
+      "en": "Hold the card inside the frame. It will be read automatically"
+    },
+    "friendly": {
+      "uk": "Тримай картку всередині рамки. Вона буде зчитана автоматично",
+      "ru": "Держи карту внутри рамки. Она будет считана автоматически",
+      "en": "Hold the card inside the frame. It will be read automatically"
+    },
+    "business": {
+      "uk": "Тримайте картку всередині рамки. Вона буде зчитана автоматично",
+      "ru": "Держите карту внутри рамки. Она будет считана автоматически",
+      "en": "Hold the card inside the frame. It will be read automatically"
+    }
+  },
+  "biometricsAccess": {
+    "neutral": {
+      "uk": "У телефоні не збережено відбитка пальця або екран блокування не захищено. Перейти в налаштування телефону?",
+      "ru": "В телефоне не сохранен отпечаток пальца или экран блокировки не защищен. Перейти в настройки телефона?",
+      "en": "No fingerprint saved on your phone or lock screen is not secured. Go to phone settings?"
+    },
+    "friendly": {
+      "uk": "У телефоні не збережено відбитка пальця або екран блокування не захищено. Перейти в налаштування телефону?",
+      "ru": "В телефоне не сохранен отпечаток пальца или экран блокировки не защищен. Перейти в настройки телефона?",
+      "en": "No fingerprint saved on your phone or lock screen is not secured. Go to phone settings?"
+    },
+    "business": {
+      "uk": "У телефоні не збережено відбитка пальця або екран блокування не захищено. Перейти в налаштування телефону?",
+      "ru": "В телефоне не сохранен отпечаток пальца или экран блокировки не защищен. Перейти в настройки телефона?",
+      "en": "No fingerprint saved on your phone or lock screen is not secured. Go to phone settings?"
+    }
+  },
+  "clear": {
+    "business": {
+      "uk": "Стерти",
+      "ru": "Стереть",
+      "en": "Delete"
+    },
+    "neutral": {
+      "uk": "Стерти",
+      "ru": "Стереть",
+      "en": "Delete"
+    },
+    "friendly": {
+      "uk": "Стерти",
+      "ru": "Стереть",
+      "en": "Delete"
+    }
+  },
+  "empty-list": {
+    "business": {
+      "uk": "На жаль, пошук не дав результатів",
+      "ru": "К сожалению, поиск не дал результатов. Попробуйте еще раз ",
+      "en": "Unfortunately, no results were found. Please try again"
+    },
+    "neutral": {
+      "uk": "На жаль, пошук не дав результатів. Спробуй ще раз",
+      "ru": "К сожалению, поиск не дал результатов. Попробуй еще раз ",
+      "en": "Unfortunately, no search results. Try again"
+    },
+    "friendly": {
+      "uk": "Нічого не знайшлося, але не здавайся!",
+      "ru": "Ничего не нашлось, но не сдавайся! ",
+      "en": "Nothing was found, but don't give up!"
+    }
+  },
+  "transfer": {
+    "neutral": {
+      "en": "Transfer",
+      "ru": "Перевести",
+      "uk": "Переказати"
+    },
+    "business": {
+      "en": "Transfer",
+      "ru": "Перевести",
+      "uk": "Переказати"
+    },
+    "friendly": {
+      "en": "Transfer",
+      "ru": "Перевести",
+      "uk": "Переказати"
+    }
+  },
+  "get-a-receipt": {
+    "friendly": {
+      "uk": "Отримати квитанцію",
+      "ru": "Получить квитанцию",
+      "en": "Get receipt"
+    },
+    "business": {
+      "uk": "Отримати квитанцію",
+      "ru": "Получить квитанцию",
+      "en": "Get receipt"
+    },
+    "neutral": {
+      "uk": "Отримати квитанцію",
+      "ru": "Получить квитанцию",
+      "en": "Get receipt"
+    }
+  },
+  "create-template": {
+    "friendly": {
+      "ru": "Создать шаблон",
+      "uk": "Створити шаблон",
+      "en": "Create template"
+    },
+    "business": {
+      "ru": "Создать шаблон",
+      "uk": "Створити шаблон",
+      "en": "Create template"
+    },
+    "neutral": {
+      "ru": "Создать шаблон",
+      "uk": "Створити шаблон",
+      "en": "Create template"
+    }
+  },
+  "to-main-screen": {
+    "friendly": {
+      "ru": "Вернуться на рабочий стол",
+      "uk": "Повернутися на робочий стіл",
+      "en": "Back to desktop"
+    },
+    "business": {
+      "ru": "Вернуться на рабочий стол",
+      "uk": "Повернутися на робочий стіл",
+      "en": "Back to desktop"
+    },
+    "neutral": {
+      "ru": "Вернуться на рабочий стол",
+      "uk": "Повернутися на робочий стіл",
+      "en": "Back to desktop"
+    }
+  },
+  "turnBack": {
+    "business": {
+      "uk": "Назад",
+      "ru": "Назад",
+      "en": "Back"
+    },
+    "friendly": {
+      "uk": "Назад",
+      "ru": "Назад",
+      "en": "Back"
+    },
+    "neutral": {
+      "uk": "Назад",
+      "ru": "Назад",
+      "en": "Back"
+    }
+  },
+  "confirm": {
+    "business": {
+      "en": "Confirm",
+      "uk": "Підтвердити",
+      "ru": "Подтвердить"
+    },
+    "neutral": {
+      "en": "Confirm",
+      "uk": "Підтвердити",
+      "ru": "Подтвердить"
+    },
+    "friendly": {
+      "en": "Confirm",
+      "uk": "Підтвердити",
+      "ru": "Подтвердить"
+    }
+  },
+  "delete": {
+    "business": {
+      "ru": "Удалить",
+      "en": "Remove",
+      "uk": "Видалити"
+    },
+    "neutral": {
+      "ru": "Удалить",
+      "en": "Remove",
+      "uk": "Видалити"
+    },
+    "friendly": {
+      "ru": "Удалить",
+      "en": "Remove",
+      "uk": "Видалити"
+    }
+  },
+  "tab-information": {
+    "business": {
+      "uk": "Інформація",
+      "en": "Information",
+      "ru": "Информация"
+    },
+    "neutral": {
+      "uk": "Інформація",
+      "en": "Information",
+      "ru": "Информация"
+    },
+    "friendly": {
+      "uk": "Інформація",
+      "en": "Information",
+      "ru": "Информация"
+    }
+  },
+  "tab-control": {
+    "business": {
+      "en": "Management",
+      "uk": "Керування",
+      "ru": "Управление"
+    },
+    "friendly": {
+      "en": "Management",
+      "uk": "Керування",
+      "ru": "Управление"
+    },
+    "neutral": {
+      "en": "Management",
+      "uk": "Керування",
+      "ru": "Управление"
+    }
+  },
+  "tap-history": {
+    "neutral": {
+      "uk": "Історія",
+      "ru": "История",
+      "en": "History"
+    },
+    "business": {
+      "uk": "Історія",
+      "ru": "История",
+      "en": "History"
+    },
+    "friendly": {
+      "uk": "Історія",
+      "ru": "История",
+      "en": "History"
+    }
+  },
+  "microphoneAccess": {
+    "neutral": {
+      "uk": "Дай додатку доступ до мікрофона",
+      "ru": "Дай приложению доступ к микрофону",
+      "en": "Give the app access to microphone"
+    },
+    "friendly": {
+      "uk": "Дай додатку доступ до мікрофона:)",
+      "ru": "Дай приложению доступ к микрофону:)",
+      "en": "Give the app access to microphone:)"
+    },
+    "business": {
+      "uk": "Необхідно дозволити доступ до мікрофона",
+      "ru": "Необходимо разрешить доступ к микрофону",
+      "en": "You should allow access to microphone"
+    }
+  },
+  "tab-history": {
+    "neutral": {
+      "uk": "Історія",
+      "ru": "История",
+      "en": "History"
+    },
+    "business": {
+      "uk": "Історія",
+      "ru": "История",
+      "en": "History"
+    },
+    "friendly": {
+      "uk": "Історія",
+      "ru": "История",
+      "en": "History"
     }
   }
 }

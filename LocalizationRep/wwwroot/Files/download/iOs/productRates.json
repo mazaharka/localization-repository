@@ -2,170 +2,170 @@
   "rates-controller-title": {
     "business": {
       "uk": "Курси валют",
-      "en": "Курсы валют",
+      "en": "Exchange rates",
       "ru": "Курсы валют"
     },
     "neutral": {
       "uk": "Курси валют",
-      "en": "Курсы валют",
+      "en": "Exchange rates",
       "ru": "Курсы валют"
     },
     "friendly": {
       "uk": "Курси валют",
-      "en": "Курсы валют",
+      "en": "Exchange rates",
       "ru": "Курсы валют"
     }
   },
   "rates-product-header-buy": {
     "friendly": {
       "ru": "Покупка",
-      "uk": "Купівля",
-      "en": "Покупка"
+      "uk": "Покупка",
+      "en": "Purchase"
     },
     "business": {
       "ru": "Покупка",
-      "uk": "Купівля",
-      "en": "Покупка"
+      "uk": "Покупка",
+      "en": "Purchase"
     },
     "neutral": {
       "ru": "Покупка",
-      "uk": "Купівля",
-      "en": "Покупка"
+      "uk": "Покупка",
+      "en": "Purchase"
     }
   },
   "rates-product-header-sell": {
     "neutral": {
       "uk": "Продаж",
       "ru": "Продажа",
-      "en": "Продажа"
+      "en": "Sale"
     },
     "business": {
       "uk": "Продаж",
       "ru": "Продажа",
-      "en": "Продажа"
+      "en": "Sale"
     },
     "friendly": {
       "uk": "Продаж",
       "ru": "Продажа",
-      "en": "Продажа"
+      "en": "Sale"
     }
   },
   "rates-product-footer-title": {
     "friendly": {
       "ru": "Показать все",
-      "en": "Показать все",
-      "uk": "Показати всі"
+      "en": "Show all",
+      "uk": "Показати все"
     },
     "business": {
       "ru": "Показать все",
-      "en": "Показать все",
-      "uk": "Показати всі"
+      "en": "Show all",
+      "uk": "Показати все"
     },
     "neutral": {
       "ru": "Показать все",
-      "en": "Показать все",
-      "uk": "Показати всі"
+      "en": "Show all",
+      "uk": "Показати все"
     }
   },
   "rates-type-cards": {
     "business": {
-      "en": "Курс НБУ",
+      "en": "NBU rate",
       "uk": "Курс НБУ",
-      "ru": "По карте"
+      "ru": "Курс НБУ"
     },
     "friendly": {
-      "en": "Курс НБУ",
+      "en": "NBU rate",
       "uk": "Курс НБУ",
-      "ru": "По карте"
+      "ru": "Курс НБУ"
     },
     "neutral": {
-      "en": "Курс НБУ",
+      "en": "NBU rate",
       "uk": "Курс НБУ",
-      "ru": "По карте"
+      "ru": "Курс НБУ"
     }
   },
   "rates-product-header-currency": {
     "friendly": {
       "uk": "Валюта",
       "ru": "Валюта",
-      "en": "Валюта"
+      "en": "Currency"
     },
     "neutral": {
       "uk": "Валюта",
       "ru": "Валюта",
-      "en": "Валюта"
+      "en": "Currency"
     },
     "business": {
       "uk": "Валюта",
       "ru": "Валюта",
-      "en": "Валюта"
+      "en": "Currency"
     }
   },
   "rates-type-rate_nbu": {
     "business": {
       "uk": "Курс НБУ",
-      "en": "Курс НБУ",
+      "en": "NBU rate",
       "ru": "Курс НБУ"
     },
     "neutral": {
       "uk": "Курс НБУ",
-      "en": "Курс НБУ",
+      "en": "NBU rate",
       "ru": "Курс НБУ"
     },
     "friendly": {
       "uk": "Курс НБУ",
-      "en": "Курс НБУ",
+      "en": "NBU rate",
       "ru": "Курс НБУ"
     }
   },
   "rates-type-department": {
     "friendly": {
-      "en": "В отделении",
+      "en": "At a branch",
       "ru": "В отделении",
       "uk": "У відділенні"
     },
     "business": {
-      "en": "В отделении",
+      "en": "At a branch",
       "ru": "В отделении",
       "uk": "У відділенні"
     },
     "neutral": {
-      "en": "В отделении",
+      "en": "At a branch",
       "ru": "В отделении",
       "uk": "У відділенні"
     }
   },
   "rates-type-online": {
     "neutral": {
-      "ru": "Online обмен",
-      "en": "Online обмен",
-      "uk": "Online обмін"
+      "ru": "Online-обмен",
+      "en": "Online exchange",
+      "uk": "Online-обмін"
     },
     "business": {
-      "ru": "Online обмен",
-      "en": "Online обмен",
-      "uk": "Online обмін"
+      "ru": "Online-обмен",
+      "en": "Online exchange",
+      "uk": "Online-обмін"
     },
     "friendly": {
-      "ru": "Online обмен",
-      "en": "Online обмен",
-      "uk": "Online обмін"
+      "ru": "Online-обмен",
+      "en": "Online exchange",
+      "uk": "Online-обмін"
     }
   },
   "mainProducts-rates-title": {
     "neutral": {
       "ru": "Курсы валют",
-      "en": "Курсы валют",
+      "en": "Exchange rates",
       "uk": "Курси валют"
     },
     "business": {
       "ru": "Курсы валют",
-      "en": "Курсы валют",
+      "en": "Exchange rates",
       "uk": "Курси валют"
     },
     "friendly": {
       "ru": "Курсы валют",
-      "en": "Курсы валют",
+      "en": "Exchange rates",
       "uk": "Курси валют"
     }
   },
@@ -173,17 +173,34 @@
     "business": {
       "uk": "Курси валют",
       "ru": "Курсы валют",
-      "en": "Курсы валют"
+      "en": "Exchange rates"
     },
     "friendly": {
       "uk": "Курси валют",
       "ru": "Курсы валют",
-      "en": "Курсы валют"
+      "en": "Exchange rates"
     },
     "neutral": {
       "uk": "Курси валют",
       "ru": "Курсы валют",
-      "en": "Курсы валют"
+      "en": "Exchange rates"
+    }
+  },
+  "rates-product-refresh-title": {
+    "friendly": {
+      "ru": "Обновить",
+      "en": "Update",
+      "uk": "Оновити"
+    },
+    "business": {
+      "ru": "Обновить",
+      "en": "Update",
+      "uk": "Оновити"
+    },
+    "neutral": {
+      "ru": "Обновить",
+      "en": "Update",
+      "uk": "Оновити"
     }
   }
 }

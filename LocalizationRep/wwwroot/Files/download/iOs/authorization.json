@@ -1,36 +1,36 @@
 {
   "error-login-blocked-title": {
     "neutral": {
-      "uk": "Ваш акаунт заблокований",
-      "en": "Your account has been blocked",
-      "ru": "Ваш аккаунт заблокирован"
+      "uk": "Акаунт заблоковано",
+      "en": "Account is blocked",
+      "ru": "Аккаунт заблокирован"
     },
     "business": {
-      "uk": "Ваш акаунт заблокований",
-      "en": "Your account has been blocked",
+      "uk": "Ваш акаунт заблоковано",
+      "en": "Your account is locked",
       "ru": "Ваш аккаунт заблокирован"
     },
     "friendly": {
-      "uk": "Ваш акаунт заблокований",
-      "en": "Your account has been blocked",
-      "ru": "Ваш аккаунт заблокирован"
+      "uk": "Отакої, тепер чекати :(",
+      "en": "Well, now you have to wait:(",
+      "ru": "Ну вот, теперь ждать:("
     }
   },
   "firstEntry-otp-topView-title": {
     "neutral": {
-      "uk": "Введите пароль из SMS",
-      "en": "Введите пароль из SMS",
-      "ru": "Введите пароль из SMS"
+      "uk": "Введи SMS-код",
+      "en": "Enter SMS code",
+      "ru": "Введи SMS-код"
     },
     "friendly": {
-      "uk": "Введите пароль из SMS",
-      "en": "Введите пароль из SMS",
-      "ru": "Введите пароль из SMS"
+      "uk": "Введи SMS-код",
+      "en": "Enter SMS code",
+      "ru": "Введи SMS-код"
     },
     "business": {
-      "uk": "Введите пароль из SMS",
-      "en": "Введите пароль из SMS",
-      "ru": "Введите пароль из SMS"
+      "uk": "Введіть SMS-код",
+      "en": "Enter SMS code",
+      "ru": "Введите SMS-код"
     }
   },
   "biometrics-setup-touchID": {
@@ -53,64 +53,64 @@
   "error-incorrectOtp-text": {
     "business": {
       "ru": "Неверный код из SMS",
-      "en": "Invalid OTP-code from the SMS",
+      "en": "Invalid SMS code",
       "uk": "Неправильний код з SMS"
     },
     "friendly": {
       "ru": "Неверный код из SMS",
-      "en": "Invalid OTP-code from the SMS",
+      "en": "Invalid SMS code",
       "uk": "Неправильний код з SMS"
     },
     "neutral": {
       "ru": "Неверный код из SMS",
-      "en": "Invalid OTP-code from the SMS",
+      "en": "Invalid SMS code",
       "uk": "Неправильний код з SMS"
     }
   },
   "error-badCredentials-passport-text": {
     "neutral": {
-      "en": "Please try one more time or contact our support via chat if you still experience the issue.",
-      "uk": "Спробуйте будь ласка ще раз, якщо труднощі з входом продовжуються - зверніться в підтримку в чаті",
-      "ru": "Повторите попытку еще раз. Если возникают сложности со входом - обратитесь в поддержку в чате"
+      "en": "Try again. If no success, write to alfabank.ua chat on this issue",
+      "uk": "Повтори спробу. Якщо у тебе знову не вийде, напиши про це в чат на alfabank.ua",
+      "ru": "Повтори попытку. Если у тебя снова не получится, напиши об этом в чат на alfabank.ua"
     },
     "business": {
-      "en": "Please try one more time or contact our support via chat if you still experience the issue.",
-      "uk": "Спробуйте будь ласка ще раз, якщо труднощі з входом продовжуються - зверніться в підтримку в чаті",
-      "ru": "Повторите попытку еще раз. Если возникают сложности со входом - обратитесь в поддержку в чате"
+      "en": "Please try again. In case of repeated fail, please contact the chat at alfabank.ua on this issue",
+      "uk": "Повторіть спробу. Якщо у вас знову не вийде, напишіть про це в чат на alfabank.ua",
+      "ru": "Повторите попытку. Если у вас снова не получится, напишите об этом в чат на alfabank.ua"
     },
     "friendly": {
-      "en": "Please try one more time or contact our support via chat if you still experience the issue.",
-      "uk": "Спробуйте будь ласка ще раз, якщо труднощі з входом продовжуються - зверніться в підтримку в чаті",
-      "ru": "Повторите попытку еще раз. Если возникают сложности со входом - обратитесь в поддержку в чате"
+      "en": "Try again. If no success, write to alfabank.ua chat on this issue",
+      "uk": "Повтори спробу. Якщо у тебе знову не вийде, напиши про це в чат на alfabank.ua",
+      "ru": "Повтори попытку. Если у тебя снова не получится, напиши об этом в чат на alfabank.ua"
     }
   },
   "createPin-title": {
     "business": {
-      "en": "Создайте PIN для входа",
+      "en": "Create a login PIN",
       "ru": "Создайте PIN для входа",
-      "uk": "Создайте PIN для входа"
+      "uk": "Створіть PIN для входу"
     },
     "neutral": {
-      "en": "Создайте PIN для входа",
-      "ru": "Создайте PIN для входа",
-      "uk": "Создайте PIN для входа"
+      "en": "Create a login PIN",
+      "ru": "Создай PIN для входа",
+      "uk": "Створи PIN для входу"
     },
     "friendly": {
-      "en": "Создайте PIN для входа",
-      "ru": "Создайте PIN для входа",
-      "uk": "Создайте PIN для входа"
+      "en": "Create a PIN",
+      "ru": "Создай PIN",
+      "uk": "Створи PIN"
     }
   },
   "error-blocked-device-title": {
     "neutral": {
-      "ru": "Ваше устройство заблокировано",
-      "uk": "Ваш пристрій заблоковано",
-      "en": "Your device has been blocked"
+      "ru": "Устройство заблокировано",
+      "uk": "Пристрій заблоковано",
+      "en": "Device has been blocked"
     },
     "friendly": {
-      "ru": "Ваше устройство заблокировано",
-      "uk": "Ваш пристрій заблоковано",
-      "en": "Your device has been blocked"
+      "ru": "Мы заблокировали твое устройство",
+      "uk": "Ми заблокували твій пристрій",
+      "en": "We've blocked your device"
     },
     "business": {
       "ru": "Ваше устройство заблокировано",
@@ -120,495 +120,495 @@
   },
   "firstEntry-topView-title": {
     "neutral": {
-      "en": "Привет",
-      "uk": "Привет",
+      "en": "Hello",
+      "uk": "Привіт",
       "ru": "Привет"
     },
     "friendly": {
-      "en": "Привет",
-      "uk": "Привет",
+      "en": "Hello",
+      "uk": "Привіт",
       "ru": "Привет"
     },
     "business": {
-      "en": "Привет",
-      "uk": "Привет",
+      "en": "Hello",
+      "uk": "Привіт",
       "ru": "Привет"
     }
   },
   "error-login-blocked-text": {
     "neutral": {
-      "ru": "Вы превысили допустимое количество попыток входа. Мы заблокировали аккаунт до %@",
-      "uk": "Ви перевищи допустиму кількість спроб для входу. Ми заблокували акаунт до %@",
-      "en": "You've exceeded the login attempts number. We've blocked your account till %@"
+      "ru": "Слишком много неправильных попыток входа. Мы заблокировали аккаунт до %@",
+      "uk": "Забагато неправильних спроб входу. Ми заблокували акаунт до %@",
+      "en": "Too many incorrect login attempts. We have blocked the account until %@"
     },
     "business": {
       "ru": "Вы превысили допустимое количество попыток входа. Мы заблокировали аккаунт до %@",
-      "uk": "Ви перевищи допустиму кількість спроб для входу. Ми заблокували акаунт до %@",
-      "en": "You've exceeded the login attempts number. We've blocked your account till %@"
+      "uk": "Ви перевищили припустиму кількість спроб входу. Ми заблокували акаунт до %@",
+      "en": "You have exceeded the allowed number of login attempts. We have blocked the account until %@"
     },
     "friendly": {
-      "ru": "Вы превысили допустимое количество попыток входа. Мы заблокировали аккаунт до %@",
-      "uk": "Ви перевищи допустиму кількість спроб для входу. Ми заблокували акаунт до %@",
-      "en": "You've exceeded the login attempts number. We've blocked your account till %@"
+      "ru": "Слишком много неправильных попыток - за это бан. Недолгий, до %@. Дождись и... будь внимательнее!",
+      "uk": "Забагато неправильних спроб - за це бан. Ненадовго, до %@. Дочекайся та... будь уважніше!",
+      "en": "Too many incorrect attempts - you're banned until %@. Wait and ... be more attentive!"
     }
   },
   "biometrics-fallBack-title": {
     "business": {
-      "en": "Enter password to login",
-      "uk": "Введіть пароль для входу",
-      "ru": "Ввести пароль для входа"
+      "en": "Login with PIN",
+      "uk": "Увійти з PIN-кодом",
+      "ru": "Войти по PIN-коду"
     },
     "neutral": {
-      "en": "Enter password to login",
-      "uk": "Введіть пароль для входу",
-      "ru": "Ввести пароль для входа"
+      "en": "Login with PIN",
+      "uk": "Увійти з PIN-кодом",
+      "ru": "Войти по PIN-коду"
     },
     "friendly": {
-      "en": "Enter password to login",
-      "uk": "Введіть пароль для входу",
-      "ru": "Ввести пароль для входа"
+      "en": "Login with PIN",
+      "uk": "Увійти з PIN-кодом",
+      "ru": "Войти по PIN-коду"
     }
   },
   "biometrics-setup-description": {
     "friendly": {
-      "ru": "Используется вместо PIN для входа",
-      "en": "Используется вместо PIN для входа",
-      "uk": "Используется вместо PIN для входа"
+      "ru": "Вместо ввода PIN для входа",
+      "en": "Use PIN to login instead of entering",
+      "uk": "Замість вводу PIN для входу"
     },
     "neutral": {
-      "ru": "Используется вместо PIN для входа",
-      "en": "Используется вместо PIN для входа",
-      "uk": "Используется вместо PIN для входа"
+      "ru": "Вместо ввода PIN для входа",
+      "en": "Use PIN to login instead of entering",
+      "uk": "Замість вводу PIN для входу"
     },
     "business": {
-      "ru": "Используется вместо PIN для входа",
-      "en": "Используется вместо PIN для входа",
-      "uk": "Используется вместо PIN для входа"
+      "ru": "Вместо ввода PIN для входа",
+      "en": "Use PIN to login instead of entering",
+      "uk": "Замість вводу PIN для входу"
     }
   },
   "biometrics-setup-don't-use-button-title": {
     "friendly": {
-      "uk": "Не использовать %@",
-      "en": "Не использовать %@",
+      "uk": "Не використовувати %@",
+      "en": "Do not use %@",
       "ru": "Не использовать %@"
     },
     "neutral": {
-      "uk": "Не использовать %@",
-      "en": "Не использовать %@",
+      "uk": "Не використовувати %@",
+      "en": "Do not use %@",
       "ru": "Не использовать %@"
     },
     "business": {
-      "uk": "Не использовать %@",
-      "en": "Не использовать %@",
+      "uk": "Не використовувати %@",
+      "en": "Do not use %@",
       "ru": "Не использовать %@"
     }
   },
   "firstEntry-phone-input-title": {
     "neutral": {
       "ru": "Номер телефона",
-      "uk": "Номер телефона",
-      "en": "Номер телефона"
+      "uk": "Номер телефону",
+      "en": "Phone number"
     },
     "friendly": {
       "ru": "Номер телефона",
-      "uk": "Номер телефона",
-      "en": "Номер телефона"
+      "uk": "Номер телефону",
+      "en": "Phone number"
     },
     "business": {
       "ru": "Номер телефона",
-      "uk": "Номер телефона",
-      "en": "Номер телефона"
+      "uk": "Номер телефону",
+      "en": "Phone number"
     }
   },
   "firstEntry-otp-blocked-message": {
     "neutral": {
-      "uk": "Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут.",
-      "en": "Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут.",
-      "ru": "Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут."
+      "uk": "Неправильний SMS-код було введено кілька разів. Ми заблоували акаунт на 15 хвилин. ",
+      "en": "Invalid SMS password was entered several times. We have blocked the account for 15 minutes.",
+      "ru": "Неверный SMS-код был введен несколько раз. Мы заблокировали аккаунт на 15 минут."
     },
     "business": {
-      "uk": "Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут.",
-      "en": "Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут.",
+      "uk": "Ви ввели неправильний пароль з SMS кілька разів. Ми заблокували акаунт на 15 хвилин:(",
+      "en": "You have entered the invalid SMS password several times. Your account is blocked for 15 minutes.",
       "ru": "Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут."
     },
     "friendly": {
-      "uk": "Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут.",
-      "en": "Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут.",
-      "ru": "Вы ввели неверный пароль из SMS несколько раз. Мы заблокировали аккаунт на 15 минут."
+      "uk": "Ми відправляли інший SMS-код. Тому акаунт заблоковано на 15 хвилин:(",
+      "en": "We've sent another SMS code. This is why the account is blocked for 15 minutes:(",
+      "ru": "Мы присылали другой SMS-код. Поэтому аккаунт заблокирован на 15 минут:("
     }
   },
   "firstEntry-otp-topView-description": {
     "neutral": {
-      "en": "Пароль отправлен SMS сообщением на номер %@",
-      "ru": "Пароль отправлен SMS сообщением на номер %@",
-      "uk": "Пароль отправлен SMS сообщением на номер %@"
+      "en": "Please enter the SMS code sent to your number %@",
+      "ru": "Введи SMS-код, отправленный на твой номер %@",
+      "uk": "Введи SMS-код, відправлений на твій номер %@"
     },
     "friendly": {
-      "en": "Пароль отправлен SMS сообщением на номер %@",
-      "ru": "Пароль отправлен SMS сообщением на номер %@",
-      "uk": "Пароль отправлен SMS сообщением на номер %@"
+      "en": "Now an SMS with a code will be sent to your %@. Enter it below",
+      "ru": "Сейчас на твой %@ придет SMS с кодом. Введи его ниже",
+      "uk": "Зараз на твій %@ прийде SMS з кодом. Введи його нижче"
     },
     "business": {
-      "en": "Пароль отправлен SMS сообщением на номер %@",
-      "ru": "Пароль отправлен SMS сообщением на номер %@",
-      "uk": "Пароль отправлен SMS сообщением на номер %@"
+      "en": "Please enter the SMS code sent to your number %@",
+      "ru": "Введите SMS-код, отправленный на ваш номер %@",
+      "uk": "Введіть SMS-код, відправлений на ваш номер %@"
     }
   },
   "biometrics-setup-use-button-title": {
     "neutral": {
-      "uk": "Использовать %@",
+      "uk": "Використати %@",
       "ru": "Использовать %@",
-      "en": "Использовать %@"
+      "en": "Use %@"
     },
     "business": {
-      "uk": "Использовать %@",
+      "uk": "Використати %@",
       "ru": "Использовать %@",
-      "en": "Использовать %@"
+      "en": "Use %@"
     },
     "friendly": {
-      "uk": "Использовать %@",
+      "uk": "Використати %@",
       "ru": "Использовать %@",
-      "en": "Использовать %@"
+      "en": "Use %@"
     }
   },
   "biometrics-setup-title": {
     "friendly": {
-      "uk": "Использовать %@?",
+      "uk": "Використати %@",
       "ru": "Использовать %@?",
-      "en": "Использовать %@?"
+      "en": "Use %@?"
     },
     "neutral": {
-      "uk": "Использовать %@?",
+      "uk": "Використати %@",
       "ru": "Использовать %@?",
-      "en": "Использовать %@?"
+      "en": "Use %@?"
     },
     "business": {
-      "uk": "Использовать %@?",
+      "uk": "Використати %@",
       "ru": "Использовать %@?",
-      "en": "Использовать %@?"
+      "en": "Use %@?"
     }
   },
   "error-badCredentials-passport-title": {
     "neutral": {
-      "uk": "Неверная дата",
-      "en": "Неверная дата",
+      "uk": "Неправильна дата",
+      "en": "Invalid date",
       "ru": "Неверная дата"
     },
     "business": {
-      "uk": "Неверная дата",
-      "en": "Неверная дата",
+      "uk": "Неправильна дата",
+      "en": "Invalid date",
       "ru": "Неверная дата"
     },
     "friendly": {
-      "uk": "Неверная дата",
-      "en": "Неверная дата",
+      "uk": "Неправильна дата",
+      "en": "Invalid date",
       "ru": "Неверная дата"
     }
   },
   "firstEntry-otp-counter-title": {
     "neutral": {
       "ru": "Пароль можно будет отправить еще раз через %@ сек.",
-      "uk": "Пароль можно будет отправить еще раз через %@ сек.",
-      "en": "Пароль можно будет отправить еще раз через %@ сек."
+      "uk": "Пароль можна буде відправити ще раз через %@ сек.",
+      "en": "The password can be sent again in %@ sec."
     },
     "business": {
       "ru": "Пароль можно будет отправить еще раз через %@ сек.",
-      "uk": "Пароль можно будет отправить еще раз через %@ сек.",
-      "en": "Пароль можно будет отправить еще раз через %@ сек."
+      "uk": "Пароль можна буде відправити ще раз через %@ сек.",
+      "en": "The password can be sent again in %@ sec."
     },
     "friendly": {
       "ru": "Пароль можно будет отправить еще раз через %@ сек.",
-      "uk": "Пароль можно будет отправить еще раз через %@ сек.",
-      "en": "Пароль можно будет отправить еще раз через %@ сек."
+      "uk": "Пароль можна буде відправити ще раз через %@ сек.",
+      "en": "The password can be sent again in %@ sec."
     }
   },
   "confirmPin-title": {
     "neutral": {
-      "en": "Повторите PIN для входа",
-      "ru": "Повторите PIN для входа",
-      "uk": "Повторите PIN для входа"
+      "en": "Reenter PIN to login",
+      "ru": "Повтори PIN для входа",
+      "uk": "Повтори PIN для входу"
     },
     "friendly": {
-      "en": "Повторите PIN для входа",
-      "ru": "Повторите PIN для входа",
-      "uk": "Повторите PIN для входа"
+      "en": "Reenter PIN to login",
+      "ru": "Повтори PIN для входа",
+      "uk": "Повтори PIN для входу"
     },
     "business": {
-      "en": "Повторите PIN для входа",
+      "en": "Reenter PIN to login",
       "ru": "Повторите PIN для входа",
-      "uk": "Повторите PIN для входа"
+      "uk": "Повторіть PIN для входу"
     }
   },
   "passportIssue-title": {
     "neutral": {
-      "ru": "Когда вам выдали паспорт?",
-      "en": "Когда вам выдали паспорт?",
-      "uk": "Когда вам выдали паспорт?"
+      "ru": "Когда тебе выдали паспорт?",
+      "en": "When was your passport issued?",
+      "uk": "Коли тобі видали паспорт?"
     },
     "friendly": {
-      "ru": "Когда вам выдали паспорт?",
-      "en": "Когда вам выдали паспорт?",
-      "uk": "Когда вам выдали паспорт?"
+      "ru": "Когда тебе выдали паспорт?",
+      "en": "When was your passport issued?",
+      "uk": "Коли тобі видали паспорт?"
     },
     "business": {
       "ru": "Когда вам выдали паспорт?",
-      "en": "Когда вам выдали паспорт?",
-      "uk": "Когда вам выдали паспорт?"
+      "en": "When was your passport issued?",
+      "uk": "Коли вам видали паспорт?"
     }
   },
   "login-enterPin-title": {
     "business": {
-      "uk": "%@, введите ПИН",
-      "en": "%@, введите ПИН",
-      "ru": "%@, введите ПИН"
+      "uk": "%@, введіть PIN",
+      "en": "%@, enter PIN",
+      "ru": "%@, введите PIN"
     },
     "friendly": {
-      "uk": "%@, введите ПИН",
-      "en": "%@, введите ПИН",
-      "ru": "%@, введите ПИН"
+      "uk": "%@, введи PIN",
+      "en": "%@, enter PIN",
+      "ru": "%@, введи PIN"
     },
     "neutral": {
-      "uk": "%@, введите ПИН",
-      "en": "%@, введите ПИН",
-      "ru": "%@, введите ПИН"
+      "uk": "%@, введи PIN",
+      "en": "%@, enter PIN",
+      "ru": "%@, введи PIN"
     }
   },
   "login-pin-attempts-text": {
     "business": {
-      "ru": "{   \"ie:x=1\": \"Осталась 1 попытка\",   \"iex:1<x<5\": \"Осталось %d попытки\" }",
-      "uk": "{   \"ie:x=1\": \"Осталась 1 попытка\",   \"iex:1<x<5\": \"Осталось %d попытки\" }",
-      "en": "{   \"ie:x=1\": \"Осталась 1 попытка\",   \"iex:1<x<5\": \"Осталось %d попытки\" }"
+      "ru": {   "ie:x=1": "Осталась 1 попытка",   "iex:1<x<5": "Осталось %d попытки" },
+      "uk": {   "ie:x=1": "Залишилася 1 спроба",   "iex:1<x<5": "Залишилося %d спроби" },
+      "en": {   "ie:x=1": "1 remaining attempt", "iex:1<x<5": "%d remaining attempts" }
     },
     "friendly": {
-      "ru": "{   \"ie:x=1\": \"Осталась 1 попытка\",   \"iex:1<x<5\": \"Осталось %d попытки\" }",
-      "uk": "{   \"ie:x=1\": \"Осталась 1 попытка\",   \"iex:1<x<5\": \"Осталось %d попытки\" }",
-      "en": "{   \"ie:x=1\": \"Осталась 1 попытка\",   \"iex:1<x<5\": \"Осталось %d попытки\" }"
+      "ru": {   "ie:x=1": "Осталась 1 попытка",   "iex:1<x<5": "Осталось %d попытки" },
+      "uk": {   "ie:x=1": "Залишилася 1 спроба",   "iex:1<x<5": "Залишилося %d спроби" },
+      "en": {   "ie:x=1": "1 remaining attempt", "iex:1<x<5": "%d remaining attempts" }
     },
     "neutral": {
-      "ru": "{   \"ie:x=1\": \"Осталась 1 попытка\",   \"iex:1<x<5\": \"Осталось %d попытки\" }",
-      "uk": "{   \"ie:x=1\": \"Осталась 1 попытка\",   \"iex:1<x<5\": \"Осталось %d попытки\" }",
-      "en": "{   \"ie:x=1\": \"Осталась 1 попытка\",   \"iex:1<x<5\": \"Осталось %d попытки\" }"
+      "ru": {   "ie:x=1": "Осталась 1 попытка",   "iex:1<x<5": "Осталось %d попытки" },
+      "uk": {   "ie:x=1": "Залишилася 1 спроба",   "iex:1<x<5": "Залишилося %d спроби" },
+      "en": {   "ie:x=1": "1 remaining attempt", "iex:1<x<5": "%d remaining attempts" }
     }
   },
   "firstEntry-otp-input-title": {
     "business": {
       "uk": "Пароль",
-      "en": "Пароль",
+      "en": "Password",
       "ru": "Пароль"
     },
     "friendly": {
       "uk": "Пароль",
-      "en": "Пароль",
+      "en": "Password",
       "ru": "Пароль"
     },
     "neutral": {
       "uk": "Пароль",
-      "en": "Пароль",
+      "en": "Password",
       "ru": "Пароль"
     }
   },
   "error-badCredentials-cvv-text": {
     "business": {
-      "ru": "Проверьте правильность введенных реквизитов карты. В случае повторения ошибки, обратитесь в поддержку в чате",
-      "uk": "Перевірьте правильні введених реквізитів картки. У випадку повторення помилки, зверніться в підтримку в чаті.",
-      "en": "Please double-check the card' details you've entered. If you still experience the issue, please contact support via chat."
+      "ru": "Повторите попытку. Если у вас снова не получится, напишите об этом в чат на alfabank.ua",
+      "uk": "Повторіть спробу. Якщо у вас знову не вийде, напишіть про це в чат на alfabank.ua",
+      "en": "Please try again. In case of repeated fail, please contact the chat at alfabank.ua on this issue"
     },
     "friendly": {
-      "ru": "Проверьте правильность введенных реквизитов карты. В случае повторения ошибки, обратитесь в поддержку в чате",
-      "uk": "Перевірьте правильні введених реквізитів картки. У випадку повторення помилки, зверніться в підтримку в чаті.",
-      "en": "Please double-check the card' details you've entered. If you still experience the issue, please contact support via chat."
+      "ru": "Повтори попытку. Если у тебя снова не получится, напиши об этом в чат на alfabank.ua",
+      "uk": "Повтори спробу. Якщо у тебе знову не вийде, напиши про це в чат на alfabank.ua",
+      "en": "Try again. If no success, write to alfabank.ua chat on this issue"
     },
     "neutral": {
-      "ru": "Проверьте правильность введенных реквизитов карты. В случае повторения ошибки, обратитесь в поддержку в чате",
-      "uk": "Перевірьте правильні введених реквізитів картки. У випадку повторення помилки, зверніться в підтримку в чаті.",
-      "en": "Please double-check the card' details you've entered. If you still experience the issue, please contact support via chat."
+      "ru": "Повтори попытку. Если у тебя снова не получится, напиши об этом в чат на alfabank.ua",
+      "uk": "Повтори спробу. Якщо у тебе знову не вийде, напиши про це в чат на alfabank.ua",
+      "en": "Try again. If no success, write to alfabank.ua chat on this issue"
     }
   },
   "error-badCredentials-cvv-title": {
     "friendly": {
-      "uk": "Неправильні реквізити картки",
+      "uk": "Неправильний номер/CVV картки",
       "en": "Invalid card details",
-      "ru": "Неверные реквизиты карты"
+      "ru": "Неверный номер/CVV карты"
     },
     "neutral": {
-      "uk": "Неправильні реквізити картки",
+      "uk": "Неправильний номер/CVV картки",
       "en": "Invalid card details",
-      "ru": "Неверные реквизиты карты"
+      "ru": "Неверный номер/CVV карты"
     },
     "business": {
-      "uk": "Неправильні реквізити картки",
+      "uk": "Неправильний номер/CVV картки",
       "en": "Invalid card details",
-      "ru": "Неверные реквизиты карты"
+      "ru": "Неверный номер/CVV карты"
     }
   },
   "cardNumber-title": {
     "friendly": {
-      "uk": "Введите номер вашей карты",
-      "en": "Введите номер вашей карты",
-      "ru": "Введите номер вашей карты"
+      "uk": "Введи номер картки",
+      "en": "Enter the card number",
+      "ru": "Введи номер карты"
     },
     "business": {
-      "uk": "Введите номер вашей карты",
-      "en": "Введите номер вашей карты",
+      "uk": "Введіть номер вашої картки",
+      "en": "Please enter your card number",
       "ru": "Введите номер вашей карты"
     },
     "neutral": {
-      "uk": "Введите номер вашей карты",
-      "en": "Введите номер вашей карты",
-      "ru": "Введите номер вашей карты"
+      "uk": "Введи номер картки",
+      "en": "Enter the card number",
+      "ru": "Введи номер карты"
     }
   },
   "pincodes-doesn't-match-title": {
     "business": {
-      "uk": "PIN-коди не співпадають",
+      "uk": "PIN-коди не збігаються",
       "ru": "PIN-коды не совпадают",
-      "en": "PIN-codes don't match"
+      "en": "PIN codes do not match"
     },
     "friendly": {
-      "uk": "PIN-коди не співпадають",
+      "uk": "PIN-коди не збігаються",
       "ru": "PIN-коды не совпадают",
-      "en": "PIN-codes don't match"
+      "en": "PIN codes do not match"
     },
     "neutral": {
-      "uk": "PIN-коди не співпадають",
+      "uk": "PIN-коди не збігаються",
       "ru": "PIN-коды не совпадают",
-      "en": "PIN-codes don't match"
+      "en": "PIN codes do not match"
     }
   },
   "error-blocked-device-message": {
     "neutral": {
-      "ru": "Обратитесь в службу поддержки банка в чате - чтобы разблокировать устройство.",
-      "en": "Please contact our support via the chart to unblock the device.",
-      "uk": "Зверніться в підтримку в чаті - щоб розблокувати пристрій."
+      "ru": "Обратись в чат банка, чтобы разблокировать устройство",
+      "en": "Contact the bank chat to unblock the device",
+      "uk": "Звернися у чат банку, щоб розблокувати пристрій"
     },
     "business": {
-      "ru": "Обратитесь в службу поддержки банка в чате - чтобы разблокировать устройство.",
-      "en": "Please contact our support via the chart to unblock the device.",
-      "uk": "Зверніться в підтримку в чаті - щоб розблокувати пристрій."
+      "ru": "Обратитесь в чат банка, чтобы разблокировать устройство",
+      "en": "Please contact the bank chat to unblock the device",
+      "uk": "Зверніться у чат банку, щоб розблокувати пристрій"
     },
     "friendly": {
-      "ru": "Обратитесь в службу поддержки банка в чате - чтобы разблокировать устройство.",
-      "en": "Please contact our support via the chart to unblock the device.",
-      "uk": "Зверніться в підтримку в чаті - щоб розблокувати пристрій."
+      "ru": "Устройство заблокировано, но в чате банка помогут это исправить!",
+      "en": "The device is blocked, but the bank chat will help you to fix this!",
+      "uk": "Пристрій заблоковано, але в чаті банку допоможуть це виправити!"
     }
   },
   "biometrics-enter-pin-title": {
     "friendly": {
-      "en": "Войти по ПИН-коду",
-      "uk": "Войти по ПИН-коду",
-      "ru": "Войти по ПИН-коду"
+      "en": "Login with PIN code",
+      "uk": "Увійти з PIN-кодом",
+      "ru": "Войти по PIN-коду"
     },
     "neutral": {
-      "en": "Войти по ПИН-коду",
-      "uk": "Войти по ПИН-коду",
-      "ru": "Войти по ПИН-коду"
+      "en": "Login with PIN code",
+      "uk": "Увійти з PIN-кодом",
+      "ru": "Войти по PIN-коду"
     },
     "business": {
-      "en": "Войти по ПИН-коду",
-      "uk": "Войти по ПИН-коду",
-      "ru": "Войти по ПИН-коду"
+      "en": "Login with PIN code",
+      "uk": "Увійти з PIN-кодом",
+      "ru": "Войти по PIN-коду"
     }
   },
   "firstEntry-birthday-input-title": {
     "business": {
-      "uk": "Дата рождения",
+      "uk": "Дата народження",
       "ru": "Дата рождения",
-      "en": "Дата рождения"
+      "en": "Date of birth"
     },
     "friendly": {
-      "uk": "Дата рождения",
+      "uk": "Дата народження",
       "ru": "Дата рождения",
-      "en": "Дата рождения"
+      "en": "Date of birth"
     },
     "neutral": {
-      "uk": "Дата рождения",
+      "uk": "Дата народження",
       "ru": "Дата рождения",
-      "en": "Дата рождения"
+      "en": "Date of birth"
     }
   },
   "error-blocked-title": {
     "friendly": {
-      "en": "Your account has been blocked",
-      "uk": "Ваш акаунт заблокований",
-      "ru": "Ваш аккаунт заблокирован"
+      "en": "Well, now you have to wait:(",
+      "uk": "Отакої, тепер чекати :(",
+      "ru": "Ну вот, теперь ждать:("
     },
     "neutral": {
-      "en": "Your account has been blocked",
-      "uk": "Ваш акаунт заблокований",
-      "ru": "Ваш аккаунт заблокирован"
+      "en": "Account is blocked",
+      "uk": "Акаунт заблоковано",
+      "ru": "Аккаунт заблокирован"
     },
     "business": {
-      "en": "Your account has been blocked",
-      "uk": "Ваш акаунт заблокований",
+      "en": "Your account is blocked",
+      "uk": "Ваш акаунт заблоковано",
       "ru": "Ваш аккаунт заблокирован"
     }
   },
   "passportIssue-input-title": {
     "neutral": {
-      "uk": "Дата выдачи",
-      "en": "Дата выдачи",
+      "uk": "Дата видачі",
+      "en": "Date of issue",
       "ru": "Дата выдачи"
     },
     "business": {
-      "uk": "Дата выдачи",
-      "en": "Дата выдачи",
+      "uk": "Дата видачі",
+      "en": "Date of issue",
       "ru": "Дата выдачи"
     },
     "friendly": {
-      "uk": "Дата выдачи",
-      "en": "Дата выдачи",
+      "uk": "Дата видачі",
+      "en": "Date of issue",
       "ru": "Дата выдачи"
     }
   },
   "pincode-is-simple-title": {
     "friendly": {
       "uk": "PIN-код занадто простий",
-      "en": "PIN-code is too easy",
+      "en": "PIN code is too simple",
       "ru": "PIN-код слишком простой"
     },
     "business": {
       "uk": "PIN-код занадто простий",
-      "en": "PIN-code is too easy",
+      "en": "PIN code is too simple",
       "ru": "PIN-код слишком простой"
     },
     "neutral": {
       "uk": "PIN-код занадто простий",
-      "en": "PIN-code is too easy",
+      "en": "PIN code is too simple",
       "ru": "PIN-код слишком простой"
     }
   },
   "reset-button-title": {
     "neutral": {
-      "en": "Восстановить пароль",
-      "uk": "Восстановить пароль",
-      "ru": "Восстановить пароль"
+      "en": "Recover PIN",
+      "uk": "Відновити PIN",
+      "ru": "Восстановить PIN"
     },
     "business": {
-      "en": "Восстановить пароль",
-      "uk": "Восстановить пароль",
-      "ru": "Восстановить пароль"
+      "en": "Recover PIN",
+      "uk": "Відновити PIN",
+      "ru": "Восстановить PIN"
     },
     "friendly": {
-      "en": "Восстановить пароль",
-      "uk": "Восстановить пароль",
-      "ru": "Восстановить пароль"
+      "en": "Recover PIN",
+      "uk": "Відновити PIN",
+      "ru": "Восстановить PIN"
     }
   },
   "firstEntry-topView-description": {
     "business": {
       "ru": "Введите номер телефона и дату рождения",
-      "en": "Введите номер телефона и дату рождения",
-      "uk": "Введите номер телефона и дату рождения"
+      "en": "Please enter your phone number and date of birth",
+      "uk": "Введіть номер телефону і дату народження"
     },
     "friendly": {
-      "ru": "Введите номер телефона и дату рождения",
-      "en": "Введите номер телефона и дату рождения",
-      "uk": "Введите номер телефона и дату рождения"
+      "ru": "Введи номер телефона и дату рождения",
+      "en": "Enter your phone number and date of birth",
+      "uk": "Введи номер телефону і дату народження"
     },
     "neutral": {
-      "ru": "Введите номер телефона и дату рождения",
-      "en": "Введите номер телефона и дату рождения",
-      "uk": "Введите номер телефона и дату рождения"
+      "ru": "Введи номер телефона и дату рождения",
+      "en": "Enter your phone number and date of birth",
+      "uk": "Введи номер телефону і дату народження"
     }
   },
   "biometrics-setup-faceID": {
@@ -631,137 +631,273 @@
   "error-otpExpired-text": {
     "friendly": {
       "ru": "Срок действия кода истек",
-      "en": "OTP-code expired",
+      "en": "Code expired",
       "uk": "Термін дії коду закінчився"
     },
     "business": {
       "ru": "Срок действия кода истек",
-      "en": "OTP-code expired",
+      "en": "Code expired",
       "uk": "Термін дії коду закінчився"
     },
     "neutral": {
       "ru": "Срок действия кода истек",
-      "en": "OTP-code expired",
+      "en": "Code expired",
       "uk": "Термін дії коду закінчився"
     }
   },
   "passportIssue-description": {
     "business": {
-      "en": "Введите дату выдачи паспорта",
-      "uk": "Введите дату выдачи паспорта",
-      "ru": "Введите дату выдачи паспорта"
+      "en": "Enter the date of passport issue",
+      "uk": "Ввести дату видачі паспорту",
+      "ru": "Ввести дату выдачи паспорта"
     },
     "friendly": {
-      "en": "Введите дату выдачи паспорта",
-      "uk": "Введите дату выдачи паспорта",
-      "ru": "Введите дату выдачи паспорта"
+      "en": "Enter the date of passport issue",
+      "uk": "Ввести дату видачі паспорту",
+      "ru": "Ввести дату выдачи паспорта"
     },
     "neutral": {
-      "en": "Введите дату выдачи паспорта",
-      "uk": "Введите дату выдачи паспорта",
-      "ru": "Введите дату выдачи паспорта"
+      "en": "Enter the date of passport issue",
+      "uk": "Ввести дату видачі паспорту",
+      "ru": "Ввести дату выдачи паспорта"
     }
   },
   "error-badCredentials-identification-title": {
     "friendly": {
-      "uk": "Введені дані є некоректними",
-      "en": "Invalid information",
+      "uk": "Некоректні дані",
+      "en": "Incorrect data",
       "ru": "Некорректные данные"
     },
     "business": {
-      "uk": "Введені дані є некоректними",
-      "en": "Invalid information",
+      "uk": "Некоректні дані",
+      "en": "Incorrect data",
       "ru": "Некорректные данные"
     },
     "neutral": {
-      "uk": "Введені дані є некоректними",
-      "en": "Invalid information",
+      "uk": "Некоректні дані",
+      "en": "Incorrect data",
       "ru": "Некорректные данные"
     }
   },
   "firstEntry-otp-blocked-title": {
     "neutral": {
-      "en": "Your account has been blocked",
-      "uk": "Ваш акаунт заблоковано",
-      "ru": "Ваш аккаунт заблокирован"
+      "en": "Account is blocked",
+      "uk": "Акаунт заблоковано",
+      "ru": "Аккаунт заблокирован"
     },
     "friendly": {
-      "en": "Your account has been blocked",
-      "uk": "Ваш акаунт заблоковано",
-      "ru": "Ваш аккаунт заблокирован"
+      "en": "Well, now you have to wait:(",
+      "uk": "Отакої, тепер чекати :(",
+      "ru": "Ну вот, теперь ждать:("
     },
     "business": {
-      "en": "Your account has been blocked",
+      "en": "Your account is blocked",
       "uk": "Ваш акаунт заблоковано",
       "ru": "Ваш аккаунт заблокирован"
     }
   },
   "biometrics-enter-button-title": {
     "friendly": {
-      "en": "Войти по %@",
+      "en": "Enter with %@",
       "ru": "Войти по %@",
-      "uk": "Войти по %@"
+      "uk": "Увійти з %@"
     },
     "neutral": {
-      "en": "Войти по %@",
+      "en": "Enter with %@",
       "ru": "Войти по %@",
-      "uk": "Войти по %@"
+      "uk": "Увійти з %@"
     },
     "business": {
-      "en": "Войти по %@",
+      "en": "Enter with %@",
       "ru": "Войти по %@",
-      "uk": "Войти по %@"
+      "uk": "Увійти з %@"
     }
   },
   "error-badCredentials-identification-text": {
     "neutral": {
-      "uk": "Перевірьте правильні введених даних. У випадку повторення помилки, зверніться в підтримку в чаті.",
-      "en": "Please double-check the information you've entered. If you still experience the issue, please contact support via chat.",
-      "ru": "Проверьте правильность введенных данных. В случае повторения ошибки, обратитесь в поддержку в чате."
+      "uk": "Повтори спробу. Якщо у тебе знову не вийде, напиши про це в чат на alfabank.ua",
+      "en": "Try again. If no success, write to alfabank.ua chat on this issue",
+      "ru": "Повтори попытку. Если у тебя снова не получится, напиши об этом в чат на alfabank.ua"
     },
     "business": {
-      "uk": "Перевірьте правильні введених даних. У випадку повторення помилки, зверніться в підтримку в чаті.",
-      "en": "Please double-check the information you've entered. If you still experience the issue, please contact support via chat.",
-      "ru": "Проверьте правильность введенных данных. В случае повторения ошибки, обратитесь в поддержку в чате."
+      "uk": "Повторіть спробу. Якщо у вас знову не вийде, напишіть про це в чат на alfabank.ua",
+      "en": "Please try again. In case of repeated fail, please contact the chat at alfabank.ua on this issue",
+      "ru": "Повторите попытку. Если у вас снова не получится, напишите об этом в чат на alfabank.ua"
     },
     "friendly": {
-      "uk": "Перевірьте правильні введених даних. У випадку повторення помилки, зверніться в підтримку в чаті.",
-      "en": "Please double-check the information you've entered. If you still experience the issue, please contact support via chat.",
-      "ru": "Проверьте правильность введенных данных. В случае повторения ошибки, обратитесь в поддержку в чате."
+      "uk": "Повтори спробу. Якщо у тебе знову не вийде, напиши про це в чат на alfabank.ua",
+      "en": "Try again. If no success, write to alfabank.ua chat on this issue",
+      "ru": "Повтори попытку. Если у тебя снова не получится, напиши об этом в чат на alfabank.ua"
     }
   },
   "cardNumber-description": {
     "business": {
-      "en": "Введите последние четыре цифры вашей карты и CVV код",
-      "uk": "Введите последние четыре цифры вашей карты и CVV код",
-      "ru": "Введите последние четыре цифры вашей карты и CVV код"
+      "en": "Please enter the last 4 digits of the card number and the 3-digit CVV code on the back",
+      "uk": "Введіть останні 4 цифри номера картки та 3-значний CVV-код зі зворотного боку",
+      "ru": "Введите последние 4 цифры номера карты и 3-значный CVV-код с обратной стороны"
     },
     "friendly": {
-      "en": "Введите последние четыре цифры вашей карты и CVV код",
-      "uk": "Введите последние четыре цифры вашей карты и CVV код",
-      "ru": "Введите последние четыре цифры вашей карты и CVV код"
+      "en": "Enter the last 4 digits of the card number and the 3-digit CVV code on the back",
+      "uk": "Введи останні 4 цифри номера картки та 3-значний CVV-код зі зворотного боку",
+      "ru": "Введи последние 4 цифры номера карты и 3-значный CVV-код с обратной стороны"
     },
     "neutral": {
-      "en": "Введите последние четыре цифры вашей карты и CVV код",
-      "uk": "Введите последние четыре цифры вашей карты и CVV код",
-      "ru": "Введите последние четыре цифры вашей карты и CVV код"
+      "en": "Enter the last 4 digits of the card number and the 3-digit CVV code on the back",
+      "uk": "Введи останні 4 цифри номера картки та 3-значний CVV-код зі зворотного боку",
+      "ru": "Введи последние 4 цифры номера карты и 3-значный CVV-код с обратной стороны"
     }
   },
   "firstEntry-otp-resend-title": {
     "business": {
       "ru": "Отправить пароль еще раз",
-      "en": "Отправить пароль еще раз",
-      "uk": "Отправить пароль еще раз"
+      "en": "Send password again",
+      "uk": "Відправити пароль ще раз"
     },
     "friendly": {
       "ru": "Отправить пароль еще раз",
-      "en": "Отправить пароль еще раз",
-      "uk": "Отправить пароль еще раз"
+      "en": "Send password again",
+      "uk": "Відправити пароль ще раз"
     },
     "neutral": {
       "ru": "Отправить пароль еще раз",
-      "en": "Отправить пароль еще раз",
-      "uk": "Отправить пароль еще раз"
+      "en": "Send password again",
+      "uk": "Відправити пароль ще раз"
+    }
+  },
+  "pincode-alert-exit-title": {
+    "friendly": {
+      "uk": "Увага",
+      "en": "Warning",
+      "ru": "Внимание"
+    },
+    "business": {
+      "uk": "Увага",
+      "en": "Warning",
+      "ru": "Внимание"
+    },
+    "neutral": {
+      "uk": "Увага",
+      "en": "Warning",
+      "ru": "Внимание"
+    }
+  },
+  "pincode-alert-exit-subtitle": {
+    "friendly": {
+      "uk": "Хочеш вийти?",
+      "en": "Do you want to logout?",
+      "ru": "Хочешь выйти?"
+    },
+    "business": {
+      "uk": "Хочете вийти?",
+      "en": "Do you want to logout?",
+      "ru": "Хотите выйти?"
+    },
+    "neutral": {
+      "uk": "Хочеш вийти?",
+      "en": "Do you want to logout?",
+      "ru": "Хочешь выйти?"
+    }
+  },
+  "thirdLogin-title": {
+    "business": {
+      "ru": "Выберите стиль общения",
+      "en": "Select tone of voice",
+      "uk": "Виберіть стиль спілкування"
+    },
+    "friendly": {
+      "ru": "Выбери стиль общения",
+      "en": "Select tone of voice",
+      "uk": "Вибери стиль спілкування"
+    },
+    "neutral": {
+      "ru": "Выбери стиль общения",
+      "en": "Select tone of voice",
+      "uk": "Вибери стиль спілкування"
+    }
+  },
+  "thirdLogin-description": {
+    "business": {
+      "ru": "Выберите самый комфортный. Кстати, в настройках его всегда можно сменить",
+      "en": "Please select the most suitable one for you. By the way, you can always change it in settings.",
+      "uk": "Виберіть найкомфортніший. До речі, у налаштуваннях його завжди можна змінити"
+    },
+    "friendly": {
+      "ru": "Выбери самый комфортный. Кстати, в настройках его всегда можно сменить",
+      "en": "Select the most suitable one. By the way, you can always change it in settings.",
+      "uk": "Вибери найкомфортніший. До речі, у налаштуваннях його завжди можна змінити"
+    },
+    "neutral": {
+      "ru": "Выбери самый комфортный. Кстати, в настройках его всегда можно сменить",
+      "en": "Select the most suitable one. By the way, you can always change it in settings.",
+      "uk": "Вибери найкомфортніший. До речі, у налаштуваннях його завжди можна змінити"
+    }
+  },
+  "thirdLogin-first-message-text": {
+    "business": {
+      "ru": "Оформление завершено! Вы можете пользоваться всеми функциями пакета",
+      "en": "Registration completed! You can use all package features",
+      "uk": "Оформлення завершено! Ви можете користуватися усіма функціями пакету"
+    },
+    "friendly": {
+      "ru": "Пау! Топовые функции пакета ждут тебя :)",
+      "en": "Pow! Top package features are waiting for you:)",
+      "uk": "Пау! Топові функції пакету чекають на тебе:)"
+    },
+    "neutral": {
+      "ru": "Готово! Тебе доступны все функции пакета",
+      "en": "Done! You have access to all package features",
+      "uk": "Готово! Тобі доступні всі функції пакету"
+    }
+  },
+  "thirdLogin-second-message-text": {
+    "business": {
+      "ru": "Оформление завершено! Вы можете пользоваться всеми функциями пакета",
+      "en": "Registration completed! You can use all package features",
+      "uk": "Оформлення завершено! Ви можете користуватися усіма функціями пакету"
+    },
+    "friendly": {
+      "ru": "Пау! Топовые функции пакета ждут тебя :)",
+      "en": "Pow! Top package features are waiting for you:)",
+      "uk": "Пау! Топові функції пакету чекають на тебе:)"
+    },
+    "neutral": {
+      "ru": "Готово! Тебе доступны все функции пакета",
+      "en": "Done! You have access to all package features",
+      "uk": "Готово! Тобі доступні всі функції пакету"
+    }
+  },
+  "thirdLogin-third-message-text": {
+    "business": {
+      "ru": "Оформление завершено! Вы можете пользоваться всеми функциями пакета",
+      "en": "Registration completed! You can use all package features",
+      "uk": "Оформлення завершено! Ви можете користуватися усіма функціями пакету"
+    },
+    "friendly": {
+      "ru": "Пау! Топовые функции пакета ждут тебя :)",
+      "en": "Pow! Top package features are waiting for you:)",
+      "uk": "Пау! Топові функції пакету чекають на тебе:)"
+    },
+    "neutral": {
+      "ru": "Готово! Тебе доступны все функции пакета",
+      "en": "Done! You have access to all package features",
+      "uk": "Готово! Тобі доступні всі функції пакету"
+    }
+  },
+  "thirdLogin-skip": {
+    "business": {
+      "ru": "Пропустить",
+      "en": "Skip",
+      "uk": "Пропустити"
+    },
+    "friendly": {
+      "ru": "Пропустить",
+      "en": "Skip",
+      "uk": "Пропустити"
+    },
+    "neutral": {
+      "ru": "Пропустить",
+      "en": "Skip",
+      "uk": "Пропустити"
     }
   }
 }

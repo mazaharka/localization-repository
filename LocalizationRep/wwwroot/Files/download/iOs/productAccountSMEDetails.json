@@ -1,36 +1,36 @@
 {
   "account-sme-default-details-shortcut-title": {
     "business": {
-      "uk": "Доступный остаток",
-      "en": "Доступный остаток",
+      "uk": "Доступний залишок",
+      "en": "Available balance",
       "ru": "Доступный остаток"
     },
     "friendly": {
-      "uk": "Доступный остаток",
-      "en": "Доступный остаток",
+      "uk": "Доступний залишок",
+      "en": "Available balance",
       "ru": "Доступный остаток"
     },
     "neutral": {
-      "uk": "Доступный остаток",
-      "en": "Доступный остаток",
+      "uk": "Доступний залишок",
+      "en": "Available balance",
       "ru": "Доступный остаток"
     }
   },
   "account-sme-details-holdAik-title": {
     "friendly": {
       "ru": "Задолженность по комиссиям",
-      "en": "Задолженность по комиссиям",
-      "uk": "Задолженность по комиссиям"
+      "en": "Fee arrears",
+      "uk": "Заборгованість по комісіях"
     },
     "neutral": {
       "ru": "Задолженность по комиссиям",
-      "en": "Задолженность по комиссиям",
-      "uk": "Задолженность по комиссиям"
+      "en": "Fee arrears",
+      "uk": "Заборгованість по комісіях"
     },
     "business": {
       "ru": "Задолженность по комиссиям",
-      "en": "Задолженность по комиссиям",
-      "uk": "Задолженность по комиссиям"
+      "en": "Fee arrears",
+      "uk": "Заборгованість по комісіях"
     }
   },
   "account-sme-details-history-tab": {
@@ -54,102 +54,102 @@
     "friendly": {
       "uk": "Загальна інформація",
       "ru": "Общая информация",
-      "en": "Common information"
+      "en": "General information"
     },
     "neutral": {
       "uk": "Загальна інформація",
       "ru": "Общая информация",
-      "en": "Common information"
+      "en": "General information"
     },
     "business": {
       "uk": "Загальна інформація",
       "ru": "Общая информация",
-      "en": "Common information"
+      "en": "General information"
     }
   },
   "account-sme-details-actions-info-title": {
     "friendly": {
       "ru": "Действия",
-      "en": "Действия",
-      "uk": "Действия"
+      "en": "Actions",
+      "uk": "Дії"
     },
     "neutral": {
       "ru": "Действия",
-      "en": "Действия",
-      "uk": "Действия"
+      "en": "Actions",
+      "uk": "Дії"
     },
     "business": {
       "ru": "Действия",
-      "en": "Действия",
-      "uk": "Действия"
+      "en": "Actions",
+      "uk": "Дії"
     }
   },
   "account-sme-details-actions-title": {
     "neutral": {
       "ru": "Действия",
-      "uk": "Действия",
-      "en": "Действия"
+      "uk": "Дії",
+      "en": "Actions"
     },
     "friendly": {
       "ru": "Действия",
-      "uk": "Действия",
-      "en": "Действия"
+      "uk": "Дії",
+      "en": "Actions"
     },
     "business": {
       "ru": "Действия",
-      "uk": "Действия",
-      "en": "Действия"
+      "uk": "Дії",
+      "en": "Actions"
     }
   },
   "account-sme-details-state-title": {
     "neutral": {
       "ru": "Статус счета",
-      "uk": "Статус счета",
-      "en": "Статус счета"
+      "uk": "Статус рахунку",
+      "en": "Account status"
     },
     "friendly": {
       "ru": "Статус счета",
-      "uk": "Статус счета",
-      "en": "Статус счета"
+      "uk": "Статус рахунку",
+      "en": "Account status"
     },
     "business": {
       "ru": "Статус счета",
-      "uk": "Статус счета",
-      "en": "Статус счета"
+      "uk": "Статус рахунку",
+      "en": "Account status"
     }
   },
   "account-sme-parameterized-details-shortcut-title": {
     "business": {
       "ru": "%@ + овердрафт (%@)",
       "uk": "%@ + овердрафт (%@)",
-      "en": "%@ + овердрафт (%@)"
+      "en": "%@ + overdraft (%@)"
     },
     "neutral": {
       "ru": "%@ + овердрафт (%@)",
       "uk": "%@ + овердрафт (%@)",
-      "en": "%@ + овердрафт (%@)"
+      "en": "%@ + overdraft (%@)"
     },
     "friendly": {
       "ru": "%@ + овердрафт (%@)",
       "uk": "%@ + овердрафт (%@)",
-      "en": "%@ + овердрафт (%@)"
+      "en": "%@ + overdraft (%@)"
     }
   },
   "account-sme-details-dateClose-title": {
     "neutral": {
       "ru": "Дата закрытия",
-      "uk": "Дата закрытия",
-      "en": "Дата закрытия"
+      "uk": "Дата закриття",
+      "en": "Closing date"
     },
     "business": {
       "ru": "Дата закрытия",
-      "uk": "Дата закрытия",
-      "en": "Дата закрытия"
+      "uk": "Дата закриття",
+      "en": "Closing date"
     },
     "friendly": {
       "ru": "Дата закрытия",
-      "uk": "Дата закрытия",
-      "en": "Дата закрытия"
+      "uk": "Дата закриття",
+      "en": "Closing date"
     }
   },
   "account-sme-details-management-tab": {
@@ -171,70 +171,70 @@
   },
   "account-sme-details-currency-title": {
     "friendly": {
-      "uk": "Валюта счета",
+      "uk": "Валюта рахунку",
       "ru": "Валюта счета",
-      "en": "Валюта счета"
+      "en": "Account currency"
     },
     "neutral": {
-      "uk": "Валюта счета",
+      "uk": "Валюта рахунку",
       "ru": "Валюта счета",
-      "en": "Валюта счета"
+      "en": "Account currency"
     },
     "business": {
-      "uk": "Валюта счета",
+      "uk": "Валюта рахунку",
       "ru": "Валюта счета",
-      "en": "Валюта счета"
+      "en": "Account currency"
     }
   },
   "account-sme-details-iban-title": {
     "friendly": {
-      "uk": "Номер счета в формате IBAN",
-      "en": "Номер счета в формате IBAN",
-      "ru": "Номер счета в формате IBAN"
+      "uk": "IBAN",
+      "en": "IBAN",
+      "ru": "IBAN"
     },
     "business": {
-      "uk": "Номер счета в формате IBAN",
-      "en": "Номер счета в формате IBAN",
-      "ru": "Номер счета в формате IBAN"
+      "uk": "IBAN",
+      "en": "IBAN",
+      "ru": "IBAN"
     },
     "neutral": {
-      "uk": "Номер счета в формате IBAN",
-      "en": "Номер счета в формате IBAN",
-      "ru": "Номер счета в формате IBAN"
+      "uk": "IBAN",
+      "en": "IBAN",
+      "ru": "IBAN"
     }
   },
   "account-sme-details-statement-button-title": {
     "neutral": {
-      "uk": "Выписка по счету",
-      "en": "Выписка по счету",
+      "uk": "Виписка по рахунку",
+      "en": "Account statement",
       "ru": "Выписка по счету"
     },
     "friendly": {
-      "uk": "Выписка по счету",
-      "en": "Выписка по счету",
+      "uk": "Виписка по рахунку",
+      "en": "Account statement",
       "ru": "Выписка по счету"
     },
     "business": {
-      "uk": "Выписка по счету",
-      "en": "Выписка по счету",
+      "uk": "Виписка по рахунку",
+      "en": "Account statement",
       "ru": "Выписка по счету"
     }
   },
   "account-sme-details-notifications-button-title": {
     "neutral": {
-      "en": "SMS / PUSH messages",
-      "ru": "SMS / PUSH сообщение",
-      "uk": "SMS / PUSH повідомлення"
+      "en": "SMS/Push notifications",
+      "ru": "SMS/Push-уведомления",
+      "uk": "SMS/Push-сповіщення"
     },
     "business": {
-      "en": "SMS / PUSH messages",
-      "ru": "SMS / PUSH сообщение",
-      "uk": "SMS / PUSH повідомлення"
+      "en": "SMS/Push notifications",
+      "ru": "SMS/Push-уведомления",
+      "uk": "SMS/Push-сповіщення"
     },
     "friendly": {
-      "en": "SMS / PUSH messages",
-      "ru": "SMS / PUSH сообщение",
-      "uk": "SMS / PUSH повідомлення"
+      "en": "SMS/Push notifications",
+      "ru": "SMS/Push-уведомления",
+      "uk": "SMS/Push-сповіщення"
     }
   },
   "account-sme-details-cards-tab": {
@@ -257,35 +257,52 @@
   "account-sme-details-dateOpen-title": {
     "neutral": {
       "ru": "Дата открытия",
-      "en": "Дата открытия",
-      "uk": "Дата открытия"
+      "en": "Opening date",
+      "uk": "Дата відкриття"
     },
     "business": {
       "ru": "Дата открытия",
-      "en": "Дата открытия",
-      "uk": "Дата открытия"
+      "en": "Opening date",
+      "uk": "Дата відкриття"
     },
     "friendly": {
       "ru": "Дата открытия",
-      "en": "Дата открытия",
-      "uk": "Дата открытия"
+      "en": "Opening date",
+      "uk": "Дата відкриття"
     }
   },
   "account-sme-details-information-tab": {
     "neutral": {
-      "ru": "Инфо",
+      "ru": "Информация",
       "en": "Info",
-      "uk": "Інфо"
+      "uk": "Інформація"
     },
     "business": {
-      "ru": "Инфо",
+      "ru": "Информация",
       "en": "Info",
-      "uk": "Інфо"
+      "uk": "Інформація"
     },
     "friendly": {
-      "ru": "Инфо",
+      "ru": "Информация",
       "en": "Info",
-      "uk": "Інфо"
+      "uk": "Інформація"
+    }
+  },
+  "account-sme-details-notifications-button-desc": {
+    "neutral": {
+      "en": "Selection of account transaction notification method",
+      "ru": "Выбор способа информирования о транзакциях по счету",
+      "uk": "Вибір способу інформування про транзакції по рахунку"
+    },
+    "business": {
+      "en": "Selection of account transaction notification method",
+      "ru": "Выбор способа информирования о транзакциях по счету",
+      "uk": "Вибір способу інформування про транзакції по рахунку"
+    },
+    "friendly": {
+      "en": "What is the best way to check transactions?",
+      "ru": "Как удобнее проверять транзакции?",
+      "uk": "Як зручніше перевіряти транзакції?"
     }
   }
 }

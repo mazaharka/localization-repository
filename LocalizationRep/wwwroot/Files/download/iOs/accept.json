@@ -1,19 +1,19 @@
 {
   "accept-validation-message-text": {
     "friendly": {
-      "en": "Invalid e-mail",
-      "uk": "Некоректний e-mail",
-      "ru": "Некорректный e-mail"
+      "en": "Invalid E-mail",
+      "uk": "Некоректний E-mail",
+      "ru": "Некорректный E-mail"
     },
     "neutral": {
-      "en": "Invalid e-mail",
-      "uk": "Некоректний e-mail",
-      "ru": "Некорректный e-mail"
+      "en": "Invalid E-mail",
+      "uk": "Некоректний E-mail",
+      "ru": "Некорректный E-mail"
     },
     "business": {
-      "en": "Invalid e-mail",
-      "uk": "Некоректний e-mail",
-      "ru": "Некорректный e-mail"
+      "en": "Invalid E-mail",
+      "uk": "Некоректний E-mail",
+      "ru": "Некорректный E-mail"
     }
   },
   "accept-input-title": {
@@ -35,35 +35,35 @@
   },
   "accept-form-title": {
     "business": {
-      "uk": "Надіслати Договір на e-mail",
-      "ru": "Отправить Договор на e-mail",
-      "en": "Send an agreement by e-mail"
+      "uk": "Надіслати Договір на E-mail",
+      "ru": "Отправить Договор на E-mail",
+      "en": "Send the Agreement by E-mail"
     },
     "friendly": {
-      "uk": "Надіслати Договір на e-mail",
-      "ru": "Отправить Договор на e-mail",
-      "en": "Send an agreement by e-mail"
+      "uk": "Надіслати Договір на E-mail",
+      "ru": "Отправить Договор на E-mail",
+      "en": "Send the Agreement by E-mail"
     },
     "neutral": {
-      "uk": "Надіслати Договір на e-mail",
-      "ru": "Отправить Договор на e-mail",
-      "en": "Send an agreement by e-mail"
+      "uk": "Надіслати Договір на E-mail",
+      "ru": "Отправить Договор на E-mail",
+      "en": "Send the Agreement by E-mail"
     }
   },
   "accept-success-sended-message-title": {
     "business": {
-      "en": "Sending the contract",
-      "uk": "Відправка договора",
+      "en": "Sending an Agreement",
+      "uk": "Відправка договору",
       "ru": "Отправка договора"
     },
     "neutral": {
-      "en": "Sending the contract",
-      "uk": "Відправка договора",
+      "en": "Sending an Agreement",
+      "uk": "Відправка договору",
       "ru": "Отправка договора"
     },
     "friendly": {
-      "en": "Sending the contract",
-      "uk": "Відправка договора",
+      "en": "Sending an Agreement",
+      "uk": "Відправка договору",
       "ru": "Отправка договора"
     }
   },

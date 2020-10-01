@@ -1,17 +1,17 @@
 {
   "transfer-repeat-button-title": {
     "neutral": {
-      "en": "Remind me later",
+      "en": "Try again",
       "ru": "Попробовать еще раз",
       "uk": "Спробувати ще раз"
     },
     "business": {
-      "en": "Remind me later",
+      "en": "Try again",
       "ru": "Попробовать еще раз",
       "uk": "Спробувати ще раз"
     },
     "friendly": {
-      "en": "Remind me later",
+      "en": "Try again",
       "ru": "Попробовать еще раз",
       "uk": "Спробувати ще раз"
     }
@@ -20,17 +20,17 @@
     "neutral": {
       "ru": "Комиссия %@. Недостаточно средств",
       "uk": "Комісія %@. Недостатньо коштів",
-      "en": "Commission %@. Insufficient funds"
+      "en": "Commission %@. No sufficient funds"
     },
     "business": {
       "ru": "Комиссия %@. Недостаточно средств",
       "uk": "Комісія %@. Недостатньо коштів",
-      "en": "Commission %@. Insufficient funds"
+      "en": "Commission %@. No sufficient funds"
     },
     "friendly": {
       "ru": "Комиссия %@. Недостаточно средств",
       "uk": "Комісія %@. Недостатньо коштів",
-      "en": "Commission %@. Insufficient funds"
+      "en": "Commission %@. No sufficient funds"
     }
   },
   "transfer-accounts-empty": {
@@ -53,84 +53,84 @@
   "transfer-recipient": {
     "neutral": {
       "ru": "Получатель",
-      "en": "Recipient",
-      "uk": "Одержувач"
+      "en": "Beneficiary",
+      "uk": "Отримувач"
     },
     "friendly": {
       "ru": "Получатель",
-      "en": "Recipient",
-      "uk": "Одержувач"
+      "en": "Beneficiary",
+      "uk": "Отримувач"
     },
     "business": {
       "ru": "Получатель",
-      "en": "Recipient",
-      "uk": "Одержувач"
+      "en": "Beneficiary",
+      "uk": "Отримувач"
     }
   },
   "transfer-appointment-of-payment": {
     "business": {
       "ru": "Назначение платежа",
       "uk": "Призначення платежу",
-      "en": "Appointment of payment"
+      "en": "Purpose of payment"
     },
     "friendly": {
       "ru": "Назначение платежа",
       "uk": "Призначення платежу",
-      "en": "Appointment of payment"
+      "en": "Purpose of payment"
     },
     "neutral": {
       "ru": "Назначение платежа",
       "uk": "Призначення платежу",
-      "en": "Appointment of payment"
+      "en": "Purpose of payment"
     }
   },
   "transfer-iban-header-text": {
     "business": {
-      "uk": "Вкажіть реквізити одержувача",
-      "en": "Вкажіть реквізити одержувача",
-      "ru": "Вкажіть реквізити одержувача"
+      "uk": "Вкажіть реквізити отримувача",
+      "en": "Please enter the beneficiary's details",
+      "ru": "Укажите реквизиты получателя"
     },
     "friendly": {
-      "uk": "Вкажіть реквізити одержувача",
-      "en": "Вкажіть реквізити одержувача",
-      "ru": "Вкажіть реквізити одержувача"
+      "uk": "Дай реквізити отримувача",
+      "en": "Provide the beneficiary's details",
+      "ru": "Дай реквизиты получателя"
     },
     "neutral": {
-      "uk": "Вкажіть реквізити одержувача",
-      "en": "Вкажіть реквізити одержувача",
-      "ru": "Вкажіть реквізити одержувача"
+      "uk": "Вкажи реквізити отримувача",
+      "en": "Enter the beneficiary's details",
+      "ru": "Укажи реквизиты получателя"
     }
   },
   "transfer-verify-error": {
     "friendly": {
       "ru": "Неверный лимит",
-      "uk": "Невірний ліміт",
-      "en": "Wrong limits"
+      "uk": "Неправильний ліміт",
+      "en": "Invalid limit"
     },
     "neutral": {
       "ru": "Неверный лимит",
-      "uk": "Невірний ліміт",
-      "en": "Wrong limits"
+      "uk": "Неправильний ліміт",
+      "en": "Invalid limit"
     },
     "business": {
       "ru": "Неверный лимит",
-      "uk": "Невірний ліміт",
-      "en": "Wrong limits"
+      "uk": "Неправильний ліміт",
+      "en": "Invalid limit"
     }
   },
   "transfer-button-title": {
     "neutral": {
-      "en": "Confirm",
+      "en": "Transfer",
       "ru": "Перевести",
       "uk": "Переказати"
     },
     "business": {
-      "en": "Confirm",
+      "en": "Transfer",
       "ru": "Перевести",
       "uk": "Переказати"
     },
     "friendly": {
-      "en": "Confirm",
+      "en": "Transfer",
       "ru": "Перевести",
       "uk": "Переказати"
     }
@@ -138,17 +138,17 @@
   "transfer-ipn": {
     "friendly": {
       "ru": "ЕГРПОУ/ИНН получателя",
-      "en": "Identify the recipient's code",
+      "en": "EDRPOU/TIN of the beneficiary",
       "uk": "ЄДРПОУ/ІПН отримувача"
     },
     "neutral": {
       "ru": "ЕГРПОУ/ИНН получателя",
-      "en": "Identify the recipient's code",
+      "en": "EDRPOU/TIN of the beneficiary",
       "uk": "ЄДРПОУ/ІПН отримувача"
     },
     "business": {
       "ru": "ЕГРПОУ/ИНН получателя",
-      "en": "Identify the recipient's code",
+      "en": "EDRPOU/TIN of the beneficiary",
       "uk": "ЄДРПОУ/ІПН отримувача"
     }
   },
@@ -171,87 +171,325 @@
   },
   "transfer-iban-notEnoughMoney-error": {
     "business": {
-      "en": "Insufficient funds",
+      "en": "No sufficient funds",
       "uk": "Недостатньо коштів",
       "ru": "Недостаточно средств"
     },
     "neutral": {
-      "en": "Insufficient funds",
+      "en": "No sufficient funds",
       "uk": "Недостатньо коштів",
       "ru": "Недостаточно средств"
     },
     "friendly": {
-      "en": "Insufficient funds",
+      "en": "No sufficient funds",
       "uk": "Недостатньо коштів",
       "ru": "Недостаточно средств"
     }
   },
   "transfer-iban-incorrect-value": {
     "neutral": {
-      "uk": "Перевірте коректність даних",
-      "en": "Check the correctness of the data",
-      "ru": "Проверьте корректность данных"
+      "uk": "Перевір правильність даних",
+      "en": "Check data accuracy",
+      "ru": "Проверь корректность данных"
     },
     "friendly": {
-      "uk": "Перевірте коректність даних",
-      "en": "Check the correctness of the data",
-      "ru": "Проверьте корректность данных"
+      "uk": "Без перевірки даних не обійтися",
+      "en": "You can't do without data checking",
+      "ru": "Без проверки данных не обойтись"
     },
     "business": {
-      "uk": "Перевірте коректність даних",
-      "en": "Check the correctness of the data",
+      "uk": "Перевірте правильність даних",
+      "en": "Please check data accuracy",
       "ru": "Проверьте корректность данных"
     }
   },
   "transfer-iban-checkbox-agreement-text": {
     "business": {
       "ru": "Я подтверждаю, что эта операция не связана с предпринимательской деятельностью",
-      "en": "I confirm that this transaction isn't related to any business activity",
-      "uk": "Я підтверджую, що ця операція непов'язана з підприємницькою діяльністю"
+      "en": "I confirm that this operation is not related to business activities",
+      "uk": "Я підтверджую, що ця операція не пов'язана з підприємницькою діяльністю"
     },
     "neutral": {
       "ru": "Я подтверждаю, что эта операция не связана с предпринимательской деятельностью",
-      "en": "I confirm that this transaction isn't related to any business activity",
-      "uk": "Я підтверджую, що ця операція непов'язана з підприємницькою діяльністю"
+      "en": "I confirm that this operation is not related to business activities",
+      "uk": "Я підтверджую, що ця операція не пов'язана з підприємницькою діяльністю"
     },
     "friendly": {
       "ru": "Я подтверждаю, что эта операция не связана с предпринимательской деятельностью",
-      "en": "I confirm that this transaction isn't related to any business activity",
-      "uk": "Я підтверджую, що ця операція непов'язана з підприємницькою діяльністю"
+      "en": "I confirm that this operation is not related to business activities",
+      "uk": "Я підтверджую, що ця операція не пов'язана з підприємницькою діяльністю"
     }
   },
   "transfer-iban-checkbox-agreement-error-text": {
     "business": {
-      "en": "Необхідно підтвердження",
-      "ru": "Необхідно підтвердження",
-      "uk": "Необхідно підтвердження"
+      "en": "Confirmation required",
+      "ru": "Необходимо подтверждение",
+      "uk": "Необхідне підтвердження"
     },
     "friendly": {
-      "en": "Необхідно підтвердження",
-      "ru": "Необхідно підтвердження",
-      "uk": "Необхідно підтвердження"
+      "en": "Can't do without confirmation:(",
+      "ru": "Без подтверждения нельзя:(",
+      "uk": "Без підтвердження не можна:("
     },
     "neutral": {
-      "en": "Необхідно підтвердження",
-      "ru": "Необхідно підтвердження",
-      "uk": "Необхідно підтвердження"
+      "en": "Confirmation required",
+      "ru": "Необходимо подтверждение",
+      "uk": "Необхідне підтвердження"
     }
   },
   "transfer-amount-header-title": {
     "business": {
-      "uk": "Укажите сумму перевода",
-      "en": "Укажите сумму перевода",
+      "uk": "Вкажіть суму переказу",
+      "en": "Please enter the transfer amount",
       "ru": "Укажите сумму перевода"
     },
     "neutral": {
-      "uk": "Укажите сумму перевода",
-      "en": "Укажите сумму перевода",
-      "ru": "Укажите сумму перевода"
+      "uk": "Вкажи суму переказу",
+      "en": "Enter the transfer amount",
+      "ru": "Укажи сумму перевода"
     },
     "friendly": {
-      "uk": "Укажите сумму перевода",
-      "en": "Укажите сумму перевода",
-      "ru": "Укажите сумму перевода"
+      "uk": "Вкажи суму переказу",
+      "en": "Enter the transfer amount",
+      "ru": "Укажи сумму перевода"
+    }
+  },
+  "transfer-comission-error": {
+    "neutral": {
+      "ru": "Комиссия %@. Недостаточно средств",
+      "uk": "Комісія %@. Недостатньо коштів",
+      "en": "Commission %@. No sufficient funds"
+    },
+    "business": {
+      "ru": "Комиссия %@. Недостаточно средств",
+      "uk": "Комісія %@. Недостатньо коштів",
+      "en": "Commission %@. No sufficient funds"
+    },
+    "friendly": {
+      "ru": "Комиссия %@. Недостаточно средств",
+      "uk": "Комісія %@. Недостатньо коштів",
+      "en": "Commission %@. No sufficient funds"
+    }
+  },
+  "destination-with-tax-regex": {
+    "business": {
+      "uk": "у т\\.ч\\. ПДВ 20% - \\d*(\\s|\\d)*\\.\\d* грн\\",
+      "en": "incl.\\. VAT 20% - \\d*(\\s|\\d)*\\.\\d* UAH",
+      "ru": "в т\\.ч\\. НДС 20% - \\d*(\\s|\\d)*\\.\\d* грн\\."
+    },
+    "neutral": {
+      "uk": "у т\\.ч\\. ПДВ 20% - \\d*(\\s|\\d)*\\.\\d* грн\\",
+      "en": "incl.\\. VAT 20% - \\d*(\\s|\\d)*\\.\\d* UAH",
+      "ru": "в т\\.ч\\. НДС 20% - \\d*(\\s|\\d)*\\.\\d* грн\\."
+    },
+    "friendly": {
+      "uk": "у т\\.ч\\. ПДВ 20% - \\d*(\\s|\\d)*\\.\\d* грн\\",
+      "en": "incl.\\. VAT 20% - \\d*(\\s|\\d)*\\.\\d* UAH",
+      "ru": "в т\\.ч\\. НДС 20% - \\d*(\\s|\\d)*\\.\\d* грн\\."
+    }
+  },
+  "destination-with-tax-pattern": {
+    "business": {
+      "uk": "у т.ч. ПДВ 20%% - %@ грн",
+      "en": "incl. VAT 20 %% -% @ UAH",
+      "ru": "в т.ч. НДС 20%% - %@ грн."
+    },
+    "neutral": {
+      "uk": "у т.ч. ПДВ 20%% - %@ грн",
+      "en": "incl. VAT 20 %% -% @ UAH",
+      "ru": "в т.ч. НДС 20%% - %@ грн."
+    },
+    "friendly": {
+      "uk": "у т.ч. ПДВ 20%% - %@ грн",
+      "en": "incl. VAT 20 %% -% @ UAH",
+      "ru": "в т.ч. НДС 20%% - %@ грн."
+    }
+  },
+  "destination-without-tax-pattern": {
+    "business": {
+      "uk": "Без ПДВ",
+      "en": "Without VAT",
+      "ru": "Без НДС"
+    },
+    "neutral": {
+      "uk": "Без ПДВ",
+      "en": "Without VAT",
+      "ru": "Без НДС"
+    },
+    "friendly": {
+      "uk": "Без ПДВ",
+      "en": "Without VAT",
+      "ru": "Без НДС"
+    }
+  },
+  "destination-country-seacrch-placeholder": {
+    "business": {
+      "uk": "Введіть назву країни",
+      "en": "Please enter country name",
+      "ru": "Введите название страны"
+    },
+    "neutral": {
+      "uk": "Введи назву країни",
+      "en": "Enter country name",
+      "ru": "Введи название страны"
+    },
+    "friendly": {
+      "uk": "Введи назву країни",
+      "en": "Enter country name",
+      "ru": "Введи название страны"
+    }
+  },
+  "destination-country-title": {
+    "business": {
+      "uk": "Виберіть країну нерезидента",
+      "en": "Please select non-resident country",
+      "ru": "Выберите страну нерезидента"
+    },
+    "neutral": {
+      "uk": "Вибери країну нерезидента",
+      "en": "Select non-resident country",
+      "ru": "Выбери страну нерезидента"
+    },
+    "friendly": {
+      "uk": "Вибери країну нерезидента",
+      "en": "Select non-resident country",
+      "ru": "Выбери страну нерезидента"
+    }
+  },
+  "transfer-resident-switch-title": {
+    "business": {
+      "uk": "Отримувач-нерезидент",
+      "en": "Non-resident beneficiary",
+      "ru": "Получатель-нерезидент"
+    },
+    "neutral": {
+      "uk": "Отримувач-нерезидент",
+      "en": "Non-resident beneficiary",
+      "ru": "Получатель-нерезидент"
+    },
+    "friendly": {
+      "uk": "Отримувач-нерезидент",
+      "en": "Non-resident beneficiary",
+      "ru": "Получатель-нерезидент"
+    }
+  },
+  "transfer-resident-country-select-title": {
+    "business": {
+      "uk": "Країна резидента",
+      "en": "Resident country",
+      "ru": "Страна резидента"
+    },
+    "neutral": {
+      "uk": "Країна резидента",
+      "en": "Resident country",
+      "ru": "Страна резидента"
+    },
+    "friendly": {
+      "uk": "Країна резидента",
+      "en": "Resident country",
+      "ru": "Страна резидента"
+    }
+  },
+  "transfer-resident-country-select-description": {
+    "business": {
+      "uk": "Вкажіть країну",
+      "en": "Please enter country",
+      "ru": "Укажите страну"
+    },
+    "neutral": {
+      "uk": "Вкажи країну",
+      "en": "Enter country",
+      "ru": "Укажи страну"
+    },
+    "friendly": {
+      "uk": "Вкажи країну",
+      "en": "Enter country",
+      "ru": "Укажи страну"
+    }
+  },
+  "transfer-commission-description": {
+    "business": {
+      "uk": "Комісія відповідно до вашого пакету послуг",
+      "en": "Commission according to your service package",
+      "ru": "Комиссия согласно вашему пакету услуг"
+    },
+    "neutral": {
+      "uk": "Комісія відповідно до вашого пакету послуг",
+      "en": "Commission according to your service package",
+      "ru": "Комиссия согласно твоему пакету услуг"
+    },
+    "friendly": {
+      "uk": "Комісія відповідно до вашого пакету послуг",
+      "en": "Commission according to your service package",
+      "ru": "Комиссия согласно твоему пакету услуг"
+    }
+  },
+  "transfer-tax-title": {
+    "business": {
+      "uk": "ПДВ 20%",
+      "en": "VAT 20%",
+      "ru": "НДС 20%"
+    },
+    "neutral": {
+      "uk": "ПДВ 20%",
+      "en": "VAT 20%",
+      "ru": "НДС 20%"
+    },
+    "friendly": {
+      "uk": "ПДВ 20%",
+      "en": "VAT 20%",
+      "ru": "НДС 20%"
+    }
+  },
+  "trinsfer-new-title": {
+    "business": {
+      "uk": "Новий переказ",
+      "en": "New transfer",
+      "ru": "Новый перевод"
+    },
+    "neutral": {
+      "uk": "Новий переказ",
+      "en": "New transfer",
+      "ru": "Новый перевод"
+    },
+    "friendly": {
+      "uk": "Новий переказ",
+      "en": "New transfer",
+      "ru": "Новый перевод"
+    }
+  },
+  "transfer-otp-overlay-title": {
+    "neutral": {
+      "ru": "Подтверждение перевода %@",
+      "en": "Transfer confirmation %@",
+      "uk": "Підтвердження переказу %@"
+    },
+    "business": {
+      "ru": "Подтверждение перевода %@",
+      "en": "Transfer confirmation %@",
+      "uk": "Підтвердження переказу %@"
+    },
+    "friendly": {
+      "ru": "Подтверждение перевода %@",
+      "en": "Transfer confirmation %@",
+      "uk": "Підтвердження переказу %@"
+    }
+  },
+  "transfer-iban-validation-error-text": {
+    "neutral": {
+      "ru": "IBAN счета получателя не такой, как принято в Украине",
+      "en": "The beneficiary's account IBAN differs from the required in Ukraine",
+      "uk": "IBAN рахунку отримувача не такий, як прийнято в Україні "
+    },
+    "business": {
+      "ru": "IBAN счета получателя не такой, как принято в Украине",
+      "en": "The beneficiary's account IBAN differs from the required in Ukraine",
+      "uk": "IBAN рахунку отримувача не такий, як прийнято в Україні "
+    },
+    "friendly": {
+      "ru": "IBAN счета получателя не такой, как принято в Украине",
+      "en": "The beneficiary's account IBAN differs from the required in Ukraine",
+      "uk": "IBAN рахунку отримувача не такий, як прийнято в Україні "
     }
   }
 }

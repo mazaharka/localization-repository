@@ -1,87 +1,87 @@
 {
   "wallet_title": {
     "neutral": {
-      "ru": "Додайте картку до Apple Pay та сплачуйте покупки своїм iPhone",
-      "uk": "Додайте картку до Apple Pay та сплачуйте покупки своїм iPhone",
-      "en": "Додайте картку до Apple Pay та сплачуйте покупки своїм iPhone"
+      "ru": "Ты можешь добавить карты в Apple Wallet и оплачивать покупки своим iPhone",
+      "uk": "Ти можеш додати картки в Apple Wallet та оплачувати покупки своїм iPhone",
+      "en": "You can add your cards to Apple Wallet and pay for purchases with your iPhone"
     },
     "friendly": {
-      "ru": "Додайте картку до Apple Pay та сплачуйте покупки своїм iPhone",
-      "uk": "Додайте картку до Apple Pay та сплачуйте покупки своїм iPhone",
-      "en": "Додайте картку до Apple Pay та сплачуйте покупки своїм iPhone"
+      "ru": "Добавляй карты в Apple Wallet и оплачивай покупки своим iPhone",
+      "uk": "Додавай картки в Apple Wallet та оплачуй покупки своїм iPhone",
+      "en": "Add your cards to Apple Wallet and pay with your iPhone"
     },
     "business": {
-      "ru": "Додайте картку до Apple Pay та сплачуйте покупки своїм iPhone",
-      "uk": "Додайте картку до Apple Pay та сплачуйте покупки своїм iPhone",
-      "en": "Додайте картку до Apple Pay та сплачуйте покупки своїм iPhone"
+      "ru": "Вы можете добавить карты в Apple Wallet и оплачивать покупки своим iPhone",
+      "uk": "Ви можете додати картки в Apple Wallet та оплачувати покупки своїм iPhone",
+      "en": "Your card can be added to Apple Wallet for you to be able to pay for purchases with your iPhone"
     }
   },
   "wallet_remind_later": {
     "neutral": {
-      "en": "Нагадати пізніше",
+      "en": "Remind me later",
       "uk": "Нагадати пізніше",
-      "ru": "Нагадати пізніше"
+      "ru": "Напомнить позже"
     },
     "business": {
-      "en": "Нагадати пізніше",
+      "en": "Remind me later",
       "uk": "Нагадати пізніше",
-      "ru": "Нагадати пізніше"
+      "ru": "Напомнить позже"
     },
     "friendly": {
-      "en": "Нагадати пізніше",
+      "en": "Remind me later",
       "uk": "Нагадати пізніше",
-      "ru": "Нагадати пізніше"
+      "ru": "Напомнить позже"
     }
   },
   "wallet_dissmiss_forever": {
     "neutral": {
-      "en": "Більше не показувати",
+      "en": "Do not show again",
       "uk": "Більше не показувати",
-      "ru": "Більше не показувати"
+      "ru": "Больше не показывать"
     },
     "friendly": {
-      "en": "Більше не показувати",
+      "en": "Do not show again",
       "uk": "Більше не показувати",
-      "ru": "Більше не показувати"
+      "ru": "Больше не показывать"
     },
     "business": {
-      "en": "Більше не показувати",
+      "en": "Do not show again",
       "uk": "Більше не показувати",
-      "ru": "Більше не показувати"
+      "ru": "Больше не показывать"
     }
   },
   "wallet_choose_card": {
     "neutral": {
-      "ru": "Виберіть картку",
-      "uk": "Виберіть картку",
-      "en": "Виберіть картку"
+      "ru": "Добавить карту",
+      "uk": "Додати картку",
+      "en": "Add card"
     },
     "friendly": {
-      "ru": "Виберіть картку",
-      "uk": "Виберіть картку",
-      "en": "Виберіть картку"
+      "ru": "Добавить карту",
+      "uk": "Додати картку",
+      "en": "Add card"
     },
     "business": {
-      "ru": "Виберіть картку",
-      "uk": "Виберіть картку",
-      "en": "Виберіть картку"
+      "ru": "Добавить карту",
+      "uk": "Додати картку",
+      "en": "Add card"
     }
   },
   "wallet_more_about": {
     "neutral": {
-      "en": "Дізнатися більше про Apple Pay",
-      "uk": "Дізнатися більше про Apple Pay",
-      "ru": "Дізнатися більше про Apple Pay"
+      "en": "More info",
+      "uk": "Дізнатися більше",
+      "ru": "Узнать больше"
     },
     "business": {
-      "en": "Дізнатися більше про Apple Pay",
-      "uk": "Дізнатися більше про Apple Pay",
-      "ru": "Дізнатися більше про Apple Pay"
+      "en": "More info",
+      "uk": "Дізнатися більше",
+      "ru": "Узнать больше"
     },
     "friendly": {
-      "en": "Дізнатися більше про Apple Pay",
-      "uk": "Дізнатися більше про Apple Pay",
-      "ru": "Дізнатися більше про Apple Pay"
+      "en": "More info",
+      "uk": "Дізнатися більше",
+      "ru": "Узнать больше"
     }
   }
 }

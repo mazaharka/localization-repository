@@ -1,34 +1,34 @@
 {
   "card-account-details-total-debt-title": {
     "business": {
-      "en": "Total debt",
+      "en": "Total indebtedness",
       "uk": "Загальна заборгованість",
       "ru": "Общая задолженность"
     },
     "friendly": {
-      "en": "Total debt",
+      "en": "Total indebtedness",
       "uk": "Загальна заборгованість",
       "ru": "Общая задолженность"
     },
     "neutral": {
-      "en": "Total debt",
+      "en": "Total indebtedness",
       "uk": "Загальна заборгованість",
       "ru": "Общая задолженность"
     }
   },
   "card-account-details-installments-title": {
     "neutral": {
-      "uk": "Моi розстрочки",
+      "uk": "Мої розстрочки",
       "en": "My installments",
       "ru": "Мои расстрочки"
     },
     "friendly": {
-      "uk": "Моi розстрочки",
+      "uk": "Мої розстрочки",
       "en": "My installments",
       "ru": "Мои расстрочки"
     },
     "business": {
-      "uk": "Моi розстрочки",
+      "uk": "Мої розстрочки",
       "en": "My installments",
       "ru": "Мои расстрочки"
     }
@@ -36,50 +36,50 @@
   "account-details-information-tap": {
     "business": {
       "uk": "Інформація",
-      "en": "Information",
+      "en": "Info",
       "ru": "Информация"
     },
     "friendly": {
       "uk": "Інформація",
-      "en": "Information",
+      "en": "Info",
       "ru": "Информация"
     },
     "neutral": {
       "uk": "Інформація",
-      "en": "Information",
+      "en": "Info",
       "ru": "Информация"
     }
   },
   "account-contract-date-title": {
     "business": {
-      "uk": "Дата укладення договору",
+      "uk": "Дата укладання договору",
       "ru": "Дата заключения договора",
-      "en": "Contract date"
+      "en": "Date of agreement"
     },
     "friendly": {
-      "uk": "Дата укладення договору",
+      "uk": "Дата укладання договору",
       "ru": "Дата заключения договора",
-      "en": "Contract date"
+      "en": "Date of agreement"
     },
     "neutral": {
-      "uk": "Дата укладення договору",
+      "uk": "Дата укладання договору",
       "ru": "Дата заключения договора",
-      "en": "Contract date"
+      "en": "Date of agreement"
     }
   },
   "card-account-details-expiration-date-description": {
     "business": {
-      "en": "Expiration date",
+      "en": "Validity term",
       "uk": "Строк дії",
       "ru": "Срок действия"
     },
     "friendly": {
-      "en": "Expiration date",
+      "en": "Validity term",
       "uk": "Строк дії",
       "ru": "Срок действия"
     },
     "neutral": {
-      "en": "Expiration date",
+      "en": "Validity term",
       "uk": "Строк дії",
       "ru": "Срок действия"
     }
@@ -105,85 +105,85 @@
     "neutral": {
       "ru": "Задолженность",
       "uk": "Заборгованість",
-      "en": "Debt"
+      "en": "Indebtedness"
     },
     "friendly": {
       "ru": "Задолженность",
       "uk": "Заборгованість",
-      "en": "Debt"
+      "en": "Indebtedness"
     },
     "business": {
       "ru": "Задолженность",
       "uk": "Заборгованість",
-      "en": "Debt"
+      "en": "Indebtedness"
     }
   },
   "card-account-details-increase-credit-limit-title": {
     "friendly": {
       "ru": "Увеличение кредитного лимита",
-      "en": "Credit limit increase",
-      "uk": "Збiльшення кредитного лiмiту"
+      "en": "Indebtedness",
+      "uk": "Збільшення кредитного ліміту"
     },
     "neutral": {
       "ru": "Увеличение кредитного лимита",
-      "en": "Credit limit increase",
-      "uk": "Збiльшення кредитного лiмiту"
+      "en": "Loan limit increasing",
+      "uk": "Збільшення кредитного ліміту"
     },
     "business": {
       "ru": "Увеличение кредитного лимита",
-      "en": "Credit limit increase",
-      "uk": "Збiльшення кредитного лiмiту"
+      "en": "Loan limit increasing",
+      "uk": "Збільшення кредитного ліміту"
     }
   },
   "card-account-details-no-debt-title": {
     "friendly": {
-      "ru": "Oтсутствует",
-      "uk": "Вiдсутня",
+      "ru": "Нет",
+      "uk": "Немає",
       "en": "No debt"
     },
     "neutral": {
-      "ru": "Oтсутствует",
-      "uk": "Вiдсутня",
+      "ru": "Нет",
+      "uk": "Немає",
       "en": "No debt"
     },
     "business": {
-      "ru": "Oтсутствует",
-      "uk": "Вiдсутня",
+      "ru": "Нет",
+      "uk": "Немає",
       "en": "No debt"
     }
   },
   "account-details-refil-title": {
     "friendly": {
-      "en": "Refil",
+      "en": "Add funds",
       "uk": "Поповнити",
       "ru": "Пополнить"
     },
     "business": {
-      "en": "Refil",
+      "en": "Add funds",
       "uk": "Поповнити",
       "ru": "Пополнить"
     },
     "neutral": {
-      "en": "Refil",
+      "en": "Add funds",
       "uk": "Поповнити",
       "ru": "Пополнить"
     }
   },
   "card-account-details-pay-by-specified-date-title": {
     "friendly": {
-      "uk": "Щоб залишитись у пільговому періоді сплатіть до вказаної дати",
-      "en": "To stay in the grace period, pay by the specified date",
-      "ru": "Чтобы остаться в льготном периоде оплатите до указанной даты"
+      "uk": "Плати до вказаної дати і зберігай пільговий період",
+      "en": "Pay before the specified date and maintain the grace period",
+      "ru": "Плати до указанной даты и сохраняй льготный период"
     },
     "neutral": {
-      "uk": "Щоб залишитись у пільговому періоді сплатіть до вказаної дати",
-      "en": "To stay in the grace period, pay by the specified date",
-      "ru": "Чтобы остаться в льготном периоде оплатите до указанной даты"
+      "uk": "Заплати до вказаної дати, щоб зберегти пільговий період",
+      "en": "Pay before the specified date to maintain the grace period",
+      "ru": "Заплати до указанной даты, чтобы сохранить льготный период"
     },
     "business": {
-      "uk": "Щоб залишитись у пільговому періоді сплатіть до вказаної дати",
-      "en": "To stay in the grace period, pay by the specified date",
-      "ru": "Чтобы остаться в льготном периоде оплатите до указанной даты"
+      "uk": "Заплатіть до вказаної дати, щоб зберегти пільговий період",
+      "en": "Please pay before the specified date and maintain the grace period",
+      "ru": "Заплатите до указанной даты, чтобы сохранить льготный период"
     }
   },
   "account-details-cards-tap-title": {
@@ -205,18 +205,18 @@
   },
   "card-account-details-in-installments-title": {
     "neutral": {
-      "ru": "Из них в рассрочку",
-      "en": "Installment debt",
+      "ru": "Из них в рассрочке",
+      "en": "Of which in installments",
       "uk": "З них у розстрочці"
     },
     "business": {
-      "ru": "Из них в рассрочку",
-      "en": "Installment debt",
+      "ru": "Из них в рассрочке",
+      "en": "Of which in installments",
       "uk": "З них у розстрочці"
     },
     "friendly": {
-      "ru": "Из них в рассрочку",
-      "en": "Installment debt",
+      "ru": "Из них в рассрочке",
+      "en": "Of which in installments",
       "uk": "З них у розстрочці"
     }
   },
@@ -257,33 +257,33 @@
   "card-account-details-five-days-before-title": {
     "business": {
       "uk": "Рекомендуємо внести кошти за 5 днів до дати платежу",
-      "en": "It's recommended to deposit funds 5 days before the payment date",
-      "ru": "Рекомендуется внести средства за 5 дней до даты платежа"
+      "en": "We recommend to deposit funds 5 days before the due date",
+      "ru": "Рекомендуем внести средства за 5 дней до даты платежа"
     },
     "neutral": {
       "uk": "Рекомендуємо внести кошти за 5 днів до дати платежу",
-      "en": "It's recommended to deposit funds 5 days before the payment date",
-      "ru": "Рекомендуется внести средства за 5 дней до даты платежа"
+      "en": "We recommend to deposit funds 5 days before the due date",
+      "ru": "Рекомендуем внести средства за 5 дней до даты платежа"
     },
     "friendly": {
-      "uk": "Рекомендуємо внести кошти за 5 днів до дати платежу",
-      "en": "It's recommended to deposit funds 5 days before the payment date",
-      "ru": "Рекомендуется внести средства за 5 дней до даты платежа"
+      "uk": "Порада: внеси кошти за 5 днів до дати платежу",
+      "en": "Tip: deposit funds 5 days before the due date",
+      "ru": "Совет: внеси средства за 5 дней до даты платежа"
     }
   },
   "card-account-details-estimated-date-title": {
     "business": {
-      "en": "Estimated date",
+      "en": "Settlement date",
       "ru": "Расчетная дата",
       "uk": "Розрахункова дата"
     },
     "neutral": {
-      "en": "Estimated date",
+      "en": "Settlement date",
       "ru": "Расчетная дата",
       "uk": "Розрахункова дата"
     },
     "friendly": {
-      "en": "Estimated date",
+      "en": "Settlement date",
       "ru": "Расчетная дата",
       "uk": "Розрахункова дата"
     }
@@ -291,52 +291,52 @@
   "card-account-details-installment-details-title": {
     "business": {
       "en": "Installment details",
-      "uk": "Детальніше про розстрочки",
-      "ru": "Подробнее о рассрочке"
+      "uk": "Деталі розстрочок",
+      "ru": "Детали рассрочек"
     },
     "friendly": {
       "en": "Installment details",
-      "uk": "Детальніше про розстрочки",
-      "ru": "Подробнее о рассрочке"
+      "uk": "Деталі розстрочок",
+      "ru": "Детали рассрочек"
     },
     "neutral": {
       "en": "Installment details",
-      "uk": "Детальніше про розстрочки",
-      "ru": "Подробнее о рассрочке"
+      "uk": "Деталі розстрочок",
+      "ru": "Детали рассрочек"
     }
   },
   "account-details-other-info-title": {
     "neutral": {
-      "en": "Other information",
-      "uk": "Інша інформація",
-      "ru": "Прочая информация"
+      "en": "Useful information",
+      "uk": "Корисна інформація",
+      "ru": "Полезная информация"
     },
     "business": {
-      "en": "Other information",
-      "uk": "Інша інформація",
-      "ru": "Прочая информация"
+      "en": "Useful information",
+      "uk": "Корисна інформація",
+      "ru": "Полезная информация"
     },
     "friendly": {
-      "en": "Other information",
-      "uk": "Інша інформація",
-      "ru": "Прочая информация"
+      "en": "Useful information",
+      "uk": "Корисна інформація",
+      "ru": "Полезная информация"
     }
   },
   "card-account-details-amount-label-description": {
     "business": {
-      "ru": "и %@ %@ в Доходном сейфе",
-      "uk": "и %@ %@ в Доходном сейфе",
-      "en": "и %@ %@ в Доходном сейфе"
+      "ru": "%@ %@ в Доходном сейфе",
+      "uk": "%@ %@ у Дохідному сейфі",
+      "en": "%@%@ in the Income Cash Box"
     },
     "friendly": {
-      "ru": "и %@ %@ в Доходном сейфе",
-      "uk": "и %@ %@ в Доходном сейфе",
-      "en": "и %@ %@ в Доходном сейфе"
+      "ru": "%@ %@ в Доходном сейфе",
+      "uk": "%@ %@ у Дохідному сейфі",
+      "en": "%@%@ in the Income Cash Box"
     },
     "neutral": {
-      "ru": "и %@ %@ в Доходном сейфе",
-      "uk": "и %@ %@ в Доходном сейфе",
-      "en": "и %@ %@ в Доходном сейфе"
+      "ru": "%@ %@ в Доходном сейфе",
+      "uk": "%@ %@ у Дохідному сейфі",
+      "en": "%@%@ in the Income Cash Box"
     }
   },
   "card-account-details-credit-limit-title": {
@@ -376,34 +376,34 @@
   "card-account-details-billing-period-title": {
     "neutral": {
       "uk": "Розрахунковий період",
-      "en": "Billing period",
+      "en": "Settlement period",
       "ru": "Расчетный период"
     },
     "business": {
       "uk": "Розрахунковий період",
-      "en": "Billing period",
+      "en": "Settlement period",
       "ru": "Расчетный период"
     },
     "friendly": {
       "uk": "Розрахунковий період",
-      "en": "Billing period",
+      "en": "Settlement period",
       "ru": "Расчетный период"
     }
   },
   "account-contract-number-title": {
     "friendly": {
       "uk": "Номер договору",
-      "en": "Contract number",
+      "en": "Agreement number",
       "ru": "Номер договора"
     },
     "neutral": {
       "uk": "Номер договору",
-      "en": "Contract number",
+      "en": "Agreement number",
       "ru": "Номер договора"
     },
     "business": {
       "uk": "Номер договору",
-      "en": "Contract number",
+      "en": "Agreement number",
       "ru": "Номер договора"
     }
   },
@@ -428,17 +428,17 @@
     "neutral": {
       "en": "Transfer",
       "ru": "Перевести",
-      "uk": "Перевести"
+      "uk": "Переказати"
     },
     "business": {
       "en": "Transfer",
       "ru": "Перевести",
-      "uk": "Перевести"
+      "uk": "Переказати"
     },
     "friendly": {
       "en": "Transfer",
       "ru": "Перевести",
-      "uk": "Перевести"
+      "uk": "Переказати"
     }
   }
 }

@@ -18,14 +18,19 @@ namespace LocalizationRep.Controllers
                                         .ThenInclude(l => l.LangValue)
                                       select m).ToList();
             CsvFileModel itCSV = new CsvFileModel();
-
-            foreach (var mainTableItemItem in mainTableItemItems)
+            foreach (var item in csvFiles)
             {
-                itCSV = csvFiles.Where(s => s.CommonID == mainTableItemItem.CommonID).FirstOrDefault();
 
-                if (itCSV != null)
+                //}
+                //foreach (var mainTableItemItem in mainTableItemItems)
+                //{
+                MainTable mainTableItemItem = mainTableItemItems.Where(m => m.CommonID == item.CommonID).FirstOrDefault();
+                    //itCSV = csvFiles.Where(s => s.CommonID == mainTableItemItem.CommonID).FirstOrDefault();
+
+                if (mainTableItemItem != null)
                 {
-                    foreach (var styleJsonKeyModelItem in mainTableItemItem.StyleJsonKeyModel.Where(style => style.StyleName == itCSV.TextStyle).ToList())
+                    var sss = mainTableItemItem.StyleJsonKeyModel.Where(style => style.StyleName == item.TextStyle).ToList();
+                    foreach (var styleJsonKeyModelItem in mainTableItemItem.StyleJsonKeyModel.Where(style => style.StyleName == item.TextStyle).ToList())
                     {
 
                         //styleJsonKeyModelItem.StyleName = itCSV.TextStyle;
@@ -35,40 +40,43 @@ namespace LocalizationRep.Controllers
                             switch (langKeyModelItem.LangName)
                             {
                                 case "ru":
-                                    langKeyModelItem.LangValue.Single = itCSV.TextRUSingle;
-                                    if (itCSV.TextRUPrular != null && itCSV.TextRUPrular != "" && itCSV.TextRUPrular != " ")
+                                    langKeyModelItem.LangValue.Single = item.TextRUSingle;
+                                    if (item.TextRUPrular != null && item.TextRUPrular != "" && item.TextRUPrular != " ")
                                     {
-                                        langKeyModelItem.LangValue.Prular = itCSV.TextRUPrular;
+                                        langKeyModelItem.LangValue.Prular = item.TextRUPrular;
                                     }
                                     break;
                                 case "en":
-                                    langKeyModelItem.LangValue.Single = itCSV.TextENSingle;
-                                    if (itCSV.TextENPrular != null && itCSV.TextENPrular != "" && itCSV.TextENPrular != " ")
+                                    langKeyModelItem.LangValue.Single = item.TextENSingle;
+                                    if (item.TextENPrular != null && item.TextENPrular != "" && item.TextENPrular != " ")
                                     {
-                                        langKeyModelItem.LangValue.Prular = itCSV.TextENPrular;
+                                        langKeyModelItem.LangValue.Prular = item.TextENPrular;
                                     }
                                     break;
                                 case "uk":
-                                    langKeyModelItem.LangValue.Single = itCSV.TextUASingle;
-                                    if (itCSV.TextUAPrular != null && itCSV.TextUAPrular != "" && itCSV.TextUAPrular != " ")
+                                    langKeyModelItem.LangValue.Single = item.TextUASingle;
+                                    if (item.TextUAPrular != null && item.TextUAPrular != "" && item.TextUAPrular != " ")
                                     {
-                                        langKeyModelItem.LangValue.Prular = itCSV.TextUAPrular;
+                                        langKeyModelItem.LangValue.Prular = item.TextUAPrular;
                                     }
                                     break;
                                 case "ua":
-                                    langKeyModelItem.LangValue.Single = itCSV.TextUASingle;
-                                    if (itCSV.TextUAPrular != null && itCSV.TextUAPrular != "" && itCSV.TextUAPrular != " ")
+                                    langKeyModelItem.LangValue.Single = item.TextUASingle;
+                                    if (item.TextUAPrular != null && item.TextUAPrular != "" && item.TextUAPrular != " ")
                                     {
-                                        langKeyModelItem.LangValue.Prular = itCSV.TextUAPrular;
+                                        langKeyModelItem.LangValue.Prular = item.TextUAPrular;
                                     }
                                     break;
                                 default:
                                     break;
                             }
-                            _context.SaveChanges();
+                            _context.LangKeyModel.Update(langKeyModelItem);
                         }
+
                     }
+
                 }
+
             }
             _context.SaveChanges();
         }

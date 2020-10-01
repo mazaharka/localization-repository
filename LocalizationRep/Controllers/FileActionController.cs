@@ -19,13 +19,13 @@ namespace LocalizationRep.Controllers
         private readonly IWebHostEnvironment _appEnvironment;
         private readonly FileActionXML FAXML;
         private readonly FileActionJSON FAJSON;
-
-
+        private readonly ActionWithDataBase AWDB;
 
         public FileActionController(LocalizationRepContext context, IWebHostEnvironment appEnvironment)
         {
             FAXML = new FileActionXML(context, appEnvironment);
             FAJSON = new FileActionJSON(context, appEnvironment);
+            AWDB = new ActionWithDataBase(context, appEnvironment);
             _context = context;
             _appEnvironment = appEnvironment;
         }
@@ -33,12 +33,10 @@ namespace LocalizationRep.Controllers
         // GET: FileAction
         public async Task<IActionResult> Index()
         {
-
             isHaveErrorsToUserView();
 
             return View(await _context.FileModel.ToListAsync());
         }
-
 
         // GET: FileAction/NotMatched
         public async Task<IActionResult> NotMatched()
@@ -88,20 +86,7 @@ namespace LocalizationRep.Controllers
 
         public IActionResult UpdateFileInDatabase(string filename)
         {
-            switch (Path.GetExtension(filename))
-            {
-                case ".csv":
-                    CSVActionController.UpdateFromCsv(FileActionCSV.ReadUploadedCSV(filename), _context);
-                    break;
-                case ".json":
-                    FAJSON.UpdateFromJsonToDbLocalizedText(filename);
-                    break;
-                case ".xml":
-                    FAXML.ReadXMLToListNotMatch(filename); //filename = path
-                    break;
-                default:
-                    break;
-            }
+            AWDB.UpdateFileInDatabaseAction(filename);
             return RedirectToAction("Index");
         }
 
@@ -189,11 +174,7 @@ namespace LocalizationRep.Controllers
                 Console.WriteLine(section.Title);
         }
 
-        /// <summary>
-        /// скачать файл
-        /// </summary>
-        /// <param name="filename"></param>
-        /// <returns></returns>
+        //скачать файл
         public async Task<IActionResult> Download(string fullpath)
         {
             var path = fullpath;
@@ -207,7 +188,6 @@ namespace LocalizationRep.Controllers
 
             return File(memory, FileActionHelpers.GetContentType(path), Path.GetFileName(path));
         }
-
 
         public void ErrorsToUserView(string name, string message)
         {
@@ -233,9 +213,6 @@ namespace LocalizationRep.Controllers
 
             return RedirectToAction("Index");
         }
-
-       
-
 
         //формирование файла xml
         public IActionResult CreateFileXMLFromDb()
@@ -271,90 +248,5 @@ namespace LocalizationRep.Controllers
 
             return RedirectToAction("Index");
         }
-
-        //public IActionResult ReadAndCompareXMLBetweenTable()
-        //{
-        //    FAXML.ReadAndCompareXMLBetweenTable();
-
-        //    return RedirectToAction("NotMatched");
-        //}
-
-        //public IActionResult CompareCommonIDBetweenMainTableAndAndroid()
-        //{
-        //    FAXML.CompareCommonIDBetweenMainTableAndAndroid();
-
-        //    return RedirectToAction("NotMatched");
-        //}
-
-        //public IActionResult CreateEntitesFromNullCommandIdInAndroidTables()
-        //{
-        //    FAXML.CreateEntitesFromNullCommandIdInAndroidTables();
-
-        //    return RedirectToAction("NotMatched");
-        //}
-
-        //public IActionResult FillCommonIdInAndroidTableAccordingMainTable()
-        //{
-        //    FAXML.FillCommonIdInAndroidTableAccordingMainTable();
-
-        //    return RedirectToAction("NotMatched");
-        //}
-
-
-        //public IActionResult FillInMissingTextsInAndroidTable()
-        //{
-        //    FAXML.FillInMissingTextsInAndroidTable();
-
-        //    return RedirectToAction("NotMatched");
-        //}
-
-        //public IActionResult FillInMainTableAndroidInfo()
-        //{
-        //    FAXML.FillInMainTableAndroidInfo();
-
-        //    return RedirectToAction("NotMatched");
-        //}
-
-        //public IActionResult DeleteAllAndroidItemsFromMainTable()
-        //{
-        //    ActionWithDataBase.DeleteAllAndroidItemsFromMainTable(_context);
-
-        //    return RedirectToAction("NotMatched");
-        //}
-
-        ////чтение файла xml
-        //public IActionResult ReadFileXML()
-        //{
-        //    FAXML.ReadFileXMLAction();
-
-        //    return RedirectToAction("NotMatched");
-        //}
-
-
-        //public IActionResult DeleteDublicateAction()
-        //{
-
-        //    FAXML.DeleteDublicate();
-
-        //    return RedirectToAction("NotMatched");
-        //}
-
-        //public IActionResult EraseAndoridCommentInMainTable()
-        //{
-
-        //    FAXML.RemoveAndoridCommentInMainTable();
-
-        //    return RedirectToAction("NotMatched");
-        //}
-
-        //public IActionResult RemoveAllAndoridIdMatchesInMainTable()
-        //{
-
-        //    FAXML.RemoveAllAndoridIdMatchesInMainTable();
-
-        //    return RedirectToAction("NotMatched");
-        //}
-
     }
 }
-

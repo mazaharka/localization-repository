@@ -40,8 +40,10 @@ namespace LocalizationRep.Utilities
         {
             _context = context;
             _appEnvironment = appEnvironment;
-            stylesUnique = _context.StyleJsonKeyModel.OrderBy(s => s.StyleName).Select(s => s.StyleName).AsQueryable().Distinct();
-            langNameUnique = _context.LangKeyModel.OrderBy(s => s.LangName).Select(s => s.LangName).AsQueryable().Distinct();
+            //stylesUnique = _context.StyleJsonKeyModel.OrderBy(s => s.StyleName).Select(s => s.StyleName).AsQueryable().Distinct();
+            //langNameUnique = _context.LangKeyModel.OrderBy(s => s.LangName).Select(s => s.LangName).AsQueryable().Distinct();
+            stylesUnique = GetStyleTextUnique();
+            langNameUnique = GetLangNameUnique();
         }
 
         //прочитать все XML файлы
@@ -172,26 +174,33 @@ namespace LocalizationRep.Utilities
         {
             string pattern = @"\%.\$?";
 
-            IQueryable<string> stylesUnique = _context.StyleJsonKeyModel.OrderBy(s => s.StyleName).Select(s => s.StyleName);
-            IQueryable<string> langNameUnique = _context.LangKeyModel.OrderBy(s => s.LangName).Select(s => s.LangName);
-
-            stylesUnique = stylesUnique.AsQueryable().Distinct();
-            langNameUnique = langNameUnique.AsQueryable().Distinct();
+            IQueryable<string> stylesUnique = GetStyleTextUnique();
+            IQueryable<string> langNameUnique = GetLangNameUnique();
 
             List<AndroidTable> androidItems = GetAllValuesAndroidWhereSectionIsAndroid();
             List<MainTable> allValuesMainTable = GetAllValuesMainTableAndroidIDIsNull();
+            //List<MainTable> allValuesMainTableWithoutSymbols = GetAllValuesMainTableAndroidIDIsNull();
 
             List<AndroidTable> androidItemWNotMatched = new List<AndroidTable>();
 
             List<SearchModel> allMainTableItemsInList = GetAllAndroidNullMainTableItemsToList();
+            List<SearchModel> allMainTableItemsInListWithoutSymbol = new List<SearchModel>();
             SearchModel mainTableItemNotNeeded = new SearchModel();
+
+            foreach (var item in allMainTableItemsInList)
+            {
+                if (!IsMainTableHaveSpecialSymbols(pattern, item))
+                {
+                    allMainTableItemsInListWithoutSymbol.Add(item);
+                }
+            }
 
             Dictionary<string, string> AndroidIDPairsBothTable = new Dictionary<string, string>();
             foreach (var androidItem in androidItems)
             {
                 if (!IsAndroidItemHaveSpecialSymbols(pattern, androidItem))
                 {
-                    foreach (var mainTableItem in allMainTableItemsInList)
+                    foreach (var mainTableItem in allMainTableItemsInListWithoutSymbol)
                     {
 
                         if (IsMatchComplete(mainTableItem, androidItem, 70))
@@ -268,6 +277,35 @@ namespace LocalizationRep.Utilities
             return false;
         }
 
+        private static bool IsMainTableHaveSpecialSymbols(string pattern, SearchModel mainTableItem)
+        {
+
+            List<string> vs = new List<string> {
+                mainTableItem.TextRU_NEUTRAL,
+                mainTableItem.TextEN_NEUTRAL,
+                mainTableItem.TextUK_NEUTRAL,
+                mainTableItem.TextRU_BUSINESS,
+                mainTableItem.TextEN_BUSINESS,
+                mainTableItem.TextUK_BUSINESS,
+                mainTableItem.TextRU_FRIENDLY,
+                mainTableItem.TextEN_FRIENDLY,
+                mainTableItem.TextUK_FRIENDLY
+            };
+
+            foreach (var item in vs)
+            {
+                if (item != null)
+                {
+                    if (Regex.Matches(item, pattern).Count() != 0)
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
+        }
+
         public void CreateEntitesFromNullCommandIdInAndroidTables()
         {
             XmlToDb(GetNullAndroidIDValuesInAndroidTables());
@@ -307,7 +345,7 @@ namespace LocalizationRep.Utilities
                         Console.WriteLine("Нет секций в базе. Обнови секции, по-братски!\n" + ex);
                     }
 
-                    foreach (var styleName in stylesUnique)
+                    foreach (var styleName in GetStyleTextUnique())
                     {
                         styleJsonKeyModel = CreateStyleJsonKeyModel(androidItem, styleName, mainTable);
 
@@ -380,7 +418,7 @@ namespace LocalizationRep.Utilities
                     Console.WriteLine("Нет секций в базе. Обнови секции, по-братски!\n" + ex);
                 }
 
-                foreach (var stylesUniqueItem in stylesUnique)
+                foreach (var stylesUniqueItem in GetStyleTextUnique())
                 {
 
                     styleJsonKeyModel = CreateStyleJsonKeyModel(androidTableItem, stylesUniqueItem, mainTable);
@@ -403,11 +441,10 @@ namespace LocalizationRep.Utilities
             List<LangKeyModel> langKeyModels = new List<LangKeyModel>();
             //MainTable mainTable = new MainTable();
 
-            IQueryable<string> stylesUnique = _context.StyleJsonKeyModel.OrderBy(s => s.StyleName).Select(s => s.StyleName);
-            IQueryable<string> langNameUnique = _context.LangKeyModel.OrderBy(s => s.LangName).Select(s => s.LangName);
+            //IQueryable<string> stylesUnique = _context.StyleJsonKeyModel.OrderBy(s => s.StyleName).Select(s => s.StyleName);
+            //stylesUnique = stylesUnique.AsQueryable().Distinct();
 
-            stylesUnique = stylesUnique.AsQueryable().Distinct();
-            langNameUnique = langNameUnique.AsQueryable().Distinct();
+            //IQueryable<string> langNameUnique = GetLangNameUnique();
 
             styleJsonKeyModel = new StyleJsonKeyModel
             {
@@ -422,7 +459,7 @@ namespace LocalizationRep.Utilities
             {
                 case "neutral":
 
-                    foreach (var langNameUniqueitem in langNameUnique)
+                    foreach (var langNameUniqueitem in GetLangNameUnique())
                     {
                         string singleText = "";
                         switch (langNameUniqueitem)
@@ -457,7 +494,7 @@ namespace LocalizationRep.Utilities
                     break;
                 case "business":
 
-                    foreach (var langNameUniqueitem in langNameUnique)
+                    foreach (var langNameUniqueitem in GetLangNameUnique())
                     {
                         string singleText = "";
                         switch (langNameUniqueitem)
@@ -491,7 +528,7 @@ namespace LocalizationRep.Utilities
                     break;
                 case "friendly":
 
-                    foreach (var langNameUniqueitem in langNameUnique)
+                    foreach (var langNameUniqueitem in GetLangNameUnique())
                     {
                         string singleText = "";
                         switch (langNameUniqueitem)
@@ -532,7 +569,20 @@ namespace LocalizationRep.Utilities
             return styleJsonKeyModel;
         }
 
+        private IQueryable<string> GetLangNameUnique()
+        {
+            IQueryable<string> langNameUnique = _context.LangKeyModel.OrderBy(s => s.LangName).Select(s => s.LangName);
+            langNameUnique = langNameUnique.AsQueryable().Distinct();
+            return langNameUnique;
+        }
 
+        private IQueryable<string> GetStyleTextUnique()
+        {
+
+            IQueryable<string> stylesUnique = _context.StyleJsonKeyModel.OrderBy(s => s.StyleName).Select(s => s.StyleName);
+            stylesUnique = stylesUnique.AsQueryable().Distinct();
+            return stylesUnique;
+        }
 
         //сравнение
         public void CompareCommonIDBetweenMainTableAndAndroid()
@@ -651,6 +701,36 @@ namespace LocalizationRep.Utilities
                 //}
             }
             return false; // count <= 1 && count != 0;
+        }
+
+        public Dictionary<string, Dictionary<string, List<string>>> GetDictionaryLocalizationValueSplitToList()
+        {
+            Dictionary<string, Dictionary<string, List<string>>> DictionaryLocalizationValueSplitToList = new Dictionary<string, Dictionary<string, List<string>>>();
+            List<string> RU_NEUTRAL = new List<string>();
+            List<string> EN_NEUTRAL = new List<string>();
+            List<string> UK_NEUTRAL = new List<string>();
+
+            List<string> RU_BUSINESS = new List<string>();
+            List<string> EN_BUSINESS = new List<string>();
+            List<string> UK_BUSINESS = new List<string>();
+
+            List<string> RU_FRIENDLY = new List<string>();
+            List<string> EN_FRIENDLY = new List<string>();
+            List<string> UK_FRIENDLY = new List<string>();
+
+            foreach (var styleItem in GetStyleTextUnique())
+            {
+                foreach (var LangItem in GetLangNameUnique())
+                {
+                    foreach (var item in GetAllValuesMainTable())
+                    {
+
+                        
+                    }
+                }
+            }
+
+            return DictionaryLocalizationValueSplitToList;
         }
 
         private List<SearchModel> GetAllAndroidNullMainTableItemsToList()
@@ -883,10 +963,11 @@ namespace LocalizationRep.Utilities
 
 
                     {
-                        foreach (var itemStyleJsonKeyModel in stylesUnique)
+                        foreach (var itemStyleJsonKeyModel in GetStyleTextUnique())
                         {
-                            foreach (var itemLangKeyModel in langNameUnique)
+                            foreach (var itemLangKeyModel in GetLangNameUnique())
                             {
+                                //var m = _context.MainTable.Where(s => s.StyleJsonKeyModel.Where);
                                 switch (itemStyleJsonKeyModel)
                                 {
                                     case "neutral":
@@ -1261,7 +1342,7 @@ namespace LocalizationRep.Utilities
         {
             return _context.AndroidTable
                                      .Include(m => m.Section)
-                                     .Where(m=> m.Section.Title == "ANDROID")
+                                     .Where(m => m.Section.Title == "ANDROID")
                                      .ToList();
         }
 
@@ -1311,6 +1392,98 @@ namespace LocalizationRep.Utilities
 
                 _context.AndroidTable.Update(androidItem);
                 _context.MainTable.Update(mainTableItem);
+            }
+
+            _context.SaveChanges();
+        }
+
+
+        public void UpdateAndroidTableAccordingMainTable()
+        {
+
+            foreach (var androidItem in GetAllValuesAndroid())
+            {
+                MainTable mainTableItem = GetValueFromMainTabelByAndroidID(androidItem.AndroidID);
+                if (mainTableItem != null)
+                {
+
+
+                    foreach (var style in mainTableItem.StyleJsonKeyModel)
+                    {
+                        foreach (var item in style.LangKeyModels)
+                        {
+                            try
+                            {
+                                switch (style.StyleName)
+                                {
+                                    case "neutral":
+                                        switch (item.LangName)
+                                        {
+                                            case "ru":
+                                                androidItem.RU_NEUTRAL = item.LangValue.Single;
+                                                break;
+                                            case "uk":
+                                                androidItem.UK_NEUTRAL = item.LangValue.Single;
+                                                break;
+                                            case "en":
+                                                androidItem.EN_NEUTRAL = item.LangValue.Single;
+                                                break;
+                                            default:
+                                                break;
+                                        }
+                                        break;
+                                    case "friendly":
+                                        switch (item.LangName)
+                                        {
+                                            case "ru":
+                                                androidItem.RU_FRIENDLY = item.LangValue.Single;
+                                                break;
+                                            case "uk":
+                                                androidItem.UK_FRIENDLY = item.LangValue.Single;
+                                                break;
+                                            case "en":
+                                                androidItem.EN_FRIENDLY = item.LangValue.Single;
+                                                break;
+                                            default:
+                                                break;
+                                        }
+                                        break;
+                                    case "business":
+                                        switch (item.LangName)
+                                        {
+                                            case "ru":
+                                                androidItem.RU_BUSINESS = item.LangValue.Single;
+                                                break;
+                                            case "uk":
+                                                androidItem.UK_BUSINESS = item.LangValue.Single;
+                                                break;
+                                            case "en":
+                                                androidItem.EN_BUSINESS = item.LangValue.Single;
+                                                break;
+                                            default:
+                                                break;
+                                        }
+                                        break;
+                                    default:
+                                        break;
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine(item + " key already exists " + item + "\n" + ex);
+                            }
+                        }
+                    }
+
+
+
+                    androidItem.CommonID = mainTableItem.CommonID;
+                    mainTableItem.AndoridStringNumber = androidItem.StringNumber;
+                    mainTableItem.AndroidXMLComment = androidItem.CommentValue;
+
+                    _context.AndroidTable.Update(androidItem);
+                    _context.MainTable.Update(mainTableItem);
+                }
             }
 
             _context.SaveChanges();
@@ -1366,7 +1539,7 @@ namespace LocalizationRep.Utilities
                 {
                     Console.WriteLine("No XML comment");
                 }
-                
+
             }
 
         }

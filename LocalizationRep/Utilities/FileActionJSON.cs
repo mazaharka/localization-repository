@@ -232,7 +232,7 @@ namespace LocalizationRep.Utilities
                     .Include(m => m.StyleJsonKeyModel)
                         .ThenInclude(s => s.LangKeyModels)
                             .ThenInclude(l => l.LangValue)
-                                      where m.Section.ID == section.ID
+                                      where m.Section.ID == section.ID && m.IOsID != null
                                       select m).ToList();
                 var it = new Dictionary<string, Dictionary<string, Dictionary<string, object>>>();
                 Dictionary<string, Dictionary<string, Dictionary<string, object>>> Localized = new Dictionary<string, Dictionary<string, Dictionary<string, object>>>();
@@ -255,8 +255,11 @@ namespace LocalizationRep.Utilities
                         }
                         itt.Add(styleJsonKeyModelItem.StyleName, ittt);
                     }
-                    it.Add(mainTableItem.IOsID, itt);
-                    Localized.Add(mainTableItem.IOsID, itt);
+                    if (!it.ContainsKey(mainTableItem.IOsID))
+                    {
+                        it.Add(mainTableItem.IOsID, itt);
+                        Localized.Add(mainTableItem.IOsID, itt);
+                    }
                 }
 
                 string json = JsonConvert.SerializeObject(Localized, Formatting.Indented);

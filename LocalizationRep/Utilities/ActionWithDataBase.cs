@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
+using LocalizationRep.Controllers;
 using LocalizationRep.Data;
 using LocalizationRep.Models;
 using Microsoft.AspNetCore.Hosting;
@@ -12,6 +13,36 @@ namespace LocalizationRep.Utilities
 {
     public class ActionWithDataBase
     {
+        private readonly LocalizationRepContext _context;
+        private readonly IWebHostEnvironment _appEnvironment;
+        private readonly FileActionXML FAXML;
+        private readonly FileActionJSON FAJSON;
+
+        public ActionWithDataBase(LocalizationRepContext context, IWebHostEnvironment appEnvironment)
+        {
+            FAXML = new FileActionXML(context, appEnvironment);
+            FAJSON = new FileActionJSON(context, appEnvironment);
+            _context = context;
+            _appEnvironment = appEnvironment;
+        }
+
+        public void UpdateFileInDatabaseAction(string filename)
+        {
+            switch (Path.GetExtension(filename))
+            {
+                case ".csv":
+                    CSVActionController.UpdateFromCsv(FileActionCSV.ReadUploadedCSV(filename), _context);
+                    break;
+                case ".json":
+                    FAJSON.UpdateFromJsonToDbLocalizedText(filename);
+                    break;
+                case ".xml":
+                    FAXML.ReadXMLToListNotMatch(filename);
+                    break;
+                default:
+                    break;
+            }
+        }
 
         public static void UpDateInfoFilesInDBAction(LocalizationRepContext _context, IWebHostEnvironment _appEnvironment)
         {
@@ -100,6 +131,7 @@ namespace LocalizationRep.Utilities
         public static void AddUniqueSection(LocalizationRepContext _context, List<FileModel> FilesName)
         {
             string IOS = "ios";
+            string tempFileName = "";
             var sections = _context.Section.ToList();
             List<string> sectionsToAdd = new List<string>();
 
@@ -114,25 +146,12 @@ namespace LocalizationRep.Utilities
             {
                 DirectoryInfo directoryInfo = new DirectoryInfo(fileСontentsItem.Path);
                 string directoryInfoParentName = directoryInfo.Parent.Name;
-                bool next = true;
                 if (fileСontentsItem.TypeOfLoad.Equals(FileActionHelpers.TypeOfLoad.UPLOAD.ToString()) && directoryInfoParentName.ToLower() == IOS.ToLower())
                 {
-                    string tempFileName = Path.GetFileNameWithoutExtension(fileСontentsItem.Name);
-                    //var s = sectionsToAdd.Contains(tempFileName);
-                    if (!sectionsToAdd.Contains(tempFileName))// _context.Section.Where(s => s.Title == Path.GetFileNameWithoutExtension(fileСontentsItem.Name)) == null)
+                    tempFileName = Path.GetFileNameWithoutExtension(fileСontentsItem.Name);
+
+                    if (!sectionsToAdd.Contains(tempFileName))
                     {
-
-                        //}
-
-                        //foreach (Sections section in _context.Section)
-                        //{
-                        //    if (fileСontentsItem.Name.Equals(section.Title))
-                        //    {
-                        //        next = false;
-                        //        break;
-                        //    }
-                        //}
-
                         string shortNameUn = GetUniqueShortName(tempFileName.ToUpper());
                         int randomNumber = 0;
                         foreach (Sections section in _context.Section)
@@ -144,19 +163,14 @@ namespace LocalizationRep.Utilities
                                 randomNumber++;
                             }
                         }
-
-
-                        //if (next && Path.GetExtension(fileСontentsItem.Path) == ".json")
-                        //{
-                            _context.Section.AddRange(
-                                       new Sections
-                                       {
-                                           Title = tempFileName,
-                                           LastIndexOfCommonID = "0000",
-                                           ShortName = shortNameUn
-                                       });
-                            _context.SaveChanges();
-                        //}
+                        _context.Section.AddRange(
+                                   new Sections
+                                   {
+                                       Title = tempFileName,
+                                       LastIndexOfCommonID = "0000",
+                                       ShortName = shortNameUn
+                                   });
+                        _context.SaveChanges();
                         sectionsToAdd.Add(tempFileName);
                     }
                 }
@@ -226,16 +240,15 @@ namespace LocalizationRep.Utilities
 
         public static void DeleteAllAndroidItemsFromMainTable(LocalizationRepContext _context)
         {
-            var mainTable =  _context.MainTable
+            var mainTable = _context.MainTable
                                    .Include(m => m.Section)
                                    .Include(m => m.StyleJsonKeyModel)
                                         .ThenInclude(s => s.LangKeyModels)
                                             .ThenInclude(l => l.LangValue)
                                    .Where(m => m.Section.Title == "ANDROID");
 
-
             _context.MainTable.RemoveRange(mainTable);
-             _context.SaveChangesAsync();
+            _context.SaveChangesAsync();
         }
     }
 }

@@ -154,6 +154,14 @@ namespace LocalizationRep.Controllers
             return RedirectToAction("Index");
         }
 
+        public IActionResult UpdateAndroidTableAccordingMainTable()
+        {
+            FAXML.UpdateAndroidTableAccordingMainTable();
+
+            return RedirectToAction("Index");
+        }
+
+
         public IActionResult DeleteAllAndroidItemsFromMainTable()
         {
             ActionWithDataBase.DeleteAllAndroidItemsFromMainTable(_context);
